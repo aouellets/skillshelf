@@ -8,9 +8,14 @@ interface Props {
   size?: 'card' | 'detail'
 }
 
+const ASPECT: Record<'card' | 'detail', string> = {
+  card: 'aspect-[16/9]',
+  detail: 'aspect-[2/1]',
+}
+
 /**
- * Renders a skill thumbnail with animation on hover.
- * Priority: video loop > animated GIF > static image > generated SVG placeholder.
+ * Renders a skill (or pack) thumbnail with animation on hover.
+ * Priority: video loop > animated GIF > static image > generated placeholder.
  * Falls back gracefully at every level — no broken image states.
  */
 export function SkillThumbnail({ skill, size = 'card' }: Props) {
@@ -19,7 +24,6 @@ export function SkillThumbnail({ skill, size = 'card' }: Props) {
   const [staticError, setStaticError] = useState(false)
   const videoRef = useRef<HTMLVideoElement>(null)
 
-  const h = size === 'detail' ? 'h-48' : 'h-32'
   const alt = skill.media_alt ?? `${skill.name} skill preview`
 
   const hasStatic = Boolean(skill.thumbnail_url) && !staticError
@@ -48,7 +52,7 @@ export function SkillThumbnail({ skill, size = 'card' }: Props) {
 
   return (
     <div
-      className={`relative w-full ${h} overflow-hidden rounded-t-lg bg-shelf-void`}
+      className={`relative w-full overflow-hidden bg-shelf-void ${ASPECT[size]}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -107,11 +111,10 @@ export function SkillThumbnail({ skill, size = 'card' }: Props) {
 }
 
 /**
- * Generated SVG placeholder — shown when no media is provided.
+ * Generated placeholder — shown when no media is provided.
  * Uses the skill name to pick a stable color and renders the first letter.
  */
 function SkillPlaceholder({ name, size }: { name: string; size: 'card' | 'detail' }) {
-  const h = size === 'detail' ? 'h-48' : 'h-32'
   // Stable color from first char code — cycles through 8 category colors
   const colors = [
     ['#2D2417', '#E8A832'], // amber
@@ -123,12 +126,12 @@ function SkillPlaceholder({ name, size }: { name: string; size: 'card' | 'detail
     ['#271A27', '#CF7FC9'], // pink
     ['#1C1E1A', '#A0A89A'], // gray-green
   ]
-  const idx = name.charCodeAt(0) % colors.length
+  const idx = (name.charCodeAt(0) || 0) % colors.length
   const [bg, fg] = colors[idx]
 
   return (
     <div
-      className={`flex w-full ${h} items-center justify-center rounded-t-lg`}
+      className={`flex w-full items-center justify-center ${ASPECT[size]}`}
       style={{ backgroundColor: bg }}
       aria-hidden
     >
@@ -136,7 +139,7 @@ function SkillPlaceholder({ name, size }: { name: string; size: 'card' | 'detail
         className="select-none font-display text-5xl font-normal opacity-40"
         style={{ color: fg }}
       >
-        {name.charAt(0).toUpperCase()}
+        {(name.trim().charAt(0) || '?').toUpperCase()}
       </span>
     </div>
   )
