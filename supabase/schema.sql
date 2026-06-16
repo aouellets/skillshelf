@@ -27,6 +27,12 @@ create table if not exists public.skills (
   featured      boolean default false,
   free          boolean default true,
   tags          text[],
+  -- Media fields for animated thumbnails
+  thumbnail_url    text,           -- Static image (PNG/JPG/WebP) 1200×630
+  thumbnail_gif    text,           -- Animated GIF URL (plays on hover)
+  thumbnail_video  text,           -- Short MP4/WebM loop URL (< 10s)
+  thumbnail_lottie text,           -- Lottie JSON URL for vector animation
+  media_alt        text,           -- Alt text for accessibility
   created_at    timestamptz default now(),
   updated_at    timestamptz default now(),
   -- Full-text search vector (populated by trigger below)
@@ -199,6 +205,13 @@ create policy "skills are public" on public.skills for select using (true);
 
 drop policy if exists "anon installs" on public.user_installs;
 create policy "anon installs" on public.user_installs for all using (true) with check (true);
+
+-- Media column migration (safe to run on existing tables)
+alter table public.skills add column if not exists thumbnail_url    text;
+alter table public.skills add column if not exists thumbnail_gif    text;
+alter table public.skills add column if not exists thumbnail_video  text;
+alter table public.skills add column if not exists thumbnail_lottie text;
+alter table public.skills add column if not exists media_alt        text;
 
 -- Pack / collection RLS
 alter table public.packs enable row level security;
