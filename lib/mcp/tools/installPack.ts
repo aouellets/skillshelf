@@ -45,7 +45,7 @@ export const installPack: Tool<InstallPackArgs> = {
       return text(`No pack found with id ${args.pack_id}. Use browse_packs to find a valid pack_id.`, true)
     }
 
-    const packData = pack as {
+    const packData = pack as unknown as {
       id: string
       name: string
       pack_skills: Array<{ skill_id: string; skills: { id: string; name: string; description: string } | null }>
