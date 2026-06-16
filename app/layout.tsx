@@ -1,6 +1,8 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Instrument_Serif, IBM_Plex_Mono } from 'next/font/google'
 import Link from 'next/link'
+import { SITE_URL } from '@/lib/site'
+import { AuthButton } from '@/components/AuthButton'
 import './globals.css'
 
 const display = Instrument_Serif({
@@ -23,26 +25,7 @@ const mono = IBM_Plex_Mono({
   display: 'swap',
 })
 
-const DEFAULT_SITE_URL = 'https://skillshelf.io'
-
-/**
- * Resolve the public site URL defensively. A missing, empty, or bare-host value
- * (e.g. "skillshelf.io") would otherwise throw `new URL(...)` during the build's
- * page-data collection and fail the deploy. Coerce a bare host to https and fall
- * back to the default if it still isn't a valid absolute URL.
- */
-function resolveSiteUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim()
-  if (!raw) return DEFAULT_SITE_URL
-  const candidate = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`
-  try {
-    return new URL(candidate).toString().replace(/\/$/, '')
-  } catch {
-    return DEFAULT_SITE_URL
-  }
-}
-
-const siteUrl = resolveSiteUrl()
+const siteUrl = SITE_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -61,6 +44,12 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  themeColor: '#0E0F11',
+  width: 'device-width',
+  initialScale: 1,
+}
+
 function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-shelf-border bg-shelf-void/90 backdrop-blur">
@@ -76,13 +65,15 @@ function Header() {
             Browse
           </Link>
           <Link
-            href="/connect"
-            className="px-3 py-2 text-sm text-shelf-text-secondary transition-colors hover:text-shelf-text-primary"
+            href="/library"
+            className="hidden px-3 py-2 text-sm text-shelf-text-secondary transition-colors hover:text-shelf-text-primary sm:inline"
           >
-            Connect
+            Library
           </Link>
+          <AuthButton />
           <Link href="/connect" className="btn btn-primary ml-1">
-            Connect to Claude
+            <span className="sm:hidden">Connect</span>
+            <span className="hidden sm:inline">Connect to Claude</span>
           </Link>
         </nav>
       </div>

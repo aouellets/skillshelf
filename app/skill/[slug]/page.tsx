@@ -4,8 +4,11 @@ import type { Metadata } from 'next'
 import { CategoryBadge } from '@/components/CategoryBadge'
 import { VerifiedMark } from '@/components/VerifiedMark'
 import { InstallInstructions } from '@/components/InstallInstructions'
+import { ShareButton } from '@/components/ShareButton'
+import { StarRating } from '@/components/StarRating'
 import { CATEGORY_MAP, formatInstalls } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
+import { SITE_URL } from '@/lib/site'
 
 export const dynamic = 'force-dynamic'
 
@@ -22,6 +25,16 @@ export async function generateMetadata({
   return {
     title: skill.name,
     description: skill.description,
+    openGraph: {
+      title: `${skill.name} · SkillShelf`,
+      description: skill.description,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${skill.name} · SkillShelf`,
+      description: skill.description,
+    },
   }
 }
 
@@ -125,6 +138,15 @@ export default async function SkillDetailPage({
         {/* Sidebar */}
         <aside className="space-y-4">
           <InstallInstructions skillName={skill.name} />
+          <StarRating
+            skillId={skill.id}
+            initialAvg={skill.rating_avg}
+            initialCount={skill.rating_count}
+          />
+          <ShareButton
+            url={`${SITE_URL}/skill/${skill.slug}`}
+            text={`${skill.name} — a Claude skill on SkillShelf`}
+          />
           {skill.source_url && (
             <a
               href={skill.source_url}
