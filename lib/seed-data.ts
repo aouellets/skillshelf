@@ -1278,4 +1278,602 @@ and the mirror.
 - This is coaching, not therapy or medical advice. If serious distress surfaces,
   gently point toward a qualified professional.`,
   },
+  {
+    slug: 'nextjs-app-router',
+    name: 'Next.js App Router',
+    category: 'coding',
+    description:
+      'Server components, streaming, and route patterns for the Next.js App Router done right.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['nextjs', 'react', 'app-router'],
+    install_count: 44000,
+    rating_avg: 4.7,
+    rating_count: 720,
+    skill_content: `---
+name: Next.js App Router
+description: Build with the Next.js App Router using server components, correct data fetching, and streaming by default.
+---
+
+# Next.js App Router
+
+Default to Server Components; reach for Client Components only when you need
+interactivity, state, or browser APIs.
+
+## Core rules
+- Mark a file \`'use client'\` only at the leaf that needs it — keep client
+  boundaries small so most of the tree stays server-rendered.
+- Fetch data in server components with \`async\`/\`await\`; no \`useEffect\` data
+  fetching unless it's genuinely client-driven.
+- Pass data down as props; don't lift everything into client state.
+- Use \`loading.tsx\` and \`<Suspense>\` to stream — show structure fast, fill in
+  slow data.
+- \`error.tsx\` for route-level error boundaries; \`not-found.tsx\` for 404s.
+
+## Caching & dynamics
+- Be explicit: \`export const dynamic = 'force-dynamic'\` for per-request data,
+  or rely on static + \`revalidate\` for cacheable content.
+- Remember \`fetch\` is cached by default — opt out with \`{ cache: 'no-store' }\`
+  when you need fresh data.
+
+## Server Actions
+- Use them for mutations; validate input on the server, never trust the client.
+- Revalidate affected paths/tags after a mutation.
+
+## Checklist
+1. Is this component client-only for a real reason? If not, keep it server.
+2. Is there a loading state for every async boundary?
+3. Are dynamic vs cached choices explicit, not accidental?`,
+  },
+  {
+    slug: 'docker-compose-wizard',
+    name: 'Docker Compose Wizard',
+    category: 'coding',
+    description:
+      'Generate production-ready docker-compose files with healthchecks, volumes, and sane defaults.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['docker', 'devops', 'compose'],
+    install_count: 31000,
+    rating_avg: 4.5,
+    rating_count: 430,
+    skill_content: `---
+name: Docker Compose Wizard
+description: Produce clean, production-minded docker-compose configurations with healthchecks, named volumes, and explicit networking.
+---
+
+# Docker Compose Wizard
+
+Write compose files that are reproducible and safe to run, not just ones that
+start.
+
+## Defaults to apply
+- Pin image tags to specific versions, never \`latest\`.
+- Add a \`healthcheck\` to every long-running service so dependents can wait.
+- Use \`depends_on\` with \`condition: service_healthy\` for real ordering.
+- Persist state in **named volumes**, not bind mounts, for databases.
+- Put services on an explicit user-defined network; don't rely on the default.
+- Pass secrets via environment from an \`.env\` file — never hardcode them.
+
+## Production hygiene
+- Set \`restart: unless-stopped\` for services that should survive crashes.
+- Constrain resources where it matters (\`deploy.resources.limits\`).
+- Expose only the ports you need; keep internal services internal.
+- Run as a non-root user where the image allows.
+
+## Rules
+- Explain each non-obvious setting in a comment.
+- Provide the matching \`.env.example\` with placeholder values.
+- Validate mentally: would \`docker compose up\` work on a clean machine?`,
+  },
+  {
+    slug: 'playwright-testing',
+    name: 'Playwright Testing',
+    category: 'coding',
+    description:
+      'Reliable end-to-end browser tests with resilient selectors and no flaky waits.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['playwright', 'testing', 'e2e'],
+    install_count: 37000,
+    rating_avg: 4.6,
+    rating_count: 510,
+    skill_content: `---
+name: Playwright Testing
+description: Write end-to-end Playwright tests that are resilient, readable, and free of flakiness.
+---
+
+# Playwright Testing
+
+Tests should fail only when the app is broken — never because of timing.
+
+## Selectors
+- Prefer user-facing locators: \`getByRole\`, \`getByLabel\`, \`getByText\`.
+- Use \`data-testid\` only when semantics aren't enough.
+- Avoid brittle CSS/XPath tied to layout.
+
+## No flaky waits
+- Never \`waitForTimeout\` with a magic number.
+- Rely on Playwright's auto-waiting and web-first assertions
+  (\`await expect(locator).toBeVisible()\`), which retry until true.
+- Wait for the condition you care about (a response, a URL, an element), not a
+  fixed duration.
+
+## Structure
+- One behavior per test; arrange-act-assert.
+- Isolate state: reset/seed data so tests don't depend on order.
+- Use fixtures for shared setup (auth, base URL).
+
+## Rules
+- Make tests deterministic — mock network where the backend is out of scope.
+- Name tests by user intent ("user can reset password"), not implementation.
+- Run headed locally to debug, headless in CI with traces on failure.`,
+  },
+  {
+    slug: 'technical-blog-engine',
+    name: 'Technical Blog Engine',
+    category: 'writing',
+    description:
+      'Long-form technical writing with clear structure, runnable examples, and narrative flow.',
+    author: 'walter-writes',
+    featured: false,
+    verified: true,
+    tags: ['blogging', 'technical-writing', 'writing'],
+    install_count: 33000,
+    rating_avg: 4.6,
+    rating_count: 470,
+    skill_content: `---
+name: Technical Blog Engine
+description: Write technical posts that teach — a sharp hook, a logical build, and code the reader can actually run.
+---
+
+# Technical Blog Engine
+
+A good technical post takes the reader from "I don't get it" to "I can do it."
+
+## Structure
+- **Hook**: the problem and why it matters, in the first paragraph. Promise a
+  concrete outcome.
+- **Context**: just enough background; link out for the rest.
+- **Build**: develop the idea in steps, each with a runnable example.
+- **Payoff**: the working result, then the caveats and trade-offs.
+- **Next**: where to go from here.
+
+## Code examples
+- Every snippet should run as shown, or clearly state what's elided.
+- Build complexity incrementally — don't drop a 200-line block.
+- Show the output, not just the input.
+
+## Voice
+- Write to one curious peer, not a committee.
+- Prefer concrete verbs and short sentences; cut hedging.
+- Explain the "why" behind choices, not only the "how".
+
+## Before publishing
+1. Could a reader reproduce this from the post alone?
+2. Is every claim either obvious, demonstrated, or cited?
+3. Did I cut every sentence that doesn't earn its place?`,
+  },
+  {
+    slug: 'email-newsletter-pro',
+    name: 'Email Newsletter Pro',
+    category: 'writing',
+    description:
+      'Subject lines, structure, and pacing that get newsletters opened and read to the end.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['newsletter', 'email', 'writing'],
+    install_count: 36000,
+    rating_avg: 4.5,
+    rating_count: 500,
+    skill_content: `---
+name: Email Newsletter Pro
+description: Write newsletters with subject lines that earn the open and a body that respects the reader's time.
+---
+
+# Email Newsletter Pro
+
+A newsletter competes with the whole inbox. Earn the open, then reward it.
+
+## Subject & preview
+- Subject: specific and curiosity-driven, under ~50 characters. No clickbait you
+  can't pay off.
+- Preview text: extend the subject, don't repeat it.
+
+## Body
+- Open with the single most interesting thing — front-load value.
+- One core idea per issue; supporting links are secondary.
+- Short paragraphs, clear subheads, scannable on a phone.
+- A consistent structure each issue builds a reading habit.
+
+## The close
+- One clear next step (reply, read, share) — not five.
+- Make replying easy; replies train deliverability and build relationship.
+
+## Rules
+- Write like a person, not a brand announcement.
+- Cut anything that doesn't serve the reader's interest.
+- Keep cadence consistent — predictability is a feature.`,
+  },
+  {
+    slug: 'case-study-builder',
+    name: 'Case Study Builder',
+    category: 'writing',
+    description:
+      'Customer success stories with the problem → solution → measurable outcome arc.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['case-study', 'marketing', 'writing'],
+    install_count: 28000,
+    rating_avg: 4.5,
+    rating_count: 360,
+    skill_content: `---
+name: Case Study Builder
+description: Turn a customer win into a credible narrative: who, the problem, the solution, and the measurable result.
+---
+
+# Case Study Builder
+
+A case study sells by proof, not adjectives. Let the customer and the numbers
+do the talking.
+
+## The arc
+1. **The customer** — who they are and why a reader like them should care.
+2. **The problem** — the pain, in their words, with stakes.
+3. **The solution** — what they did, concretely; your role, honestly scoped.
+4. **The result** — measurable outcomes (%, time saved, revenue) with a quote.
+
+## Rules
+- Lead with the headline result; readers skim.
+- Use real numbers; if you can't share exact figures, use ranges, not vagueness.
+- Include a direct customer quote that sounds human, not approved-by-legal.
+- Keep your product in a supporting role — the customer is the hero.
+
+## Format
+- One page. Pull-quote the key metric.
+- End with a soft CTA relevant to readers in the same situation.`,
+  },
+  {
+    slug: 'deep-research',
+    name: 'Deep Research',
+    category: 'research',
+    description:
+      'Comprehensive research synthesis across many sources with structured findings and citations.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['research', 'synthesis', 'citations'],
+    install_count: 49000,
+    rating_avg: 4.7,
+    rating_count: 690,
+    skill_content: `---
+name: Deep Research
+description: Run a thorough, multi-source research process and synthesize findings into a structured, cited brief.
+---
+
+# Deep Research
+
+Go wide, then deep. Triangulate across independent sources and report what you
+actually found — including the gaps.
+
+## Process
+1. **Frame** — restate the question and define what a good answer looks like.
+2. **Map** — list sub-questions; research each rather than the topic as a blob.
+3. **Gather** — collect diverse, independent sources; prefer primary ones.
+4. **Cross-check** — flag where sources agree, disagree, or are thin.
+5. **Synthesize** — answer the original question with the weight of evidence.
+
+## Output
+- **Summary**: the answer up top, in a few sentences.
+- **Findings**: organized by sub-question, each with citations.
+- **Confidence & gaps**: what's well-supported, what's uncertain, what's unknown.
+- **Sources**: enough detail to locate each.
+
+## Rules
+- Separate evidence from inference; label your inferences.
+- Note recency and potential bias of each source.
+- Never invent a citation. "Not found" is a legitimate finding.`,
+  },
+  {
+    slug: 'literature-review',
+    name: 'Literature Review',
+    category: 'research',
+    description:
+      'Systematic literature review with themes, gaps, and a defensible synthesis.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['academic', 'literature-review', 'research'],
+    install_count: 24000,
+    rating_avg: 4.6,
+    rating_count: 300,
+    skill_content: `---
+name: Literature Review
+description: Produce a structured literature review that organizes the field by theme and surfaces the open gaps.
+---
+
+# Literature Review
+
+A literature review is an argument about the state of knowledge, not a list of
+summaries.
+
+## Process
+1. **Scope** — define the question, inclusion criteria, and timeframe.
+2. **Collect** — gather the key works; prioritize seminal and recent papers.
+3. **Organize by theme** — group works by approach or finding, not by author.
+4. **Synthesize** — for each theme, state the consensus, the disputes, and the
+   evidence quality.
+5. **Find the gap** — what hasn't been answered? That's the point of the review.
+
+## Output
+- Thematic sections, each comparing and contrasting works.
+- A synthesis that takes a position on where the field stands.
+- An explicit "gaps and future directions" section.
+- Accurate citations throughout.
+
+## Rules
+- Compare and evaluate; never just summarize one paper after another.
+- Note methodology and limitations, not just conclusions.
+- Be honest about contradictory evidence.`,
+  },
+  {
+    slug: 'weekly-review',
+    name: 'Weekly Review',
+    category: 'productivity',
+    description:
+      'A structured weekly review: clear the inbox, review commitments, and set next week up.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['review', 'productivity', 'planning'],
+    install_count: 41000,
+    rating_avg: 4.7,
+    rating_count: 560,
+    skill_content: `---
+name: Weekly Review
+description: Run a consistent weekly review that empties the inbox, checks every commitment, and plans the week ahead.
+---
+
+# Weekly Review
+
+The weekly review is what keeps a productivity system trustworthy. Make it a
+repeatable ritual, not a guilt session.
+
+## Get clear
+- Empty every inbox: email, notes, messages, the physical desk.
+- Process each item to a decision (do, defer, delegate, drop).
+
+## Get current
+- Review the calendar: last week (loose ends?) and the next two weeks (prep?).
+- Review every open project — does each still have a clear next action?
+- Review waiting-for items; nudge anything stalled.
+
+## Get ahead
+- Pick the 3–5 outcomes that would make next week a win.
+- Block time for the most important, not just the most urgent.
+- Scan someday/maybe for anything to activate.
+
+## Rules
+- Same time, same checklist, every week — consistency beats intensity.
+- Be honest about what didn't get done and why; adjust, don't pile on.
+- End with a clear, short plan for Monday.`,
+  },
+  {
+    slug: 'okr-builder',
+    name: 'OKR Builder',
+    category: 'productivity',
+    description:
+      'Objectives and Key Results that are ambitious, measurable, and actually tracked.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['okr', 'goals', 'planning'],
+    install_count: 35000,
+    rating_avg: 4.5,
+    rating_count: 420,
+    skill_content: `---
+name: OKR Builder
+description: Draft clear OKRs — a qualitative objective with measurable key results — and a cadence to score them.
+---
+
+# OKR Builder
+
+OKRs align effort around outcomes. Keep them few, measurable, and honest.
+
+## Structure
+- **Objective**: a qualitative, inspiring goal — where you want to be. Short.
+- **Key Results**: 3–5 measurable outcomes that prove the objective is met.
+  Each must be a number, not a task.
+
+## Rules
+- Key results measure **outcomes** (revenue, retention, NPS), not activity
+  (shipped X). "Launched feature" is a task; "30% of users adopt it" is a KR.
+- Set them ambitious — ~70% is a good score for stretch OKRs.
+- Limit to a handful of objectives; focus is the point.
+- Make each KR's owner and current baseline explicit.
+
+## Cadence
+- Set quarterly; check in weekly with a confidence score.
+- Score at quarter end honestly, then learn from the misses.
+
+## Checklist
+1. Could two people disagree on whether a KR was hit? If so, make it measurable.
+2. Are these outcomes, or a to-do list in disguise?
+3. Is there a baseline and a target for every KR?`,
+  },
+  {
+    slug: 'ab-test-analyzer',
+    name: 'A/B Test Analyzer',
+    category: 'data',
+    description:
+      'Statistical significance, confidence intervals, and an honest read of experiment results.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['experimentation', 'statistics', 'data'],
+    install_count: 39000,
+    rating_avg: 4.6,
+    rating_count: 480,
+    skill_content: `---
+name: A/B Test Analyzer
+description: Evaluate an experiment correctly — significance, confidence intervals, and the traps that fake a win.
+---
+
+# A/B Test Analyzer
+
+Read experiments like a skeptic. Most "wins" are noise until proven otherwise.
+
+## Analysis
+- State the metric, the hypothesis, and the minimum effect that would matter.
+- Compute the difference with a **confidence interval**, not just a point.
+- Report statistical significance (p-value or Bayesian posterior) AND practical
+  significance — a tiny but "significant" lift may not be worth shipping.
+
+## Traps to flag
+- **Peeking**: stopping when it looks good inflates false positives. Pre-commit
+  the sample size or use sequential methods.
+- **Underpowered**: too few samples → can't detect real effects.
+- **Multiple comparisons**: testing many metrics finds spurious winners; correct
+  for it.
+- **Novelty / seasonality**: short tests can mislead.
+- **Sample ratio mismatch**: if the split isn't ~50/50, the setup is suspect.
+
+## Output
+- Verdict: ship / don't ship / inconclusive — with the interval and the why.
+- Be explicit when the honest answer is "we need more data."`,
+  },
+  {
+    slug: 'pricing-strategy',
+    name: 'Pricing Strategy',
+    category: 'business',
+    description:
+      'Value-based, competitive, and cost-plus pricing analysis with a defensible recommendation.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['pricing', 'strategy', 'business'],
+    install_count: 33000,
+    rating_avg: 4.6,
+    rating_count: 410,
+    skill_content: `---
+name: Pricing Strategy
+description: Reason about pricing from value, competition, and cost, and land on a structure that fits the business.
+---
+
+# Pricing Strategy
+
+Price is positioning. Anchor on the value delivered, then sanity-check against
+competition and cost.
+
+## Three lenses
+- **Value-based**: what is the outcome worth to the customer? This sets the
+  ceiling and the story.
+- **Competitive**: what do alternatives charge, and how are you differentiated?
+- **Cost-plus**: your floor — never price below sustainable margin.
+
+## Structure choices
+- Per-seat, usage-based, tiered, or flat — match how the customer perceives and
+  grows value.
+- Design tiers around willingness-to-pay segments; gate features that matter to
+  larger buyers.
+- Keep the entry point low-friction; create a clear reason to move up.
+
+## Rules
+- Quantify value in the customer's terms (time saved, revenue gained).
+- Avoid pricing on cost alone — it leaves value on the table.
+- Recommend one structure with the reasoning, plus what you'd test next.`,
+  },
+  {
+    slug: 'language-learning',
+    name: 'Language Learning',
+    category: 'personal',
+    description:
+      'Immersive, spaced-repetition language practice tuned to your level and goals.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['language', 'learning', 'personal'],
+    install_count: 38000,
+    rating_avg: 4.6,
+    rating_count: 520,
+    skill_content: `---
+name: Language Learning
+description: Coach a language learner with comprehensible input, spaced repetition, and speaking practice at the right level.
+---
+
+# Language Learning
+
+Drive learning with comprehensible input — material just above the learner's
+level — and consistent retrieval.
+
+## Intake
+Confirm: target language, current level (roughly A1–C2), goal (travel,
+conversation, exam, work), and time per day.
+
+## Method
+- **Comprehensible input**: read/listen to content slightly above current level;
+  translate sparingly, infer from context.
+- **Spaced repetition**: review vocabulary on an expanding schedule; prioritize
+  high-frequency words.
+- **Output early**: practice speaking/writing from day one, even imperfectly.
+- **Error correction**: gently correct, restate the natural form, move on.
+
+## Session shape
+- Warm up with review of due cards.
+- New input with a few target structures.
+- Active use: prompt the learner to produce sentences; correct kindly.
+- End with 3–5 new items to add to review.
+
+## Rules
+- Calibrate difficulty to keep ~80–90% comprehension — frustration kills habit.
+- Encourage daily small reps over rare long sessions.
+- Use the target language as much as the level allows.`,
+  },
+  {
+    slug: 'financial-planner',
+    name: 'Personal Financial Planner',
+    category: 'personal',
+    description:
+      'Budgeting, debt payoff, and savings planning grounded in the user\'s real numbers.',
+    author: 'community',
+    featured: false,
+    verified: true,
+    tags: ['finance', 'budgeting', 'personal'],
+    install_count: 46000,
+    rating_avg: 4.7,
+    rating_count: 640,
+    skill_content: `---
+name: Personal Financial Planner
+description: Help the user build a realistic budget, a debt-payoff plan, and savings goals from their actual numbers.
+---
+
+# Personal Financial Planner
+
+Plan from the user's real situation, not a template. Be clear, practical, and
+non-judgmental.
+
+## Intake
+Gather: take-home income, fixed costs, variable spending, debts (balance, rate,
+minimum), savings, and goals (emergency fund, payoff, a purchase).
+
+## Build the plan
+- **Budget**: allocate income to needs, wants, and savings; a 50/30/20 split is
+  a starting point, not a rule.
+- **Emergency fund**: target 3–6 months of essential expenses first.
+- **Debt payoff**: avalanche (highest rate first) saves the most; snowball
+  (smallest balance first) builds momentum — recommend based on the user.
+- **Savings goals**: translate each into a monthly amount and a timeline.
+
+## Rules
+- Use the user's actual numbers; show the math.
+- Prioritize high-interest debt and a starter emergency fund before investing.
+- Flag unrealistic plans honestly and adjust.
+- This is general education, not licensed financial advice — suggest a
+  professional for complex or tax-specific decisions.`,
+  },
 ]
