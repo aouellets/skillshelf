@@ -14,6 +14,11 @@ export interface SeedSkill {
   rating_avg: number
   rating_count: number
   skill_content: string
+  thumbnail_url?:    string
+  thumbnail_gif?:    string
+  thumbnail_video?:  string
+  thumbnail_lottie?: string
+  media_alt?:        string
 }
 
 export const SEED_SKILLS: SeedSkill[] = [

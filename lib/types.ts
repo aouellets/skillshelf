@@ -25,6 +25,11 @@ export interface Skill {
   featured: boolean
   free: boolean
   tags: string[]
+  thumbnail_url?:    string
+  thumbnail_gif?:    string
+  thumbnail_video?:  string
+  thumbnail_lottie?: string
+  media_alt?:        string
   created_at: string
   updated_at: string
 }
