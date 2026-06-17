@@ -41,6 +41,21 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: 'SkillShelf',
     type: 'website',
+    images: [
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'SkillShelf — The App Store for Claude Skills',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SkillShelf — The App Store for Claude Skills',
+    description: 'Install intelligence. Connect once, install anything.',
+    images: ['/og-default.png'],
+    creator: '@aouellets',
   },
 }
 
@@ -107,6 +122,9 @@ function Footer() {
           <Link href="/connect" className="transition-colors hover:text-shelf-text-secondary">
             Connect
           </Link>
+          <Link href="/about" className="transition-colors hover:text-shelf-text-secondary">
+            About
+          </Link>
           <Link href="/skill-media-guide" className="transition-colors hover:text-shelf-text-secondary">
             Media Guide
           </Link>
@@ -117,6 +135,14 @@ function Footer() {
             className="transition-colors hover:text-shelf-text-secondary"
           >
             GitHub
+          </a>
+          <a
+            href="https://x.com/aouellets"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-shelf-text-secondary"
+          >
+            X / Twitter
           </a>
         </div>
       </div>
