@@ -5,7 +5,7 @@ import { HeroDemo } from '@/components/HeroDemo'
 import { Reveal } from '@/components/Reveal'
 import { EmailCapture } from '@/components/EmailCapture'
 import { CATEGORIES } from '@/lib/categories'
-import { getFeaturedSkills, getSkills } from '@/lib/data'
+import { getFeaturedSkills, getHotSkills, getSkills } from '@/lib/data'
 import { getFeaturedPacks } from '@/lib/packs'
 import { getSupabase } from '@/lib/supabase'
 
@@ -63,8 +63,9 @@ const STEPS = [
 ]
 
 export default async function HomePage() {
-  const [featured, { total }, featuredPacks] = await Promise.all([
+  const [featured, hot, { total }, featuredPacks] = await Promise.all([
     getFeaturedSkills(6),
+    getHotSkills(6),
     getSkills({ limit: 1 }),
     getFeaturedPacks(3),
   ])
@@ -140,6 +141,31 @@ export default async function HomePage() {
           </div>
         )}
       </section>
+
+      {/* HOT RIGHT NOW — ranked by time-decayed install velocity */}
+      {hot.length > 0 && (
+        <section className="py-8">
+          <Reveal className="flex items-end justify-between gap-4">
+            <div className="flex items-center gap-2">
+              <h2 className="text-2xl font-semibold text-shelf-text-primary">Hot right now</h2>
+              <span aria-hidden className="text-xl">🔥</span>
+            </div>
+            <Link
+              href="/browse?sort=hot"
+              className="shrink-0 text-sm text-shelf-text-secondary transition-colors hover:text-accent-hover"
+            >
+              View all →
+            </Link>
+          </Reveal>
+          <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {hot.map((skill, i) => (
+              <Reveal key={skill.id} delay={i * 60}>
+                <SkillCard skill={skill} />
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* FEATURED PACKS */}
       {featuredPacks.length > 0 && (
