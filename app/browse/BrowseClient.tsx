@@ -95,7 +95,7 @@ export function BrowseClient({
   const hasMore = skills.length < total
 
   return (
-    <div className="mx-auto max-w-content px-4 py-12 sm:px-6">
+    <div className="mx-auto max-w-content px-4 py-12 sm:px-6 lg:px-8">
       <h1 className="font-display text-4xl font-semibold tracking-tight text-shelf-text-primary">
         Browse skills
       </h1>
@@ -104,7 +104,7 @@ export function BrowseClient({
       </p>
       <p className="mt-2 text-xs text-shelf-text-tertiary">
         Install counts reflect community GitHub adoption data. Real-time installs
-        via SkillShelf MCP are tracked separately and added daily.
+        via Skill Me MCP are tracked separately and added daily.
       </p>
 
       <div className="mt-8 space-y-5">
@@ -151,7 +151,7 @@ export function BrowseClient({
           </div>
         ) : (
           <>
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {skills.map((skill) => (
                 <SkillCard key={skill.id} skill={skill} />
               ))}
@@ -178,7 +178,7 @@ export function BrowseClient({
 function SkeletonGrid() {
   // Skeleton mirrors the real SkillCard shape: media banner + title + body + meta.
   return (
-    <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {Array.from({ length: 6 }).map((_, i) => (
         <div key={i} className="card animate-pulse overflow-hidden">
           <div className="aspect-[16/9] w-full bg-shelf-elevated" />
