@@ -1,8 +1,11 @@
+'use client'
+
 import Link from 'next/link'
 import { CategoryBadge } from './CategoryBadge'
 import { VerifiedMark } from './VerifiedMark'
 import { SkillThumbnail } from './SkillThumbnail'
 import { formatInstalls } from '@/lib/categories'
+import { track } from '@/lib/analytics'
 import type { Skill } from '@/lib/types'
 
 type SkillCardData = Omit<Skill, 'skill_content'> & { skill_content?: string }
@@ -12,6 +15,7 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
     <Link
       href={`/skill/${skill.slug}`}
       className="card group flex h-full flex-col overflow-hidden"
+      onClick={() => track('skill_viewed', { skill: skill.slug, category: skill.category })}
     >
       <SkillThumbnail skill={skill} size="card" />
       <div className="flex flex-col gap-3 p-5">
