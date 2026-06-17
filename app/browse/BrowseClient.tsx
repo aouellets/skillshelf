@@ -123,6 +123,10 @@ export function BrowseClient({
             ))}
           </div>
         </div>
+
+        <p className="text-xs text-shelf-text-tertiary">
+          Install counts reflect community adoption data from public GitHub analytics.
+        </p>
       </div>
 
       <div className="mt-8">
