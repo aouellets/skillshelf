@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Instrument_Serif, IBM_Plex_Mono } from 'next/font/google'
 import Link from 'next/link'
+import { Analytics } from '@vercel/analytics/react'
 import { SITE_URL } from '@/lib/site'
 import { AuthButton } from '@/components/AuthButton'
+import { EmailCapture } from '@/components/EmailCapture'
 import './globals.css'
 
 const display = Instrument_Serif({
@@ -43,7 +45,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: `${siteUrl}/og-default.png`,
+        url: '/og-default.png',
         width: 1200,
         height: 630,
         alt: 'SkillShelf — The App Store for Claude Skills',
@@ -54,7 +56,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SkillShelf — The App Store for Claude Skills',
     description: 'Install intelligence. Connect once, install anything.',
-    images: [`${siteUrl}/og-default.png`],
+    images: ['/og-default.png'],
+    creator: '@aouellets',
   },
   icons: {
     icon: [
@@ -114,32 +117,51 @@ function Header() {
 function Footer() {
   return (
     <footer className="mt-24 border-t border-shelf-border">
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-10 text-sm text-shelf-text-tertiary sm:flex-row sm:items-center sm:justify-between sm:px-6">
-        <div className="flex items-center gap-2">
-          <span className="font-display text-lg text-shelf-text-secondary">SkillShelf</span>
-          <span>· The App Store for Claude Skills</span>
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="border-b border-shelf-border py-6">
+          <EmailCapture placement="footer" label="New skills weekly →" />
         </div>
-        <div className="flex items-center gap-4">
-          <Link href="/browse" className="transition-colors hover:text-shelf-text-secondary">
-            Browse
-          </Link>
-          <Link href="/packs" className="transition-colors hover:text-shelf-text-secondary">
-            Packs
-          </Link>
-          <Link href="/connect" className="transition-colors hover:text-shelf-text-secondary">
-            Connect
-          </Link>
-          <Link href="/skill-media-guide" className="transition-colors hover:text-shelf-text-secondary">
-            Media Guide
-          </Link>
-          <a
-            href="https://github.com/aouellets/skillshelf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-shelf-text-secondary"
-          >
-            GitHub
-          </a>
+        <div className="flex flex-col gap-4 py-10 text-sm text-shelf-text-tertiary sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-2">
+            <span className="font-display text-lg text-shelf-text-secondary">SkillShelf</span>
+            <span>· The App Store for Claude Skills</span>
+          </div>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href="/browse" className="transition-colors hover:text-shelf-text-secondary">
+              Browse
+            </Link>
+            <Link href="/packs" className="transition-colors hover:text-shelf-text-secondary">
+              Packs
+            </Link>
+            <Link href="/connect" className="transition-colors hover:text-shelf-text-secondary">
+              Connect
+            </Link>
+            <Link href="/about" className="transition-colors hover:text-shelf-text-secondary">
+              About
+            </Link>
+            <Link href="/submit" className="transition-colors hover:text-shelf-text-secondary">
+              Submit a skill
+            </Link>
+            <Link href="/skill-media-guide" className="transition-colors hover:text-shelf-text-secondary">
+              Media Guide
+            </Link>
+            <a
+              href="https://github.com/aouellets/skillshelf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-shelf-text-secondary"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://x.com/aouellets"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-shelf-text-secondary"
+            >
+              X / Twitter
+            </a>
+          </div>
         </div>
       </div>
     </footer>
@@ -155,6 +177,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   )
