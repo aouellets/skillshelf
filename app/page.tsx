@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { SkillCard } from '@/components/SkillCard'
 import { PackCard } from '@/components/PackCard'
 import { HeroDemo } from '@/components/HeroDemo'
+import { EmailCapture } from '@/components/EmailCapture'
 import { CATEGORIES } from '@/lib/categories'
 import { getFeaturedSkills, getSkills } from '@/lib/data'
 import { getFeaturedPacks } from '@/lib/packs'
@@ -53,6 +54,14 @@ export default async function HomePage() {
             <Link href="/browse" className="btn btn-secondary">
               Browse Skills →
             </Link>
+          </div>
+
+          {/* Email capture — after the hero CTAs */}
+          <div className="mt-10 max-w-md">
+            <EmailCapture
+              label="New skill packs drop weekly. Get notified."
+              placement="inline"
+            />
           </div>
         </div>
         <HeroDemo />
