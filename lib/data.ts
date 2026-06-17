@@ -109,8 +109,14 @@ export async function getSkills(opts: SkillQuery = {}): Promise<SkillPage> {
   }
 
   if (!data || data.length === 0) {
-    console.warn('[getSkills] Query returned zero rows — falling back to seed data')
-    return applyFallbackQuery(opts)
+    // Only treat an empty result as a failure for the unfiltered base catalog
+    // (table empty / RLS misconfigured). A genuinely empty search or category
+    // result should render an empty state, not silently show seed data.
+    if (!query?.trim() && !category && !featured) {
+      console.warn('[getSkills] Base query returned zero rows — falling back to seed data')
+      return applyFallbackQuery(opts)
+    }
+    return { skills: [], total: count ?? 0 }
   }
 
   return { skills: data as Skill[], total: count ?? data.length }
