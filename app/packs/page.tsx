@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
   title: 'Skill Packs',
   description:
-    'Curated bundles of Claude skills — install a themed set in one command. Solo Founder Stack, Engineering Workflow, Content Marketing Engine, and more.',
+    'Curated bundles of Claude skills. Install a themed set in one command. Solo Founder Stack, Engineering Workflow, Content Marketing Engine, and more.',
   openGraph: {
     title: 'Skill Packs · SkillShelf',
     description: 'Install a full themed skill bundle in one Claude command.',
@@ -24,24 +24,20 @@ export default async function PacksPage() {
   const { packs, total } = await getPacks({ limit: 48 })
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-      {/* Header always renders */}
-      <div className="flex items-end justify-between">
+    <div className="mx-auto max-w-content px-4 py-12 sm:px-6">
+      <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="font-mono text-xs uppercase tracking-widest text-shelf-text-tertiary">
-            Curated bundles
-          </p>
-          <h1 className="mt-1 font-display text-4xl text-shelf-text-primary">Skill Packs</h1>
-          <p className="mt-2 text-shelf-text-secondary">
+          <span className="eyebrow">Curated bundles</span>
+          <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight text-shelf-text-primary">
+            Skill packs
+          </h1>
+          <p className="mt-3 max-w-xl text-shelf-text-secondary">
             {total > 0
-              ? `${total} pack${total !== 1 ? 's' : ''} — install a themed set of skills in one command.`
+              ? `${total} pack${total !== 1 ? 's' : ''}. Install a themed set of skills in one command.`
               : 'Themed bundles of curated Claude skills, installed together.'}
           </p>
         </div>
-        <Link
-          href="/browse"
-          className="text-sm text-shelf-text-secondary transition-colors hover:text-shelf-text-primary"
-        >
+        <Link href="/browse" className="text-sm text-shelf-text-secondary transition-colors hover:text-accent-hover">
           Browse individual skills →
         </Link>
       </div>
@@ -66,7 +62,7 @@ export default async function PacksPage() {
           </Link>
         </div>
       ) : (
-        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-9 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {packs.map((pack) => (
             <PackCard key={pack.id} pack={pack} />
           ))}

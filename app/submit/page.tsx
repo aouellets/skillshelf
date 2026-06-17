@@ -21,7 +21,7 @@ media:
 
 # Your Skill Name
 
-[Instructions here — what Claude should do when this skill is active]
+[Instructions here: what Claude should do when this skill is active]
 `
 
 export default function SubmitPage() {
@@ -35,7 +35,7 @@ export default function SubmitPage() {
       </h1>
       <p className="mt-4 text-lg text-shelf-text-secondary">
         Every skill in the SkillShelf catalog started as a community contribution.
-        Submit yours and it becomes available to every user — installed in seconds
+        Submit yours and it becomes available to every user, installed in seconds
         from inside Claude.
       </p>
 
@@ -43,7 +43,7 @@ export default function SubmitPage() {
       <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div className="card p-6">
           <h2 className="text-base font-medium text-shelf-text-primary">
-            Option 1 — GitHub issue
+            Option 1: GitHub issue
           </h2>
           <p className="mt-2 text-sm text-shelf-text-secondary">
             Open a GitHub issue using the skill submission template. Paste your
@@ -62,7 +62,7 @@ export default function SubmitPage() {
 
         <div className="card p-6">
           <h2 className="text-base font-medium text-shelf-text-primary">
-            Option 2 — Pull request
+            Option 2: Pull request
           </h2>
           <p className="mt-2 text-sm text-shelf-text-secondary">
             Fork the repo, add your skill to{' '}
@@ -96,7 +96,7 @@ export default function SubmitPage() {
             <div key={title} className="flex gap-3">
               <span className="mt-0.5 text-accent">✓</span>
               <div>
-                <span className="text-sm font-medium text-shelf-text-primary">{title} — </span>
+                <span className="text-sm font-medium text-shelf-text-primary">{title}: </span>
                 <span className="text-sm text-shelf-text-secondary">{desc}</span>
               </div>
             </div>
@@ -128,7 +128,7 @@ export default function SubmitPage() {
         <p className="mt-2 text-sm text-shelf-text-secondary">
           Every submitted skill is reviewed for prompt injection, data exfiltration
           attempts, and hidden instructions before going live. This usually takes
-          1–3 business days. Skills that pass go live immediately.
+          1-3 business days. Skills that pass go live immediately.
         </p>
       </section>
 

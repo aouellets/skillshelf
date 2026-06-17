@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 const FAQ = [
   {
     q: 'What is SkillShelf?',
-    a: 'SkillShelf is an open-source marketplace for Claude skills — modular instruction packages that extend what Claude can do. Connect the SkillShelf MCP to claude.ai once, then browse and install skills conversationally. Skills activate automatically in every future session.',
+    a: 'SkillShelf is an open-source marketplace for Claude skills, modular instruction packages that extend what Claude can do. Connect the SkillShelf MCP to claude.ai once, then browse and install skills conversationally. Skills activate automatically in every future session.',
   },
   {
     q: 'Is SkillShelf affiliated with Anthropic?',
-    a: 'No. SkillShelf is an independent, open-source project. It uses the public MCP (Model Context Protocol) standard that Anthropic published in 2025. The skills in the catalog are sourced from the community and verified by the SkillShelf team — not by Anthropic.',
+    a: 'No. SkillShelf is an independent, open-source project. It uses the public MCP (Model Context Protocol) standard that Anthropic published in 2025. The skills in the catalog are sourced from the community and verified by the SkillShelf team, not by Anthropic.',
   },
   {
     q: 'Is it free?',
@@ -23,11 +23,11 @@ const FAQ = [
   },
   {
     q: 'Is it safe to connect an MCP to Claude?',
-    a: 'SkillShelf only loads skill content (plain text instructions) into your Claude context. It does not have access to your conversations, files, or Claude account. Every skill in the catalog passes a safety review before publishing — we check for prompt injection, data exfiltration attempts, and hidden instructions. The source code is public so you can audit it yourself.',
+    a: 'SkillShelf only loads skill content (plain text instructions) into your Claude context. It does not have access to your conversations, files, or Claude account. Every skill in the catalog passes a safety review before publishing, we check for prompt injection, data exfiltration attempts, and hidden instructions. The source code is public so you can audit it yourself.',
   },
   {
     q: 'What is the MCP standard?',
-    a: 'MCP (Model Context Protocol) is an open standard published by Anthropic in late 2025. It lets external services add tools and context to Claude conversations. SkillShelf uses MCP to inject skill instructions at the start of each session. Many other tools use MCP too — it is the standard way to extend Claude.',
+    a: 'MCP (Model Context Protocol) is an open standard published by Anthropic in late 2025. It lets external services add tools and context to Claude conversations. SkillShelf uses MCP to inject skill instructions at the start of each session. Many other tools use MCP too, it is the standard way to extend Claude.',
   },
   {
     q: 'Do I need a Claude subscription?',
@@ -35,7 +35,7 @@ const FAQ = [
   },
   {
     q: 'How are skills different from the built-in skills in claude.ai?',
-    a: 'Claude.ai has a built-in skills UI where you can upload a ZIP file containing a SKILL.md. SkillShelf hosts the skills, provides a browse-and-discover experience, and handles installation via conversation — no ZIP files, no technical setup. Think of claude.ai\'s built-in UI as the developer path and SkillShelf as the consumer App Store.',
+    a: 'Claude.ai has a built-in skills UI where you can upload a ZIP file containing a SKILL.md. SkillShelf hosts the skills, provides a browse-and-discover experience, and handles installation via conversation, no ZIP files, no technical setup. Think of claude.ai\'s built-in UI as the developer path and SkillShelf as the consumer App Store.',
   },
   {
     q: 'Can I submit my own skill?',
@@ -64,7 +64,7 @@ export default function AboutPage() {
       <p className="mt-5 text-lg leading-relaxed text-shelf-text-secondary">
         Claude skills are powerful. Getting them is not. You need to find a GitHub repo,
         read the README, download a file, upload a ZIP, and repeat for every skill
-        you want. That is the developer path — it works, but it excludes everyone else.
+        you want. That is the developer path, it works, but it excludes everyone else.
       </p>
       <p className="mt-4 text-lg leading-relaxed text-shelf-text-secondary">
         SkillShelf is the consumer path. Connect once, browse by category, say
@@ -92,7 +92,7 @@ export default function AboutPage() {
         <h2 className="font-display text-3xl text-shelf-text-primary">How it works</h2>
         <p className="mt-4 text-shelf-text-secondary">
           SkillShelf is a hosted MCP server plus a web catalog. Connect the MCP to
-          claude.ai once — it takes about 30 seconds. After that, your installed
+          claude.ai once, it takes about 30 seconds. After that, your installed
           skills automatically load at the start of every Claude conversation via
           the <code className="rounded border border-shelf-border bg-shelf-void px-1.5 py-0.5 font-mono text-sm text-shelf-text-primary">get_active_skills</code> tool.
           You never have to think about it again.

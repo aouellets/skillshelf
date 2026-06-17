@@ -14,7 +14,7 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
   return (
     <Link
       href={`/skill/${skill.slug}`}
-      className="card group relative flex h-full flex-col overflow-hidden"
+      className="card card-interactive group relative flex h-full flex-col overflow-hidden"
       onClick={() => track('skill_viewed', { skill: skill.slug, category: skill.category })}
     >
       {isNewSkill(skill.created_at) && (
@@ -23,9 +23,9 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
         </span>
       )}
       <SkillThumbnail skill={skill} size="card" />
-      <div className="flex flex-col gap-3 p-5">
+      <div className="flex flex-1 flex-col gap-3 p-5">
         <div className="flex items-start justify-between gap-3">
-          <h3 className="text-base font-medium text-shelf-text-primary group-hover:text-accent-hover">
+          <h3 className="font-display text-base font-semibold leading-snug text-shelf-text-primary transition-colors group-hover:text-accent-hover">
             {skill.name}
           </h3>
           <CategoryBadge category={skill.category} />
@@ -39,7 +39,7 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
           <span>{formatInstalls(skill.install_count)} installs</span>
           <span className="flex items-center gap-3">
             {skill.rating_count > 0 && (
-              <span>
+              <span className="text-shelf-text-secondary">
                 <span className="text-accent">★</span> {skill.rating_avg.toFixed(1)}
               </span>
             )}
