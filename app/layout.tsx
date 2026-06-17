@@ -41,6 +41,28 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: 'SkillShelf',
     type: 'website',
+    images: [
+      {
+        url: `${siteUrl}/og-default.png`,
+        width: 1200,
+        height: 630,
+        alt: 'SkillShelf — The App Store for Claude Skills',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SkillShelf — The App Store for Claude Skills',
+    description: 'Install intelligence. Connect once, install anything.',
+    images: [`${siteUrl}/og-default.png`],
+  },
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
   },
 }
 
