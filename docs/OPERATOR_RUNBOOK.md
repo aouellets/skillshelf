@@ -70,8 +70,28 @@ Per the project notes, `skillme.dev` is now canonical (Vercel project renamed,
   `skillme.dev` URLs. These are `NEXT_PUBLIC_*` → **inlined at build time**, so a
   fresh production build/redeploy is required for changes to take effect.
 - 🟠 Supabase Auth (dashboard): set **Site URL** = `https://skillme.dev` and add
-  `https://skillme.dev/auth/callback` to the redirect allowlist, or magic-link /
-  GitHub sign-in breaks. Not exposed via the Supabase MCP tools.
+  both `https://skillme.dev/auth/callback` and `http://localhost:3000/auth/callback`
+  to the redirect allowlist, or magic-link / GitHub sign-in breaks. Not exposed via
+  the Supabase MCP tools.
+- 🟠 **Enable the GitHub provider** in Supabase → Authentication → Providers →
+  GitHub. If it's left disabled, `/authorize?provider=github` returns
+  `400: provider is not enabled` and the user lands on Supabase's raw error page —
+  it reads as a broken/404 sign-in. Steps:
+  1. Create a GitHub OAuth App (GitHub → Settings → Developer settings → OAuth Apps)
+     with **Authorization callback URL** =
+     `https://zfbmtnglxksutwjkuoqd.supabase.co/auth/v1/callback`.
+  2. Paste its **Client ID** + **Client Secret** into the Supabase GitHub provider
+     and toggle it **enabled**. The Client ID is a token like `Ov23li…` / `Iv1…`
+     with **no spaces** — a human-readable placeholder (e.g. `skill shelf db`)
+     makes Supabase redirect to GitHub with `client_id=skill+shelf+db`, and GitHub
+     returns a **404** (no OAuth app matches). This reads as a broken GitHub
+     sign-in even though the provider is "enabled".
+  - Verify two hops, not one:
+    1. Supabase auth logs: `GET /authorize?provider=github` → `302 "Redirecting
+       to external provider github"` (not `400`).
+    2. Follow the redirect target — the `client_id=` query param must be the real
+       GitHub OAuth App ID, not a placeholder:
+       `curl -sI "https://<project-ref>.supabase.co/auth/v1/authorize?provider=github&redirect_to=https://skillme.dev/auth/callback" | grep -i location`
 
 ### Verify
 ```

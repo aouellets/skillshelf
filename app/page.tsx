@@ -65,7 +65,7 @@ const STEPS = [
 
 export default async function HomePage() {
   const [featured, hot, { total }, featuredPacks] = await Promise.all([
-    getFeaturedSkills(8),
+    getFeaturedSkills(12),
     getHotSkills(6),
     getSkills({ limit: 1 }),
     getFeaturedPacks(3),
