@@ -9,10 +9,22 @@ import { rateSkill } from './tools/rate'
 import { browsePacks } from './tools/browsePacks'
 import { installPack } from './tools/installPack'
 import { manageCollections } from './tools/manageCollections'
+import { SITE_URL } from '../site'
 
 const SERVER_NAME = 'Skill Me'
 const SERVER_VERSION = '1.0.0'
 const DEFAULT_PROTOCOL = '2025-11-25'
+
+/**
+ * Brand icons advertised in the initialize response per the MCP spec's
+ * Implementation.icons (2025-11-25). Lets clients show the Skill Me mark in
+ * their connector UI instead of a generic placeholder. Absolute URLs are
+ * required; we serve a scalable SVG plus a 512px PNG fallback.
+ */
+const SERVER_ICONS = [
+  { src: `${SITE_URL}/skill-me-icon.svg`, mimeType: 'image/svg+xml', sizes: 'any' },
+  { src: `${SITE_URL}/skill-me-icon-512.png`, mimeType: 'image/png', sizes: '512x512' },
+]
 
 const TOOLS: Tool<never>[] = [
   getActiveSkills as Tool<never>,
@@ -71,7 +83,13 @@ export function createMCPServer(userToken: string) {
         return result(req.id, {
           protocolVersion: requested,
           capabilities: { tools: { listChanged: false } },
-          serverInfo: { name: SERVER_NAME, version: SERVER_VERSION },
+          serverInfo: {
+            name: SERVER_NAME,
+            title: SERVER_NAME,
+            version: SERVER_VERSION,
+            websiteUrl: SITE_URL,
+            icons: SERVER_ICONS,
+          },
           instructions:
             'Skill Me gives access to curated Claude skills and packs. ' +
             'Call get_active_skills at the start of every conversation to load installed skills. ' +

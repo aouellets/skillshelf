@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="512" height="512" role="img" aria-label="Skill Me">
+  <rect width="32" height="32" rx="9" fill="#101413"/>
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="8.25" fill="none" stroke="#323a37" stroke-width="1.5"/>
+  <path d="M6 21.5 11 21.5 13.5 11 17 24 19.5 16.5 21.5 16.5" fill="none" stroke="#b4f33e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24.5" cy="16.5" r="2" fill="#b4f33e"/>
+</svg>
