@@ -55,7 +55,7 @@ export function SkillThumbnail({ skill, size = 'card' }: Props) {
   }
 
   if (!hasAnyMedia) {
-    return <SkillPlaceholder category={skill.category} size={size} />
+    return <SkillPlaceholder category={skill.category} seed={skill.name} size={size} />
   }
 
   return (
@@ -126,15 +126,17 @@ export function SkillThumbnail({ skill, size = 'card' }: Props) {
  */
 function SkillPlaceholder({
   category,
+  seed,
   size,
 }: {
   category?: string
+  seed?: string
   size: 'card' | 'detail'
 }) {
   return (
     <div
       className={`relative w-full overflow-hidden ${ASPECT[size]}`}
-      dangerouslySetInnerHTML={{ __html: categoryThumbnailSvg(category) }}
+      dangerouslySetInnerHTML={{ __html: categoryThumbnailSvg(category, { seed }) }}
     />
   )
 }
