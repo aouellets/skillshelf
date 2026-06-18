@@ -130,5 +130,5 @@ Remaining operator actions:
 | MCP endpoint | `https://skillme.dev/api/mcp` |
 | Email domain | `skillshelf.ai` (Cloudflare Email Routing) |
 | Support / security | `support@skillshelf.ai` · `security@skillshelf.ai` → `alexander.ouellet@icloud.com` |
-| Repo | `github.com/aouellets/skillshelf` (MIT) |
+| Repo | `github.com/aouellets/skillme` (MIT) |
 | Setup scripts | `npm run setup:email` · `npm run build:catalog` · `npm run build:art` |

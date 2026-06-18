@@ -30,7 +30,7 @@ const CORE_SEED_SKILLS: SeedSkill[] = [
     description:
       'Teaches Claude to use the Skill Me catalog itself — browse, install, and manage skills from any conversation. The first skill on the shelf.',
     author: 'skillshelf',
-    source_url: 'https://github.com/aouellets/skillshelf',
+    source_url: 'https://github.com/aouellets/skillme',
     featured: true,
     verified: true,
     tags: ['mcp', 'skills', 'meta', 'productivity'],

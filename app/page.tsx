@@ -260,7 +260,7 @@ export default async function HomePage() {
               Fork it, extend it, run your own private instance.
             </p>
             <a
-              href="https://github.com/aouellets/skillshelf"
+              href="https://github.com/aouellets/skillme"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 inline-flex text-sm text-accent transition-colors hover:text-accent-hover"
