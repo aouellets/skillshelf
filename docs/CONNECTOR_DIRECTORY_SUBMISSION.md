@@ -20,14 +20,14 @@ generic custom-connector placeholder.
 | **Tagline** (≤55) | `Install curated Claude skills and packs in seconds.` |
 | **Primary category** | Productivity |
 | **Secondary category** | Developer Tools |
-| **MCP server URL** | `https://skillshelf-ten.vercel.app/api/mcp` |
+| **MCP server URL** | `https://skillme.dev/api/mcp` |
 | **Transport** | Streamable HTTP (JSON-RPC 2.0) |
 | **Authentication** | `none` — identity is derived from the connection's session headers; no login or API key required |
-| **Icon** | `https://skillshelf-ten.vercel.app/skill-me-icon.svg` (scalable) and `…/skill-me-icon-512.png` (512×512 PNG) |
-| **Website / docs** | `https://skillshelf-ten.vercel.app` · setup guide: `https://skillshelf-ten.vercel.app/connect` |
+| **Icon** | `https://skillme.dev/skill-me-icon.svg` (scalable) and `…/skill-me-icon-512.png` (512×512 PNG) |
+| **Website / docs** | `https://skillme.dev` · setup guide: `https://skillme.dev/connect` |
 | **Source** | `https://github.com/aouellets/skillshelf` (MIT) |
-| **Privacy policy** | `https://skillshelf-ten.vercel.app/privacy` *(must be published — draft in §4)* |
-| **Support contact** | `support@skillshelf.ai` *(set up an inbox)* · GitHub Issues for bug reports |
+| **Privacy policy** | `https://skillme.dev/privacy` *(must be published — draft in §4)* |
+| **Support contact** | `support@skillme.dev` *(set up an inbox)* · GitHub Issues for bug reports |
 | **Test account** | None needed — add the connector and call `browse_skills`; all read tools work with no credentials. |
 
 ### Description (≤2000 chars)
@@ -59,7 +59,7 @@ generic custom-connector placeholder.
 > never reads your chats, memory, or uploaded files; it only stores which skills
 > and packs you choose to install.
 >
-> Browse the full catalog at skillshelf-ten.vercel.app.
+> Browse the full catalog at skillme.dev.
 
 *(~1,240 characters — within the 2,000 limit.)*
 
@@ -100,7 +100,7 @@ The directory requires every tool to carry `title` plus a `readOnlyHint` /
 **To do before submitting**
 - [ ] **Publish a privacy policy** at a public HTTPS URL (draft in §4) — hard requirement
 - [ ] **Add tool annotations** (`title` + read-only/destructive hints) to all 9 tools
-- [ ] **Stand up a support inbox** (e.g. `support@skillshelf.ai`)
+- [ ] **Stand up a support inbox** (e.g. `support@skillme.dev`)
 - [ ] Confirm the **`auth.type: "none"`** flow works end-to-end as a fresh custom connector (tokenless/header-identity is a known reviewer edge case — be ready to add lightweight OAuth/PKCE if asked)
 - [ ] Confirm compliance with Anthropic's Usage Policy and Software Directory Policy
 - [ ] Verify the **current submission entry point** in official docs
@@ -146,7 +146,7 @@ The directory requires every tool to carry `title` plus a `readOnlyHint` /
 > The safety classifier used when reviewing submitted skills runs on the
 > Anthropic API.
 >
-> **Contact.** support@skillshelf.ai
+> **Contact.** support@skillme.dev
 
 ---
 
@@ -158,5 +158,5 @@ The directory requires every tool to carry `title` plus a `readOnlyHint` /
 > auto-loads their library each session. No login is required; the server never
 > accesses chats, memory, or files and stores only the user's chosen library.
 > We'd like it listed so users get a trustworthy, branded entry point instead of
-> a generic custom connector. Catalog: skillshelf-ten.vercel.app · Source:
+> a generic custom connector. Catalog: skillme.dev · Source:
 > github.com/aouellets/skillshelf.
