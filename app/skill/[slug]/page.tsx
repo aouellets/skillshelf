@@ -6,6 +6,9 @@ import { VerifiedMark } from '@/components/VerifiedMark'
 import { InstallInstructions } from '@/components/InstallInstructions'
 import { ShareButton } from '@/components/ShareButton'
 import { StarRating } from '@/components/StarRating'
+import { FavoriteButton } from '@/components/FavoriteButton'
+import { CollectionPicker } from '@/components/CollectionPicker'
+import { ReviewSection } from '@/components/ReviewSection'
 import { SkillThumbnail } from '@/components/SkillThumbnail'
 import { CATEGORY_MAP, formatInstalls } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
@@ -142,11 +145,15 @@ export default async function SkillDetailPage({
               )}
             </pre>
           </section>
+
+          <ReviewSection skillId={skill.id} slug={skill.slug} />
         </div>
 
         {/* Sidebar */}
         <aside className="space-y-4">
           <InstallInstructions skillName={skill.name} />
+          <FavoriteButton skillId={skill.id} variant="button" />
+          <CollectionPicker skillId={skill.id} />
           <StarRating
             skillId={skill.id}
             initialAvg={skill.rating_avg}

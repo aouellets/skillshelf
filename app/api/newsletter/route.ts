@@ -13,7 +13,7 @@ function clientIp(req: NextRequest): string {
 
 export async function POST(req: NextRequest) {
   // Per-IP rate limit to deter signup spam (10/min, shared limiter).
-  const rate = checkRateLimit(`waitlist:${clientIp(req)}`)
+  const rate = checkRateLimit(`newsletter:${clientIp(req)}`)
   if (!rate.ok) {
     return Response.json(
       { error: `Too many requests. Try again in ${rate.retryAfter}s.` },
@@ -33,24 +33,24 @@ export async function POST(req: NextRequest) {
     return Response.json({ error: 'A valid email is required.' }, { status: 400 })
   }
 
-  // Try to store in Supabase waitlist table
+  // Store the signup. We never reveal DB state to the caller — signing up is
+  // always reported as success so the form can't be used to probe membership.
   const supabase = getServiceSupabase()
   if (supabase) {
     const { error } = await supabase
-      .from('waitlist')
+      .from('newsletter_signups')
       .upsert({ email, created_at: new Date().toISOString() }, { onConflict: 'email' })
 
     if (error && error.code !== '42P01') {
       // 42P01 = table doesn't exist yet — graceful fallback
-      console.error('[waitlist] upsert error:', error.message)
+      console.error('[newsletter] upsert error:', error.message)
     }
   }
 
-  // Always succeed from the user's perspective — even if DB fails
-  console.log('[waitlist] signup:', email)
+  console.log('[newsletter] signup:', email)
 
   return Response.json({
     ok: true,
-    message: 'You\'re on the list. We\'ll email you when new skill packs drop.',
+    message: "You're subscribed. We'll email you when new skills and packs drop.",
   })
 }

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { CategoryBadge } from './CategoryBadge'
 import { VerifiedMark } from './VerifiedMark'
 import { SkillThumbnail } from './SkillThumbnail'
+import { FavoriteButton } from './FavoriteButton'
 import { formatInstalls, isNewSkill } from '@/lib/categories'
 import { track } from '@/lib/analytics'
 import type { Skill } from '@/lib/types'
@@ -22,6 +23,7 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
           New
         </span>
       )}
+      <FavoriteButton skillId={skill.id} variant="icon" />
       <SkillThumbnail skill={skill} size="card" />
       <div className="flex flex-1 flex-col gap-3 p-5">
         <div className="flex items-start justify-between gap-3">

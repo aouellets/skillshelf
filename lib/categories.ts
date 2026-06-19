@@ -1,4 +1,4 @@
-import type { SkillCategory } from './types'
+import type { PackCategory, SkillCategory } from './types'
 
 export interface CategoryMeta {
   slug: SkillCategory
@@ -27,6 +27,16 @@ export const CATEGORY_MAP: Record<SkillCategory, CategoryMeta> = CATEGORIES.redu
 
 export function isCategory(value: string): value is SkillCategory {
   return CATEGORIES.some((c) => c.slug === value)
+}
+
+// Packs add a "mixed" category on top of the skill categories.
+export const PACK_CATEGORIES: { slug: PackCategory; label: string }[] = [
+  ...CATEGORIES.map((c) => ({ slug: c.slug as PackCategory, label: c.label })),
+  { slug: 'mixed', label: 'Mixed' },
+]
+
+export function isPackCategory(value: string): value is PackCategory {
+  return PACK_CATEGORIES.some((c) => c.slug === value)
 }
 
 export function formatInstalls(count: number): string {
