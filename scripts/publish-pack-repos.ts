@@ -46,13 +46,23 @@ const NO_DB = args.includes('--no-db')
 const ALL = args.includes('--all')
 const slugArgs = args.filter((a) => !a.startsWith('--'))
 
+// We load .env.local for the Supabase DB creds, but that may also define
+// GH_TOKEN/GITHUB_TOKEN (used elsewhere for read-only GitHub API calls). gh and
+// git's credential helper prefer those env vars over the keyring login, so a
+// low-privilege token there silently overrides `gh auth login`. Strip them from
+// every gh/git subprocess so they use the keyring credential (which has repo
+// creation rights).
+const CLEAN_ENV: NodeJS.ProcessEnv = { ...process.env }
+delete CLEAN_ENV.GH_TOKEN
+delete CLEAN_ENV.GITHUB_TOKEN
+
 function sh(cmd: string, cmdArgs: string[], cwd?: string): string {
-  return execFileSync(cmd, cmdArgs, { cwd, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] })
+  return execFileSync(cmd, cmdArgs, { cwd, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], env: CLEAN_ENV })
 }
 
 function repoExists(slug: string): boolean {
   try {
-    execFileSync('gh', ['repo', 'view', `${SKILLS_OWNER}/${slug}`], { stdio: 'ignore' })
+    execFileSync('gh', ['repo', 'view', `${SKILLS_OWNER}/${slug}`], { stdio: 'ignore', env: CLEAN_ENV })
     return true
   } catch {
     return false
