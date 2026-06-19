@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'How Skill Me handles your data: no login, no access to your chats or files — only the skills and packs you choose to install.',
+    'How Skill Me handles your data: optional sign-in, no access to your chats or files — only the skills and packs you choose to install.',
 }
 
 const UPDATED = 'June 18, 2026'
@@ -32,25 +32,42 @@ export default function PrivacyPage() {
 
       <p className="mt-8 text-sm leading-relaxed text-shelf-text-secondary">
         Skill Me is a catalog of Claude skills you can browse and install through an MCP
-        connector. This policy explains what it stores and, just as importantly, what it
-        never touches.
+        connector, or use signed in on the website. This policy explains what it stores and,
+        just as importantly, what it never touches.
       </p>
 
-      <Section title="No account required">
+      <Section title="Using the connector — no account required">
         <p>
-          Skill Me does not require a login. When you connect, a stable per-connection token
-          is derived from the session headers your MCP client sends, and your installed
-          library is tied to that token. We do not collect your name, email, or any profile
-          information through the connector.
+          Using Skill Me through the MCP connector does not require a login. When you connect, a
+          stable per-connection token is derived from the session headers your MCP client sends,
+          and your installed library is tied to that token. We do not collect your name, email,
+          or any profile information through the connector.
+        </p>
+      </Section>
+
+      <Section title="Signing in on the website">
+        <p>
+          The website offers an optional sign-in (email magic link or GitHub) so you can manage
+          your library, favorites, reviews, and collections from a browser. Authentication is
+          handled by Supabase Auth; when you sign in we store your account identifier and email,
+          and — if you sign in with GitHub — the public profile name GitHub provides. If you
+          never sign in on the website, none of this is collected.
         </p>
       </Section>
 
       <Section title="What we store">
         <p>
           Only what is needed to provide the service: which skills and packs you install, the
-          ratings you submit, and the collections you create. These records are stored in our
-          database (Supabase), keyed to your connection token, so your skills stay installed
-          across sessions.
+          ratings and written reviews you submit, the skills you favorite, and the collections
+          you create. These records are stored in our database (Supabase), keyed to your
+          connection token or signed-in account, so they persist across sessions.
+        </p>
+        <p>
+          Written reviews are public: each review is shown on the skill&rsquo;s page alongside a
+          display name (your GitHub username or name when available, otherwise
+          &ldquo;Anonymous&rdquo;). We never display your email address. If you join the
+          newsletter, we store the email address you enter so we can notify you about new skills
+          and packs; you can ask us to remove it at any time.
         </p>
       </Section>
 
@@ -72,10 +89,11 @@ export default function PrivacyPage() {
 
       <Section title="Retention and deletion">
         <p>
-          Library, rating, and collection records persist so your skills remain available. You
-          can remove items at any time with the <code>uninstall_skill</code> and{' '}
-          <code>manage_collection</code> tools; removed items are deleted from your library. To
-          request deletion of all data tied to your connection, contact us.
+          Library, rating, review, favorite, and collection records persist so your skills
+          remain available. In Claude you can remove items with the <code>uninstall_skill</code>{' '}
+          and <code>manage_collection</code> tools; on the website you can unfavorite skills,
+          edit your reviews, and delete collections directly. To request deletion of your
+          newsletter signup or of all data tied to your connection or account, contact us.
         </p>
       </Section>
 
