@@ -7,7 +7,7 @@ import type { SkillCategory } from '@/lib/types'
 /**
  * A looping, self-running "app store" demo for the hero. Each cycle it browses a
  * random category, types it into a search bar, slides in 1–2 real skills from
- * that category (with rating + install count), and installs one with an amber
+ * that category, and installs one with an amber
  * confirmation. Categories rotate in a shuffled order so every pass shows the
  * full breadth of the catalog. Pure state + CSS — no animation library.
  * Respects prefers-reduced-motion by rendering a static, representative state.
@@ -15,51 +15,49 @@ import type { SkillCategory } from '@/lib/types'
 
 interface PoolSkill {
   name: string
-  installs: string
-  rating: string
 }
 
 // 2–3 real catalog skills per category. The component randomly shows 1–2 each
 // cycle, so over time visitors see something from every category.
 const POOL: Record<SkillCategory, PoolSkill[]> = {
   coding: [
-    { name: 'Karpathy Behavioral Rules', installs: '172k', rating: '4.9' },
-    { name: 'Code Review Checklist', installs: '54k', rating: '4.8' },
-    { name: 'Next.js App Router', installs: '41k', rating: '4.7' },
+    { name: 'Karpathy Behavioral Rules' },
+    { name: 'Code Review Checklist' },
+    { name: 'Next.js App Router' },
   ],
   writing: [
-    { name: 'LinkedIn Post Writer', installs: '88k', rating: '4.8' },
-    { name: 'Cold Email Craft', installs: '63k', rating: '4.7' },
-    { name: 'Tweet Thread Builder', installs: '47k', rating: '4.6' },
+    { name: 'LinkedIn Post Writer' },
+    { name: 'Cold Email Craft' },
+    { name: 'Tweet Thread Builder' },
   ],
   research: [
-    { name: 'Deep Research', installs: '96k', rating: '4.9' },
-    { name: 'Fact Checker', installs: '38k', rating: '4.8' },
-    { name: 'Literature Review', installs: '29k', rating: '4.7' },
+    { name: 'Deep Research' },
+    { name: 'Fact Checker' },
+    { name: 'Literature Review' },
   ],
   productivity: [
-    { name: 'GTD System', installs: '71k', rating: '4.8' },
-    { name: 'Email Triage', installs: '52k', rating: '4.7' },
-    { name: 'Weekly Review', installs: '34k', rating: '4.8' },
+    { name: 'GTD System' },
+    { name: 'Email Triage' },
+    { name: 'Weekly Review' },
   ],
   data: [
-    { name: 'SQL to Insights', installs: '67k', rating: '4.8' },
-    { name: 'Pandas Expert', installs: '58k', rating: '4.7' },
-    { name: 'SQL Query Optimizer', installs: '44k', rating: '4.9' },
+    { name: 'SQL to Insights' },
+    { name: 'Pandas Expert' },
+    { name: 'SQL Query Optimizer' },
   ],
   design: [
-    { name: 'UI/UX Pro Max', installs: '83k', rating: '4.9' },
-    { name: 'Color Accessibility', installs: '31k', rating: '4.8' },
+    { name: 'UI/UX Pro Max' },
+    { name: 'Color Accessibility' },
   ],
   business: [
-    { name: 'Investor Update Writer', installs: '49k', rating: '4.7' },
-    { name: 'Go-to-Market Planner', installs: '37k', rating: '4.8' },
-    { name: 'Pricing Strategy', installs: '28k', rating: '4.7' },
+    { name: 'Investor Update Writer' },
+    { name: 'Go-to-Market Planner' },
+    { name: 'Pricing Strategy' },
   ],
   personal: [
-    { name: 'Meal Planner', installs: '61k', rating: '4.8' },
-    { name: 'Fitness Program', installs: '45k', rating: '4.7' },
-    { name: 'Life Coach', installs: '39k', rating: '4.8' },
+    { name: 'Meal Planner' },
+    { name: 'Fitness Program' },
+    { name: 'Life Coach' },
   ],
 }
 
@@ -281,9 +279,8 @@ export function HeroDemo() {
                       {skill.name}
                     </span>
                   </div>
-                  <div className="flex items-center gap-3 pl-4 font-mono text-[11px] text-shelf-text-tertiary">
-                    <span className="text-accent">★ {skill.rating}</span>
-                    <span>{skill.installs} installs</span>
+                  <div className="pl-4 font-mono text-[11px] text-shelf-text-tertiary">
+                    {CATEGORY_MAP[v.cat]?.label ?? v.cat}
                   </div>
                 </div>
 
