@@ -54,6 +54,21 @@ export default function SubmitPage() {
         </div>
       </section>
 
+      {/* Pack submission */}
+      <section className="mt-10 card flex flex-wrap items-center justify-between gap-3 p-5">
+        <div>
+          <h2 className="text-base font-medium text-shelf-text-primary">
+            Curating a bundle of skills?
+          </h2>
+          <p className="mt-1 text-sm text-shelf-text-secondary">
+            Submit a pack — a themed collection of existing catalog skills.
+          </p>
+        </div>
+        <Link href="/submit/pack" className="btn btn-secondary flex-shrink-0">
+          Submit a pack →
+        </Link>
+      </section>
+
       {/* Alternate paths — GitHub */}
       <section className="mt-12">
         <h2 className="text-xl font-medium text-shelf-text-primary">Prefer GitHub?</h2>
