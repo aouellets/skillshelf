@@ -142,11 +142,17 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// Some MCP clients probe with GET to open a stream; we are POST-only JSON.
+// MCP Streamable HTTP: a GET opens the OPTIONAL server->client SSE stream. We
+// hold no session state and never push server-initiated messages, so per the
+// transport spec we MUST answer this GET with either `text/event-stream` or
+// `405 Method Not Allowed`. Returning a 200 non-SSE body (as we used to) makes
+// strict clients — including the claude.ai connector, which opens this stream
+// right after OAuth — fail with "returned an error when connecting". 405 tells
+// the client to stay on POST.
 export async function GET() {
-  return new Response('Skill Me MCP endpoint. Use POST with JSON-RPC 2.0.', {
-    status: 200,
-    headers: { ...CORS_HEADERS, 'Content-Type': 'text/plain' },
+  return new Response('Skill Me MCP endpoint. Use POST with JSON-RPC 2.0. No SSE stream offered.', {
+    status: 405,
+    headers: { ...CORS_HEADERS, 'Content-Type': 'text/plain', Allow: 'POST, OPTIONS' },
   })
 }
 
