@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import { SkillThumbnail } from './SkillThumbnail'
 import { VerifiedMark } from './VerifiedMark'
-import { formatInstalls } from '@/lib/categories'
+import { OfficialBadge } from './OfficialBadge'
+import { installLabel } from '@/lib/categories'
+import { isOfficial } from '@/lib/skill-source'
 import type { Pack } from '@/lib/types'
 
 type PackCardData = Omit<Pack, 'skills'>
@@ -29,7 +31,11 @@ export function PackCard({ pack }: { pack: PackCardData }) {
           <span className="inline-flex items-center gap-1 rounded-xs border border-accent-border bg-accent-dim px-2 py-0.5 font-mono text-xs text-accent">
             Pack
           </span>
-          {pack.verified && <VerifiedMark label={false} />}
+          {isOfficial(pack) ? (
+            <OfficialBadge label={false} />
+          ) : (
+            pack.verified && <VerifiedMark label={false} />
+          )}
         </div>
 
         <h3 className="font-display text-base font-semibold leading-snug text-shelf-text-primary transition-colors group-hover:text-accent-hover">
@@ -42,7 +48,7 @@ export function PackCard({ pack }: { pack: PackCardData }) {
 
         <div className="flex items-center justify-between border-t border-shelf-border pt-3 font-mono text-xs text-shelf-text-tertiary">
           <span>{pack.skill_count ?? '?'} skills</span>
-          <span>{formatInstalls(pack.install_count)} installs</span>
+          {installLabel(pack.install_count) && <span>{installLabel(pack.install_count)}</span>}
         </div>
       </div>
     </Link>

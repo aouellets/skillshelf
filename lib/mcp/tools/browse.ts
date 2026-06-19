@@ -69,10 +69,14 @@ export const browseSkills: Tool<BrowseArgs> = {
 
     const lines = skills.map((s, i) => {
       const verified = s.verified ? ' · verified' : ''
+      // Only surface metrics that reflect real engagement (hide-until-real).
+      const stats: string[] = []
+      if (s.install_count > 0) stats.push(`${formatInstalls(s.install_count)} installs`)
+      if (s.rating_count > 0) stats.push(`rating ${s.rating_avg.toFixed(1)}`)
       return [
         `${i + 1}. ${s.name} — ${s.category}${verified}`,
         `   ${s.description}`,
-        `   ${formatInstalls(s.install_count)} installs · rating ${s.rating_avg.toFixed(1)}`,
+        ...(stats.length ? [`   ${stats.join(' · ')}`] : []),
         `   skill_id: ${s.id}`,
       ].join('\n')
     })

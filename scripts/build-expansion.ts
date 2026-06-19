@@ -78,9 +78,12 @@ function main() {
         featured: false,
         verified: true,
         tags: s.tags,
-        install_count: s.install_count ?? 8000,
-        rating_avg: s.rating_avg ?? 4.6,
-        rating_count: s.rating_count ?? 300,
+        // Metrics are runtime-accumulated and DB-owned; the catalog never ships
+        // authored install/rating numbers. Any values in the source JSON are
+        // ignored here so the generated seed data carries no fabricated metrics.
+        install_count: 0,
+        rating_avg: 0,
+        rating_count: 0,
         skill_content: s.skill_content,
       })
     }

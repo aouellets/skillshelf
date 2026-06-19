@@ -38,9 +38,10 @@ async function main() {
     source_url: resolveSourceUrl(s) ?? null,
     author: s.author,
     skill_content: s.skill_content,
-    install_count: s.install_count,
-    rating_avg: s.rating_avg,
-    rating_count: s.rating_count,
+    // install_count / rating_avg / rating_count are intentionally omitted:
+    // they are runtime-accumulated (install_skill RPC + recompute_skill_rating)
+    // and DB-owned. Seeding must never write them, or every db:seed would
+    // overwrite real engagement with authored placeholder numbers.
     verified: s.verified,
     featured: s.featured,
     free: true,

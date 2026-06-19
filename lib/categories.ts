@@ -47,6 +47,19 @@ export function formatInstalls(count: number): string {
   return String(count)
 }
 
+/**
+ * Full "N installs" label, or null when there is no real install data to show.
+ *
+ * Hide-until-real: install counts are runtime-accumulated, so a skill/pack with
+ * zero real installs shows no count at all (the "New" badge covers fresh items)
+ * rather than a fabricated or hollow "0 installs". This is the single place that
+ * decides whether an install count is worth showing.
+ */
+export function installLabel(count: number): string | null {
+  if (!count || count <= 0) return null
+  return `${formatInstalls(count)} install${count === 1 ? '' : 's'}`
+}
+
 /** A skill is "new" if it was added within the last 14 days. Client-safe. */
 export function isNewSkill(createdAt: string): boolean {
   const age = Date.now() - Date.parse(createdAt)

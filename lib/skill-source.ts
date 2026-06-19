@@ -36,6 +36,16 @@ export function resolveSourceUrl(skill: {
   return undefined
 }
 
+/**
+ * First-party: authored in-house by Skill Me. This is the "Official" trust
+ * signal, distinct from `verified` (which means human-reviewed and also applies
+ * to approved community submissions). `community`- and externally-authored
+ * skills are not official even when hosted here.
+ */
+export function isOfficial(skill: { author?: string }): boolean {
+  return skill.author === 'Skill Me'
+}
+
 /** True when this repo hosts the canonical SKILL.md for the skill. */
 export function isHostedHere(skill: {
   slug: string

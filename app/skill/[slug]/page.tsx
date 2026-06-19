@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { CategoryBadge } from '@/components/CategoryBadge'
 import { VerifiedMark } from '@/components/VerifiedMark'
+import { OfficialBadge } from '@/components/OfficialBadge'
+import { isOfficial } from '@/lib/skill-source'
 import { InstallInstructions } from '@/components/InstallInstructions'
 import { ShareButton } from '@/components/ShareButton'
 import { StarRating } from '@/components/StarRating'
@@ -10,7 +12,7 @@ import { FavoriteButton } from '@/components/FavoriteButton'
 import { CollectionPicker } from '@/components/CollectionPicker'
 import { ReviewSection } from '@/components/ReviewSection'
 import { SkillThumbnail } from '@/components/SkillThumbnail'
-import { CATEGORY_MAP, formatInstalls } from '@/lib/categories'
+import { CATEGORY_MAP, installLabel } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
 import { SITE_URL } from '@/lib/site'
 
@@ -85,13 +87,14 @@ export default async function SkillDetailPage({
       <header className="mt-6">
         <div className="flex flex-wrap items-center gap-3">
           <CategoryBadge category={skill.category} size="md" />
+          {isOfficial(skill) && <OfficialBadge />}
           {skill.verified && <VerifiedMark />}
         </div>
         <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight text-shelf-text-primary sm:text-5xl">
           {skill.name}
         </h1>
         <div className="mt-3 flex flex-wrap items-center gap-4 font-mono text-sm text-shelf-text-tertiary">
-          <span>{formatInstalls(skill.install_count)} installs</span>
+          {installLabel(skill.install_count) && <span>{installLabel(skill.install_count)}</span>}
           {skill.rating_count > 0 && (
             <span>
               <span className="text-accent">★</span> {skill.rating_avg.toFixed(1)} (

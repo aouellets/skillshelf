@@ -16,7 +16,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const name = pack?.name ?? 'Skill Me'
   const tagline = pack?.tagline ?? 'A themed bundle of curated Claude skills.'
   const skillCount = pack?.skill_count ?? 0
-  const installs = pack ? formatInstalls(pack.install_count) : null
+  const installs = pack && pack.install_count > 0 ? formatInstalls(pack.install_count) : null
 
   const nameSize = name.length > 34 ? 64 : name.length > 22 ? 80 : 96
   const cleanedTag = clean(tagline)

@@ -3,9 +3,11 @@
 import Link from 'next/link'
 import { CategoryBadge } from './CategoryBadge'
 import { VerifiedMark } from './VerifiedMark'
+import { OfficialBadge } from './OfficialBadge'
 import { SkillThumbnail } from './SkillThumbnail'
 import { FavoriteButton } from './FavoriteButton'
-import { formatInstalls, isNewSkill } from '@/lib/categories'
+import { installLabel, isNewSkill } from '@/lib/categories'
+import { isOfficial } from '@/lib/skill-source'
 import { track } from '@/lib/analytics'
 import type { Skill } from '@/lib/types'
 
@@ -38,14 +40,18 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
         </p>
 
         <div className="flex items-center justify-between border-t border-shelf-border pt-3 font-mono text-xs text-shelf-text-tertiary">
-          <span>{formatInstalls(skill.install_count)} installs</span>
-          <span className="flex items-center gap-3">
+          <span>{installLabel(skill.install_count) ?? ''}</span>
+          <span className="ml-auto flex items-center gap-3">
             {skill.rating_count > 0 && (
               <span className="text-shelf-text-secondary">
                 <span className="text-accent">★</span> {skill.rating_avg.toFixed(1)}
               </span>
             )}
-            {skill.verified && <VerifiedMark label={false} />}
+            {isOfficial(skill) ? (
+              <OfficialBadge label={false} />
+            ) : (
+              skill.verified && <VerifiedMark label={false} />
+            )}
           </span>
         </div>
       </div>
