@@ -35,12 +35,18 @@ export const browsePacks: Tool<BrowsePacksArgs> = {
       return text('No packs found. Try browsing individual skills with browse_skills instead.')
     }
 
-    const lines = packs.map((p, i) => [
-      `${i + 1}. ${p.name}${p.verified ? ' · verified' : ''}`,
-      `   ${p.tagline}`,
-      `   ${p.skill_count ?? '?'} skills · ${formatInstalls(p.install_count)} installs · ${p.category}`,
-      `   pack_id: ${p.id}`,
-    ].join('\n'))
+    const lines = packs.map((p, i) => {
+      // Skills count and category always; installs only when real (hide-until-real).
+      const stats = [`${p.skill_count ?? '?'} skills`]
+      if (p.install_count > 0) stats.push(`${formatInstalls(p.install_count)} installs`)
+      stats.push(p.category)
+      return [
+        `${i + 1}. ${p.name}${p.verified ? ' · verified' : ''}`,
+        `   ${p.tagline}`,
+        `   ${stats.join(' · ')}`,
+        `   pack_id: ${p.id}`,
+      ].join('\n')
+    })
 
     return text(
       `Found ${packs.length} pack${packs.length === 1 ? '' : 's'}:\n\n${lines.join('\n\n')}\n\nTo install a pack and all its skills, call install_pack with its pack_id.`

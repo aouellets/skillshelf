@@ -26,7 +26,10 @@ async function main() {
   console.log(`Seeding ${PACK_DEFINITIONS.length} packs...`)
 
   for (const packDef of PACK_DEFINITIONS) {
-    const { skill_slugs, ...packData } = packDef
+    // install_count is runtime-accumulated (increment_pack_install_count) and
+    // DB-owned; drop it from the seed payload so seeding never overwrites real
+    // installs with the authored placeholder.
+    const { skill_slugs, install_count: _install_count, ...packData } = packDef
 
     // Upsert the pack
     const { data: pack, error: packError } = await supabase

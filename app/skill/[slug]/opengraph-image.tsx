@@ -17,7 +17,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const description =
     skill?.description ?? 'The App Store for Claude skills. Install intelligence.'
   const category = skill ? CATEGORY_MAP[skill.category] : undefined
-  const installs = skill ? formatInstalls(skill.install_count) : null
+  const installs = skill && skill.install_count > 0 ? formatInstalls(skill.install_count) : null
   const rating = skill && skill.rating_count > 0 ? skill.rating_avg.toFixed(1) : null
 
   // Scale the headline so long names still fit on two lines.

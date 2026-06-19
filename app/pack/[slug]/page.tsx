@@ -4,8 +4,10 @@ import type { Metadata } from 'next'
 import { SkillCard } from '@/components/SkillCard'
 import { SkillThumbnail } from '@/components/SkillThumbnail'
 import { VerifiedMark } from '@/components/VerifiedMark'
+import { OfficialBadge } from '@/components/OfficialBadge'
+import { isOfficial } from '@/lib/skill-source'
 import { CopyButton } from '@/components/CopyButton'
-import { formatInstalls } from '@/lib/categories'
+import { installLabel } from '@/lib/categories'
 import { getPackBySlug } from '@/lib/packs'
 import { MCP_URL } from '@/lib/site'
 
@@ -67,6 +69,7 @@ export default async function PackDetailPage({
           <span className="inline-flex items-center gap-1 rounded border border-accent-border bg-accent-dim px-2.5 py-1 font-mono text-sm text-accent">
             Pack · {pack.skill_count ?? 0} skills
           </span>
+          {isOfficial(pack) && <OfficialBadge />}
           {pack.verified && <VerifiedMark />}
         </div>
         <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight text-shelf-text-primary sm:text-5xl">
@@ -74,7 +77,7 @@ export default async function PackDetailPage({
         </h1>
         <p className="mt-3 text-lg leading-relaxed text-shelf-text-secondary">{pack.tagline}</p>
         <div className="mt-3 flex flex-wrap items-center gap-4 font-mono text-sm text-shelf-text-tertiary">
-          <span>{formatInstalls(pack.install_count)} installs</span>
+          {installLabel(pack.install_count) && <span>{installLabel(pack.install_count)}</span>}
           {pack.author && <span>by {pack.author}</span>}
         </div>
       </header>

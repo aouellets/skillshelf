@@ -102,10 +102,6 @@ export function BrowseClient({
       <p className="mt-3 max-w-xl text-shelf-text-secondary">
         Search the catalog, filter by category, and install from inside Claude.
       </p>
-      <p className="mt-2 text-xs text-shelf-text-tertiary">
-        Install counts reflect community GitHub adoption data. Real-time installs
-        via Skill Me MCP are tracked separately and added daily.
-      </p>
 
       <div className="mt-8 space-y-5">
         <div className="max-w-md">
