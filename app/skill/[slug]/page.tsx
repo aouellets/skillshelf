@@ -7,6 +7,7 @@ import { InstallInstructions } from '@/components/InstallInstructions'
 import { ShareButton } from '@/components/ShareButton'
 import { StarRating } from '@/components/StarRating'
 import { FavoriteButton } from '@/components/FavoriteButton'
+import { ReviewSection } from '@/components/ReviewSection'
 import { SkillThumbnail } from '@/components/SkillThumbnail'
 import { CATEGORY_MAP, formatInstalls } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
@@ -143,6 +144,8 @@ export default async function SkillDetailPage({
               )}
             </pre>
           </section>
+
+          <ReviewSection skillId={skill.id} slug={skill.slug} />
         </div>
 
         {/* Sidebar */}
