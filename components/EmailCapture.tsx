@@ -20,7 +20,7 @@ export function EmailCapture({
     setStatus('loading')
 
     try {
-      const res = await fetch('/api/waitlist', {
+      const res = await fetch('/api/newsletter', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: email.trim() }),
@@ -30,7 +30,7 @@ export function EmailCapture({
 
       if (res.ok) {
         setStatus('success')
-        setMessage(data.message ?? 'You\'re on the list.')
+        setMessage(data.message ?? 'You\'re subscribed.')
         setEmail('')
       } else {
         setStatus('error')
@@ -67,7 +67,7 @@ export function EmailCapture({
           disabled={status === 'loading'}
         />
         <button type="submit" className="btn btn-primary flex-shrink-0" disabled={status === 'loading'}>
-          {status === 'loading' ? 'Joining…' : 'Join waitlist'}
+          {status === 'loading' ? 'Joining…' : 'Join newsletter'}
         </button>
       </div>
       {status === 'error' && (
