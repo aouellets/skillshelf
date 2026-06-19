@@ -136,6 +136,47 @@ export interface CollectionSkill {
   skill?: Skill
 }
 
+export interface UserFavorite {
+  id: string
+  user_token: string
+  skill_id: string
+  created_at: string
+  skill?: Skill
+}
+
+export interface SkillReview {
+  id: string
+  user_token: string
+  skill_id: string
+  rating: number
+  body: string
+  author_name?: string | null
+  created_at: string
+  updated_at: string
+}
+
+export interface PackSubmission {
+  id: string
+  status: SubmissionStatus
+  name: string
+  tagline: string
+  description: string
+  author?: string
+  author_url?: string
+  category: PackCategory
+  tags?: string[]
+  skill_slugs: string[]
+  thumbnail_url?: string
+  media_alt?: string
+  submitter_email?: string
+  submitter_token?: string
+  reviewer_note?: string
+  reviewed_at?: string | null
+  published_pack_id?: string | null
+  created_at: string
+  updated_at: string
+}
+
 export interface MCPToolResult {
   content: Array<{ type: 'text'; text: string }>
   isError?: boolean

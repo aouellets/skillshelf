@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { Analytics } from '@vercel/analytics/next'
 import { SITE_URL } from '@/lib/site'
 import { AuthButton } from '@/components/AuthButton'
+import { FavoritesProvider } from '@/components/FavoritesProvider'
 import { Wordmark } from '@/components/Logo'
 import { EmailCapture } from '@/components/EmailCapture'
 import './globals.css'
@@ -162,11 +163,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${display.variable} ${GeistSans.variable} ${GeistMono.variable}`}
     >
       <body>
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
+        <FavoritesProvider>
+          <div className="flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </FavoritesProvider>
         <Analytics />
       </body>
     </html>
