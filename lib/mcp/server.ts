@@ -115,6 +115,19 @@ export function createMCPServer(userToken: string | null) {
           tools: TOOLS.map((t) => t.definition),
         })
 
+      // We advertise only the `tools` capability, but several clients (the
+      // claude.ai connector included) probe these during the connect handshake
+      // regardless. Answer with empty lists rather than a -32601 error so the
+      // probe doesn't read as a server failure and abort the connection.
+      case 'resources/list':
+        return result(req.id, { resources: [] })
+
+      case 'resources/templates/list':
+        return result(req.id, { resourceTemplates: [] })
+
+      case 'prompts/list':
+        return result(req.id, { prompts: [] })
+
       case 'tools/call': {
         const name = req.params?.name as string | undefined
         const args = (req.params?.arguments as Record<string, unknown>) ?? {}
