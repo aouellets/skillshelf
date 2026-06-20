@@ -310,9 +310,9 @@ export const PACK_DEFINITIONS: PackDefinition[] = [
   {
     slug: 'fiction-writers-room',
     name: "Fiction Writer's Room",
-    tagline: "Fiction, speeches, op-eds & voice work: write scenes, lines & arguments that land.",
+    tagline: "For fiction writers: plot the arc, draft vivid scenes, hold the voice, then revise.",
     description:
-      "Reach for this when you're crafting prose meant to move a reader or listener — a fiction scene with sensory detail and subtext, a keynote or sermon built to be spoken, a sharp op-ed, a book proposal that sells, or content written convincingly in someone else's voice. It's about getting scenes, lines, and arguments to land, across long and short forms alike.",
+      "Reach for this when you're writing long-form fiction and want every stage to hold together — not a pile of disconnected drafting tips. Architect the plot and beat structure, draft scenes thick with sensory detail and subtext, keep one consistent narrative voice across the whole manuscript, then run a developmental-and-line revision pass that tightens prose and catches continuity and POV slips. It carries a single story from outline to revised draft.",
     author: 'Skill Me',
     category: 'writing',
     tags: ['fiction', 'writing', 'storytelling'],
@@ -320,10 +320,7 @@ export const PACK_DEFINITIONS: PackDefinition[] = [
     verified: true,
     free: true,
     install_count: 9100,
-    skill_slugs: [
-      'fiction-scene-writer', 'ghostwriter', 'speech-writer',
-      'book-proposal', 'op-ed-writer', 'sermon-writer',
-    ],
+    skill_slugs: ["story-structure-architect", "fiction-scene-writer", "ghostwriter", "manuscript-reviser"],
   },
   {
     slug: 'data-engineering-pipeline',
@@ -567,7 +564,7 @@ export const PACK_DEFINITIONS: PackDefinition[] = [
     slug: "health-and-longevity",
     name: "Health & Longevity",
     tagline: "For people building a lasting health practice: train, eat, sleep, and move with intent.",
-    description: "Reach for this when you want to build a health routine that holds up over years, not a 6-week crash plan. It takes you from a strength and nutrition foundation through sleep, mobility, and injury-resilient movement, and helps you read your own bloodwork so you walk into the doctor with the right questions. Use it to assemble a complete weekly routine or to fix the one pillar that's slipping. General wellness education only, not a substitute for professional medical advice.",
+    description: "Reach for this when you want a health routine that holds up over years, not a 6-week crash plan. It builds a foundation of strength and Zone 2 aerobic conditioning, then layers in nutrition, sleep, mobility, and injury-resilient movement — and helps you read your own bloodwork so you walk into the doctor with the right questions. Use it to assemble a complete weekly routine or to fix the one pillar that's slipping. General wellness education only, not a substitute for professional medical advice.",
     author: "Skill Me",
     category: "personal",
     tags: ["health","fitness","longevity"],
@@ -575,7 +572,7 @@ export const PACK_DEFINITIONS: PackDefinition[] = [
     verified: true,
     free: true,
     install_count: 18600,
-    skill_slugs: ["bloodwork-explainer", "nutrition-planner", "strength-training-plan", "injury-prehab", "mobility-routine", "sleep-optimizer", "longevity-protocol"],
+    skill_slugs: ["bloodwork-explainer", "nutrition-planner", "strength-training-plan", "injury-prehab", "mobility-routine", "sleep-optimizer", "longevity-protocol", "zone-2-cardio-plan"],
   },
   {
     slug: "lifecycle-marketing",
