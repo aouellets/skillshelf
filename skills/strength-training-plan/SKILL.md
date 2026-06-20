@@ -1,11 +1,11 @@
 ---
 name: Strength Training Plan
-description: Designs a progressive strength program for a given training level and weekly schedule. Use when starting lifting, plateauing, or restructuring a program. General fitness guidance; not medical advice.
+description: Use when someone starts lifting, hits a strength or hypertrophy plateau, restructures a lifting program, or wants to build strength or muscle — designing a progressive resistance program with splits, compound movement patterns, sets/reps, progressive overload, and deloads from barbells and dumbbells. General fitness guidance, not medical advice. Owns resistance/strength training only. Do NOT use to program high-intensity interval conditioning or circuits (use fitness-program), a steady-state aerobic-base or Zone 2 block (use zone-2-cardio-plan), or a mobility/flexibility routine (use mobility-routine).
 ---
 
 # Strength Training Plan
 
-This skill designs a structured, progressive strength program based on training age, available days, and equipment. The default is a barbell-and-dumbbells gym environment; escapes for home and minimal equipment are noted. This is general fitness guidance, not medical advice — consult a qualified coach or sports medicine professional for injuries or complex needs.
+Design a structured, progressive strength program based on training age, available days, and equipment. Default to a barbell-and-dumbbells gym environment; note escapes for home and minimal equipment. This is general fitness guidance, not medical advice — consult a qualified coach or sports medicine professional for injuries or complex needs.
 
 ## Establish Training Age and Frequency
 
@@ -30,3 +30,22 @@ Start every session with 5 minutes of light cardio or general movement, then 2�
 ## Recovery and Deload
 
 Schedule a deload week every 4–8 weeks of hard training: reduce volume by 40–50% while keeping intensity moderate. Sleep 7–9 hours per night — it is the single most effective recovery tool available. Protein timing matters less than total daily protein; focus there first.
+
+## Quality Bar
+
+A finished program must:
+
+- Match weekly frequency and split to the trainee's training age and stated recovery capacity, not to ambition.
+- Cover all five core movement patterns across the week (add vertical push when shoulders allow).
+- Specify a concrete progression rule and a stall trigger — what to add, when, and what to do when it stops working.
+- Assign explicit sets, reps, and effort per lift, tied to the trainee's goal (strength, hypertrophy, or work capacity).
+- Schedule deloads up front, not reactively.
+- Fit each session inside 45–75 minutes with compounds before isolation.
+
+## What NOT to Do
+
+- Do not prescribe a 5–6 day advanced split to a beginner — frequency outruns recovery and progress stalls.
+- Do not write open-ended progression ("just add weight when you can"). Name the increment and the stall rule.
+- Do not skip the hinge or vertical pull because they are uncomfortable; rebalanced programs build imbalances.
+- Do not bolt conditioning intervals, an aerobic base, or a mobility flow into this program — hand those off to fitness-program, zone-2-cardio-plan, and mobility-routine.
+- Do not give injury rehab or medical advice. Refer out.
