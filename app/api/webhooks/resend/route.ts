@@ -28,6 +28,16 @@ function firstRecipient(to: unknown): string | null {
   return null
 }
 
+// Resend webhooks are account-wide. Only process our own sends so other domains'
+// events (and their recipients) don't land in this DB. Override with
+// EMAIL_EVENT_DOMAIN; set it to "*" to log everything.
+const OWN_DOMAIN = (process.env.EMAIL_EVENT_DOMAIN ?? 'skillme.dev').toLowerCase()
+function isOwnSend(event: ResendWebhookEvent): boolean {
+  if (OWN_DOMAIN === '*') return true
+  const from = String(event.data?.from ?? '').toLowerCase()
+  return from.includes(`@${OWN_DOMAIN}`) || from.includes(`<${OWN_DOMAIN}`) || from.endsWith(OWN_DOMAIN)
+}
+
 export async function POST(req: NextRequest) {
   const secret = process.env.RESEND_WEBHOOK_SECRET?.trim()
   if (!secret) {
@@ -46,6 +56,11 @@ export async function POST(req: NextRequest) {
     event = JSON.parse(raw) as ResendWebhookEvent
   } catch {
     return Response.json({ error: 'Invalid JSON.' }, { status: 400 })
+  }
+
+  // Ignore other domains' sends (account-wide webhook). Ack so Resend won't retry.
+  if (!isOwnSend(event)) {
+    return Response.json({ ok: true, skipped: 'foreign_domain' })
   }
 
   const supabase = getServiceSupabase()
