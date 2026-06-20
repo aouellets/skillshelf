@@ -1,11 +1,11 @@
 ---
 name: Zone 2 Cardio Plan
-description: Use when someone asks to build a cardio or conditioning plan, train an aerobic base or Zone 2, structure weekly cardio, train by heart-rate zones, or improve resting heart rate, VO2, or endurance toward a conditioning goal. Builds a heart-rate-zone aerobic training block with session structure, modality choice, and progression. General fitness guidance, not medical advice. Do NOT use to design a strength or lifting program (use strength-training-plan), a general goal-based fitness program (use fitness-program), or a mobility/flexibility routine (use mobility-routine).
+description: Use when someone asks to build a steady-state cardio plan, train an aerobic base or Zone 2, structure easy or endurance weekly cardio, train by heart-rate zones, or improve resting heart rate, VO2, or endurance. Builds a heart-rate-zone aerobic training block with session structure, modality choice, and progression. General fitness guidance, not medical advice. Do NOT use to design a strength or lifting program (use Strength Training Plan), high-intensity interval conditioning, HIIT, or circuits (use Conditioning & HIIT Program), or a mobility/flexibility routine (use Mobility Routine).
 ---
 
 # Zone 2 Cardio Plan
 
-This skill builds an aerobic-base training block organized around heart-rate zones, with Zone 2 as the foundation. It picks a modality, lays out a weekly structure, and progresses load toward a conditioning goal. The default is a 4-week block, repeatable. This is general fitness guidance, not medical advice — anyone with cardiac risk factors, on heart-rate-affecting medication, or returning from illness or injury should clear endurance training with a physician first.
+This skill builds an aerobic-base training block organized around heart-rate zones, with Zone 2 as the foundation. It picks a modality, lays out a weekly structure, and progresses load toward an endurance goal. The default is a 4-week block, repeatable. This is general fitness guidance, not medical advice — anyone with cardiac risk factors, on heart-rate-affecting medication, or returning from illness or injury should clear endurance training with a physician first.
 
 ## Establish Zones First
 
@@ -29,7 +29,7 @@ Default progression is volume before intensity. Increase total weekly Zone 2 tim
 
 ## Quality Bar
 
-A plan is done well when: every session names a target HR zone in actual bpm, not just a vibe; the week is genuinely polarized (mostly easy, a little hard) rather than uniformly moderate; the modality fits the user's goal and joints and is one they'll repeat; progression is explicit and capped (~10%/week, with a recovery week); and success is tied to a concrete, re-testable conditioning metric. The medical-clearance caveat is present.
+A plan is done well when: every session names a target HR zone in actual bpm, not just a vibe; the week is genuinely polarized (mostly easy, a little hard) rather than uniformly moderate; the modality fits the user's goal and joints and is one they'll repeat; progression is explicit and capped (~10%/week, with a recovery week); and success is tied to a concrete, re-testable aerobic-endurance metric. The medical-clearance caveat is present.
 
 ## What NOT to Do
 
@@ -37,5 +37,5 @@ A plan is done well when: every session names a target HR zone in actual bpm, no
 - Don't let "easy" days drift into Zone 3; protect the aerobic base.
 - Don't stack multiple high-intensity sessions into a base block, or skip the recovery week.
 - Don't ramp weekly volume aggressively; injury ends a block faster than any plateau.
-- Don't program strength or lifting work, a general goal-based fitness program, or mobility/flexibility drills here — hand those to strength-training-plan, fitness-program, and mobility-routine respectively.
+- Don't program strength or lifting work, high-intensity interval conditioning or HIIT, or mobility/flexibility drills here — hand those to Strength Training Plan, Conditioning & HIIT Program, and Mobility Routine respectively.
 - Don't pose as a medical provider; flag the clearance need and stop short of diagnosing or treating.
