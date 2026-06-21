@@ -836,6 +836,7 @@ export const PACK_DEFINITIONS: PackDefinition[] = [
     verified: true,
     free: true,
     install_count: 0,
+    repo_url: "https://github.com/aouellets/resume-toolkit",
     skill_slugs: [
       "resume-writer", "resume-reviewer",
     ],
