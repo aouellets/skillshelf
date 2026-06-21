@@ -17,8 +17,6 @@ import { SkillThumbnail } from '@/components/SkillThumbnail'
 import { SkillViewTracker } from '@/components/SkillViewTracker'
 import { CATEGORY_MAP, installLabel } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
-import { getDemo } from '@/lib/media'
-import { DemoSection } from '@/components/DemoSection'
 import { SITE_URL } from '@/lib/site'
 
 export const dynamic = 'force-dynamic'
@@ -60,7 +58,6 @@ export default async function SkillDetailPage({
   const skill = await getSkillBySlug(slug)
   if (!skill) notFound()
 
-  const demo = await getDemo('skill', slug)
   const category = CATEGORY_MAP[skill.category]
   const preview = skill.skill_content.split('\n').slice(0, PREVIEW_LINES).join('\n')
   const truncated = skill.skill_content.split('\n').length > PREVIEW_LINES
@@ -138,9 +135,6 @@ export default async function SkillDetailPage({
               ))}
             </div>
           )}
-
-          {/* Demo video (when published) */}
-          <DemoSection demo={demo} />
 
           {/* SKILL.md preview */}
           <section className="mt-8">
