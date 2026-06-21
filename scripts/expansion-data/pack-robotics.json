@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "robotics-robotics-software-principles",
+    "name": "Robotics Software Principles",
+    "category": "coding",
+    "description": "Applies production robotics design principles including fail-safe defaults, rate separation, composability, and graceful degradation.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-software-principles",
+    "tags": [
+      "principles",
+      "robotics",
+      "software"
+    ],
+    "skill_content": "---\nname: Robotics Software Principles\ndescription: Applies production robotics design principles including fail-safe defaults, rate separation, composability, and graceful degradation.\n---\n\n# Robotics Software Principles\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nApplies production robotics design principles including fail-safe defaults, rate separation, composability, and graceful degradation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-software-principles\n"
+  },
+  {
+    "slug": "robotics-ros1",
+    "name": "Ros1 Development",
+    "category": "coding",
+    "description": "Guides ROS 1 development with catkin, rospy, roscpp, nodelets, TF, actionlib, launch files, and migration considerations.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros1",
+    "tags": [
+      "robotics",
+      "ros1"
+    ],
+    "skill_content": "---\nname: Ros1 Development\ndescription: Guides ROS 1 development with catkin, rospy, roscpp, nodelets, TF, actionlib, launch files, and migration considerations.\n---\n\n# Ros1 Development\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nGuides ROS 1 development with catkin, rospy, roscpp, nodelets, TF, actionlib, launch files, and migration considerations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros1\n"
+  },
+  {
+    "slug": "robotics-ros2",
+    "name": "Ros2 Development",
+    "category": "coding",
+    "description": "Guides ROS 2 development with rclpy, rclcpp, DDS, QoS, lifecycle nodes, components, and Python launch.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros2",
+    "tags": [
+      "robotics",
+      "ros2"
+    ],
+    "skill_content": "---\nname: Ros2 Development\ndescription: Guides ROS 2 development with rclpy, rclcpp, DDS, QoS, lifecycle nodes, components, and Python launch.\n---\n\n# Ros2 Development\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nGuides ROS 2 development with rclpy, rclcpp, DDS, QoS, lifecycle nodes, components, and Python launch.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros2\n"
+  },
+  {
+    "slug": "robotics-robotics-design-patterns",
+    "name": "Robotics Design Patterns",
+    "category": "coding",
+    "description": "Applies behavior trees, state machines, hardware abstraction, safety patterns, sensor fusion, and sim-to-real architecture.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-design-patterns",
+    "tags": [
+      "design",
+      "patterns",
+      "robotics"
+    ],
+    "skill_content": "---\nname: Robotics Design Patterns\ndescription: Applies behavior trees, state machines, hardware abstraction, safety patterns, sensor fusion, and sim-to-real architecture.\n---\n\n# Robotics Design Patterns\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nApplies behavior trees, state machines, hardware abstraction, safety patterns, sensor fusion, and sim-to-real architecture.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-design-patterns\n"
+  },
+  {
+    "slug": "robotics-robot-perception",
+    "name": "Robot Perception",
+    "category": "coding",
+    "description": "Designs perception pipelines for cameras, LiDAR, depth, calibration, point clouds, detection, tracking, and sensor fusion.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robot-perception",
+    "tags": [
+      "perception",
+      "robot",
+      "robotics"
+    ],
+    "skill_content": "---\nname: Robot Perception\ndescription: Designs perception pipelines for cameras, LiDAR, depth, calibration, point clouds, detection, tracking, and sensor fusion.\n---\n\n# Robot Perception\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nDesigns perception pipelines for cameras, LiDAR, depth, calibration, point clouds, detection, tracking, and sensor fusion.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robot-perception\n"
+  },
+  {
+    "slug": "robotics-robotics-testing",
+    "name": "Robotics Testing",
+    "category": "coding",
+    "description": "Creates robotics test strategies using unit tests, launch testing, mock hardware, simulation, golden files, and CI.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-testing",
+    "tags": [
+      "robotics",
+      "testing",
+      "testing-and-qa"
+    ],
+    "skill_content": "---\nname: Robotics Testing\ndescription: Creates robotics test strategies using unit tests, launch testing, mock hardware, simulation, golden files, and CI.\n---\n\n# Robotics Testing\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nCreates robotics test strategies using unit tests, launch testing, mock hardware, simulation, golden files, and CI.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-testing\n"
+  },
+  {
+    "slug": "robotics-docker-ros2-development",
+    "name": "Docker Ros2 Development",
+    "category": "coding",
+    "description": "Builds reproducible ROS 2 container workflows with multi-stage images, Compose, DDS networking, GPU passthrough, and devcontainers.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/docker-ros2-development",
+    "tags": [
+      "development",
+      "docker",
+      "kubernetes-and-containers",
+      "ros2"
+    ],
+    "skill_content": "---\nname: Docker Ros2 Development\ndescription: Builds reproducible ROS 2 container workflows with multi-stage images, Compose, DDS networking, GPU passthrough, and devcontainers.\n---\n\n# Docker Ros2 Development\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nBuilds reproducible ROS 2 container workflows with multi-stage images, Compose, DDS networking, GPU passthrough, and devcontainers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/docker-ros2-development\n"
+  },
+  {
+    "slug": "robotics-ros2-web-integration",
+    "name": "Ros2 Web Integration",
+    "category": "coding",
+    "description": "Connects ROS 2 systems to web interfaces using rosbridge, API bridges, WebSockets, streaming, and security controls.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros2-web-integration",
+    "tags": [
+      "api-development",
+      "integration",
+      "ros2",
+      "web"
+    ],
+    "skill_content": "---\nname: Ros2 Web Integration\ndescription: Connects ROS 2 systems to web interfaces using rosbridge, API bridges, WebSockets, streaming, and security controls.\n---\n\n# Ros2 Web Integration\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nConnects ROS 2 systems to web interfaces using rosbridge, API bridges, WebSockets, streaming, and security controls.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/ros2-web-integration\n"
+  },
+  {
+    "slug": "robotics-robot-bringup",
+    "name": "Robot Bringup",
+    "category": "coding",
+    "description": "Designs deterministic robot startup and shutdown with systemd, launch composition, udev, watchdogs, logs, and recovery.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robot-bringup",
+    "tags": [
+      "bringup",
+      "devops",
+      "robot"
+    ],
+    "skill_content": "---\nname: Robot Bringup\ndescription: Designs deterministic robot startup and shutdown with systemd, launch composition, udev, watchdogs, logs, and recovery.\n---\n\n# Robot Bringup\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nDesigns deterministic robot startup and shutdown with systemd, launch composition, udev, watchdogs, logs, and recovery.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robot-bringup\n"
+  },
+  {
+    "slug": "robotics-robotics-security",
+    "name": "Robotics Security",
+    "category": "coding",
+    "description": "Hardens robotic systems with SROS2, DDS encryption, segmentation, secret handling, secure boot, and safety isolation.",
+    "author": "arpitg1304",
+    "source_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-security",
+    "tags": [
+      "cybersecurity",
+      "robotics",
+      "security"
+    ],
+    "skill_content": "---\nname: Robotics Security\ndescription: Hardens robotic systems with SROS2, DDS encryption, segmentation, secret handling, secure boot, and safety isolation.\n---\n\n# Robotics Security\n\nPart of the **Robotics & ROS Skills** pack by arpitg1304 (`arpitg1304/robotics-agent-skills`).\n\nHardens robotic systems with SROS2, DDS encryption, segmentation, secret handling, secure boot, and safety isolation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/arpitg1304/robotics-agent-skills/tree/54f7b578f3dc269d29c0beb623b3f2611fd3a430/skills/robotics-security\n"
+  }
+]

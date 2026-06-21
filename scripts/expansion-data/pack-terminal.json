@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "terminal-git-commit-pro",
+    "name": "Git Commit Pro",
+    "category": "coding",
+    "description": "Writes clear conventional commits from staged or described changes.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/git-commit-pro",
+    "tags": [
+      "commit",
+      "git",
+      "pro",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Git Commit Pro\ndescription: Writes clear conventional commits from staged or described changes.\n---\n\n# Git Commit Pro\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nWrites clear conventional commits from staged or described changes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/git-commit-pro\n"
+  },
+  {
+    "slug": "terminal-api-tester",
+    "name": "Api Tester",
+    "category": "coding",
+    "description": "Tests REST and GraphQL endpoints with requests, assertions, edge cases, and reproducible reports.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/api-tester",
+    "tags": [
+      "api",
+      "tester",
+      "testing-and-qa"
+    ],
+    "skill_content": "---\nname: Api Tester\ndescription: Tests REST and GraphQL endpoints with requests, assertions, edge cases, and reproducible reports.\n---\n\n# Api Tester\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nTests REST and GraphQL endpoints with requests, assertions, edge cases, and reproducible reports.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/api-tester\n"
+  },
+  {
+    "slug": "terminal-docker-helper",
+    "name": "Docker Helper",
+    "category": "coding",
+    "description": "Builds, debugs, and optimizes Dockerfiles, images, containers, and Compose configurations.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/docker-helper",
+    "tags": [
+      "docker",
+      "helper",
+      "kubernetes-and-containers"
+    ],
+    "skill_content": "---\nname: Docker Helper\ndescription: Builds, debugs, and optimizes Dockerfiles, images, containers, and Compose configurations.\n---\n\n# Docker Helper\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nBuilds, debugs, and optimizes Dockerfiles, images, containers, and Compose configurations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/docker-helper\n"
+  },
+  {
+    "slug": "terminal-data-visualizer",
+    "name": "Data Visualizer",
+    "category": "data",
+    "description": "Chooses and generates appropriate charts and visualizations from structured datasets.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/data-visualizer",
+    "tags": [
+      "data",
+      "data-analysis",
+      "visualizer"
+    ],
+    "skill_content": "---\nname: Data Visualizer\ndescription: Chooses and generates appropriate charts and visualizations from structured datasets.\n---\n\n# Data Visualizer\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nChooses and generates appropriate charts and visualizations from structured datasets.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/data-visualizer\n"
+  },
+  {
+    "slug": "terminal-markdown-writer",
+    "name": "Markdown Writer",
+    "category": "writing",
+    "description": "Creates well-structured Markdown documentation with headings, tables, examples, links, and consistent style.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/markdown-writer",
+    "tags": [
+      "markdown",
+      "writer",
+      "writing-and-editing"
+    ],
+    "skill_content": "---\nname: Markdown Writer\ndescription: Creates well-structured Markdown documentation with headings, tables, examples, links, and consistent style.\n---\n\n# Markdown Writer\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nCreates well-structured Markdown documentation with headings, tables, examples, links, and consistent style.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/markdown-writer\n"
+  },
+  {
+    "slug": "terminal-sql-optimizer",
+    "name": "Sql Optimizer",
+    "category": "data",
+    "description": "Analyzes SQL queries and recommends indexing, rewrite, execution-plan, and data-model improvements.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/sql-optimizer",
+    "tags": [
+      "data-analysis",
+      "optimizer",
+      "sql"
+    ],
+    "skill_content": "---\nname: Sql Optimizer\ndescription: Analyzes SQL queries and recommends indexing, rewrite, execution-plan, and data-model improvements.\n---\n\n# Sql Optimizer\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nAnalyzes SQL queries and recommends indexing, rewrite, execution-plan, and data-model improvements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/sql-optimizer\n"
+  },
+  {
+    "slug": "terminal-test-generator",
+    "name": "Test Generator",
+    "category": "coding",
+    "description": "Generates unit, integration, and end-to-end tests for existing code with meaningful assertions and edge cases.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/test-generator",
+    "tags": [
+      "generator",
+      "test",
+      "testing-and-qa"
+    ],
+    "skill_content": "---\nname: Test Generator\ndescription: Generates unit, integration, and end-to-end tests for existing code with meaningful assertions and edge cases.\n---\n\n# Test Generator\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nGenerates unit, integration, and end-to-end tests for existing code with meaningful assertions and edge cases.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/test-generator\n"
+  },
+  {
+    "slug": "terminal-code-migration",
+    "name": "Code Migration",
+    "category": "coding",
+    "description": "Plans and performs framework, language, dependency, or API migrations with staged compatibility and verification.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/code-migration",
+    "tags": [
+      "code",
+      "migration",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Code Migration\ndescription: Plans and performs framework, language, dependency, or API migrations with staged compatibility and verification.\n---\n\n# Code Migration\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nPlans and performs framework, language, dependency, or API migrations with staged compatibility and verification.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/code-migration\n"
+  },
+  {
+    "slug": "terminal-prompt-tester",
+    "name": "Prompt Tester",
+    "category": "coding",
+    "description": "Evaluates prompts with test cases, rubrics, expected behaviors, regressions, and comparative results.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/prompt-tester",
+    "tags": [
+      "prompt",
+      "tester",
+      "testing-and-qa"
+    ],
+    "skill_content": "---\nname: Prompt Tester\ndescription: Evaluates prompts with test cases, rubrics, expected behaviors, regressions, and comparative results.\n---\n\n# Prompt Tester\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nEvaluates prompts with test cases, rubrics, expected behaviors, regressions, and comparative results.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/prompt-tester\n"
+  },
+  {
+    "slug": "terminal-monorepo-manager",
+    "name": "Monorepo Manager",
+    "category": "coding",
+    "description": "Manages workspaces, package boundaries, dependency alignment, builds, and release workflows in monorepos.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/monorepo-manager",
+    "tags": [
+      "manager",
+      "monorepo",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Monorepo Manager\ndescription: Manages workspaces, package boundaries, dependency alignment, builds, and release workflows in monorepos.\n---\n\n# Monorepo Manager\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nManages workspaces, package boundaries, dependency alignment, builds, and release workflows in monorepos.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/monorepo-manager\n"
+  },
+  {
+    "slug": "terminal-data-validator",
+    "name": "Data Validator",
+    "category": "data",
+    "description": "Checks CSV, JSON, and database exports for schema, completeness, consistency, uniqueness, and business-rule violations.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/data-validator",
+    "tags": [
+      "data",
+      "data-analysis",
+      "validator"
+    ],
+    "skill_content": "---\nname: Data Validator\ndescription: Checks CSV, JSON, and database exports for schema, completeness, consistency, uniqueness, and business-rule violations.\n---\n\n# Data Validator\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nChecks CSV, JSON, and database exports for schema, completeness, consistency, uniqueness, and business-rule violations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/data-validator\n"
+  },
+  {
+    "slug": "terminal-log-analyzer",
+    "name": "Log Analyzer",
+    "category": "coding",
+    "description": "Analyzes application logs to isolate root causes, correlate events, and reconstruct incident timelines.",
+    "author": "TerminalSkills",
+    "source_url": "https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/log-analyzer",
+    "tags": [
+      "analyzer",
+      "devops",
+      "log"
+    ],
+    "skill_content": "---\nname: Log Analyzer\ndescription: Analyzes application logs to isolate root causes, correlate events, and reconstruct incident timelines.\n---\n\n# Log Analyzer\n\nPart of the **Terminal Skills Library** pack by TerminalSkills (`TerminalSkills/skills`).\n\nAnalyzes application logs to isolate root causes, correlate events, and reconstruct incident timelines.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/TerminalSkills/skills/tree/77fa0150aa0921f892420d3ec2a9204e3124b71e/skills/log-analyzer\n"
+  }
+]

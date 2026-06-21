@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "qovery-qovery",
+    "name": "Qovery",
+    "category": "coding",
+    "description": "Routes generic Qovery requests and handles service status, logs, restart, scaling, domains, cloning, and deployment history.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery",
+    "tags": [
+      "cloud-infrastructure",
+      "qovery"
+    ],
+    "skill_content": "---\nname: Qovery\ndescription: Routes generic Qovery requests and handles service status, logs, restart, scaling, domains, cloning, and deployment history.\n---\n\n# Qovery\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nRoutes generic Qovery requests and handles service status, logs, restart, scaling, domains, cloning, and deployment history.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery\n"
+  },
+  {
+    "slug": "qovery-qovery-onboard",
+    "name": "Qovery Onboard",
+    "category": "coding",
+    "description": "Guides teams through cloud, cluster, environment, RBAC, security, cost, BYOK, and migration setup on Qovery.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-onboard",
+    "tags": [
+      "cloud-infrastructure",
+      "onboard",
+      "qovery"
+    ],
+    "skill_content": "---\nname: Qovery Onboard\ndescription: Guides teams through cloud, cluster, environment, RBAC, security, cost, BYOK, and migration setup on Qovery.\n---\n\n# Qovery Onboard\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nGuides teams through cloud, cluster, environment, RBAC, security, cost, BYOK, and migration setup on Qovery.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-onboard\n"
+  },
+  {
+    "slug": "qovery-qovery-deploy",
+    "name": "Qovery Deploy",
+    "category": "coding",
+    "description": "Analyzes an application and deploys it to Kubernetes through Qovery with Docker, databases, configuration, and health checks.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-deploy",
+    "tags": [
+      "cloud-infrastructure",
+      "deploy",
+      "qovery"
+    ],
+    "skill_content": "---\nname: Qovery Deploy\ndescription: Analyzes an application and deploys it to Kubernetes through Qovery with Docker, databases, configuration, and health checks.\n---\n\n# Qovery Deploy\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nAnalyzes an application and deploys it to Kubernetes through Qovery with Docker, databases, configuration, and health checks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-deploy\n"
+  },
+  {
+    "slug": "qovery-qovery-troubleshoot",
+    "name": "Qovery Troubleshoot",
+    "category": "coding",
+    "description": "Diagnoses Qovery build, runtime, networking, health-check, resource, and cluster failures using layered runbooks.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-troubleshoot",
+    "tags": [
+      "devops",
+      "qovery",
+      "troubleshoot"
+    ],
+    "skill_content": "---\nname: Qovery Troubleshoot\ndescription: Diagnoses Qovery build, runtime, networking, health-check, resource, and cluster failures using layered runbooks.\n---\n\n# Qovery Troubleshoot\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nDiagnoses Qovery build, runtime, networking, health-check, resource, and cluster failures using layered runbooks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-troubleshoot\n"
+  },
+  {
+    "slug": "qovery-qovery-optimize",
+    "name": "Qovery Optimize",
+    "category": "coding",
+    "description": "Analyzes resource consumption and business context to right-size Qovery services and estimate infrastructure savings.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-optimize",
+    "tags": [
+      "cloud-infrastructure",
+      "optimize",
+      "qovery"
+    ],
+    "skill_content": "---\nname: Qovery Optimize\ndescription: Analyzes resource consumption and business context to right-size Qovery services and estimate infrastructure savings.\n---\n\n# Qovery Optimize\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nAnalyzes resource consumption and business context to right-size Qovery services and estimate infrastructure savings.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-optimize\n"
+  },
+  {
+    "slug": "qovery-qovery-speedup",
+    "name": "Qovery Speedup",
+    "category": "coding",
+    "description": "Measures deployment stages, locates bottlenecks, and recommends Docker, health-check, scheduling, and pipeline improvements.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-speedup",
+    "tags": [
+      "devops",
+      "qovery",
+      "speedup"
+    ],
+    "skill_content": "---\nname: Qovery Speedup\ndescription: Measures deployment stages, locates bottlenecks, and recommends Docker, health-check, scheduling, and pipeline improvements.\n---\n\n# Qovery Speedup\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nMeasures deployment stages, locates bottlenecks, and recommends Docker, health-check, scheduling, and pipeline improvements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-speedup\n"
+  },
+  {
+    "slug": "qovery-qovery-preview",
+    "name": "Qovery Preview",
+    "category": "coding",
+    "description": "Creates and manages branch or pull-request preview environments with cloning, cleanup, and auto-shutdown controls.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-preview",
+    "tags": [
+      "cloud-infrastructure",
+      "preview",
+      "qovery"
+    ],
+    "skill_content": "---\nname: Qovery Preview\ndescription: Creates and manages branch or pull-request preview environments with cloning, cleanup, and auto-shutdown controls.\n---\n\n# Qovery Preview\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nCreates and manages branch or pull-request preview environments with cloning, cleanup, and auto-shutdown controls.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-preview\n"
+  },
+  {
+    "slug": "qovery-qovery-terraform",
+    "name": "Qovery Terraform",
+    "category": "coding",
+    "description": "Generates and validates Terraform representations of existing Qovery environments without applying changes to the source setup.",
+    "author": "Qovery",
+    "source_url": "https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-terraform",
+    "tags": [
+      "cloud-infrastructure",
+      "qovery",
+      "terraform"
+    ],
+    "skill_content": "---\nname: Qovery Terraform\ndescription: Generates and validates Terraform representations of existing Qovery environments without applying changes to the source setup.\n---\n\n# Qovery Terraform\n\nPart of the **Qovery Kubernetes Skills** pack by Qovery (`Qovery/qovery-skills`).\n\nGenerates and validates Terraform representations of existing Qovery environments without applying changes to the source setup.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Qovery/qovery-skills/tree/c171e79a5632cbf4df979e93303165131b09b60c/qovery-terraform\n"
+  }
+]

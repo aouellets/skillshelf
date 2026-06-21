@@ -1,0 +1,1767 @@
+[
+  {
+    "slug": "pmpro-go-to-market",
+    "name": "Go To Market",
+    "category": "business",
+    "description": "Creates a complete go-to-market asset pack with positioning, messaging pillars, benefit mapping, and role-specific use cases.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/go-to-market",
+    "tags": [
+      "market",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Go To Market\ndescription: Creates a complete go-to-market asset pack with positioning, messaging pillars, benefit mapping, and role-specific use cases.\n---\n\n# Go To Market\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a complete go-to-market asset pack with positioning, messaging pillars, benefit mapping, and role-specific use cases.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/go-to-market\n"
+  },
+  {
+    "slug": "pmpro-content-calendar",
+    "name": "Content Calendar",
+    "category": "business",
+    "description": "Builds a multi-channel content calendar with hooks, formats, cadence, and a repurposing plan.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/content-calendar",
+    "tags": [
+      "calendar",
+      "content",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Content Calendar\ndescription: Builds a multi-channel content calendar with hooks, formats, cadence, and a repurposing plan.\n---\n\n# Content Calendar\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a multi-channel content calendar with hooks, formats, cadence, and a repurposing plan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/content-calendar\n"
+  },
+  {
+    "slug": "pmpro-competitor-teardown",
+    "name": "Competitor Teardown",
+    "category": "business",
+    "description": "Produces a competitive teardown covering positioning, feature gaps, messaging, SWOT, and actionable recommendations.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/competitor-teardown",
+    "tags": [
+      "competitor",
+      "marketing",
+      "teardown"
+    ],
+    "skill_content": "---\nname: Competitor Teardown\ndescription: Produces a competitive teardown covering positioning, feature gaps, messaging, SWOT, and actionable recommendations.\n---\n\n# Competitor Teardown\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nProduces a competitive teardown covering positioning, feature gaps, messaging, SWOT, and actionable recommendations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/competitor-teardown\n"
+  },
+  {
+    "slug": "pmpro-email-campaign",
+    "name": "Email Campaign",
+    "category": "business",
+    "description": "Designs a sequenced email campaign with subject lines, preview text, body copy, calls to action, and measurement guidance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/email-campaign",
+    "tags": [
+      "campaign",
+      "email",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Email Campaign\ndescription: Designs a sequenced email campaign with subject lines, preview text, body copy, calls to action, and measurement guidance.\n---\n\n# Email Campaign\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDesigns a sequenced email campaign with subject lines, preview text, body copy, calls to action, and measurement guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/email-campaign\n"
+  },
+  {
+    "slug": "pmpro-seo-content-brief",
+    "name": "Seo Content Brief",
+    "category": "business",
+    "description": "Creates an SEO content brief with search intent, competitor gaps, outline, evidence requirements, and on-page guidance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/seo-content-brief",
+    "tags": [
+      "brief",
+      "content",
+      "marketing",
+      "seo"
+    ],
+    "skill_content": "---\nname: Seo Content Brief\ndescription: Creates an SEO content brief with search intent, competitor gaps, outline, evidence requirements, and on-page guidance.\n---\n\n# Seo Content Brief\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates an SEO content brief with search intent, competitor gaps, outline, evidence requirements, and on-page guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/seo-content-brief\n"
+  },
+  {
+    "slug": "pmpro-media-pitch",
+    "name": "Media Pitch",
+    "category": "business",
+    "description": "Develops a story-led journalist pitch with angle selection, relevance framing, evidence, and concise outreach copy.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/media-pitch",
+    "tags": [
+      "marketing",
+      "media",
+      "pitch"
+    ],
+    "skill_content": "---\nname: Media Pitch\ndescription: Develops a story-led journalist pitch with angle selection, relevance framing, evidence, and concise outreach copy.\n---\n\n# Media Pitch\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDevelops a story-led journalist pitch with angle selection, relevance framing, evidence, and concise outreach copy.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/media-pitch\n"
+  },
+  {
+    "slug": "pmpro-social-media-strategy",
+    "name": "Social Media Strategy",
+    "category": "business",
+    "description": "Defines platform choices, audience profiles, content pillars, cadence, KPIs, and a four-week starter calendar.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/social-media-strategy",
+    "tags": [
+      "marketing",
+      "media",
+      "social",
+      "strategy"
+    ],
+    "skill_content": "---\nname: Social Media Strategy\ndescription: Defines platform choices, audience profiles, content pillars, cadence, KPIs, and a four-week starter calendar.\n---\n\n# Social Media Strategy\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines platform choices, audience profiles, content pillars, cadence, KPIs, and a four-week starter calendar.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/social-media-strategy\n"
+  },
+  {
+    "slug": "pmpro-product-positioning-doc",
+    "name": "Product Positioning Doc",
+    "category": "business",
+    "description": "Creates a product positioning document covering category, alternatives, differentiated value, proof, and persona-specific messaging.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/product-positioning-doc",
+    "tags": [
+      "doc",
+      "marketing",
+      "positioning",
+      "product"
+    ],
+    "skill_content": "---\nname: Product Positioning Doc\ndescription: Creates a product positioning document covering category, alternatives, differentiated value, proof, and persona-specific messaging.\n---\n\n# Product Positioning Doc\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a product positioning document covering category, alternatives, differentiated value, proof, and persona-specific messaging.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/product-positioning-doc\n"
+  },
+  {
+    "slug": "pmpro-incident-postmortem",
+    "name": "Incident Postmortem",
+    "category": "coding",
+    "description": "Creates a blameless incident postmortem with timeline, root cause, impact, contributing factors, and corrective actions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/incident-postmortem",
+    "tags": [
+      "incident",
+      "postmortem",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Incident Postmortem\ndescription: Creates a blameless incident postmortem with timeline, root cause, impact, contributing factors, and corrective actions.\n---\n\n# Incident Postmortem\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a blameless incident postmortem with timeline, root cause, impact, contributing factors, and corrective actions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/incident-postmortem\n"
+  },
+  {
+    "slug": "pmpro-api-docs-writer",
+    "name": "Api Docs Writer",
+    "category": "coding",
+    "description": "Writes developer-facing API documentation with endpoints, parameters, schemas, examples, errors, and authentication notes.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/api-docs-writer",
+    "tags": [
+      "api",
+      "docs",
+      "software-engineering",
+      "writer"
+    ],
+    "skill_content": "---\nname: Api Docs Writer\ndescription: Writes developer-facing API documentation with endpoints, parameters, schemas, examples, errors, and authentication notes.\n---\n\n# Api Docs Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites developer-facing API documentation with endpoints, parameters, schemas, examples, errors, and authentication notes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/api-docs-writer\n"
+  },
+  {
+    "slug": "pmpro-architecture-decision-record",
+    "name": "Architecture Decision Record",
+    "category": "coding",
+    "description": "Produces an architecture decision record documenting context, options, decision rationale, consequences, and follow-up work.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/architecture-decision-record",
+    "tags": [
+      "architecture",
+      "decision",
+      "record",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Architecture Decision Record\ndescription: Produces an architecture decision record documenting context, options, decision rationale, consequences, and follow-up work.\n---\n\n# Architecture Decision Record\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nProduces an architecture decision record documenting context, options, decision rationale, consequences, and follow-up work.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/architecture-decision-record\n"
+  },
+  {
+    "slug": "pmpro-debugging-log-analyser",
+    "name": "Debugging Log Analyser",
+    "category": "coding",
+    "description": "Turns stack traces and logs into a structured diagnosis with likely root cause, evidence, and a concrete fix plan.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/debugging-log-analyser",
+    "tags": [
+      "analyser",
+      "debugging",
+      "log",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Debugging Log Analyser\ndescription: Turns stack traces and logs into a structured diagnosis with likely root cause, evidence, and a concrete fix plan.\n---\n\n# Debugging Log Analyser\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nTurns stack traces and logs into a structured diagnosis with likely root cause, evidence, and a concrete fix plan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/debugging-log-analyser\n"
+  },
+  {
+    "slug": "pmpro-pr-description-writer",
+    "name": "Pr Description Writer",
+    "category": "coding",
+    "description": "Creates reviewer-friendly pull-request descriptions from diffs, commits, or change summaries.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/pr-description-writer",
+    "tags": [
+      "description",
+      "software-engineering",
+      "writer"
+    ],
+    "skill_content": "---\nname: Pr Description Writer\ndescription: Creates reviewer-friendly pull-request descriptions from diffs, commits, or change summaries.\n---\n\n# Pr Description Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates reviewer-friendly pull-request descriptions from diffs, commits, or change summaries.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/pr-description-writer\n"
+  },
+  {
+    "slug": "pmpro-system-design-interview",
+    "name": "System Design Interview",
+    "category": "coding",
+    "description": "Structures system-design answers with requirements, capacity estimates, architecture, trade-offs, and component deep dives.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/system-design-interview",
+    "tags": [
+      "design",
+      "interview",
+      "software-engineering",
+      "system"
+    ],
+    "skill_content": "---\nname: System Design Interview\ndescription: Structures system-design answers with requirements, capacity estimates, architecture, trade-offs, and component deep dives.\n---\n\n# System Design Interview\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nStructures system-design answers with requirements, capacity estimates, architecture, trade-offs, and component deep dives.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/system-design-interview\n"
+  },
+  {
+    "slug": "pmpro-changelog-generator",
+    "name": "Changelog Generator",
+    "category": "coding",
+    "description": "Converts commit history into a polished user-facing changelog organized by meaningful change type.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/changelog-generator",
+    "tags": [
+      "changelog",
+      "generator",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Changelog Generator\ndescription: Converts commit history into a polished user-facing changelog organized by meaningful change type.\n---\n\n# Changelog Generator\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nConverts commit history into a polished user-facing changelog organized by meaningful change type.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/changelog-generator\n"
+  },
+  {
+    "slug": "pmpro-test-strategy-doc",
+    "name": "Test Strategy Doc",
+    "category": "coding",
+    "description": "Creates a test strategy with risk analysis, test layers, coverage goals, environments, and prioritized cases.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/test-strategy-doc",
+    "tags": [
+      "doc",
+      "software-engineering",
+      "strategy",
+      "test"
+    ],
+    "skill_content": "---\nname: Test Strategy Doc\ndescription: Creates a test strategy with risk analysis, test layers, coverage goals, environments, and prioritized cases.\n---\n\n# Test Strategy Doc\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a test strategy with risk analysis, test layers, coverage goals, environments, and prioritized cases.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/test-strategy-doc\n"
+  },
+  {
+    "slug": "pmpro-runbook-writer",
+    "name": "Runbook Writer",
+    "category": "coding",
+    "description": "Writes operational runbooks with prerequisites, commands, validation checks, escalation paths, and rollback steps.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/runbook-writer",
+    "tags": [
+      "runbook",
+      "software-engineering",
+      "writer"
+    ],
+    "skill_content": "---\nname: Runbook Writer\ndescription: Writes operational runbooks with prerequisites, commands, validation checks, escalation paths, and rollback steps.\n---\n\n# Runbook Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites operational runbooks with prerequisites, commands, validation checks, escalation paths, and rollback steps.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/runbook-writer\n"
+  },
+  {
+    "slug": "pmpro-cicd-playbook",
+    "name": "Cicd Playbook",
+    "category": "coding",
+    "description": "Defines a CI/CD pipeline playbook spanning build, test, security, deployment, rollback, secrets, and ownership.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cicd-playbook",
+    "tags": [
+      "cicd",
+      "playbook",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Cicd Playbook\ndescription: Defines a CI/CD pipeline playbook spanning build, test, security, deployment, rollback, secrets, and ownership.\n---\n\n# Cicd Playbook\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines a CI/CD pipeline playbook spanning build, test, security, deployment, rollback, secrets, and ownership.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cicd-playbook\n"
+  },
+  {
+    "slug": "pmpro-slo-error-budget",
+    "name": "Slo Error Budget",
+    "category": "coding",
+    "description": "Defines service-level indicators, SLO targets, error budgets, burn-rate alerts, and an operating policy.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/slo-error-budget",
+    "tags": [
+      "budget",
+      "error",
+      "slo",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Slo Error Budget\ndescription: Defines service-level indicators, SLO targets, error budgets, burn-rate alerts, and an operating policy.\n---\n\n# Slo Error Budget\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines service-level indicators, SLO targets, error budgets, burn-rate alerts, and an operating policy.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/slo-error-budget\n"
+  },
+  {
+    "slug": "pmpro-developer-onboarding-doc",
+    "name": "Developer Onboarding Doc",
+    "category": "coding",
+    "description": "Creates a first-week engineering onboarding guide covering architecture, setup, testing, deployment, and key contacts.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/developer-onboarding-doc",
+    "tags": [
+      "developer",
+      "doc",
+      "onboarding",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Developer Onboarding Doc\ndescription: Creates a first-week engineering onboarding guide covering architecture, setup, testing, deployment, and key contacts.\n---\n\n# Developer Onboarding Doc\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a first-week engineering onboarding guide covering architecture, setup, testing, deployment, and key contacts.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/developer-onboarding-doc\n"
+  },
+  {
+    "slug": "pmpro-oncall-runbook",
+    "name": "Oncall Runbook",
+    "category": "coding",
+    "description": "Builds an on-call runbook with alert-specific actions, diagnostics, escalation, and handoff guidance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/oncall-runbook",
+    "tags": [
+      "oncall",
+      "runbook",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Oncall Runbook\ndescription: Builds an on-call runbook with alert-specific actions, diagnostics, escalation, and handoff guidance.\n---\n\n# Oncall Runbook\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds an on-call runbook with alert-specific actions, diagnostics, escalation, and handoff guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/oncall-runbook\n"
+  },
+  {
+    "slug": "pmpro-security-threat-model",
+    "name": "Security Threat Model",
+    "category": "coding",
+    "description": "Produces a STRIDE-based threat model with assets, trust boundaries, threats, risk ratings, mitigations, and residual risk.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/security-threat-model",
+    "tags": [
+      "model",
+      "security",
+      "software-engineering",
+      "threat"
+    ],
+    "skill_content": "---\nname: Security Threat Model\ndescription: Produces a STRIDE-based threat model with assets, trust boundaries, threats, risk ratings, mitigations, and residual risk.\n---\n\n# Security Threat Model\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nProduces a STRIDE-based threat model with assets, trust boundaries, threats, risk ratings, mitigations, and residual risk.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/security-threat-model\n"
+  },
+  {
+    "slug": "pmpro-performance-budget",
+    "name": "Performance Budget",
+    "category": "coding",
+    "description": "Defines frontend and backend performance budgets with measurable thresholds, CI enforcement, and breach response.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/performance-budget",
+    "tags": [
+      "budget",
+      "performance",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Performance Budget\ndescription: Defines frontend and backend performance budgets with measurable thresholds, CI enforcement, and breach response.\n---\n\n# Performance Budget\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines frontend and backend performance budgets with measurable thresholds, CI enforcement, and breach response.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/performance-budget\n"
+  },
+  {
+    "slug": "pmpro-database-schema-design",
+    "name": "Database Schema Design",
+    "category": "coding",
+    "description": "Documents a database schema with entities, relationships, DDL, indexes, constraints, and access-pattern analysis.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/database-schema-design",
+    "tags": [
+      "database",
+      "design",
+      "schema",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Database Schema Design\ndescription: Documents a database schema with entities, relationships, DDL, indexes, constraints, and access-pattern analysis.\n---\n\n# Database Schema Design\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDocuments a database schema with entities, relationships, DDL, indexes, constraints, and access-pattern analysis.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/database-schema-design\n"
+  },
+  {
+    "slug": "pmpro-database-migration-plan",
+    "name": "Database Migration Plan",
+    "category": "coding",
+    "description": "Creates a zero-downtime database migration plan using staged rollout, validation, rollback, and expand-contract patterns.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/database-migration-plan",
+    "tags": [
+      "database",
+      "migration",
+      "plan",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Database Migration Plan\ndescription: Creates a zero-downtime database migration plan using staged rollout, validation, rollback, and expand-contract patterns.\n---\n\n# Database Migration Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a zero-downtime database migration plan using staged rollout, validation, rollback, and expand-contract patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/database-migration-plan\n"
+  },
+  {
+    "slug": "pmpro-technical-debt-register",
+    "name": "Technical Debt Register",
+    "category": "coding",
+    "description": "Builds a technical-debt inventory scored by business impact, engineering risk, effort, and remediation priority.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/technical-debt-register",
+    "tags": [
+      "debt",
+      "register",
+      "software-engineering",
+      "technical"
+    ],
+    "skill_content": "---\nname: Technical Debt Register\ndescription: Builds a technical-debt inventory scored by business impact, engineering risk, effort, and remediation priority.\n---\n\n# Technical Debt Register\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a technical-debt inventory scored by business impact, engineering risk, effort, and remediation priority.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/technical-debt-register\n"
+  },
+  {
+    "slug": "pmpro-rfc-writer",
+    "name": "Rfc Writer",
+    "category": "coding",
+    "description": "Writes an engineering RFC with problem framing, proposal, alternatives, trade-offs, rollout, observability, and open questions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/rfc-writer",
+    "tags": [
+      "rfc",
+      "software-engineering",
+      "writer"
+    ],
+    "skill_content": "---\nname: Rfc Writer\ndescription: Writes an engineering RFC with problem framing, proposal, alternatives, trade-offs, rollout, observability, and open questions.\n---\n\n# Rfc Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites an engineering RFC with problem framing, proposal, alternatives, trade-offs, rollout, observability, and open questions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/rfc-writer\n"
+  },
+  {
+    "slug": "pmpro-capacity-planning",
+    "name": "Capacity Planning",
+    "category": "coding",
+    "description": "Forecasts traffic and resource needs, identifies scaling thresholds, estimates cost, and produces an infrastructure action plan.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/capacity-planning",
+    "tags": [
+      "capacity",
+      "planning",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Capacity Planning\ndescription: Forecasts traffic and resource needs, identifies scaling thresholds, estimates cost, and produces an infrastructure action plan.\n---\n\n# Capacity Planning\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nForecasts traffic and resource needs, identifies scaling thresholds, estimates cost, and produces an infrastructure action plan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/capacity-planning\n"
+  },
+  {
+    "slug": "pmpro-load-testing-plan",
+    "name": "Load Testing Plan",
+    "category": "coding",
+    "description": "Creates baseline, stress, spike, and soak-test scenarios with tooling guidance, thresholds, and CI gates.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/load-testing-plan",
+    "tags": [
+      "load",
+      "plan",
+      "software-engineering",
+      "testing"
+    ],
+    "skill_content": "---\nname: Load Testing Plan\ndescription: Creates baseline, stress, spike, and soak-test scenarios with tooling guidance, thresholds, and CI gates.\n---\n\n# Load Testing Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates baseline, stress, spike, and soak-test scenarios with tooling guidance, thresholds, and CI gates.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/load-testing-plan\n"
+  },
+  {
+    "slug": "pmpro-disaster-recovery-plan",
+    "name": "Disaster Recovery Plan",
+    "category": "coding",
+    "description": "Defines RPO and RTO goals, backup procedures, scenario runbooks, game-day testing, and communications.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/disaster-recovery-plan",
+    "tags": [
+      "disaster",
+      "plan",
+      "recovery",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Disaster Recovery Plan\ndescription: Defines RPO and RTO goals, backup procedures, scenario runbooks, game-day testing, and communications.\n---\n\n# Disaster Recovery Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines RPO and RTO goals, backup procedures, scenario runbooks, game-day testing, and communications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/disaster-recovery-plan\n"
+  },
+  {
+    "slug": "pmpro-feature-flag-guide",
+    "name": "Feature Flag Guide",
+    "category": "coding",
+    "description": "Creates a feature-flag lifecycle guide covering naming, rollout, monitoring, ownership, expiration, and cleanup.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/feature-flag-guide",
+    "tags": [
+      "feature",
+      "flag",
+      "guide",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Feature Flag Guide\ndescription: Creates a feature-flag lifecycle guide covering naming, rollout, monitoring, ownership, expiration, and cleanup.\n---\n\n# Feature Flag Guide\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a feature-flag lifecycle guide covering naming, rollout, monitoring, ownership, expiration, and cleanup.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/feature-flag-guide\n"
+  },
+  {
+    "slug": "pmpro-dependency-audit",
+    "name": "Dependency Audit",
+    "category": "coding",
+    "description": "Audits dependencies for vulnerabilities, outdated versions, licensing issues, and prioritized remediation.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/dependency-audit",
+    "tags": [
+      "audit",
+      "dependency",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Dependency Audit\ndescription: Audits dependencies for vulnerabilities, outdated versions, licensing issues, and prioritized remediation.\n---\n\n# Dependency Audit\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAudits dependencies for vulnerabilities, outdated versions, licensing issues, and prioritized remediation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/dependency-audit\n"
+  },
+  {
+    "slug": "pmpro-service-catalog-entry",
+    "name": "Service Catalog Entry",
+    "category": "coding",
+    "description": "Creates a service-catalog entry with ownership, APIs, dependencies, SLAs, data classification, and runbook links.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/service-catalog-entry",
+    "tags": [
+      "catalog",
+      "entry",
+      "service",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Service Catalog Entry\ndescription: Creates a service-catalog entry with ownership, APIs, dependencies, SLAs, data classification, and runbook links.\n---\n\n# Service Catalog Entry\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a service-catalog entry with ownership, APIs, dependencies, SLAs, data classification, and runbook links.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/service-catalog-entry\n"
+  },
+  {
+    "slug": "pmpro-monitoring-setup-guide",
+    "name": "Monitoring Setup Guide",
+    "category": "coding",
+    "description": "Designs observability around the four golden signals with logs, metrics, traces, alerts, and dashboard layout.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/monitoring-setup-guide",
+    "tags": [
+      "guide",
+      "monitoring",
+      "setup",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Monitoring Setup Guide\ndescription: Designs observability around the four golden signals with logs, metrics, traces, alerts, and dashboard layout.\n---\n\n# Monitoring Setup Guide\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDesigns observability around the four golden signals with logs, metrics, traces, alerts, and dashboard layout.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/monitoring-setup-guide\n"
+  },
+  {
+    "slug": "pmpro-local-dev-setup",
+    "name": "Local Dev Setup",
+    "category": "coding",
+    "description": "Creates a reproducible local-development guide with prerequisites, environment variables, commands, tests, and failure fixes.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/local-dev-setup",
+    "tags": [
+      "dev",
+      "local",
+      "setup",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Local Dev Setup\ndescription: Creates a reproducible local-development guide with prerequisites, environment variables, commands, tests, and failure fixes.\n---\n\n# Local Dev Setup\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a reproducible local-development guide with prerequisites, environment variables, commands, tests, and failure fixes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/local-dev-setup\n"
+  },
+  {
+    "slug": "pmpro-api-versioning-strategy",
+    "name": "Api Versioning Strategy",
+    "category": "coding",
+    "description": "Defines API versioning, compatibility rules, deprecation policy, lifecycle stages, and migration communication.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/api-versioning-strategy",
+    "tags": [
+      "api",
+      "software-engineering",
+      "strategy",
+      "versioning"
+    ],
+    "skill_content": "---\nname: Api Versioning Strategy\ndescription: Defines API versioning, compatibility rules, deprecation policy, lifecycle stages, and migration communication.\n---\n\n# Api Versioning Strategy\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines API versioning, compatibility rules, deprecation policy, lifecycle stages, and migration communication.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/api-versioning-strategy\n"
+  },
+  {
+    "slug": "pmpro-infra-as-code-review",
+    "name": "Infra As Code Review",
+    "category": "coding",
+    "description": "Reviews Terraform, CloudFormation, or Pulumi for security, state, naming, drift, cost, and operational risk.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/infra-as-code-review",
+    "tags": [
+      "code",
+      "infra",
+      "review",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Infra As Code Review\ndescription: Reviews Terraform, CloudFormation, or Pulumi for security, state, naming, drift, cost, and operational risk.\n---\n\n# Infra As Code Review\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nReviews Terraform, CloudFormation, or Pulumi for security, state, naming, drift, cost, and operational risk.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/infra-as-code-review\n"
+  },
+  {
+    "slug": "pmpro-engineering-weekly-report",
+    "name": "Engineering Weekly Report",
+    "category": "coding",
+    "description": "Produces a weekly engineering report covering shipped work, progress, blockers, metrics, decisions, risks, and next steps.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/engineering-weekly-report",
+    "tags": [
+      "engineering",
+      "report",
+      "software-engineering",
+      "weekly"
+    ],
+    "skill_content": "---\nname: Engineering Weekly Report\ndescription: Produces a weekly engineering report covering shipped work, progress, blockers, metrics, decisions, risks, and next steps.\n---\n\n# Engineering Weekly Report\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nProduces a weekly engineering report covering shipped work, progress, blockers, metrics, decisions, risks, and next steps.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/engineering-weekly-report\n"
+  },
+  {
+    "slug": "pmpro-tech-radar",
+    "name": "Tech Radar",
+    "category": "coding",
+    "description": "Creates a technology radar using Adopt, Trial, Assess, and Hold classifications with evidence and governance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/tech-radar",
+    "tags": [
+      "radar",
+      "software-engineering",
+      "tech"
+    ],
+    "skill_content": "---\nname: Tech Radar\ndescription: Creates a technology radar using Adopt, Trial, Assess, and Hold classifications with evidence and governance.\n---\n\n# Tech Radar\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a technology radar using Adopt, Trial, Assess, and Hold classifications with evidence and governance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/tech-radar\n"
+  },
+  {
+    "slug": "pmpro-sprint-velocity-analysis",
+    "name": "Sprint Velocity Analysis",
+    "category": "coding",
+    "description": "Analyzes delivery velocity, completion patterns, blockers, predictability, and future capacity.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sprint-velocity-analysis",
+    "tags": [
+      "analysis",
+      "software-engineering",
+      "sprint",
+      "velocity"
+    ],
+    "skill_content": "---\nname: Sprint Velocity Analysis\ndescription: Analyzes delivery velocity, completion patterns, blockers, predictability, and future capacity.\n---\n\n# Sprint Velocity Analysis\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAnalyzes delivery velocity, completion patterns, blockers, predictability, and future capacity.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sprint-velocity-analysis\n"
+  },
+  {
+    "slug": "pmpro-microservices-decomposition",
+    "name": "Microservices Decomposition",
+    "category": "coding",
+    "description": "Designs service boundaries using bounded contexts, data ownership, communication patterns, and a migration sequence.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/microservices-decomposition",
+    "tags": [
+      "decomposition",
+      "microservices",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Microservices Decomposition\ndescription: Designs service boundaries using bounded contexts, data ownership, communication patterns, and a migration sequence.\n---\n\n# Microservices Decomposition\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDesigns service boundaries using bounded contexts, data ownership, communication patterns, and a migration sequence.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/microservices-decomposition\n"
+  },
+  {
+    "slug": "pmpro-engineering-hiring-rubric",
+    "name": "Engineering Hiring Rubric",
+    "category": "coding",
+    "description": "Creates an engineering interview rubric with level expectations, scorecards, questions, and debrief guidance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/engineering-hiring-rubric",
+    "tags": [
+      "engineering",
+      "hiring",
+      "rubric",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Engineering Hiring Rubric\ndescription: Creates an engineering interview rubric with level expectations, scorecards, questions, and debrief guidance.\n---\n\n# Engineering Hiring Rubric\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates an engineering interview rubric with level expectations, scorecards, questions, and debrief guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/engineering-hiring-rubric\n"
+  },
+  {
+    "slug": "pmpro-context-mode",
+    "name": "Context Mode",
+    "category": "coding",
+    "description": "Reduces noisy command output and maintains resumable session state for long-running Claude Code work.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/context-mode",
+    "tags": [
+      "context",
+      "mode",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Context Mode\ndescription: Reduces noisy command output and maintains resumable session state for long-running Claude Code work.\n---\n\n# Context Mode\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nReduces noisy command output and maintains resumable session state for long-running Claude Code work.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/context-mode\n"
+  },
+  {
+    "slug": "pmpro-claude-superpowers",
+    "name": "Claude Superpowers",
+    "category": "coding",
+    "description": "Applies a disciplined plan-first, test-first, isolated-development, and self-review workflow to coding tasks.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/claude-superpowers",
+    "tags": [
+      "claude",
+      "software-engineering",
+      "superpowers"
+    ],
+    "skill_content": "---\nname: Claude Superpowers\ndescription: Applies a disciplined plan-first, test-first, isolated-development, and self-review workflow to coding tasks.\n---\n\n# Claude Superpowers\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nApplies a disciplined plan-first, test-first, isolated-development, and self-review workflow to coding tasks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/claude-superpowers\n"
+  },
+  {
+    "slug": "pmpro-cs-health-scorecard",
+    "name": "Cs Health Scorecard",
+    "category": "business",
+    "description": "Builds a weighted customer-health score across adoption, engagement, outcomes, support, and commercial signals.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cs-health-scorecard",
+    "tags": [
+      "customer-success",
+      "health",
+      "scorecard"
+    ],
+    "skill_content": "---\nname: Cs Health Scorecard\ndescription: Builds a weighted customer-health score across adoption, engagement, outcomes, support, and commercial signals.\n---\n\n# Cs Health Scorecard\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a weighted customer-health score across adoption, engagement, outcomes, support, and commercial signals.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cs-health-scorecard\n"
+  },
+  {
+    "slug": "pmpro-qbr-deck",
+    "name": "Qbr Deck",
+    "category": "business",
+    "description": "Creates a slide-by-slide quarterly business review with value narrative, evidence, talking points, and mutual commitments.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/qbr-deck",
+    "tags": [
+      "customer-success",
+      "deck",
+      "qbr"
+    ],
+    "skill_content": "---\nname: Qbr Deck\ndescription: Creates a slide-by-slide quarterly business review with value narrative, evidence, talking points, and mutual commitments.\n---\n\n# Qbr Deck\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a slide-by-slide quarterly business review with value narrative, evidence, talking points, and mutual commitments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/qbr-deck\n"
+  },
+  {
+    "slug": "pmpro-cs-escalation-brief",
+    "name": "Cs Escalation Brief",
+    "category": "business",
+    "description": "Creates an escalation brief for an at-risk customer with root cause, business impact, actions, owners, and decisions needed.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cs-escalation-brief",
+    "tags": [
+      "brief",
+      "customer-success",
+      "escalation"
+    ],
+    "skill_content": "---\nname: Cs Escalation Brief\ndescription: Creates an escalation brief for an at-risk customer with root cause, business impact, actions, owners, and decisions needed.\n---\n\n# Cs Escalation Brief\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates an escalation brief for an at-risk customer with root cause, business impact, actions, owners, and decisions needed.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cs-escalation-brief\n"
+  },
+  {
+    "slug": "pmpro-churn-analysis",
+    "name": "Churn Analysis",
+    "category": "business",
+    "description": "Analyzes churn by segment and cause, identifies leading indicators, and prioritizes retention interventions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/churn-analysis",
+    "tags": [
+      "analysis",
+      "churn",
+      "customer-success"
+    ],
+    "skill_content": "---\nname: Churn Analysis\ndescription: Analyzes churn by segment and cause, identifies leading indicators, and prioritizes retention interventions.\n---\n\n# Churn Analysis\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAnalyzes churn by segment and cause, identifies leading indicators, and prioritizes retention interventions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/churn-analysis\n"
+  },
+  {
+    "slug": "pmpro-renewal-playbook",
+    "name": "Renewal Playbook",
+    "category": "business",
+    "description": "Builds a renewal plan with account health, value story, commercial scenarios, objections, and a timed execution sequence.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/renewal-playbook",
+    "tags": [
+      "customer-success",
+      "playbook",
+      "renewal"
+    ],
+    "skill_content": "---\nname: Renewal Playbook\ndescription: Builds a renewal plan with account health, value story, commercial scenarios, objections, and a timed execution sequence.\n---\n\n# Renewal Playbook\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a renewal plan with account health, value story, commercial scenarios, objections, and a timed execution sequence.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/renewal-playbook\n"
+  },
+  {
+    "slug": "pmpro-customer-success-plan",
+    "name": "Customer Success Plan",
+    "category": "business",
+    "description": "Creates a joint success plan with customer goals, metrics, milestones, mutual commitments, and escalation paths.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/customer-success-plan",
+    "tags": [
+      "customer",
+      "customer-success",
+      "plan",
+      "success"
+    ],
+    "skill_content": "---\nname: Customer Success Plan\ndescription: Creates a joint success plan with customer goals, metrics, milestones, mutual commitments, and escalation paths.\n---\n\n# Customer Success Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a joint success plan with customer goals, metrics, milestones, mutual commitments, and escalation paths.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/customer-success-plan\n"
+  },
+  {
+    "slug": "pmpro-metrics-framework",
+    "name": "Metrics Framework",
+    "category": "data",
+    "description": "Defines a North Star metric, supporting metric tree, counter-metrics, dashboard tiers, and ownership.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/metrics-framework",
+    "tags": [
+      "data-analysis",
+      "framework",
+      "metrics"
+    ],
+    "skill_content": "---\nname: Metrics Framework\ndescription: Defines a North Star metric, supporting metric tree, counter-metrics, dashboard tiers, and ownership.\n---\n\n# Metrics Framework\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines a North Star metric, supporting metric tree, counter-metrics, dashboard tiers, and ownership.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/metrics-framework\n"
+  },
+  {
+    "slug": "pmpro-sql-query-explainer",
+    "name": "Sql Query Explainer",
+    "category": "data",
+    "description": "Explains, documents, rewrites, and optimizes SQL while preserving intended behavior.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sql-query-explainer",
+    "tags": [
+      "data-analysis",
+      "explainer",
+      "query",
+      "sql"
+    ],
+    "skill_content": "---\nname: Sql Query Explainer\ndescription: Explains, documents, rewrites, and optimizes SQL while preserving intended behavior.\n---\n\n# Sql Query Explainer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nExplains, documents, rewrites, and optimizes SQL while preserving intended behavior.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sql-query-explainer\n"
+  },
+  {
+    "slug": "pmpro-dashboard-brief",
+    "name": "Dashboard Brief",
+    "category": "data",
+    "description": "Creates a dashboard specification with KPI definitions, chart choices, filters, layout, and data requirements.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/dashboard-brief",
+    "tags": [
+      "brief",
+      "dashboard",
+      "data-analysis"
+    ],
+    "skill_content": "---\nname: Dashboard Brief\ndescription: Creates a dashboard specification with KPI definitions, chart choices, filters, layout, and data requirements.\n---\n\n# Dashboard Brief\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a dashboard specification with KPI definitions, chart choices, filters, layout, and data requirements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/dashboard-brief\n"
+  },
+  {
+    "slug": "pmpro-chart-data-extractor",
+    "name": "Chart Data Extractor",
+    "category": "data",
+    "description": "Extracts approximate data from chart images into structured tables with confidence and validation notes.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/chart-data-extractor",
+    "tags": [
+      "chart",
+      "data",
+      "data-analysis",
+      "extractor"
+    ],
+    "skill_content": "---\nname: Chart Data Extractor\ndescription: Extracts approximate data from chart images into structured tables with confidence and validation notes.\n---\n\n# Chart Data Extractor\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nExtracts approximate data from chart images into structured tables with confidence and validation notes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/chart-data-extractor\n"
+  },
+  {
+    "slug": "pmpro-cohort-analysis",
+    "name": "Cohort Analysis",
+    "category": "data",
+    "description": "Analyzes retention cohorts, lifetime value, behavior segments, churn signals, and supporting SQL.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cohort-analysis",
+    "tags": [
+      "analysis",
+      "cohort",
+      "data-analysis"
+    ],
+    "skill_content": "---\nname: Cohort Analysis\ndescription: Analyzes retention cohorts, lifetime value, behavior segments, churn signals, and supporting SQL.\n---\n\n# Cohort Analysis\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAnalyzes retention cohorts, lifetime value, behavior segments, churn signals, and supporting SQL.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/cohort-analysis\n"
+  },
+  {
+    "slug": "pmpro-data-pipeline-spec",
+    "name": "Data Pipeline Spec",
+    "category": "data",
+    "description": "Designs an ETL or ELT pipeline with sources, transformations, SLAs, quality rules, failure handling, and compliance notes.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/data-pipeline-spec",
+    "tags": [
+      "data",
+      "data-analysis",
+      "pipeline",
+      "spec"
+    ],
+    "skill_content": "---\nname: Data Pipeline Spec\ndescription: Designs an ETL or ELT pipeline with sources, transformations, SLAs, quality rules, failure handling, and compliance notes.\n---\n\n# Data Pipeline Spec\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDesigns an ETL or ELT pipeline with sources, transformations, SLAs, quality rules, failure handling, and compliance notes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/data-pipeline-spec\n"
+  },
+  {
+    "slug": "pmpro-performance-review",
+    "name": "Performance Review",
+    "category": "business",
+    "description": "Turns evidence and notes into structured self, manager, peer, or upward performance reviews.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/performance-review",
+    "tags": [
+      "human-resources",
+      "performance",
+      "review"
+    ],
+    "skill_content": "---\nname: Performance Review\ndescription: Turns evidence and notes into structured self, manager, peer, or upward performance reviews.\n---\n\n# Performance Review\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nTurns evidence and notes into structured self, manager, peer, or upward performance reviews.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/performance-review\n"
+  },
+  {
+    "slug": "pmpro-hiring-rubric",
+    "name": "Hiring Rubric",
+    "category": "business",
+    "description": "Creates role-specific interview scorecards with competencies, behavioral questions, rating anchors, and panel guidance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/hiring-rubric",
+    "tags": [
+      "hiring",
+      "human-resources",
+      "rubric"
+    ],
+    "skill_content": "---\nname: Hiring Rubric\ndescription: Creates role-specific interview scorecards with competencies, behavioral questions, rating anchors, and panel guidance.\n---\n\n# Hiring Rubric\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates role-specific interview scorecards with competencies, behavioral questions, rating anchors, and panel guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/hiring-rubric\n"
+  },
+  {
+    "slug": "pmpro-team-offsite-planner",
+    "name": "Team Offsite Planner",
+    "category": "business",
+    "description": "Builds an offsite agenda with objectives, facilitated sessions, logistics, decisions, and follow-through.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/team-offsite-planner",
+    "tags": [
+      "human-resources",
+      "offsite",
+      "planner",
+      "team"
+    ],
+    "skill_content": "---\nname: Team Offsite Planner\ndescription: Builds an offsite agenda with objectives, facilitated sessions, logistics, decisions, and follow-through.\n---\n\n# Team Offsite Planner\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds an offsite agenda with objectives, facilitated sessions, logistics, decisions, and follow-through.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/team-offsite-planner\n"
+  },
+  {
+    "slug": "pmpro-360-feedback-template",
+    "name": "360 Feedback Template",
+    "category": "business",
+    "description": "Creates a 360-degree feedback survey or narrative report with behavior-anchored strengths and development themes.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/360-feedback-template",
+    "tags": [
+      "360",
+      "feedback",
+      "human-resources",
+      "template"
+    ],
+    "skill_content": "---\nname: 360 Feedback Template\ndescription: Creates a 360-degree feedback survey or narrative report with behavior-anchored strengths and development themes.\n---\n\n# 360 Feedback Template\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a 360-degree feedback survey or narrative report with behavior-anchored strengths and development themes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/360-feedback-template\n"
+  },
+  {
+    "slug": "pmpro-team-health-check",
+    "name": "Team Health Check",
+    "category": "business",
+    "description": "Runs a multidimensional team-health assessment covering delivery, safety, morale, speed, purpose, and collaboration.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/team-health-check",
+    "tags": [
+      "check",
+      "health",
+      "human-resources",
+      "team"
+    ],
+    "skill_content": "---\nname: Team Health Check\ndescription: Runs a multidimensional team-health assessment covering delivery, safety, morale, speed, purpose, and collaboration.\n---\n\n# Team Health Check\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nRuns a multidimensional team-health assessment covering delivery, safety, morale, speed, purpose, and collaboration.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/team-health-check\n"
+  },
+  {
+    "slug": "pmpro-job-description-writer",
+    "name": "Job Description Writer",
+    "category": "business",
+    "description": "Writes inclusive, structured job descriptions with outcomes, responsibilities, qualifications, and compensation prompts.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/job-description-writer",
+    "tags": [
+      "description",
+      "human-resources",
+      "job",
+      "writer"
+    ],
+    "skill_content": "---\nname: Job Description Writer\ndescription: Writes inclusive, structured job descriptions with outcomes, responsibilities, qualifications, and compensation prompts.\n---\n\n# Job Description Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites inclusive, structured job descriptions with outcomes, responsibilities, qualifications, and compensation prompts.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/job-description-writer\n"
+  },
+  {
+    "slug": "pmpro-onboarding-plan",
+    "name": "Onboarding Plan",
+    "category": "business",
+    "description": "Creates a 30/60/90-day onboarding plan with weekly actions, milestones, manager support, and success criteria.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/onboarding-plan",
+    "tags": [
+      "human-resources",
+      "onboarding",
+      "plan"
+    ],
+    "skill_content": "---\nname: Onboarding Plan\ndescription: Creates a 30/60/90-day onboarding plan with weekly actions, milestones, manager support, and success criteria.\n---\n\n# Onboarding Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a 30/60/90-day onboarding plan with weekly actions, milestones, manager support, and success criteria.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/onboarding-plan\n"
+  },
+  {
+    "slug": "pmpro-employee-engagement-survey",
+    "name": "Employee Engagement Survey",
+    "category": "business",
+    "description": "Designs an engagement survey and analysis framework with eNPS, themes, segmentation, and action planning.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/employee-engagement-survey",
+    "tags": [
+      "employee",
+      "engagement",
+      "human-resources",
+      "survey"
+    ],
+    "skill_content": "---\nname: Employee Engagement Survey\ndescription: Designs an engagement survey and analysis framework with eNPS, themes, segmentation, and action planning.\n---\n\n# Employee Engagement Survey\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDesigns an engagement survey and analysis framework with eNPS, themes, segmentation, and action planning.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/employee-engagement-survey\n"
+  },
+  {
+    "slug": "pmpro-redundancy-consultation",
+    "name": "Redundancy Consultation",
+    "category": "business",
+    "description": "Structures a UK redundancy-consultation process with timeline, communications, scripts, and documentation.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/redundancy-consultation",
+    "tags": [
+      "consultation",
+      "human-resources",
+      "redundancy"
+    ],
+    "skill_content": "---\nname: Redundancy Consultation\ndescription: Structures a UK redundancy-consultation process with timeline, communications, scripts, and documentation.\n---\n\n# Redundancy Consultation\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nStructures a UK redundancy-consultation process with timeline, communications, scripts, and documentation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/redundancy-consultation\n"
+  },
+  {
+    "slug": "pmpro-change-management-plan",
+    "name": "Change Management Plan",
+    "category": "business",
+    "description": "Creates a change plan with stakeholder analysis, communications, training, adoption measures, and resistance handling.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/change-management-plan",
+    "tags": [
+      "change",
+      "human-resources",
+      "management",
+      "plan"
+    ],
+    "skill_content": "---\nname: Change Management Plan\ndescription: Creates a change plan with stakeholder analysis, communications, training, adoption measures, and resistance handling.\n---\n\n# Change Management Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a change plan with stakeholder analysis, communications, training, adoption measures, and resistance handling.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/change-management-plan\n"
+  },
+  {
+    "slug": "pmpro-ux-research-plan",
+    "name": "Ux Research Plan",
+    "category": "design",
+    "description": "Creates a UX research plan with objectives, method, screener, discussion guide, sample, and synthesis approach.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/ux-research-plan",
+    "tags": [
+      "plan",
+      "research",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Ux Research Plan\ndescription: Creates a UX research plan with objectives, method, screener, discussion guide, sample, and synthesis approach.\n---\n\n# Ux Research Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a UX research plan with objectives, method, screener, discussion guide, sample, and synthesis approach.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/ux-research-plan\n"
+  },
+  {
+    "slug": "pmpro-design-critique",
+    "name": "Design Critique",
+    "category": "design",
+    "description": "Runs a structured design critique using product goals, usability heuristics, visual principles, and prioritized recommendations.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/design-critique",
+    "tags": [
+      "critique",
+      "design",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Design Critique\ndescription: Runs a structured design critique using product goals, usability heuristics, visual principles, and prioritized recommendations.\n---\n\n# Design Critique\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nRuns a structured design critique using product goals, usability heuristics, visual principles, and prioritized recommendations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/design-critique\n"
+  },
+  {
+    "slug": "pmpro-accessibility-audit",
+    "name": "Accessibility Audit",
+    "category": "design",
+    "description": "Audits a product against WCAG 2.2 and produces prioritized remediation, quick wins, and verification steps.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/accessibility-audit",
+    "tags": [
+      "accessibility",
+      "audit",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Accessibility Audit\ndescription: Audits a product against WCAG 2.2 and produces prioritized remediation, quick wins, and verification steps.\n---\n\n# Accessibility Audit\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAudits a product against WCAG 2.2 and produces prioritized remediation, quick wins, and verification steps.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/accessibility-audit\n"
+  },
+  {
+    "slug": "pmpro-design-system-audit",
+    "name": "Design System Audit",
+    "category": "design",
+    "description": "Assesses component coverage, tokens, documentation, accessibility, adoption barriers, and remediation priorities.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/design-system-audit",
+    "tags": [
+      "audit",
+      "design",
+      "system",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Design System Audit\ndescription: Assesses component coverage, tokens, documentation, accessibility, adoption barriers, and remediation priorities.\n---\n\n# Design System Audit\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAssesses component coverage, tokens, documentation, accessibility, adoption barriers, and remediation priorities.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/design-system-audit\n"
+  },
+  {
+    "slug": "pmpro-figma-component-audit",
+    "name": "Figma Component Audit",
+    "category": "design",
+    "description": "Audits a Figma component library for naming, coverage, properties, variants, states, and maintainability.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-component-audit",
+    "tags": [
+      "audit",
+      "component",
+      "figma",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Component Audit\ndescription: Audits a Figma component library for naming, coverage, properties, variants, states, and maintainability.\n---\n\n# Figma Component Audit\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAudits a Figma component library for naming, coverage, properties, variants, states, and maintainability.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-component-audit\n"
+  },
+  {
+    "slug": "pmpro-figma-design-brief",
+    "name": "Figma Design Brief",
+    "category": "design",
+    "description": "Converts product requirements into a structured Figma design brief with screens, states, constraints, and acceptance criteria.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-brief",
+    "tags": [
+      "brief",
+      "design",
+      "figma",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Design Brief\ndescription: Converts product requirements into a structured Figma design brief with screens, states, constraints, and acceptance criteria.\n---\n\n# Figma Design Brief\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nConverts product requirements into a structured Figma design brief with screens, states, constraints, and acceptance criteria.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-brief\n"
+  },
+  {
+    "slug": "pmpro-figma-annotation-guide",
+    "name": "Figma Annotation Guide",
+    "category": "design",
+    "description": "Creates developer-handoff annotations covering behavior, responsive rules, data, states, and edge cases.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-annotation-guide",
+    "tags": [
+      "annotation",
+      "figma",
+      "guide",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Annotation Guide\ndescription: Creates developer-handoff annotations covering behavior, responsive rules, data, states, and edge cases.\n---\n\n# Figma Annotation Guide\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates developer-handoff annotations covering behavior, responsive rules, data, states, and edge cases.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-annotation-guide\n"
+  },
+  {
+    "slug": "pmpro-figma-design-review",
+    "name": "Figma Design Review",
+    "category": "design",
+    "description": "Reviews a Figma design against requirements and records findings, questions, and approval status.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-review",
+    "tags": [
+      "design",
+      "figma",
+      "review",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Design Review\ndescription: Reviews a Figma design against requirements and records findings, questions, and approval status.\n---\n\n# Figma Design Review\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nReviews a Figma design against requirements and records findings, questions, and approval status.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-review\n"
+  },
+  {
+    "slug": "pmpro-figma-user-flow-planner",
+    "name": "Figma User Flow Planner",
+    "category": "design",
+    "description": "Maps screens, states, decisions, errors, and alternate paths before interface design begins.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-user-flow-planner",
+    "tags": [
+      "figma",
+      "flow",
+      "planner",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma User Flow Planner\ndescription: Maps screens, states, decisions, errors, and alternate paths before interface design begins.\n---\n\n# Figma User Flow Planner\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nMaps screens, states, decisions, errors, and alternate paths before interface design begins.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-user-flow-planner\n"
+  },
+  {
+    "slug": "pmpro-figma-variant-matrix",
+    "name": "Figma Variant Matrix",
+    "category": "design",
+    "description": "Defines component properties, variants, states, combinations, and naming before implementation.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-variant-matrix",
+    "tags": [
+      "figma",
+      "matrix",
+      "ui-and-visual-design",
+      "variant"
+    ],
+    "skill_content": "---\nname: Figma Variant Matrix\ndescription: Defines component properties, variants, states, combinations, and naming before implementation.\n---\n\n# Figma Variant Matrix\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines component properties, variants, states, combinations, and naming before implementation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-variant-matrix\n"
+  },
+  {
+    "slug": "pmpro-figma-spacing-system",
+    "name": "Figma Spacing System",
+    "category": "design",
+    "description": "Defines a spacing scale, layout grid, responsive rules, and design-token mapping.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-spacing-system",
+    "tags": [
+      "figma",
+      "spacing",
+      "system",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Spacing System\ndescription: Defines a spacing scale, layout grid, responsive rules, and design-token mapping.\n---\n\n# Figma Spacing System\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines a spacing scale, layout grid, responsive rules, and design-token mapping.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-spacing-system\n"
+  },
+  {
+    "slug": "pmpro-figma-prototype-plan",
+    "name": "Figma Prototype Plan",
+    "category": "design",
+    "description": "Plans prototype scope, interactions, transitions, test tasks, and evidence to collect.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-prototype-plan",
+    "tags": [
+      "figma",
+      "plan",
+      "prototype",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Prototype Plan\ndescription: Plans prototype scope, interactions, transitions, test tasks, and evidence to collect.\n---\n\n# Figma Prototype Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nPlans prototype scope, interactions, transitions, test tasks, and evidence to collect.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-prototype-plan\n"
+  },
+  {
+    "slug": "pmpro-figma-design-qa",
+    "name": "Figma Design Qa",
+    "category": "design",
+    "description": "Runs pre-handoff QA covering file hygiene, states, responsive behavior, accessibility, and implementation readiness.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-qa",
+    "tags": [
+      "design",
+      "figma",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Design Qa\ndescription: Runs pre-handoff QA covering file hygiene, states, responsive behavior, accessibility, and implementation readiness.\n---\n\n# Figma Design Qa\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nRuns pre-handoff QA covering file hygiene, states, responsive behavior, accessibility, and implementation readiness.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-qa\n"
+  },
+  {
+    "slug": "pmpro-figma-design-critique-pm",
+    "name": "Figma Design Critique Pm",
+    "category": "design",
+    "description": "Critiques a design from a product-management perspective, emphasizing outcomes, requirements, risks, and scope.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-critique-pm",
+    "tags": [
+      "critique",
+      "design",
+      "figma",
+      "ui-and-visual-design"
+    ],
+    "skill_content": "---\nname: Figma Design Critique Pm\ndescription: Critiques a design from a product-management perspective, emphasizing outcomes, requirements, risks, and scope.\n---\n\n# Figma Design Critique Pm\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCritiques a design from a product-management perspective, emphasizing outcomes, requirements, risks, and scope.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/figma-design-critique-pm\n"
+  },
+  {
+    "slug": "pmpro-investor-update",
+    "name": "Investor Update",
+    "category": "business",
+    "description": "Creates a concise monthly or quarterly investor update with metrics, achievements, challenges, outlook, and asks.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/investor-update",
+    "tags": [
+      "business-operations",
+      "investor",
+      "update"
+    ],
+    "skill_content": "---\nname: Investor Update\ndescription: Creates a concise monthly or quarterly investor update with metrics, achievements, challenges, outlook, and asks.\n---\n\n# Investor Update\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a concise monthly or quarterly investor update with metrics, achievements, challenges, outlook, and asks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/investor-update\n"
+  },
+  {
+    "slug": "pmpro-board-deck-narrative",
+    "name": "Board Deck Narrative",
+    "category": "business",
+    "description": "Builds a board-deck storyline with slide sequence, narrative beats, decision points, and speaker guidance.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/board-deck-narrative",
+    "tags": [
+      "board",
+      "business-operations",
+      "deck",
+      "narrative"
+    ],
+    "skill_content": "---\nname: Board Deck Narrative\ndescription: Builds a board-deck storyline with slide sequence, narrative beats, decision points, and speaker guidance.\n---\n\n# Board Deck Narrative\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a board-deck storyline with slide sequence, narrative beats, decision points, and speaker guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/board-deck-narrative\n"
+  },
+  {
+    "slug": "pmpro-job-application",
+    "name": "Job Application",
+    "category": "business",
+    "description": "Tailors a résumé summary, ATS keywords, achievements, and cover letter to a specific role.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/job-application",
+    "tags": [
+      "application",
+      "human-resources",
+      "job"
+    ],
+    "skill_content": "---\nname: Job Application\ndescription: Tailors a résumé summary, ATS keywords, achievements, and cover letter to a specific role.\n---\n\n# Job Application\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nTailors a résumé summary, ATS keywords, achievements, and cover letter to a specific role.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/job-application\n"
+  },
+  {
+    "slug": "pmpro-process-documentation",
+    "name": "Process Documentation",
+    "category": "business",
+    "description": "Documents a repeatable business process with purpose, roles, steps, controls, exceptions, and handoffs.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/process-documentation",
+    "tags": [
+      "business-operations",
+      "documentation",
+      "process"
+    ],
+    "skill_content": "---\nname: Process Documentation\ndescription: Documents a repeatable business process with purpose, roles, steps, controls, exceptions, and handoffs.\n---\n\n# Process Documentation\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDocuments a repeatable business process with purpose, roles, steps, controls, exceptions, and handoffs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/process-documentation\n"
+  },
+  {
+    "slug": "pmpro-sop-writer",
+    "name": "Sop Writer",
+    "category": "business",
+    "description": "Writes a formal, audit-ready standard operating procedure with versioning, controls, quality checks, and nonconformance handling.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sop-writer",
+    "tags": [
+      "business-operations",
+      "sop",
+      "writer"
+    ],
+    "skill_content": "---\nname: Sop Writer\ndescription: Writes a formal, audit-ready standard operating procedure with versioning, controls, quality checks, and nonconformance handling.\n---\n\n# Sop Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites a formal, audit-ready standard operating procedure with versioning, controls, quality checks, and nonconformance handling.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sop-writer\n"
+  },
+  {
+    "slug": "pmpro-vendor-evaluation",
+    "name": "Vendor Evaluation",
+    "category": "business",
+    "description": "Creates a weighted vendor scorecard, RFP questions, reference-check plan, risk review, and recommendation.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/vendor-evaluation",
+    "tags": [
+      "business-operations",
+      "evaluation",
+      "vendor"
+    ],
+    "skill_content": "---\nname: Vendor Evaluation\ndescription: Creates a weighted vendor scorecard, RFP questions, reference-check plan, risk review, and recommendation.\n---\n\n# Vendor Evaluation\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a weighted vendor scorecard, RFP questions, reference-check plan, risk review, and recommendation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/vendor-evaluation\n"
+  },
+  {
+    "slug": "pmpro-project-status-report",
+    "name": "Project Status Report",
+    "category": "business",
+    "description": "Produces a RAG project-status report with milestones, issues, risks, dependencies, and decisions required.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/project-status-report",
+    "tags": [
+      "business-operations",
+      "project",
+      "report",
+      "status"
+    ],
+    "skill_content": "---\nname: Project Status Report\ndescription: Produces a RAG project-status report with milestones, issues, risks, dependencies, and decisions required.\n---\n\n# Project Status Report\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nProduces a RAG project-status report with milestones, issues, risks, dependencies, and decisions required.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/project-status-report\n"
+  },
+  {
+    "slug": "pmpro-workshop-facilitation-guide",
+    "name": "Workshop Facilitation Guide",
+    "category": "business",
+    "description": "Builds a complete workshop plan with agenda, activities, prompts, decision rules, and facilitator interventions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/workshop-facilitation-guide",
+    "tags": [
+      "business-operations",
+      "facilitation",
+      "guide",
+      "workshop"
+    ],
+    "skill_content": "---\nname: Workshop Facilitation Guide\ndescription: Builds a complete workshop plan with agenda, activities, prompts, decision rules, and facilitator interventions.\n---\n\n# Workshop Facilitation Guide\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a complete workshop plan with agenda, activities, prompts, decision rules, and facilitator interventions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/workshop-facilitation-guide\n"
+  },
+  {
+    "slug": "pmpro-risk-register",
+    "name": "Risk Register",
+    "category": "business",
+    "description": "Creates a scored risk register with probability, impact, heat-map status, mitigations, contingencies, owners, and dates.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/risk-register",
+    "tags": [
+      "business-operations",
+      "register",
+      "risk"
+    ],
+    "skill_content": "---\nname: Risk Register\ndescription: Creates a scored risk register with probability, impact, heat-map status, mitigations, contingencies, owners, and dates.\n---\n\n# Risk Register\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a scored risk register with probability, impact, heat-map status, mitigations, contingencies, owners, and dates.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/risk-register\n"
+  },
+  {
+    "slug": "pmpro-raci-matrix",
+    "name": "Raci Matrix",
+    "category": "business",
+    "description": "Builds a RACI matrix with role definitions, decision ownership, communication rules, and anti-pattern checks.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/raci-matrix",
+    "tags": [
+      "business-operations",
+      "matrix",
+      "raci"
+    ],
+    "skill_content": "---\nname: Raci Matrix\ndescription: Builds a RACI matrix with role definitions, decision ownership, communication rules, and anti-pattern checks.\n---\n\n# Raci Matrix\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a RACI matrix with role definitions, decision ownership, communication rules, and anti-pattern checks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/raci-matrix\n"
+  },
+  {
+    "slug": "pmpro-launch-readiness",
+    "name": "Launch Readiness",
+    "category": "business",
+    "description": "Assesses cross-functional launch readiness, ranks blockers, assigns owners, and makes a go or no-go recommendation.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/launch-readiness",
+    "tags": [
+      "business-operations",
+      "launch",
+      "readiness"
+    ],
+    "skill_content": "---\nname: Launch Readiness\ndescription: Assesses cross-functional launch readiness, ranks blockers, assigns owners, and makes a go or no-go recommendation.\n---\n\n# Launch Readiness\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nAssesses cross-functional launch readiness, ranks blockers, assigns owners, and makes a go or no-go recommendation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/launch-readiness\n"
+  },
+  {
+    "slug": "pmpro-executive-summary",
+    "name": "Executive Summary",
+    "category": "business",
+    "description": "Writes a decision-ready executive summary with the bottom line first, evidence, implications, and requested action.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/executive-summary",
+    "tags": [
+      "business-operations",
+      "executive",
+      "summary"
+    ],
+    "skill_content": "---\nname: Executive Summary\ndescription: Writes a decision-ready executive summary with the bottom line first, evidence, implications, and requested action.\n---\n\n# Executive Summary\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites a decision-ready executive summary with the bottom line first, evidence, implications, and requested action.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/executive-summary\n"
+  },
+  {
+    "slug": "pmpro-sycophancy-challenger",
+    "name": "Sycophancy Challenger",
+    "category": "design",
+    "description": "Stress-tests an idea by constructing and defending the strongest credible counterargument before reconsidering it.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sycophancy-challenger",
+    "tags": [
+      "challenger",
+      "creative-ideation",
+      "sycophancy"
+    ],
+    "skill_content": "---\nname: Sycophancy Challenger\ndescription: Stress-tests an idea by constructing and defending the strongest credible counterargument before reconsidering it.\n---\n\n# Sycophancy Challenger\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nStress-tests an idea by constructing and defending the strongest credible counterargument before reconsidering it.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sycophancy-challenger\n"
+  },
+  {
+    "slug": "pmpro-contract-review",
+    "name": "Contract Review",
+    "category": "business",
+    "description": "Reviews a contract for key terms, unusual clauses, negotiation risks, and plain-language implications.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/contract-review",
+    "tags": [
+      "contract",
+      "legal-and-compliance",
+      "review"
+    ],
+    "skill_content": "---\nname: Contract Review\ndescription: Reviews a contract for key terms, unusual clauses, negotiation risks, and plain-language implications.\n---\n\n# Contract Review\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nReviews a contract for key terms, unusual clauses, negotiation risks, and plain-language implications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/contract-review\n"
+  },
+  {
+    "slug": "pmpro-nda-analyser",
+    "name": "Nda Analyser",
+    "category": "business",
+    "description": "Performs clause-by-clause NDA analysis with risk flags, negotiation points, and a practical checklist.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/nda-analyser",
+    "tags": [
+      "analyser",
+      "legal-and-compliance",
+      "nda"
+    ],
+    "skill_content": "---\nname: Nda Analyser\ndescription: Performs clause-by-clause NDA analysis with risk flags, negotiation points, and a practical checklist.\n---\n\n# Nda Analyser\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nPerforms clause-by-clause NDA analysis with risk flags, negotiation points, and a practical checklist.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/nda-analyser\n"
+  },
+  {
+    "slug": "pmpro-legal-brief",
+    "name": "Legal Brief",
+    "category": "business",
+    "description": "Structures a legal memorandum or argument using issue, rule, application, and conclusion.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/legal-brief",
+    "tags": [
+      "brief",
+      "legal",
+      "legal-and-compliance"
+    ],
+    "skill_content": "---\nname: Legal Brief\ndescription: Structures a legal memorandum or argument using issue, rule, application, and conclusion.\n---\n\n# Legal Brief\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nStructures a legal memorandum or argument using issue, rule, application, and conclusion.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/legal-brief\n"
+  },
+  {
+    "slug": "pmpro-compliance-checklist",
+    "name": "Compliance Checklist",
+    "category": "business",
+    "description": "Builds a prioritized gap checklist for frameworks such as GDPR, SOC 2, ISO 27001, FCA, or HIPAA.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/compliance-checklist",
+    "tags": [
+      "checklist",
+      "compliance",
+      "legal-and-compliance"
+    ],
+    "skill_content": "---\nname: Compliance Checklist\ndescription: Builds a prioritized gap checklist for frameworks such as GDPR, SOC 2, ISO 27001, FCA, or HIPAA.\n---\n\n# Compliance Checklist\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a prioritized gap checklist for frameworks such as GDPR, SOC 2, ISO 27001, FCA, or HIPAA.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/compliance-checklist\n"
+  },
+  {
+    "slug": "pmpro-financial-model-narrative",
+    "name": "Financial Model Narrative",
+    "category": "business",
+    "description": "Turns financial statements and model outputs into an executive or board-ready business narrative.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/financial-model-narrative",
+    "tags": [
+      "finance-and-investing",
+      "financial",
+      "model",
+      "narrative"
+    ],
+    "skill_content": "---\nname: Financial Model Narrative\ndescription: Turns financial statements and model outputs into an executive or board-ready business narrative.\n---\n\n# Financial Model Narrative\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nTurns financial statements and model outputs into an executive or board-ready business narrative.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/financial-model-narrative\n"
+  },
+  {
+    "slug": "pmpro-budget-variance-analysis",
+    "name": "Budget Variance Analysis",
+    "category": "business",
+    "description": "Explains budget-to-actual variance with quantified drivers, root causes, implications, and management actions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/budget-variance-analysis",
+    "tags": [
+      "analysis",
+      "budget",
+      "finance-and-investing",
+      "variance"
+    ],
+    "skill_content": "---\nname: Budget Variance Analysis\ndescription: Explains budget-to-actual variance with quantified drivers, root causes, implications, and management actions.\n---\n\n# Budget Variance Analysis\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nExplains budget-to-actual variance with quantified drivers, root causes, implications, and management actions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/budget-variance-analysis\n"
+  },
+  {
+    "slug": "pmpro-investor-pitch-deck",
+    "name": "Investor Pitch Deck",
+    "category": "business",
+    "description": "Creates a slide-by-slide investor pitch structure focused on the claim and evidence each slide must establish.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/investor-pitch-deck",
+    "tags": [
+      "deck",
+      "finance-and-investing",
+      "investor",
+      "pitch"
+    ],
+    "skill_content": "---\nname: Investor Pitch Deck\ndescription: Creates a slide-by-slide investor pitch structure focused on the claim and evidence each slide must establish.\n---\n\n# Investor Pitch Deck\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a slide-by-slide investor pitch structure focused on the claim and evidence each slide must establish.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/investor-pitch-deck\n"
+  },
+  {
+    "slug": "pmpro-financial-due-diligence",
+    "name": "Financial Due Diligence",
+    "category": "business",
+    "description": "Builds a financial diligence request list, analytical agenda, quality-of-earnings questions, and red-flag checklist.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/financial-due-diligence",
+    "tags": [
+      "diligence",
+      "due",
+      "finance-and-investing",
+      "financial"
+    ],
+    "skill_content": "---\nname: Financial Due Diligence\ndescription: Builds a financial diligence request list, analytical agenda, quality-of-earnings questions, and red-flag checklist.\n---\n\n# Financial Due Diligence\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a financial diligence request list, analytical agenda, quality-of-earnings questions, and red-flag checklist.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/financial-due-diligence\n"
+  },
+  {
+    "slug": "pmpro-tax-planning-checklist",
+    "name": "Tax Planning Checklist",
+    "category": "business",
+    "description": "Creates a year-end tax-planning checklist across income, capital gains, pensions, business reliefs, and allowances.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/tax-planning-checklist",
+    "tags": [
+      "checklist",
+      "finance-and-investing",
+      "planning",
+      "tax"
+    ],
+    "skill_content": "---\nname: Tax Planning Checklist\ndescription: Creates a year-end tax-planning checklist across income, capital gains, pensions, business reliefs, and allowances.\n---\n\n# Tax Planning Checklist\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a year-end tax-planning checklist across income, capital gains, pensions, business reliefs, and allowances.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/tax-planning-checklist\n"
+  },
+  {
+    "slug": "pmpro-sales-battlecard",
+    "name": "Sales Battlecard",
+    "category": "business",
+    "description": "Creates a one-page competitive sales battlecard with differentiation, objections, responses, proof, and discovery questions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sales-battlecard",
+    "tags": [
+      "battlecard",
+      "sales"
+    ],
+    "skill_content": "---\nname: Sales Battlecard\ndescription: Creates a one-page competitive sales battlecard with differentiation, objections, responses, proof, and discovery questions.\n---\n\n# Sales Battlecard\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a one-page competitive sales battlecard with differentiation, objections, responses, proof, and discovery questions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sales-battlecard\n"
+  },
+  {
+    "slug": "pmpro-discovery-call-prep",
+    "name": "Discovery Call Prep",
+    "category": "business",
+    "description": "Builds a prospect call brief with research, hypotheses, agenda, questions, risks, and success criteria.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/discovery-call-prep",
+    "tags": [
+      "call",
+      "discovery",
+      "prep",
+      "sales"
+    ],
+    "skill_content": "---\nname: Discovery Call Prep\ndescription: Builds a prospect call brief with research, hypotheses, agenda, questions, risks, and success criteria.\n---\n\n# Discovery Call Prep\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a prospect call brief with research, hypotheses, agenda, questions, risks, and success criteria.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/discovery-call-prep\n"
+  },
+  {
+    "slug": "pmpro-proposal-writer",
+    "name": "Proposal Writer",
+    "category": "business",
+    "description": "Writes a commercial proposal around the buyer's problem, outcomes, approach, proof, scope, and next step.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/proposal-writer",
+    "tags": [
+      "proposal",
+      "sales",
+      "writer"
+    ],
+    "skill_content": "---\nname: Proposal Writer\ndescription: Writes a commercial proposal around the buyer's problem, outcomes, approach, proof, scope, and next step.\n---\n\n# Proposal Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites a commercial proposal around the buyer's problem, outcomes, approach, proof, scope, and next step.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/proposal-writer\n"
+  },
+  {
+    "slug": "pmpro-account-plan",
+    "name": "Account Plan",
+    "category": "business",
+    "description": "Creates a strategic account plan with relationship map, opportunity whitespace, risks, goals, and 90-day actions.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/account-plan",
+    "tags": [
+      "account",
+      "plan",
+      "sales"
+    ],
+    "skill_content": "---\nname: Account Plan\ndescription: Creates a strategic account plan with relationship map, opportunity whitespace, risks, goals, and 90-day actions.\n---\n\n# Account Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a strategic account plan with relationship map, opportunity whitespace, risks, goals, and 90-day actions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/account-plan\n"
+  },
+  {
+    "slug": "pmpro-sales-forecasting-model",
+    "name": "Sales Forecasting Model",
+    "category": "business",
+    "description": "Builds a pipeline forecast with stage probabilities, scenarios, assumptions, and activity sanity checks.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sales-forecasting-model",
+    "tags": [
+      "forecasting",
+      "model",
+      "sales"
+    ],
+    "skill_content": "---\nname: Sales Forecasting Model\ndescription: Builds a pipeline forecast with stage probabilities, scenarios, assumptions, and activity sanity checks.\n---\n\n# Sales Forecasting Model\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nBuilds a pipeline forecast with stage probabilities, scenarios, assumptions, and activity sanity checks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/sales-forecasting-model\n"
+  },
+  {
+    "slug": "pmpro-partnership-proposal",
+    "name": "Partnership Proposal",
+    "category": "business",
+    "description": "Creates a B2B partnership proposal with mutual value, commercial model, joint GTM, governance, and risks.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/partnership-proposal",
+    "tags": [
+      "partnership",
+      "proposal",
+      "sales"
+    ],
+    "skill_content": "---\nname: Partnership Proposal\ndescription: Creates a B2B partnership proposal with mutual value, commercial model, joint GTM, governance, and risks.\n---\n\n# Partnership Proposal\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a B2B partnership proposal with mutual value, commercial model, joint GTM, governance, and risks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/partnership-proposal\n"
+  },
+  {
+    "slug": "pmpro-clinical-case-summary",
+    "name": "Clinical Case Summary",
+    "category": "writing",
+    "description": "Creates educational or documentation-focused SBAR handovers, SOAP notes, and structured case summaries.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/clinical-case-summary",
+    "tags": [
+      "case",
+      "clinical",
+      "healthcare-documentation",
+      "summary"
+    ],
+    "skill_content": "---\nname: Clinical Case Summary\ndescription: Creates educational or documentation-focused SBAR handovers, SOAP notes, and structured case summaries.\n---\n\n# Clinical Case Summary\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates educational or documentation-focused SBAR handovers, SOAP notes, and structured case summaries.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/clinical-case-summary\n"
+  },
+  {
+    "slug": "pmpro-research-protocol",
+    "name": "Research Protocol",
+    "category": "research",
+    "description": "Writes a study protocol covering objectives, design, methods, ethics, data management, and analysis.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/research-protocol",
+    "tags": [
+      "protocol",
+      "research"
+    ],
+    "skill_content": "---\nname: Research Protocol\ndescription: Writes a study protocol covering objectives, design, methods, ethics, data management, and analysis.\n---\n\n# Research Protocol\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites a study protocol covering objectives, design, methods, ethics, data management, and analysis.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/research-protocol\n"
+  },
+  {
+    "slug": "pmpro-patient-communication",
+    "name": "Patient Communication",
+    "category": "writing",
+    "description": "Rewrites clinical information into plain-language patient letters, leaflets, or results communication.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/patient-communication",
+    "tags": [
+      "communication",
+      "healthcare-documentation",
+      "patient"
+    ],
+    "skill_content": "---\nname: Patient Communication\ndescription: Rewrites clinical information into plain-language patient letters, leaflets, or results communication.\n---\n\n# Patient Communication\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nRewrites clinical information into plain-language patient letters, leaflets, or results communication.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/patient-communication\n"
+  },
+  {
+    "slug": "pmpro-literature-review",
+    "name": "Literature Review",
+    "category": "research",
+    "description": "Produces a thematic literature review with synthesis, critical appraisal, evidence gaps, and research implications.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/literature-review",
+    "tags": [
+      "literature",
+      "research",
+      "review"
+    ],
+    "skill_content": "---\nname: Literature Review\ndescription: Produces a thematic literature review with synthesis, critical appraisal, evidence gaps, and research implications.\n---\n\n# Literature Review\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nProduces a thematic literature review with synthesis, critical appraisal, evidence gaps, and research implications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/literature-review\n"
+  },
+  {
+    "slug": "pmpro-grant-proposal",
+    "name": "Grant Proposal",
+    "category": "research",
+    "description": "Structures a grant application around funder priorities, outcomes, methodology, evidence, delivery, and budget narrative.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/grant-proposal",
+    "tags": [
+      "grant",
+      "proposal",
+      "research"
+    ],
+    "skill_content": "---\nname: Grant Proposal\ndescription: Structures a grant application around funder priorities, outcomes, methodology, evidence, delivery, and budget narrative.\n---\n\n# Grant Proposal\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nStructures a grant application around funder priorities, outcomes, methodology, evidence, delivery, and budget narrative.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/grant-proposal\n"
+  },
+  {
+    "slug": "pmpro-teaching-lesson-plan",
+    "name": "Teaching Lesson Plan",
+    "category": "personal",
+    "description": "Creates a lesson plan with objectives, activities, differentiation, formative assessment, materials, and timing.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/teaching-lesson-plan",
+    "tags": [
+      "education",
+      "lesson",
+      "plan",
+      "teaching"
+    ],
+    "skill_content": "---\nname: Teaching Lesson Plan\ndescription: Creates a lesson plan with objectives, activities, differentiation, formative assessment, materials, and timing.\n---\n\n# Teaching Lesson Plan\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a lesson plan with objectives, activities, differentiation, formative assessment, materials, and timing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/teaching-lesson-plan\n"
+  },
+  {
+    "slug": "pmpro-press-release",
+    "name": "Press Release",
+    "category": "business",
+    "description": "Writes a journalist-ready press release with headline, lead, evidence, quotes, boilerplate, and editorial checks.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/press-release",
+    "tags": [
+      "marketing",
+      "press",
+      "release"
+    ],
+    "skill_content": "---\nname: Press Release\ndescription: Writes a journalist-ready press release with headline, lead, evidence, quotes, boilerplate, and editorial checks.\n---\n\n# Press Release\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nWrites a journalist-ready press release with headline, lead, evidence, quotes, boilerplate, and editorial checks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/press-release\n"
+  },
+  {
+    "slug": "pmpro-social-media-audit",
+    "name": "Social Media Audit",
+    "category": "business",
+    "description": "Scores social channels for profile quality, content performance, competitive position, and prioritized improvements.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/social-media-audit",
+    "tags": [
+      "audit",
+      "marketing",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Social Media Audit\ndescription: Scores social channels for profile quality, content performance, competitive position, and prioritized improvements.\n---\n\n# Social Media Audit\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nScores social channels for profile quality, content performance, competitive position, and prioritized improvements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/social-media-audit\n"
+  },
+  {
+    "slug": "pmpro-influencer-brief",
+    "name": "Influencer Brief",
+    "category": "business",
+    "description": "Creates a creator partnership brief with deliverables, creative boundaries, messages, approvals, terms, and measurement.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/influencer-brief",
+    "tags": [
+      "brief",
+      "influencer",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Influencer Brief\ndescription: Creates a creator partnership brief with deliverables, creative boundaries, messages, approvals, terms, and measurement.\n---\n\n# Influencer Brief\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates a creator partnership brief with deliverables, creative boundaries, messages, approvals, terms, and measurement.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/influencer-brief\n"
+  },
+  {
+    "slug": "pmpro-community-management-playbook",
+    "name": "Community Management Playbook",
+    "category": "business",
+    "description": "Defines moderation, response patterns, escalation, direct-message templates, voice, and community health metrics.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/community-management-playbook",
+    "tags": [
+      "community",
+      "management",
+      "marketing",
+      "playbook"
+    ],
+    "skill_content": "---\nname: Community Management Playbook\ndescription: Defines moderation, response patterns, escalation, direct-message templates, voice, and community health metrics.\n---\n\n# Community Management Playbook\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nDefines moderation, response patterns, escalation, direct-message templates, voice, and community health metrics.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/community-management-playbook\n"
+  },
+  {
+    "slug": "pmpro-social-ad-campaign",
+    "name": "Social Ad Campaign",
+    "category": "business",
+    "description": "Plans a full-funnel paid-social campaign with targeting, creative formats, copy, budget, bidding, and experiments.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/social-ad-campaign",
+    "tags": [
+      "campaign",
+      "marketing",
+      "social"
+    ],
+    "skill_content": "---\nname: Social Ad Campaign\ndescription: Plans a full-funnel paid-social campaign with targeting, creative formats, copy, budget, bidding, and experiments.\n---\n\n# Social Ad Campaign\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nPlans a full-funnel paid-social campaign with targeting, creative formats, copy, budget, bidding, and experiments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/social-ad-campaign\n"
+  },
+  {
+    "slug": "pmpro-viral-content-framework",
+    "name": "Viral Content Framework",
+    "category": "business",
+    "description": "Applies repeatable hook, sharing, content-structure, platform, and testing frameworks to social content.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/viral-content-framework",
+    "tags": [
+      "content",
+      "framework",
+      "marketing",
+      "viral"
+    ],
+    "skill_content": "---\nname: Viral Content Framework\ndescription: Applies repeatable hook, sharing, content-structure, platform, and testing frameworks to social content.\n---\n\n# Viral Content Framework\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nApplies repeatable hook, sharing, content-structure, platform, and testing frameworks to social content.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/viral-content-framework\n"
+  },
+  {
+    "slug": "pmpro-aeo-optimizer",
+    "name": "Aeo Optimizer",
+    "category": "business",
+    "description": "Restructures articles for answer-engine citation with question headings, concise answer capsules, evidence, and trust signals.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/aeo-optimizer",
+    "tags": [
+      "aeo",
+      "optimizer",
+      "seo"
+    ],
+    "skill_content": "---\nname: Aeo Optimizer\ndescription: Restructures articles for answer-engine citation with question headings, concise answer capsules, evidence, and trust signals.\n---\n\n# Aeo Optimizer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nRestructures articles for answer-engine citation with question headings, concise answer capsules, evidence, and trust signals.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/aeo-optimizer\n"
+  },
+  {
+    "slug": "pmpro-youtube-script-writer",
+    "name": "Youtube Script Writer",
+    "category": "design",
+    "description": "Creates retention-focused video scripts with title and thumbnail concepts, hooks, scene cues, and SEO metadata.",
+    "author": "mohitagw15856",
+    "source_url": "https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/youtube-script-writer",
+    "tags": [
+      "script",
+      "video-and-media-workflows",
+      "writer",
+      "youtube"
+    ],
+    "skill_content": "---\nname: Youtube Script Writer\ndescription: Creates retention-focused video scripts with title and thumbnail concepts, hooks, scene cues, and SEO metadata.\n---\n\n# Youtube Script Writer\n\nPart of the **PM Pro Skills** pack by mohitagw15856 (`mohitagw15856/pm-claude-skills`).\n\nCreates retention-focused video scripts with title and thumbnail concepts, hooks, scene cues, and SEO metadata.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mohitagw15856/pm-claude-skills/tree/54445ed3636eaedc86879b9b3dbb9ad07fcf73e3/skills/youtube-script-writer\n"
+  }
+]
