@@ -11,8 +11,6 @@ import { isPartner } from '@/lib/partners'
 import { CopyButton } from '@/components/CopyButton'
 import { installLabel } from '@/lib/categories'
 import { getPackBySlug } from '@/lib/packs'
-import { getDemo, getDemosForSkillSlugs } from '@/lib/media'
-import { DemoSection, DemoGallery } from '@/components/DemoSection'
 import { getRepoStars } from '@/lib/github'
 import { MCP_URL } from '@/lib/site'
 
@@ -53,15 +51,6 @@ export default async function PackDetailPage({
   if (!pack) notFound()
 
   const stars = await getRepoStars(pack.repo_url)
-
-  // Demo videos: this pack's own landscape demo + each member skill's demo.
-  const demo = await getDemo('pack', slug)
-  const memberSlugs = (pack.skills ?? []).map((s) => s.slug)
-  const memberDemos = await getDemosForSkillSlugs(memberSlugs)
-  const galleryItems = (pack.skills ?? []).flatMap((s) => {
-    const d = memberDemos.get(s.slug)
-    return d ? [{ slug: s.slug, name: s.name, demo: d }] : []
-  })
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
@@ -110,9 +99,6 @@ export default async function PackDetailPage({
         <div>
           <p className="text-shelf-text-secondary leading-relaxed">{pack.description}</p>
 
-          {/* Pack demo video (when published) */}
-          <DemoSection demo={demo} />
-
           {/* Skills in this pack */}
           {pack.skills && pack.skills.length > 0 && (
             <section className="mt-8">
@@ -126,9 +112,6 @@ export default async function PackDetailPage({
               </div>
             </section>
           )}
-
-          {/* Per-skill demo breakdown gallery (members that have a video) */}
-          <DemoGallery items={galleryItems} />
         </div>
 
         {/* Sidebar */}
