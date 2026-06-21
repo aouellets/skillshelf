@@ -1,0 +1,12 @@
+# Files to exclude from Vercel CLI deploys (`vercel`, `vercel --prod`).
+# Git-integration deploys already exclude anything gitignored; this mirrors the
+# important exclusions so local CLI deploys (which would otherwise upload
+# untracked/gitignored files) match.
+
+# Remotion demo-video project — a separate toolchain with its own package.json
+# and @remotion deps that are NOT installed in the web app's build. Uploading it
+# makes Next.js try to compile remotion.config.ts and the prod build fails.
+remotion-skillme-ai-engineer/
+
+# Build output
+/out/
