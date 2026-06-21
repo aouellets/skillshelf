@@ -120,9 +120,41 @@ export async function getPackBySlug(slug: string): Promise<Pack | null> {
   } as unknown as Pack
 }
 
-export async function getFeaturedPacks(limit = 4): Promise<Pack[]> {
-  const { packs } = await getPacks({ featured: true, limit })
-  return packs
+/**
+ * Fetch a hand-picked set of packs by slug, returned in the exact order given.
+ * Used by the landing-page showcase to surface one pack per discipline so the
+ * grid conveys the breadth of the catalog instead of clustering by install
+ * count. Missing slugs are silently skipped; falls back to seed packs offline.
+ */
+export async function getPacksBySlugs(slugs: string[]): Promise<Pack[]> {
+  if (slugs.length === 0) return []
+  const order = new Map(slugs.map((slug, i) => [slug, i]))
+  const bySlug = (a: Pack, b: Pack) =>
+    (order.get(a.slug) ?? Infinity) - (order.get(b.slug) ?? Infinity)
+
+  const supabase = getSupabase()
+  if (!supabase) {
+    return SEED_PACKS.filter((p) => order.has(p.slug)).sort(bySlug)
+  }
+
+  const { data, error } = await supabase
+    .from('packs')
+    .select(`*, pack_skills(count)`)
+    .in('slug', slugs)
+
+  if (error || !data) {
+    if (error) console.error('[getPacksBySlugs] error:', error.message)
+    return SEED_PACKS.filter((p) => order.has(p.slug)).sort(bySlug)
+  }
+
+  return (data as Record<string, unknown>[])
+    .map((p) => ({
+      ...p,
+      skill_count: Array.isArray(p.pack_skills)
+        ? (p.pack_skills[0] as { count: number })?.count ?? 0
+        : 0,
+    }))
+    .sort((a, b) => bySlug(a as Pack, b as Pack)) as Pack[]
 }
 
 function applyFallbackPackQuery(opts: PackQuery): PackPage {

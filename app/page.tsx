@@ -7,7 +7,7 @@ import { FeaturedCarousel } from '@/components/FeaturedCarousel'
 import { SkillCard } from '@/components/SkillCard'
 import { CATEGORIES } from '@/lib/categories'
 import { getFeaturedSkills, getHotSkills, getSkills, formatSkillCount } from '@/lib/data'
-import { getFeaturedPacks } from '@/lib/packs'
+import { getPacksBySlugs } from '@/lib/packs'
 import { getSupabase } from '@/lib/supabase'
 
 export const dynamic = 'force-dynamic'
@@ -48,6 +48,22 @@ async function StatsBar() {
   }
 }
 
+/**
+ * Curated landing-page pack showcase — one standout pack per discipline, in
+ * category order, so the grid reads as "we cover every kind of work" rather than
+ * a top-N-by-installs cluster. Each label names the discipline it represents.
+ */
+const SHOWCASE_PACKS: { slug: string; discipline: string }[] = [
+  { slug: 'engineering-workflow', discipline: 'Engineering' },
+  { slug: 'data-science-ml', discipline: 'Data & ML' },
+  { slug: 'brand-visual-identity', discipline: 'Design' },
+  { slug: 'content-marketing-engine', discipline: 'Marketing' },
+  { slug: 'startup-fundraising', discipline: 'Fundraising' },
+  { slug: 'product-manager-stack', discipline: 'Product' },
+  { slug: 'academic-researcher', discipline: 'Research' },
+  { slug: 'personal-operating-system', discipline: 'Personal' },
+]
+
 const STEPS = [
   {
     title: 'Connect once',
@@ -64,12 +80,19 @@ const STEPS = [
 ]
 
 export default async function HomePage() {
-  const [featured, hot, { total }, featuredPacks] = await Promise.all([
+  const [featured, hot, { total }, showcasePacks] = await Promise.all([
     getFeaturedSkills(12),
     getHotSkills(6),
     getSkills({ limit: 1 }),
-    getFeaturedPacks(3),
+    getPacksBySlugs(SHOWCASE_PACKS.map((p) => p.slug)),
   ])
+  // Pair each fetched pack with its curated discipline label, preserving order.
+  const showcase = SHOWCASE_PACKS.map((s) => ({
+    discipline: s.discipline,
+    pack: showcasePacks.find((p) => p.slug === s.slug),
+  })).filter((s): s is { discipline: string; pack: NonNullable<typeof s.pack> } =>
+    Boolean(s.pack)
+  )
   const countLabel =
     total > 0 ? `${formatSkillCount(total)} curated Claude skills` : 'Curated Claude skills'
 
@@ -223,11 +246,19 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* FEATURED PACKS — card grid */}
-      {featuredPacks.length > 0 && (
+      {/* PACK SHOWCASE — one standout pack per discipline, to convey breadth */}
+      {showcase.length > 0 && (
         <section className="py-10">
           <Reveal className="flex items-end justify-between gap-4">
-            <h2 className="text-2xl font-semibold text-shelf-text-primary">Skill packs</h2>
+            <div className="max-w-xl">
+              <h2 className="text-2xl font-semibold text-shelf-text-primary">
+                One catalog. Every kind of work.
+              </h2>
+              <p className="mt-2 text-sm leading-relaxed text-shelf-text-secondary">
+                Packs bundle a whole workflow into a few skills — from shipping code to
+                closing a round to building a brand. One pick from each discipline below.
+              </p>
+            </div>
             <Link
               href="/packs"
               className="shrink-0 text-sm text-shelf-text-secondary transition-colors hover:text-accent-hover"
@@ -235,10 +266,15 @@ export default async function HomePage() {
               View all packs →
             </Link>
           </Reveal>
-          <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-3">
-            {featuredPacks.map((pack, i) => (
-              <Reveal key={pack.id} delay={i * 60}>
-                <PackCard pack={pack} />
+          <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {showcase.map(({ pack, discipline }, i) => (
+              <Reveal key={pack.id} delay={i * 50}>
+                <div className="flex h-full flex-col gap-2">
+                  <span className="font-mono text-xs uppercase tracking-wide text-shelf-text-tertiary">
+                    {discipline}
+                  </span>
+                  <PackCard pack={pack} />
+                </div>
               </Reveal>
             ))}
           </div>
