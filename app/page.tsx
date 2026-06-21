@@ -10,6 +10,8 @@ import { PARTNER_STRIP } from '@/lib/partners'
 import { CATEGORIES } from '@/lib/categories'
 import { getSkillsBySlugs, getSkills, formatSkillCount } from '@/lib/data'
 import { getPacksBySlugs } from '@/lib/packs'
+import { getPlatformDemos } from '@/lib/media'
+import { PlatformDemoBlock } from '@/components/PlatformDemoBlock'
 import { getSupabase } from '@/lib/supabase'
 
 export const dynamic = 'force-dynamic'
@@ -119,12 +121,13 @@ const STEPS = [
 ]
 
 export default async function HomePage() {
-  const [featured, becomeAnything, { total }, showcasePacks, partnerPacks] = await Promise.all([
+  const [featured, becomeAnything, { total }, showcasePacks, partnerPacks, platformDemo] = await Promise.all([
     getSkillsBySlugs(FEATURED_SKILLS),
     getSkillsBySlugs(BECOME_ANYTHING_SKILLS),
     getSkills({ limit: 1 }),
     getPacksBySlugs(SHOWCASE_PACKS.map((p) => p.slug)),
     getPacksBySlugs(PARTNER_STRIP.map((p) => p.packSlug)),
+    getPlatformDemos(),
   ])
   // Keep partner packs in the curated PARTNER_STRIP order.
   const partnerShowcase = PARTNER_STRIP.map((p) =>
@@ -183,6 +186,21 @@ export default async function HomePage() {
           <HeroDemo />
         </div>
       </section>
+
+      {/* PLATFORM DEMO — the real 30s product film, landscape on desktop / portrait on mobile */}
+      {(platformDemo.landscape || platformDemo.portrait) && (
+        <section className="relative py-8 sm:py-12">
+          <div className="mx-auto max-w-4xl">
+            <PlatformDemoBlock
+              landscape={platformDemo.landscape}
+              portrait={platformDemo.portrait}
+            />
+            <p className="mt-3 text-center text-xs text-shelf-text-tertiary">
+              SkillMe in 30 seconds — click to play with sound.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* PARTNER TRUST STRIP — official logos as a credibility signal */}
       <section className="border-y border-shelf-border py-8">

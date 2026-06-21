@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { getPlatformDemos } from '@/lib/media'
+import { PlatformDemoBlock } from '@/components/PlatformDemoBlock'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -51,7 +53,8 @@ const FAQ = [
   },
 ]
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const platformDemo = await getPlatformDemos()
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       {/* Hero */}
@@ -86,6 +89,19 @@ export default function AboutPage() {
           </div>
         ))}
       </div>
+
+      {/* Platform demo film */}
+      {(platformDemo.landscape || platformDemo.portrait) && (
+        <div className="mt-12">
+          <PlatformDemoBlock
+            landscape={platformDemo.landscape}
+            portrait={platformDemo.portrait}
+          />
+          <p className="mt-3 text-center text-xs text-shelf-text-tertiary">
+            SkillMe in 30 seconds — click to play with sound.
+          </p>
+        </div>
+      )}
 
       {/* How it works */}
       <section className="mt-14">

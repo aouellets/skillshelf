@@ -17,6 +17,8 @@ import { SkillThumbnail } from '@/components/SkillThumbnail'
 import { SkillViewTracker } from '@/components/SkillViewTracker'
 import { CATEGORY_MAP, installLabel } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
+import { getDemo } from '@/lib/media'
+import { DemoSection } from '@/components/DemoSection'
 import { SITE_URL } from '@/lib/site'
 
 export const dynamic = 'force-dynamic'
@@ -58,12 +60,13 @@ export default async function SkillDetailPage({
   const skill = await getSkillBySlug(slug)
   if (!skill) notFound()
 
+  const demo = await getDemo('skill', slug)
   const category = CATEGORY_MAP[skill.category]
   const preview = skill.skill_content.split('\n').slice(0, PREVIEW_LINES).join('\n')
   const truncated = skill.skill_content.split('\n').length > PREVIEW_LINES
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
       <SkillViewTracker skillId={skill.id} />
       {/* Breadcrumb */}
       <nav className="flex flex-wrap items-center gap-2 text-sm text-shelf-text-tertiary">
@@ -82,7 +85,7 @@ export default async function SkillDetailPage({
       </nav>
 
       {(skill.thumbnail_url || skill.thumbnail_gif || skill.thumbnail_video) && (
-        <div className="mt-6 overflow-hidden rounded-lg border border-shelf-border">
+        <div className="mt-6 max-w-3xl overflow-hidden rounded-lg border border-shelf-border">
           <SkillThumbnail skill={skill} size="detail" />
         </div>
       )}
@@ -117,9 +120,9 @@ export default async function SkillDetailPage({
         </div>
       </header>
 
-      <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[1fr_320px]">
+      <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[1fr_340px]">
         <div className="min-w-0">
-          <p className="text-lg leading-relaxed text-shelf-text-secondary">
+          <p className="max-w-2xl text-lg leading-relaxed text-shelf-text-secondary">
             {skill.description}
           </p>
 
@@ -135,6 +138,9 @@ export default async function SkillDetailPage({
               ))}
             </div>
           )}
+
+          {/* Demo video (when published) */}
+          <DemoSection demo={demo} />
 
           {/* SKILL.md preview */}
           <section className="mt-8">

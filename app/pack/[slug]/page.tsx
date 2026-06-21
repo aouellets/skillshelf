@@ -11,6 +11,8 @@ import { isPartner } from '@/lib/partners'
 import { CopyButton } from '@/components/CopyButton'
 import { installLabel } from '@/lib/categories'
 import { getPackBySlug } from '@/lib/packs'
+import { getDemo, getDemosForSkillSlugs } from '@/lib/media'
+import { DemoSection, DemoGallery } from '@/components/DemoSection'
 import { getRepoStars } from '@/lib/github'
 import { MCP_URL } from '@/lib/site'
 
@@ -52,8 +54,17 @@ export default async function PackDetailPage({
 
   const stars = await getRepoStars(pack.repo_url)
 
+  // Demo videos: this pack's own landscape demo + each member skill's demo.
+  const demo = await getDemo('pack', slug)
+  const memberSlugs = (pack.skills ?? []).map((s) => s.slug)
+  const memberDemos = await getDemosForSkillSlugs(memberSlugs)
+  const galleryItems = (pack.skills ?? []).flatMap((s) => {
+    const d = memberDemos.get(s.slug)
+    return d ? [{ slug: s.slug, name: s.name, demo: d }] : []
+  })
+
   return (
-    <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm text-shelf-text-tertiary">
         <Link href="/packs" className="transition-colors hover:text-shelf-text-secondary">Packs</Link>
@@ -63,7 +74,7 @@ export default async function PackDetailPage({
 
       {/* Thumbnail */}
       {(pack.thumbnail_url || pack.thumbnail_gif) && (
-        <div className="mt-6 overflow-hidden rounded-lg border border-shelf-border">
+        <div className="mt-6 max-w-3xl overflow-hidden rounded-lg border border-shelf-border">
           <SkillThumbnail skill={pack} size="detail" />
         </div>
       )}
@@ -81,7 +92,7 @@ export default async function PackDetailPage({
         <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight text-shelf-text-primary sm:text-5xl">
           {pack.name}
         </h1>
-        <p className="mt-3 text-lg leading-relaxed text-shelf-text-secondary">{pack.tagline}</p>
+        <p className="mt-3 max-w-2xl text-lg leading-relaxed text-shelf-text-secondary">{pack.tagline}</p>
         <div className="mt-3 flex flex-wrap items-center gap-4 font-mono text-sm text-shelf-text-tertiary">
           {installLabel(pack.install_count) && <span>{installLabel(pack.install_count)}</span>}
           {pack.author &&
@@ -95,9 +106,12 @@ export default async function PackDetailPage({
         </div>
       </header>
 
-      <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[1fr_300px]">
-        <div>
-          <p className="text-shelf-text-secondary leading-relaxed">{pack.description}</p>
+      <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-[1fr_340px]">
+        <div className="min-w-0">
+          <p className="max-w-2xl text-shelf-text-secondary leading-relaxed">{pack.description}</p>
+
+          {/* Pack demo video (when published) */}
+          <DemoSection demo={demo} />
 
           {/* Skills in this pack */}
           {pack.skills && pack.skills.length > 0 && (
@@ -112,6 +126,9 @@ export default async function PackDetailPage({
               </div>
             </section>
           )}
+
+          {/* Per-skill demo breakdown gallery (members that have a video) */}
+          <DemoGallery items={galleryItems} />
         </div>
 
         {/* Sidebar */}
