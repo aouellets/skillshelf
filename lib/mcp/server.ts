@@ -10,6 +10,8 @@ import { browsePacks } from './tools/browsePacks'
 import { installPack } from './tools/installPack'
 import { manageCollections } from './tools/manageCollections'
 import { SITE_URL } from '../site'
+import { track } from '../telemetry/track'
+import { MCP_TOOLS, type McpTool } from '../telemetry/events'
 
 const SERVER_NAME = 'Skill Me'
 const SERVER_VERSION = '1.0.0'
@@ -108,6 +110,19 @@ export function createMCPServer(userToken: string | null) {
     switch (req.method) {
       case 'initialize': {
         const negotiated = negotiateProtocol(req.params?.protocolVersion)
+        // Telemetry: a new MCP connection. Fire-and-forget — never blocks the
+        // handshake, never throws.
+        const clientInfo = req.params?.clientInfo as { name?: string } | undefined
+        void track(
+          {
+            name: 'mcp_session_started',
+            properties: {
+              transport: 'streamable-http',
+              ...(clientInfo?.name ? { client_name: clientInfo.name } : {}),
+            },
+          },
+          { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+        )
         return result(req.id, {
           protocolVersion: negotiated,
           capabilities: { tools: { listChanged: false } },
@@ -164,12 +179,30 @@ export function createMCPServer(userToken: string | null) {
           return error(req.id, -32602, `Unknown tool: ${name ?? '(none)'}`)
         }
 
+        const startedAt = Date.now()
         let toolResult: MCPToolResult
         try {
           toolResult = await tool.handler(args as never, ctx)
         } catch (err) {
           const message = err instanceof Error ? err.message : 'Unknown error'
           toolResult = text(`The tool failed: ${message}`, true)
+        }
+
+        // Telemetry: record every tool invocation with its latency and outcome.
+        // `ok` reflects the tool's own error contract (isError on the result).
+        // Fire-and-forget; the response is returned regardless of this emit.
+        if (MCP_TOOLS.includes(name as McpTool)) {
+          void track(
+            {
+              name: 'mcp_tool_invoked',
+              properties: {
+                tool: name as McpTool,
+                duration_ms: Date.now() - startedAt,
+                ok: !toolResult.isError,
+              },
+            },
+            { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+          )
         }
 
         return result(req.id, toolResult)

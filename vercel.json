@@ -5,6 +5,10 @@
     {
       "path": "/api/cron/recompute",
       "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/cron/telemetry",
+      "schedule": "*/15 * * * *"
     }
   ]
 }

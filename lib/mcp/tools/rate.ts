@@ -1,6 +1,7 @@
 import { getServiceSupabase } from '../../supabase'
 import { checkRateLimit } from '../rateLimit'
 import { text, requireToken, type Tool } from '../types'
+import { track } from '../../telemetry/track'
 
 interface RateArgs {
   skill_id?: string
@@ -90,6 +91,11 @@ export const rateSkill: Tool<RateArgs> = {
     if (rpcError) {
       console.error('recompute_skill_rating failed:', rpcError.message)
     }
+
+    void track(
+      { name: 'skill_rated', properties: { skill_id: skill.id, rating } },
+      { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+    )
 
     return text(`Thanks — you rated "${skill.name}" ${rating}/5.`)
   },
