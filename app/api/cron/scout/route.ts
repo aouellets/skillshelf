@@ -3,6 +3,7 @@ import { getServiceSupabase } from '@/lib/supabase'
 import { sendAdminAlert } from '@/lib/email'
 import {
   DISCOVERY_TOPICS,
+  existingSkillRepos,
   existingSkillSlugs,
   ingestRepo,
   repoAlreadyKnown,
@@ -52,12 +53,15 @@ async function handle(req: NextRequest) {
   const since = new Date(Date.now() - PUSHED_WINDOW_DAYS * 86_400_000).toISOString().slice(0, 10)
 
   try {
-    const [trending, existing] = await Promise.all([
+    const [trending, existing, existingRepos] = await Promise.all([
       searchTrendingRepos(DISCOVERY_TOPICS, since),
       existingSkillSlugs(supabase),
+      existingSkillRepos(supabase),
     ])
 
-    const fresh = trending.filter((r) => !repoAlreadyKnown(r.owner, r.repo, existing)).slice(0, MAX_REPOS)
+    const fresh = trending
+      .filter((r) => !repoAlreadyKnown(r.owner, r.repo, existing, existingRepos))
+      .slice(0, MAX_REPOS)
 
     const published: SkillResult[] = []
     const perRepo: { repo: string; published: number; skipped?: string }[] = []

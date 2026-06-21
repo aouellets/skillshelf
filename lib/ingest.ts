@@ -451,6 +451,30 @@ export async function existingSkillSlugs(supabase: SupabaseClient): Promise<Set<
   return new Set((data ?? []).map((r: { slug: string }) => r.slug))
 }
 
+/** `owner/repo` (lowercased) parsed from a GitHub URL, or null if it isn't one. */
+export function repoKeyFromUrl(url: string | null | undefined): string | null {
+  if (!url) return null
+  const m = /github\.com\/([^/]+)\/([^/#?]+)/i.exec(url)
+  return m ? `${m[1]}/${m[2]}`.toLowerCase() : null
+}
+
+/**
+ * Set of `owner/repo` keys the catalog already carries, derived from each
+ * skill's `source_url`. This is the source-of-truth dedup signal: it matches a
+ * repo even when it was curated under a custom slug prefix (e.g. the NotFair
+ * pack lives under `notfair-*`, not `nowork-studio-notfair-*`), which the
+ * slug-prefix check in `repoAlreadyKnown` cannot see.
+ */
+export async function existingSkillRepos(supabase: SupabaseClient): Promise<Set<string>> {
+  const { data } = await supabase.from('skills').select('source_url')
+  const set = new Set<string>()
+  for (const r of (data ?? []) as { source_url: string | null }[]) {
+    const key = repoKeyFromUrl(r.source_url)
+    if (key) set.add(key)
+  }
+  return set
+}
+
 // ── Discovery (weekly cron) ──────────────────────────────────────────────────
 
 export interface DiscoveredRepo {
@@ -504,8 +528,21 @@ export async function searchTrendingRepos(
   return [...byKey.values()].sort((a, b) => b.stars - a.stars)
 }
 
-/** True when the catalog already carries this repo (root slug or any sub-skill). */
-export function repoAlreadyKnown(owner: string, repo: string, existing: Set<string>): boolean {
+/**
+ * True when the catalog already carries this repo. Checks two signals:
+ *  1. `existingRepos` — `owner/repo` keys parsed from existing `source_url`s.
+ *     This catches repos curated under a custom slug prefix (e.g. a pack), which
+ *     the slug-prefix heuristic below cannot. Pass it whenever available.
+ *  2. The owner-repo-derived slug (root slug or any sub-skill), as a fallback
+ *     for rows that predate source-URL tracking.
+ */
+export function repoAlreadyKnown(
+  owner: string,
+  repo: string,
+  existing: Set<string>,
+  existingRepos?: Set<string>
+): boolean {
+  if (existingRepos?.has(`${owner}/${repo}`.toLowerCase())) return true
   const base = skillSlug(owner, repo, 'SKILL.md')
   if (existing.has(base)) return true
   for (const slug of existing) if (slug.startsWith(`${base}-`)) return true
