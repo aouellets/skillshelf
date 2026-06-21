@@ -1,6 +1,7 @@
 import { getServiceSupabase } from '../../supabase'
 import { checkRateLimit } from '../rateLimit'
 import { text, requireToken, type Tool } from '../types'
+import { track } from '../../telemetry/track'
 
 interface InstallArgs {
   skill_id?: string
@@ -77,6 +78,11 @@ export const installSkill: Tool<InstallArgs> = {
 
     // Best-effort install counter; never block the install on it.
     await supabase.rpc('increment_install_count', { p_skill_id: skill.id })
+
+    void track(
+      { name: 'skill_installed', properties: { skill_id: skill.id, via: 'single' } },
+      { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+    )
 
     return text(
       `Installed "${skill.name}". ${skill.description}\n\nThis skill will activate automatically in your next session.`

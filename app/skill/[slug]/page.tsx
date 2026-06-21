@@ -12,6 +12,7 @@ import { FavoriteButton } from '@/components/FavoriteButton'
 import { CollectionPicker } from '@/components/CollectionPicker'
 import { ReviewSection } from '@/components/ReviewSection'
 import { SkillThumbnail } from '@/components/SkillThumbnail'
+import { SkillViewTracker } from '@/components/SkillViewTracker'
 import { CATEGORY_MAP, installLabel } from '@/lib/categories'
 import { getSkillBySlug } from '@/lib/data'
 import { SITE_URL } from '@/lib/site'
@@ -61,6 +62,7 @@ export default async function SkillDetailPage({
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+      <SkillViewTracker skillId={skill.id} />
       {/* Breadcrumb */}
       <nav className="flex flex-wrap items-center gap-2 text-sm text-shelf-text-tertiary">
         <Link href="/browse" className="transition-colors hover:text-shelf-text-secondary">

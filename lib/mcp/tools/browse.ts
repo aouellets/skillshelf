@@ -1,6 +1,7 @@
 import { getSkills } from '../../data'
 import { formatInstalls, isCategory } from '../../categories'
 import { text, type Tool } from '../types'
+import { track } from '../../telemetry/track'
 
 interface BrowseArgs {
   query?: string
@@ -47,7 +48,7 @@ export const browseSkills: Tool<BrowseArgs> = {
       },
     },
   },
-  async handler(args) {
+  async handler(args, ctx) {
     const limit = Math.min(Math.max(args.limit ?? 5, 1), 10)
     const category =
       args.category && isCategory(args.category) ? args.category : undefined
@@ -59,6 +60,18 @@ export const browseSkills: Tool<BrowseArgs> = {
       sort: 'trending',
       limit,
     })
+
+    void track(
+      {
+        name: 'skill_browsed',
+        properties: {
+          ...(args.query ? { query: args.query } : {}),
+          ...(category ? { category } : {}),
+          result_count: skills.length,
+        },
+      },
+      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+    )
 
     if (skills.length === 0) {
       const what = args.query ? ` for "${args.query}"` : ''

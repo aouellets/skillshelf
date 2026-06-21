@@ -68,6 +68,7 @@ export interface ResendWebhookEvent {
   created_at?: string
   data?: {
     email_id?: string
+    from?: string
     to?: string[] | string
     subject?: string
     [k: string]: unknown

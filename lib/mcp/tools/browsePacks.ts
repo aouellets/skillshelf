@@ -1,6 +1,7 @@
 import { getPacks } from '../../packs'
 import { formatInstalls } from '../../categories'
 import { text, type Tool } from '../types'
+import { track } from '../../telemetry/track'
 
 interface BrowsePacksArgs {
   query?: string
@@ -27,9 +28,21 @@ export const browsePacks: Tool<BrowsePacksArgs> = {
       },
     },
   },
-  async handler(args) {
+  async handler(args, ctx) {
     const limit = Math.min(Math.max(args.limit ?? 5, 1), 10)
     const { packs } = await getPacks({ query: args.query, category: args.category as never, limit })
+
+    void track(
+      {
+        name: 'pack_browsed',
+        properties: {
+          ...(args.query ? { query: args.query } : {}),
+          ...(args.category ? { category: args.category } : {}),
+          result_count: packs.length,
+        },
+      },
+      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+    )
 
     if (packs.length === 0) {
       return text('No packs found. Try browsing individual skills with browse_skills instead.')

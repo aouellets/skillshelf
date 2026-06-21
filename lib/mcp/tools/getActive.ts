@@ -1,9 +1,10 @@
 import { getServiceSupabase } from '../../supabase'
 import { json, type Tool } from '../types'
 import type { Skill } from '../../types'
+import { buildRow, insertEvents } from '../../telemetry/track'
 
 type ActiveRow = {
-  skills: Pick<Skill, 'name' | 'category' | 'skill_content'> | null
+  skills: Pick<Skill, 'id' | 'name' | 'category' | 'skill_content'> | null
 }
 
 export const getActiveSkills: Tool = {
@@ -28,7 +29,7 @@ export const getActiveSkills: Tool = {
 
     const { data, error } = await supabase
       .from('user_installs')
-      .select('skills(name, category, skill_content)')
+      .select('skills(id, name, category, skill_content)')
       .eq('user_token', ctx.userToken)
       .eq('active', true)
 
@@ -44,13 +45,27 @@ export const getActiveSkills: Tool = {
     }
 
     const rows = (data ?? []) as unknown as ActiveRow[]
-    const installed = rows
-      .filter((r) => r.skills)
-      .map((r) => ({
-        name: r.skills!.name,
-        category: r.skills!.category,
-        content: r.skills!.skill_content,
-      }))
+    const loaded = rows.filter((r) => r.skills)
+    const installed = loaded.map((r) => ({
+      name: r.skills!.name,
+      category: r.skills!.category,
+      content: r.skills!.skill_content,
+    }))
+
+    // Telemetry: skill_activated is the TRUE active-use signal — emitted here,
+    // when an installed skill is actually loaded into a session (distinct from
+    // install). Batched, fire-and-forget; never blocks the start-of-conversation
+    // call. The id is present for catalog skills; guard the (rare) null.
+    if (loaded.length > 0) {
+      const opts = { source: 'mcp' as const, userToken: ctx.userToken, sessionId: ctx.userToken }
+      void insertEvents(
+        loaded
+          .filter((r) => r.skills!.id)
+          .map((r) =>
+            buildRow({ name: 'skill_activated', properties: { skill_id: r.skills!.id } }, opts)
+          )
+      )
+    }
 
     if (installed.length === 0) {
       return json({

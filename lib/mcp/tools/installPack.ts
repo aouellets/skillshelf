@@ -1,6 +1,7 @@
 import { getServiceSupabase } from '../../supabase'
 import { checkRateLimit } from '../rateLimit'
 import { text, requireToken, type Tool } from '../types'
+import { buildRow, insertEvents } from '../../telemetry/track'
 
 interface InstallPackArgs {
   pack_id?: string
@@ -93,6 +94,22 @@ export const installPack: Tool<InstallPackArgs> = {
     for (const skill_id of skillIds) {
       await supabase.rpc('increment_install_count', { p_skill_id: skill_id })
     }
+
+    // Telemetry: one pack_installed plus a skill_installed (via pack) per skill,
+    // batched into a single fire-and-forget insert. Never blocks the response.
+    const opts = { source: 'mcp' as const, userToken: auth.token, sessionId: auth.token }
+    void insertEvents([
+      buildRow(
+        { name: 'pack_installed', properties: { pack_id: packData.id, skill_count: skillIds.length } },
+        opts
+      ),
+      ...skillIds.map((skill_id) =>
+        buildRow(
+          { name: 'skill_installed', properties: { skill_id, via: 'pack', pack_id: packData.id } },
+          opts
+        )
+      ),
+    ])
 
     const skillNames = packData.pack_skills
       .map((ps) => ps.skills?.name)

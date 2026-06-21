@@ -1,5 +1,6 @@
 import { getServiceSupabase } from '../../supabase'
 import { text, requireToken, type Tool } from '../types'
+import { track } from '../../telemetry/track'
 
 interface UninstallArgs {
   skill_id?: string
@@ -53,6 +54,11 @@ export const uninstallSkill: Tool<UninstallArgs> = {
     if (!data || data.length === 0) {
       return text('That skill was not in your library, so nothing changed.')
     }
+
+    void track(
+      { name: 'skill_uninstalled', properties: { skill_id: args.skill_id } },
+      { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+    )
 
     return text('Removed from your library. It will no longer activate in new sessions.')
   },

@@ -9,6 +9,11 @@ import {
 import { text, requireToken, type Tool } from '../types'
 import { checkRateLimit } from '../rateLimit'
 import { SITE_URL } from '../../site'
+import { track } from '../../telemetry/track'
+import type { EVENT_SCHEMAS } from '../../telemetry/events'
+import type { z } from 'zod'
+
+type CollectionAction = z.infer<(typeof EVENT_SCHEMAS)['collection_managed']>['action']
 
 interface CollectionArgs {
   action: 'list' | 'create' | 'add_skill' | 'remove_skill' | 'share' | 'delete'
@@ -48,6 +53,16 @@ export const manageCollections: Tool<CollectionArgs> = {
     const auth = requireToken(ctx)
     if ('error' in auth) return auth.error
 
+    // Telemetry: record successful mutating actions. Fire-and-forget.
+    const emit = (action: CollectionAction, collectionId?: string) =>
+      void track(
+        {
+          name: 'collection_managed',
+          properties: { action, ...(collectionId ? { collection_id: collectionId } : {}) },
+        },
+        { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+      )
+
     // Mutating actions are rate-limited; listing is a cheap read.
     if (args.action !== 'list') {
       const limit = checkRateLimit(auth.token)
@@ -74,6 +89,7 @@ export const manageCollections: Tool<CollectionArgs> = {
         }
         const collection = await createCollection(auth.token, args.collection_name.trim(), args.collection_description)
         if (!collection) return text('Could not create the collection.', true)
+        emit('create', collection.id)
         return text(
           `Created collection "${collection.name}".\n\nCollection id: ${collection.id}\n\nAdd skills with: add_skill action and the skill_id from browse_skills.`
         )
@@ -83,6 +99,7 @@ export const manageCollections: Tool<CollectionArgs> = {
         if (!args.collection_id) return text('A collection_id is required.', true)
         if (!args.skill_id) return text('A skill_id is required.', true)
         const ok = await addSkillToCollection(args.collection_id, args.skill_id, auth.token)
+        if (ok) emit('add', args.collection_id)
         return ok
           ? text('Skill added to collection.')
           : text('Could not add the skill. Check the collection_id belongs to you.', true)
@@ -92,6 +109,7 @@ export const manageCollections: Tool<CollectionArgs> = {
         if (!args.collection_id) return text('A collection_id is required.', true)
         if (!args.skill_id) return text('A skill_id is required.', true)
         const ok = await removeSkillFromCollection(args.collection_id, args.skill_id, auth.token)
+        if (ok) emit('remove', args.collection_id)
         return ok ? text('Skill removed from collection.') : text('Could not remove the skill.', true)
       }
 
@@ -100,6 +118,7 @@ export const manageCollections: Tool<CollectionArgs> = {
         const isPublic = args.public !== false // default to true for share action
         const shareToken = await setCollectionPublic(args.collection_id, auth.token, isPublic)
         if (!shareToken) return text('Could not update the collection.', true)
+        emit('share', args.collection_id)
         if (!isPublic) return text('Collection is now private.')
         return text(
           `Collection is now public. Share this link:\n${siteUrl}/collection/${shareToken}`
@@ -109,6 +128,7 @@ export const manageCollections: Tool<CollectionArgs> = {
       case 'delete': {
         if (!args.collection_id) return text('A collection_id is required.', true)
         const ok = await deleteCollection(args.collection_id, auth.token)
+        if (ok) emit('delete', args.collection_id)
         return ok ? text('Collection deleted.') : text('Could not delete the collection.', true)
       }
 

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import type { EmailOtpType } from '@supabase/supabase-js'
+import type { EmailOtpType, SupabaseClient } from '@supabase/supabase-js'
 import { createSupabaseServerClient } from '@/lib/supabase/server'
+import { track } from '@/lib/telemetry/track'
 
 export const dynamic = 'force-dynamic'
 
@@ -8,6 +9,24 @@ export const dynamic = 'force-dynamic'
 function safeNext(next: string | null): string {
   if (!next || !next.startsWith('/') || next.startsWith('//')) return '/'
   return next
+}
+
+/**
+ * Emit `user_signed_up` once per account. The idempotency_key is keyed to the
+ * user id, so it persists exactly once no matter how many times the callback
+ * runs (no fragile "is this their first sign-in" heuristic). Awaited because the
+ * route redirects immediately — but it is bounded and never throws.
+ */
+async function trackSignup(supabase: SupabaseClient): Promise<void> {
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+  if (!user) return
+  const method = (user.app_metadata?.provider as string | undefined) ?? 'email'
+  await track(
+    { name: 'user_signed_up', properties: { method } },
+    { source: 'web', userId: user.id, idempotencyKey: `signup:${user.id}` }
+  )
 }
 
 /**
@@ -30,13 +49,19 @@ export async function GET(request: NextRequest) {
 
   if (code) {
     const { error } = await supabase.auth.exchangeCodeForSession(code)
-    if (!error) return NextResponse.redirect(`${origin}${next}`)
+    if (!error) {
+      await trackSignup(supabase)
+      return NextResponse.redirect(`${origin}${next}`)
+    }
     return NextResponse.redirect(`${origin}/login?error=exchange`)
   }
 
   if (tokenHash && type) {
     const { error } = await supabase.auth.verifyOtp({ token_hash: tokenHash, type })
-    if (!error) return NextResponse.redirect(`${origin}${next}`)
+    if (!error) {
+      await trackSignup(supabase)
+      return NextResponse.redirect(`${origin}${next}`)
+    }
     return NextResponse.redirect(`${origin}/login?error=exchange`)
   }
 
