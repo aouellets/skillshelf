@@ -47,3 +47,16 @@ export function getPartner(author?: string | null): ResolvedPartner | null {
 export function isPartner(author?: string | null): boolean {
   return getPartner(author) !== null
 }
+
+/**
+ * Ordered partner list for the landing-page trust strip. Each links to that
+ * partner's official pack on the catalog. Author must match a PARTNERS key.
+ */
+export const PARTNER_STRIP: { author: string; packSlug: string }[] = [
+  { author: 'Anthropic', packSlug: 'anthropic-official-skills' },
+  { author: 'Google', packSlug: 'google-workspace-skills' },
+  { author: 'Vercel', packSlug: 'vercel-agent-skills' },
+  { author: 'Microsoft', packSlug: 'azure-sdk-skills-python' },
+  { author: 'Hugging Face', packSlug: 'hugging-face-ml-toolkit' },
+  { author: 'WordPress', packSlug: 'wordpress-agent-skills' },
+]

@@ -5,9 +5,13 @@ import { Reveal } from '@/components/Reveal'
 import { EmailCapture } from '@/components/EmailCapture'
 import { FeaturedCarousel } from '@/components/FeaturedCarousel'
 import { SkillCard } from '@/components/SkillCard'
+import { PartnerStrip } from '@/components/PartnerStrip'
+import { PARTNER_STRIP } from '@/lib/partners'
 import { CATEGORIES } from '@/lib/categories'
 import { getSkillsBySlugs, getSkills, formatSkillCount } from '@/lib/data'
 import { getPacksBySlugs } from '@/lib/packs'
+import { getPlatformDemos } from '@/lib/media'
+import { PlatformDemoBlock } from '@/components/PlatformDemoBlock'
 import { getSupabase } from '@/lib/supabase'
 
 export const dynamic = 'force-dynamic'
@@ -117,12 +121,19 @@ const STEPS = [
 ]
 
 export default async function HomePage() {
-  const [featured, becomeAnything, { total }, showcasePacks] = await Promise.all([
-    getSkillsBySlugs(FEATURED_SKILLS),
-    getSkillsBySlugs(BECOME_ANYTHING_SKILLS),
-    getSkills({ limit: 1 }),
-    getPacksBySlugs(SHOWCASE_PACKS.map((p) => p.slug)),
-  ])
+  const [featured, becomeAnything, { total }, showcasePacks, partnerPacks, platformDemo] =
+    await Promise.all([
+      getSkillsBySlugs(FEATURED_SKILLS),
+      getSkillsBySlugs(BECOME_ANYTHING_SKILLS),
+      getSkills({ limit: 1 }),
+      getPacksBySlugs(SHOWCASE_PACKS.map((p) => p.slug)),
+      getPacksBySlugs(PARTNER_STRIP.map((p) => p.packSlug)),
+      getPlatformDemos(),
+    ])
+  // Keep partner packs in the curated PARTNER_STRIP order.
+  const partnerShowcase = PARTNER_STRIP.map((p) =>
+    partnerPacks.find((pk) => pk.slug === p.packSlug)
+  ).filter((p): p is NonNullable<typeof p> => Boolean(p))
   // Pair each fetched pack with its curated discipline label, preserving order.
   const showcase = SHOWCASE_PACKS.map((s) => ({
     discipline: s.discipline,
@@ -176,6 +187,28 @@ export default async function HomePage() {
           <HeroDemo />
         </div>
       </section>
+
+      {/* PARTNER TRUST STRIP — official logos as a credibility signal */}
+      <section className="border-y border-shelf-border py-8">
+        <Reveal>
+          <PartnerStrip />
+        </Reveal>
+      </section>
+
+      {/* PLATFORM DEMO — the real 30s product film, landscape on desktop / portrait on mobile */}
+      {(platformDemo.landscape || platformDemo.portrait) && (
+        <section className="relative py-8 sm:py-12">
+          <div className="mx-auto max-w-4xl">
+            <PlatformDemoBlock
+              landscape={platformDemo.landscape}
+              portrait={platformDemo.portrait}
+            />
+            <p className="mt-3 text-center text-xs text-shelf-text-tertiary">
+              SkillMe in 30 seconds — click to play with sound.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* HOW IT WORKS — promoted high, non-technical pitch + primary CTA */}
       <section className="relative py-10 sm:py-14">
@@ -303,6 +336,36 @@ export default async function HomePage() {
                   </span>
                   <PackCard pack={pack} />
                 </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* OFFICIAL PARTNER PACKS — skills straight from the source */}
+      {partnerShowcase.length > 0 && (
+        <section className="py-10">
+          <Reveal className="flex items-end justify-between gap-4">
+            <div className="max-w-xl">
+              <h2 className="text-2xl font-semibold text-shelf-text-primary">
+                Skills straight from the source.
+              </h2>
+              <p className="mt-2 text-sm leading-relaxed text-shelf-text-secondary">
+                Official packs published by the teams who build the tools — Anthropic, Google,
+                Vercel, Microsoft, Hugging Face, and WordPress.
+              </p>
+            </div>
+            <Link
+              href="/packs"
+              className="shrink-0 text-sm text-shelf-text-secondary transition-colors hover:text-accent-hover"
+            >
+              View all packs →
+            </Link>
+          </Reveal>
+          <div className="mt-7 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {partnerShowcase.map((pack, i) => (
+              <Reveal key={pack.id} delay={i * 50}>
+                <PackCard pack={pack} />
               </Reveal>
             ))}
           </div>
