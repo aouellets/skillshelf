@@ -1,0 +1,932 @@
+[
+  {
+    "slug": "elixir-cc-changelog",
+    "name": "Cc Changelog",
+    "category": "coding",
+    "description": "Cc Changelog — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/cc-changelog",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Cc Changelog\ndescription: Cc Changelog — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n---\n\n# Cc Changelog\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nCc Changelog — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/cc-changelog\n"
+  },
+  {
+    "slug": "elixir-docs-check",
+    "name": "Docs Check",
+    "category": "coding",
+    "description": "Docs Check — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/docs-check",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Docs Check\ndescription: Docs Check — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n---\n\n# Docs Check\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nDocs Check — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/docs-check\n"
+  },
+  {
+    "slug": "elixir-plugin-dev-workflow",
+    "name": "Plugin Dev Workflow",
+    "category": "coding",
+    "description": "Guide plugin development workflow — editing skills, agents, hooks, or eval framework in this repo. Use when modifying files in plugins/elixir-phoenix/, lab/eval/, or lab/autoresearch/. Ensures changes pass eval, lint,…",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/plugin-dev-workflow",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Plugin Dev Workflow\ndescription: Guide plugin development workflow — editing skills, agents, hooks, or eval framework in this repo. Use when modifying files in plugins/elixir-phoenix/, lab/eval/, or lab/autoresearch/. Ensures changes pass eval, lint, and tests before committing.\n---\n\n# Plugin Dev Workflow\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nGuide plugin development workflow — editing skills, agents, hooks, or eval framework in this repo. Use when modifying files in plugins/elixir-phoenix/, lab/eval/, or lab/autoresearch/. Ensures changes pass eval, lint, and tests before committing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/plugin-dev-workflow\n"
+  },
+  {
+    "slug": "elixir-promote",
+    "name": "Promote",
+    "category": "coding",
+    "description": "Generate X/Twitter release promotion posts with ASCII tables and CodeSnap rendering. Use when writing release posts, promotion tweets, plugin announcements, or preparing social media content for new versions.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/promote",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Promote\ndescription: Generate X/Twitter release promotion posts with ASCII tables and CodeSnap rendering. Use when writing release posts, promotion tweets, plugin announcements, or preparing social media content for new versions.\n---\n\n# Promote\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nGenerate X/Twitter release promotion posts with ASCII tables and CodeSnap rendering. Use when writing release posts, promotion tweets, plugin announcements, or preparing social media content for new versions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/promote\n"
+  },
+  {
+    "slug": "elixir-release",
+    "name": "Release",
+    "category": "coding",
+    "description": "Release — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/release",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Release\ndescription: Release — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n---\n\n# Release\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nRelease — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/release\n"
+  },
+  {
+    "slug": "elixir-session-deep-dive",
+    "name": "Session Deep Dive",
+    "category": "coding",
+    "description": "Deep qualitative analysis of high-signal sessions. Spawns subagents with v2 template, synthesizes patterns, compares against known findings. Use after /session-scan.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/session-deep-dive",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Session Deep Dive\ndescription: Deep qualitative analysis of high-signal sessions. Spawns subagents with v2 template, synthesizes patterns, compares against known findings. Use after /session-scan.\n---\n\n# Session Deep Dive\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nDeep qualitative analysis of high-signal sessions. Spawns subagents with v2 template, synthesizes patterns, compares against known findings. Use after /session-scan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/session-deep-dive\n"
+  },
+  {
+    "slug": "elixir-session-scan",
+    "name": "Session Scan",
+    "category": "coding",
+    "description": "Compute metrics for Claude Code sessions. Discovers via ccrider, filters trivial, computes friction/opportunity/fingerprint scores. Use for broad session triage.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/session-scan",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Session Scan\ndescription: Compute metrics for Claude Code sessions. Discovers via ccrider, filters trivial, computes friction/opportunity/fingerprint scores. Use for broad session triage.\n---\n\n# Session Scan\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nCompute metrics for Claude Code sessions. Discovers via ccrider, filters trivial, computes friction/opportunity/fingerprint scores. Use for broad session triage.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/session-scan\n"
+  },
+  {
+    "slug": "elixir-session-trends",
+    "name": "Session Trends",
+    "category": "coding",
+    "description": "Analyze trends across session metrics. Computes windowed aggregates, deltas, and compares against MEMORY.md findings. Use periodically for progress tracking.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/session-trends",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Session Trends\ndescription: Analyze trends across session metrics. Computes windowed aggregates, deltas, and compares against MEMORY.md findings. Use periodically for progress tracking.\n---\n\n# Session Trends\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAnalyze trends across session metrics. Computes windowed aggregates, deltas, and compares against MEMORY.md findings. Use periodically for progress tracking.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/session-trends\n"
+  },
+  {
+    "slug": "elixir-skill-monitor",
+    "name": "Skill Monitor",
+    "category": "coding",
+    "description": "Analyze skill effectiveness across sessions. Computes per-skill metrics (action rate, friction, outcomes), identifies degrading skills, and generates improvement recommendations. Requires session-scan data in metrics.…",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/skill-monitor",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Skill Monitor\ndescription: Analyze skill effectiveness across sessions. Computes per-skill metrics (action rate, friction, outcomes), identifies degrading skills, and generates improvement recommendations. Requires session-scan data in metrics.jsonl.\n---\n\n# Skill Monitor\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAnalyze skill effectiveness across sessions. Computes per-skill metrics (action rate, friction, outcomes), identifies degrading skills, and generates improvement recommendations. Requires session-scan data in metrics.jsonl.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/.claude/skills/skill-monitor\n"
+  },
+  {
+    "slug": "elixir-autoresearch",
+    "name": "Lab:Autoresearch",
+    "category": "coding",
+    "description": "Lab:Autoresearch — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/lab/autoresearch",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Lab:Autoresearch\ndescription: Lab:Autoresearch — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n---\n\n# Lab:Autoresearch\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nLab:Autoresearch — part of the Elixir & Phoenix Skills pack. Specialist skills for Elixir, Phoenix, and LiveView.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/lab/autoresearch\n"
+  },
+  {
+    "slug": "elixir-catchup",
+    "name": "Catchup",
+    "category": "coding",
+    "description": "Summarize and review what changed while you were away. Use after a weekend, vacation, or flight to check missed PRs, git commits, Linear tickets, and meetings — one prioritized brief, not a firehose.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/catchup/skills/catchup",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Catchup\ndescription: Summarize and review what changed while you were away. Use after a weekend, vacation, or flight to check missed PRs, git commits, Linear tickets, and meetings — one prioritized brief, not a firehose.\n---\n\n# Catchup\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nSummarize and review what changed while you were away. Use after a weekend, vacation, or flight to check missed PRs, git commits, Linear tickets, and meetings — one prioritized brief, not a firehose.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/catchup/skills/catchup\n"
+  },
+  {
+    "slug": "elixir-ketchup",
+    "name": "Ketchup",
+    "category": "coding",
+    "description": "Easter-egg alias for /catchup. Same return-from-absence briefing, squeezier name. Use exactly like /catchup — all flags pass through unchanged.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/catchup/skills/ketchup",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Ketchup\ndescription: Easter-egg alias for /catchup. Same return-from-absence briefing, squeezier name. Use exactly like /catchup — all flags pass through unchanged.\n---\n\n# Ketchup\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nEaster-egg alias for /catchup. Same return-from-absence briefing, squeezier name. Use exactly like /catchup — all flags pass through unchanged.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/catchup/skills/ketchup\n"
+  },
+  {
+    "slug": "elixir-ash-framework",
+    "name": "Ash Framework",
+    "category": "coding",
+    "description": "Ash Framework — resources, actions, policies, aggregates, calculations, AshPhoenix.Form, LiveView, migrations. Use when generating resources via mix ash.codegen, editing changes, checks, types, validations, or domain …",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/ash-framework",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Ash Framework\ndescription: Ash Framework — resources, actions, policies, aggregates, calculations, AshPhoenix.Form, LiveView, migrations. Use when generating resources via mix ash.codegen, editing changes, checks, types, validations, or domain code interfaces.\n---\n\n# Ash Framework\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAsh Framework — resources, actions, policies, aggregates, calculations, AshPhoenix.Form, LiveView, migrations. Use when generating resources via mix ash.codegen, editing changes, checks, types, validations, or domain code interfaces.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/ash-framework\n"
+  },
+  {
+    "slug": "elixir-assigns-audit",
+    "name": "Lv:Assigns",
+    "category": "coding",
+    "description": "Inspect LiveView socket assigns for memory bloat — missing temporary_assigns, unused assigns, unbounded lists needing streams, memory estimates. Use when LiveView memory grows or you need to add temporary_assigns.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/assigns-audit",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Lv:Assigns\ndescription: Inspect LiveView socket assigns for memory bloat — missing temporary_assigns, unused assigns, unbounded lists needing streams, memory estimates. Use when LiveView memory grows or you need to add temporary_assigns.\n---\n\n# Lv:Assigns\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nInspect LiveView socket assigns for memory bloat — missing temporary_assigns, unused assigns, unbounded lists needing streams, memory estimates. Use when LiveView memory grows or you need to add temporary_assigns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/assigns-audit\n"
+  },
+  {
+    "slug": "elixir-audit",
+    "name": "Phx:Audit",
+    "category": "coding",
+    "description": "Project health audit and health check — architecture, performance, tests, dependencies, code quality. Use when assessing overall project health, before releases, or after refactors.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/audit",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Audit\ndescription: Project health audit and health check — architecture, performance, tests, dependencies, code quality. Use when assessing overall project health, before releases, or after refactors.\n---\n\n# Phx:Audit\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nProject health audit and health check — architecture, performance, tests, dependencies, code quality. Use when assessing overall project health, before releases, or after refactors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/audit\n"
+  },
+  {
+    "slug": "elixir-boundaries",
+    "name": "Phx:Boundaries",
+    "category": "coding",
+    "description": "Analyze Phoenix context boundaries and module coupling via mix xref. Use when checking cross-context calls, validating dependencies, before splitting modules, or reviewing architecture.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/boundaries",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Boundaries\ndescription: Analyze Phoenix context boundaries and module coupling via mix xref. Use when checking cross-context calls, validating dependencies, before splitting modules, or reviewing architecture.\n---\n\n# Phx:Boundaries\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAnalyze Phoenix context boundaries and module coupling via mix xref. Use when checking cross-context calls, validating dependencies, before splitting modules, or reviewing architecture.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/boundaries\n"
+  },
+  {
+    "slug": "elixir-brainstorm",
+    "name": "Phx:Brainstorm",
+    "category": "coding",
+    "description": "Brainstorm Elixir/Phoenix features — explore ideas, compare approaches, gather requirements. Use when vague idea, not sure how to approach, or want to discuss before plan.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/brainstorm",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Brainstorm\ndescription: Brainstorm Elixir/Phoenix features — explore ideas, compare approaches, gather requirements. Use when vague idea, not sure how to approach, or want to discuss before plan.\n---\n\n# Phx:Brainstorm\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nBrainstorm Elixir/Phoenix features — explore ideas, compare approaches, gather requirements. Use when vague idea, not sure how to approach, or want to discuss before plan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/brainstorm\n"
+  },
+  {
+    "slug": "elixir-brief",
+    "name": "Phx:Brief",
+    "category": "coding",
+    "description": "Interactive briefing of a plan file — explains reasoning, schema decisions, component choices. Use when developers need to understand a plan before approving.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/brief",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Brief\ndescription: Interactive briefing of a plan file — explains reasoning, schema decisions, component choices. Use when developers need to understand a plan before approving.\n---\n\n# Phx:Brief\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nInteractive briefing of a plan file — explains reasoning, schema decisions, component choices. Use when developers need to understand a plan before approving.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/brief\n"
+  },
+  {
+    "slug": "elixir-call-tracing",
+    "name": "Phx:Trace",
+    "category": "coding",
+    "description": "Trace Elixir call trees from entry points via mix xref. Use when debugging data flow, planning signature changes, or understanding how a bug reaches code.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/call-tracing",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Trace\ndescription: Trace Elixir call trees from entry points via mix xref. Use when debugging data flow, planning signature changes, or understanding how a bug reaches code.\n---\n\n# Phx:Trace\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nTrace Elixir call trees from entry points via mix xref. Use when debugging data flow, planning signature changes, or understanding how a bug reaches code.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/call-tracing\n"
+  },
+  {
+    "slug": "elixir-challenge",
+    "name": "Phx:Challenge",
+    "category": "coding",
+    "description": "Challenge mode reviews - rigorous questioning before approving changes. Use when you want thorough scrutiny of Ecto changes, LiveView events, OTP designs, or PR readiness.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/challenge",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Challenge\ndescription: Challenge mode reviews - rigorous questioning before approving changes. Use when you want thorough scrutiny of Ecto changes, LiveView events, OTP designs, or PR readiness.\n---\n\n# Phx:Challenge\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nChallenge mode reviews - rigorous questioning before approving changes. Use when you want thorough scrutiny of Ecto changes, LiveView events, OTP designs, or PR readiness.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/challenge\n"
+  },
+  {
+    "slug": "elixir-compound-docs",
+    "name": "Compound Docs",
+    "category": "coding",
+    "description": "Searchable Elixir/Phoenix/Ecto solution documentation system with YAML frontmatter. Builds institutional knowledge from solved problems. Use when consulting past solutions before investigating new issues.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/compound-docs",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Compound Docs\ndescription: Searchable Elixir/Phoenix/Ecto solution documentation system with YAML frontmatter. Builds institutional knowledge from solved problems. Use when consulting past solutions before investigating new issues.\n---\n\n# Compound Docs\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nSearchable Elixir/Phoenix/Ecto solution documentation system with YAML frontmatter. Builds institutional knowledge from solved problems. Use when consulting past solutions before investigating new issues.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/compound-docs\n"
+  },
+  {
+    "slug": "elixir-compound",
+    "name": "Phx:Compound",
+    "category": "coding",
+    "description": "Capture solved problems as searchable solution docs. Use after fixing bugs, when \"that worked\", or after successful /phx:review or /phx:investigate.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/compound",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Compound\ndescription: Capture solved problems as searchable solution docs. Use after fixing bugs, when \"that worked\", or after successful /phx:review or /phx:investigate.\n---\n\n# Phx:Compound\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nCapture solved problems as searchable solution docs. Use after fixing bugs, when \"that worked\", or after successful /phx:review or /phx:investigate.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/compound\n"
+  },
+  {
+    "slug": "elixir-deploy",
+    "name": "Deploy",
+    "category": "coding",
+    "description": "Elixir/Phoenix deployment patterns — Dockerfile, fly.toml, runtime.exs, mix release, rel/ overlays. Use when configuring Fly.io, Docker, CI/CD, health checks, or production migrations.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deploy",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Deploy\ndescription: Elixir/Phoenix deployment patterns — Dockerfile, fly.toml, runtime.exs, mix release, rel/ overlays. Use when configuring Fly.io, Docker, CI/CD, health checks, or production migrations.\n---\n\n# Deploy\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nElixir/Phoenix deployment patterns — Dockerfile, fly.toml, runtime.exs, mix release, rel/ overlays. Use when configuring Fly.io, Docker, CI/CD, health checks, or production migrations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deploy\n"
+  },
+  {
+    "slug": "elixir-deps-audit",
+    "name": "Phx:Deps Audit",
+    "category": "coding",
+    "description": "Audit Hex deps for supply-chain security risk — bidi chars, compile-time exec, maintainer changes, typosquats, CVEs. Use after mix deps.update, when checking if a package upgrade is safe, or reviewing mix.lock PR diffs.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deps-audit",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Deps Audit\ndescription: Audit Hex deps for supply-chain security risk — bidi chars, compile-time exec, maintainer changes, typosquats, CVEs. Use after mix deps.update, when checking if a package upgrade is safe, or reviewing mix.lock PR diffs.\n---\n\n# Phx:Deps Audit\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAudit Hex deps for supply-chain security risk — bidi chars, compile-time exec, maintainer changes, typosquats, CVEs. Use after mix deps.update, when checking if a package upgrade is safe, or reviewing mix.lock PR diffs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deps-audit\n"
+  },
+  {
+    "slug": "elixir-deps-update",
+    "name": "Phx:Deps Update",
+    "category": "coding",
+    "description": "Bump outdated Hex deps — inventory, snapshot changelogs, update, fix breaks, split reviewable PRs (patches bundled, majors solo). Use to upgrade/bump Elixir dependencies or when versions fall behind. NOT for deps.get …",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deps-update",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Deps Update\ndescription: Bump outdated Hex deps — inventory, snapshot changelogs, update, fix breaks, split reviewable PRs (patches bundled, majors solo). Use to upgrade/bump Elixir dependencies or when versions fall behind. NOT for deps.get failures (/phx:investigate).\n---\n\n# Phx:Deps Update\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nBump outdated Hex deps — inventory, snapshot changelogs, update, fix breaks, split reviewable PRs (patches bundled, majors solo). Use to upgrade/bump Elixir dependencies or when versions fall behind. NOT for deps.get failures (/phx:investigate).\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deps-update\n"
+  },
+  {
+    "slug": "elixir-deps-vet",
+    "name": "Phx:Deps Vet",
+    "category": "coding",
+    "description": "Record a vetted Hex package version in hex_vet.exs after a security review — manages the audit ledger, not the scanner. Use to approve a dep after /phx:deps-audit findings or to initialize hex_vet.exs.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deps-vet",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Deps Vet\ndescription: Record a vetted Hex package version in hex_vet.exs after a security review — manages the audit ledger, not the scanner. Use to approve a dep after /phx:deps-audit findings or to initialize hex_vet.exs.\n---\n\n# Phx:Deps Vet\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nRecord a vetted Hex package version in hex_vet.exs after a security review — manages the audit ledger, not the scanner. Use to approve a dep after /phx:deps-audit findings or to initialize hex_vet.exs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/deps-vet\n"
+  },
+  {
+    "slug": "elixir-document",
+    "name": "Phx:Document",
+    "category": "coding",
+    "description": "Generate @moduledoc and @doc strings for Elixir modules, contexts, and schemas. Use when explicitly asked to write @doc/@moduledoc — NOT for README or external docs.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/document",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Document\ndescription: Generate @moduledoc and @doc strings for Elixir modules, contexts, and schemas. Use when explicitly asked to write @doc/@moduledoc — NOT for README or external docs.\n---\n\n# Phx:Document\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nGenerate @moduledoc and @doc strings for Elixir modules, contexts, and schemas. Use when explicitly asked to write @doc/@moduledoc — NOT for README or external docs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/document\n"
+  },
+  {
+    "slug": "elixir-ecto-constraint-debug",
+    "name": "Ecto Constraint Debug",
+    "category": "coding",
+    "description": "Debug Ecto constraint violations - trace triggers, check migrations, find duplicate data. Use when seeing unique_constraint, foreign_key_constraint, or check_constraint errors.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/ecto-constraint-debug",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Ecto Constraint Debug\ndescription: Debug Ecto constraint violations - trace triggers, check migrations, find duplicate data. Use when seeing unique_constraint, foreign_key_constraint, or check_constraint errors.\n---\n\n# Ecto Constraint Debug\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nDebug Ecto constraint violations - trace triggers, check migrations, find duplicate data. Use when seeing unique_constraint, foreign_key_constraint, or check_constraint errors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/ecto-constraint-debug\n"
+  },
+  {
+    "slug": "elixir-ecto-patterns",
+    "name": "Ecto Patterns",
+    "category": "coding",
+    "description": "Ecto patterns — schemas, changesets, queries, migrations, Multi, associations, preloads, upserts. Use when editing Repo calls, Ecto.Query, or schema fields. Skip for Ash.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/ecto-patterns",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Ecto Patterns\ndescription: Ecto patterns — schemas, changesets, queries, migrations, Multi, associations, preloads, upserts. Use when editing Repo calls, Ecto.Query, or schema fields. Skip for Ash.\n---\n\n# Ecto Patterns\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nEcto patterns — schemas, changesets, queries, migrations, Multi, associations, preloads, upserts. Use when editing Repo calls, Ecto.Query, or schema fields. Skip for Ash.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/ecto-patterns\n"
+  },
+  {
+    "slug": "elixir-elixir-idioms",
+    "name": "Elixir Idioms",
+    "category": "coding",
+    "description": "OTP/BEAM patterns and Elixir idioms — GenServer, Supervisor, Task, Registry, pattern matching, with chains, pipes. Use when designing processes or debugging BEAM issues.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/elixir-idioms",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Elixir Idioms\ndescription: OTP/BEAM patterns and Elixir idioms — GenServer, Supervisor, Task, Registry, pattern matching, with chains, pipes. Use when designing processes or debugging BEAM issues.\n---\n\n# Elixir Idioms\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nOTP/BEAM patterns and Elixir idioms — GenServer, Supervisor, Task, Registry, pattern matching, with chains, pipes. Use when designing processes or debugging BEAM issues.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/elixir-idioms\n"
+  },
+  {
+    "slug": "elixir-examples",
+    "name": "Phx:Examples",
+    "category": "coding",
+    "description": "Provide examples and walkthroughs for Phoenix, LiveView, Ecto, OTP patterns. Use when \"how do I...\", \"show me an example\", or \"what does X look like\".",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/examples",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Examples\ndescription: Provide examples and walkthroughs for Phoenix, LiveView, Ecto, OTP patterns. Use when \"how do I...\", \"show me an example\", or \"what does X look like\".\n---\n\n# Phx:Examples\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nProvide examples and walkthroughs for Phoenix, LiveView, Ecto, OTP patterns. Use when \"how do I...\", \"show me an example\", or \"what does X look like\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/examples\n"
+  },
+  {
+    "slug": "elixir-freeze",
+    "name": "Freeze",
+    "category": "coding",
+    "description": "Scope or freeze which files Claude can edit during debugging, a refactor, or review. Use when edits should stay in specific dirs, or for a read-only investigate lock. Backed by a sentinel + PreToolUse hook.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/freeze",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Freeze\ndescription: Scope or freeze which files Claude can edit during debugging, a refactor, or review. Use when edits should stay in specific dirs, or for a read-only investigate lock. Backed by a sentinel + PreToolUse hook.\n---\n\n# Freeze\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nScope or freeze which files Claude can edit during debugging, a refactor, or review. Use when edits should stay in specific dirs, or for a read-only investigate lock. Backed by a sentinel + PreToolUse hook.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/freeze\n"
+  },
+  {
+    "slug": "elixir-full",
+    "name": "Phx:Full",
+    "category": "coding",
+    "description": "Use for large features spanning multiple contexts or autonomous end-to-end implementation. Runs the full plan-implement-review-compound cycle with specialist agents. NOT for executing an existing plan file — use /phx:…",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/full",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Full\ndescription: Use for large features spanning multiple contexts or autonomous end-to-end implementation. Runs the full plan-implement-review-compound cycle with specialist agents. NOT for executing an existing plan file — use /phx:work for that.\n---\n\n# Phx:Full\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nUse for large features spanning multiple contexts or autonomous end-to-end implementation. Runs the full plan-implement-review-compound cycle with specialist agents. NOT for executing an existing plan file — use /phx:work for that.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/full\n"
+  },
+  {
+    "slug": "elixir-help",
+    "name": "Phx:Help",
+    "category": "coding",
+    "description": "Recommend the right /phx: command for planning, review, debug, deploy, or test tasks. Use when \\\"which command\\\", \\\"what should I use\\\", or \\\"how do I\\\". NOT for /help.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/help",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Help\ndescription: Recommend the right /phx: command for planning, review, debug, deploy, or test tasks. Use when \\\"which command\\\", \\\"what should I use\\\", or \\\"how do I\\\". NOT for /help.\n---\n\n# Phx:Help\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nRecommend the right /phx: command for planning, review, debug, deploy, or test tasks. Use when \\\"which command\\\", \\\"what should I use\\\", or \\\"how do I\\\". NOT for /help.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/help\n"
+  },
+  {
+    "slug": "elixir-hexdocs-fetcher",
+    "name": "Hexdocs Fetcher",
+    "category": "coding",
+    "description": "Fetch HexDocs for Elixir libraries with HTML-to-markdown conversion. Use when looking up docs on hexdocs.pm — modules, functions, guides, changelogs.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/hexdocs-fetcher",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Hexdocs Fetcher\ndescription: Fetch HexDocs for Elixir libraries with HTML-to-markdown conversion. Use when looking up docs on hexdocs.pm — modules, functions, guides, changelogs.\n---\n\n# Hexdocs Fetcher\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nFetch HexDocs for Elixir libraries with HTML-to-markdown conversion. Use when looking up docs on hexdocs.pm — modules, functions, guides, changelogs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/hexdocs-fetcher\n"
+  },
+  {
+    "slug": "elixir-init",
+    "name": "Phx:Init",
+    "category": "coding",
+    "description": "Initialize plugin in a project — install Iron Laws, auto-activation rules, and reference auto-loading into CLAUDE.md. Use when setting up or updating the plugin.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/init",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Init\ndescription: Initialize plugin in a project — install Iron Laws, auto-activation rules, and reference auto-loading into CLAUDE.md. Use when setting up or updating the plugin.\n---\n\n# Phx:Init\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nInitialize plugin in a project — install Iron Laws, auto-activation rules, and reference auto-loading into CLAUDE.md. Use when setting up or updating the plugin.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/init\n"
+  },
+  {
+    "slug": "elixir-intent-detection",
+    "name": "Intent Detection",
+    "category": "coding",
+    "description": "Route ambiguous Phoenix/LiveView/Ecto work requests to the correct /phx: workflow. Use when intent is unclear, mixed (bug fix vs. refactor), or scope is ambiguous.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/intent-detection",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Intent Detection\ndescription: Route ambiguous Phoenix/LiveView/Ecto work requests to the correct /phx: workflow. Use when intent is unclear, mixed (bug fix vs. refactor), or scope is ambiguous.\n---\n\n# Intent Detection\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nRoute ambiguous Phoenix/LiveView/Ecto work requests to the correct /phx: workflow. Use when intent is unclear, mixed (bug fix vs. refactor), or scope is ambiguous.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/intent-detection\n"
+  },
+  {
+    "slug": "elixir-intro",
+    "name": "Phx:Intro",
+    "category": "coding",
+    "description": "Walk through the Elixir/Phoenix plugin commands, workflow, and features in 6 interactive sections. Use when a new user wants to learn what the plugin offers or needs a refresher on available commands.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/intro",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Intro\ndescription: Walk through the Elixir/Phoenix plugin commands, workflow, and features in 6 interactive sections. Use when a new user wants to learn what the plugin offers or needs a refresher on available commands.\n---\n\n# Phx:Intro\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nWalk through the Elixir/Phoenix plugin commands, workflow, and features in 6 interactive sections. Use when a new user wants to learn what the plugin offers or needs a refresher on available commands.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/intro\n"
+  },
+  {
+    "slug": "elixir-investigate",
+    "name": "Phx:Investigate",
+    "category": "coding",
+    "description": "Investigate bugs and errors in Elixir/Phoenix — root-cause analysis for crashes, exceptions, stack traces, test failures. Use --parallel for deep 4-track investigation.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/investigate",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Investigate\ndescription: Investigate bugs and errors in Elixir/Phoenix — root-cause analysis for crashes, exceptions, stack traces, test failures. Use --parallel for deep 4-track investigation.\n---\n\n# Phx:Investigate\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nInvestigate bugs and errors in Elixir/Phoenix — root-cause analysis for crashes, exceptions, stack traces, test failures. Use --parallel for deep 4-track investigation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/investigate\n"
+  },
+  {
+    "slug": "elixir-learn-from-fix",
+    "name": "Phx:Learn From Fix",
+    "category": "coding",
+    "description": "Capture lessons after fixing a bug or receiving a correction — ecto, liveview, oban, iron law mistakes. Use when the user corrects your approach or teaches a pattern.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/learn-from-fix",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Learn From Fix\ndescription: Capture lessons after fixing a bug or receiving a correction — ecto, liveview, oban, iron law mistakes. Use when the user corrects your approach or teaches a pattern.\n---\n\n# Phx:Learn From Fix\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nCapture lessons after fixing a bug or receiving a correction — ecto, liveview, oban, iron law mistakes. Use when the user corrects your approach or teaches a pattern.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/learn-from-fix\n"
+  },
+  {
+    "slug": "elixir-liveview-patterns",
+    "name": "Liveview Patterns",
+    "category": "coding",
+    "description": "Build LiveView: async data (assign_async), PubSub (check connected?), phx-change events, form components/modals/uploads, streams for lists, live_patch. Use when handling interactions, debugging events, or tracking Pre…",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/liveview-patterns",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Liveview Patterns\ndescription: Build LiveView: async data (assign_async), PubSub (check connected?), phx-change events, form components/modals/uploads, streams for lists, live_patch. Use when handling interactions, debugging events, or tracking Presence.\n---\n\n# Liveview Patterns\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nBuild LiveView: async data (assign_async), PubSub (check connected?), phx-change events, form components/modals/uploads, streams for lists, live_patch. Use when handling interactions, debugging events, or tracking Presence.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/liveview-patterns\n"
+  },
+  {
+    "slug": "elixir-mix-compression",
+    "name": "Phx:Mix Compression",
+    "category": "coding",
+    "description": "Reduce mix output noise (5-15% token savings) by installing rtk filters that compress mix test/credo/dialyzer/compile output before it reaches Claude. Use when long mix output floods context.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/mix-compression",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Mix Compression\ndescription: Reduce mix output noise (5-15% token savings) by installing rtk filters that compress mix test/credo/dialyzer/compile output before it reaches Claude. Use when long mix output floods context.\n---\n\n# Phx:Mix Compression\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nReduce mix output noise (5-15% token savings) by installing rtk filters that compress mix test/credo/dialyzer/compile output before it reaches Claude. Use when long mix output floods context.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/mix-compression\n"
+  },
+  {
+    "slug": "elixir-n1-check",
+    "name": "Ecto:N1 Check",
+    "category": "coding",
+    "description": "Detect N+1 query anti-patterns specifically — Repo calls inside Enum/for loops, missing preloads on associations. Use when N+1 is explicitly suspected, NOT for unrelated Ecto questions or wider database performance.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/n1-check",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Ecto:N1 Check\ndescription: Detect N+1 query anti-patterns specifically — Repo calls inside Enum/for loops, missing preloads on associations. Use when N+1 is explicitly suspected, NOT for unrelated Ecto questions or wider database performance.\n---\n\n# Ecto:N1 Check\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nDetect N+1 query anti-patterns specifically — Repo calls inside Enum/for loops, missing preloads on associations. Use when N+1 is explicitly suspected, NOT for unrelated Ecto questions or wider database performance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/n1-check\n"
+  },
+  {
+    "slug": "elixir-narrow-bare-rescue",
+    "name": "Narrow Bare Rescue",
+    "category": "coding",
+    "description": "Narrow bare rescue in Elixir so real errors like KeyError and typos propagate instead of being swallowed. Use to audit rescues and refactor error handling.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/narrow-bare-rescue",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Narrow Bare Rescue\ndescription: Narrow bare rescue in Elixir so real errors like KeyError and typos propagate instead of being swallowed. Use to audit rescues and refactor error handling.\n---\n\n# Narrow Bare Rescue\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nNarrow bare rescue in Elixir so real errors like KeyError and typos propagate instead of being swallowed. Use to audit rescues and refactor error handling.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/narrow-bare-rescue\n"
+  },
+  {
+    "slug": "elixir-oban",
+    "name": "Oban",
+    "category": "coding",
+    "description": "Oban job processing — workers, perform/1 (OSS) and process/1 (Pro), queues, cron, retries, unique jobs, idempotency, Oban Pro (Workflow, Batch, Chunk, Smart Engine), Testing. Use when writing Oban workers, queue confi…",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/oban",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Oban\ndescription: Oban job processing — workers, perform/1 (OSS) and process/1 (Pro), queues, cron, retries, unique jobs, idempotency, Oban Pro (Workflow, Batch, Chunk, Smart Engine), Testing. Use when writing Oban workers, queue config, or debugging jobs.\n---\n\n# Oban\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nOban job processing — workers, perform/1 (OSS) and process/1 (Pro), queues, cron, retries, unique jobs, idempotency, Oban Pro (Workflow, Batch, Chunk, Smart Engine), Testing. Use when writing Oban workers, queue config, or debugging jobs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/oban\n"
+  },
+  {
+    "slug": "elixir-perf",
+    "name": "Phx:Perf",
+    "category": "coding",
+    "description": "Analyze Elixir/Phoenix performance — N+1 queries, assign bloat, ecto optimization, genserver bottlenecks. Use when slowness, timeouts, or high memory reported.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/perf",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Perf\ndescription: Analyze Elixir/Phoenix performance — N+1 queries, assign bloat, ecto optimization, genserver bottlenecks. Use when slowness, timeouts, or high memory reported.\n---\n\n# Phx:Perf\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAnalyze Elixir/Phoenix performance — N+1 queries, assign bloat, ecto optimization, genserver bottlenecks. Use when slowness, timeouts, or high memory reported.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/perf\n"
+  },
+  {
+    "slug": "elixir-permissions",
+    "name": "Phx:Permissions",
+    "category": "coding",
+    "description": "Recommend safe Bash permissions for Elixir mix commands in settings.json. Use when permission prompts slow workflow, \"fix permissions\", \"reduce prompts\", \"auto-allow mix\".",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/permissions",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Permissions\ndescription: Recommend safe Bash permissions for Elixir mix commands in settings.json. Use when permission prompts slow workflow, \"fix permissions\", \"reduce prompts\", \"auto-allow mix\".\n---\n\n# Phx:Permissions\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nRecommend safe Bash permissions for Elixir mix commands in settings.json. Use when permission prompts slow workflow, \"fix permissions\", \"reduce prompts\", \"auto-allow mix\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/permissions\n"
+  },
+  {
+    "slug": "elixir-phoenix-contexts",
+    "name": "Phoenix Contexts",
+    "category": "coding",
+    "description": "Phoenix context design — creating/splitting contexts, Scope (1.8+), Ecto.Multi, PubSub, routers, plugs, controllers. Use when editing contexts, routers, or designing boundaries.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/phoenix-contexts",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phoenix Contexts\ndescription: Phoenix context design — creating/splitting contexts, Scope (1.8+), Ecto.Multi, PubSub, routers, plugs, controllers. Use when editing contexts, routers, or designing boundaries.\n---\n\n# Phoenix Contexts\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nPhoenix context design — creating/splitting contexts, Scope (1.8+), Ecto.Multi, PubSub, routers, plugs, controllers. Use when editing contexts, routers, or designing boundaries.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/phoenix-contexts\n"
+  },
+  {
+    "slug": "elixir-plan",
+    "name": "Phx:Plan",
+    "category": "coding",
+    "description": "Plan features spanning multiple domains: billing (Stripe), auth (RBAC), real-time (Presence), webhooks, jobs (Oban). Use when designing interconnected systems or converting review findings into tasks.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/plan",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Plan\ndescription: Plan features spanning multiple domains: billing (Stripe), auth (RBAC), real-time (Presence), webhooks, jobs (Oban). Use when designing interconnected systems or converting review findings into tasks.\n---\n\n# Phx:Plan\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nPlan features spanning multiple domains: billing (Stripe), auth (RBAC), real-time (Presence), webhooks, jobs (Oban). Use when designing interconnected systems or converting review findings into tasks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/plan\n"
+  },
+  {
+    "slug": "elixir-pr-review",
+    "name": "Phx:Pr Review",
+    "category": "coding",
+    "description": "Address PR review threads on Elixir/Phoenix code — fetch unresolved threads, fix code, reply, and resolve each thread. Use when the user shares a PR URL or mentions reviewer feedback.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/pr-review",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Pr Review\ndescription: Address PR review threads on Elixir/Phoenix code — fetch unresolved threads, fix code, reply, and resolve each thread. Use when the user shares a PR URL or mentions reviewer feedback.\n---\n\n# Phx:Pr Review\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAddress PR review threads on Elixir/Phoenix code — fetch unresolved threads, fix code, reply, and resolve each thread. Use when the user shares a PR URL or mentions reviewer feedback.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/pr-review\n"
+  },
+  {
+    "slug": "elixir-quick",
+    "name": "Phx:Quick",
+    "category": "coding",
+    "description": "Implement small Phoenix changes without planning — add validations, update routes, fix components, create migrations. Use for single-file edits under 50 lines.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/quick",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Quick\ndescription: Implement small Phoenix changes without planning — add validations, update routes, fix components, create migrations. Use for single-file edits under 50 lines.\n---\n\n# Phx:Quick\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nImplement small Phoenix changes without planning — add validations, update routes, fix components, create migrations. Use for single-file edits under 50 lines.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/quick\n"
+  },
+  {
+    "slug": "elixir-recall",
+    "name": "Phx:Recall",
+    "category": "coding",
+    "description": "Recall prior work from past sessions — how a bug was fixed, what was decided, where a pattern lives. Use when asked 'have we done this before' or 'how did I fix X' in Elixir/Phoenix work. ccrider MCP when available, e…",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/recall",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Recall\ndescription: Recall prior work from past sessions — how a bug was fixed, what was decided, where a pattern lives. Use when asked 'have we done this before' or 'how did I fix X' in Elixir/Phoenix work. ccrider MCP when available, else git + solution docs.\n---\n\n# Phx:Recall\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nRecall prior work from past sessions — how a bug was fixed, what was decided, where a pattern lives. Use when asked 'have we done this before' or 'how did I fix X' in Elixir/Phoenix work. ccrider MCP when available, else git + solution docs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/recall\n"
+  },
+  {
+    "slug": "elixir-research",
+    "name": "Phx:Research",
+    "category": "coding",
+    "description": "Research Elixir/Phoenix topics or evaluate Hex libraries (--library). Use when learning about libraries, patterns, or comparing approaches. Searches HexDocs, ElixirForum, GitHub.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/research",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Research\ndescription: Research Elixir/Phoenix topics or evaluate Hex libraries (--library). Use when learning about libraries, patterns, or comparing approaches. Searches HexDocs, ElixirForum, GitHub.\n---\n\n# Phx:Research\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nResearch Elixir/Phoenix topics or evaluate Hex libraries (--library). Use when learning about libraries, patterns, or comparing approaches. Searches HexDocs, ElixirForum, GitHub.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/research\n"
+  },
+  {
+    "slug": "elixir-review",
+    "name": "Phx:Review",
+    "category": "coding",
+    "description": "Review code with parallel agents — tests, security, Ecto, LiveView, Oban. Use after implementation to catch bugs and anti-patterns before committing.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/review",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Review\ndescription: Review code with parallel agents — tests, security, Ecto, LiveView, Oban. Use after implementation to catch bugs and anti-patterns before committing.\n---\n\n# Phx:Review\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nReview code with parallel agents — tests, security, Ecto, LiveView, Oban. Use after implementation to catch bugs and anti-patterns before committing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/review\n"
+  },
+  {
+    "slug": "elixir-security",
+    "name": "Security",
+    "category": "coding",
+    "description": "Enforce Elixir/Phoenix security — auth, OAuth, sessions, CSRF, XSS, SQL injection, input validation, secrets. Use when editing auth files, login flows, RBAC, or API keys.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/security",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Security\ndescription: Enforce Elixir/Phoenix security — auth, OAuth, sessions, CSRF, XSS, SQL injection, input validation, secrets. Use when editing auth files, login flows, RBAC, or API keys.\n---\n\n# Security\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nEnforce Elixir/Phoenix security — auth, OAuth, sessions, CSRF, XSS, SQL injection, input validation, secrets. Use when editing auth files, login flows, RBAC, or API keys.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/security\n"
+  },
+  {
+    "slug": "elixir-techdebt",
+    "name": "Phx:Techdebt",
+    "category": "coding",
+    "description": "Analyze Elixir/Phoenix technical debt — duplicates, refactoring opportunities, credo issues. Use when asked about code quality, cleanup, or what to improve.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/techdebt",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Techdebt\ndescription: Analyze Elixir/Phoenix technical debt — duplicates, refactoring opportunities, credo issues. Use when asked about code quality, cleanup, or what to improve.\n---\n\n# Phx:Techdebt\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nAnalyze Elixir/Phoenix technical debt — duplicates, refactoring opportunities, credo issues. Use when asked about code quality, cleanup, or what to improve.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/techdebt\n"
+  },
+  {
+    "slug": "elixir-testing",
+    "name": "Testing",
+    "category": "coding",
+    "description": "Elixir testing patterns — ExUnit, Mox, factories, LiveView test helpers. Use when working on *_test.exs, test/support/, factory files, or fixing test failures.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/testing",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Testing\ndescription: Elixir testing patterns — ExUnit, Mox, factories, LiveView test helpers. Use when working on *_test.exs, test/support/, factory files, or fixing test failures.\n---\n\n# Testing\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nElixir testing patterns — ExUnit, Mox, factories, LiveView test helpers. Use when working on *_test.exs, test/support/, factory files, or fixing test failures.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/testing\n"
+  },
+  {
+    "slug": "elixir-tidewave-integration",
+    "name": "Tidewave Integration",
+    "category": "coding",
+    "description": "Tidewave MCP runtime tools — debugging, smoke testing, live state inspection, SQL queries, hex docs. Use when evaluating code in a running Phoenix app.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/tidewave-integration",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Tidewave Integration\ndescription: Tidewave MCP runtime tools — debugging, smoke testing, live state inspection, SQL queries, hex docs. Use when evaluating code in a running Phoenix app.\n---\n\n# Tidewave Integration\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nTidewave MCP runtime tools — debugging, smoke testing, live state inspection, SQL queries, hex docs. Use when evaluating code in a running Phoenix app.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/tidewave-integration\n"
+  },
+  {
+    "slug": "elixir-triage",
+    "name": "Phx:Triage",
+    "category": "coding",
+    "description": "Triage review findings interactively — approve, skip, or prioritize each issue. Use after /phx:review to filter findings before fixing.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/triage",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Triage\ndescription: Triage review findings interactively — approve, skip, or prioritize each issue. Use after /phx:review to filter findings before fixing.\n---\n\n# Phx:Triage\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nTriage review findings interactively — approve, skip, or prioritize each issue. Use after /phx:review to filter findings before fixing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/triage\n"
+  },
+  {
+    "slug": "elixir-verify",
+    "name": "Phx:Verify",
+    "category": "coding",
+    "description": "Verify Elixir/Phoenix changes — compile, format, and test in one loop. Use after implementation, before PRs, or after fixing bugs.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/verify",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Verify\ndescription: Verify Elixir/Phoenix changes — compile, format, and test in one loop. Use after implementation, before PRs, or after fixing bugs.\n---\n\n# Phx:Verify\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nVerify Elixir/Phoenix changes — compile, format, and test in one loop. Use after implementation, before PRs, or after fixing bugs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/verify\n"
+  },
+  {
+    "slug": "elixir-watch-pr",
+    "name": "Phx:Watch Pr",
+    "category": "coding",
+    "description": "Watch an Elixir/Phoenix PR for new review comments (bot + human) and CI results via a background watcher that wakes Claude only on real events. Use after opening a PR or pushing, while waiting on CI or reviewers.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/watch-pr",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Watch Pr\ndescription: Watch an Elixir/Phoenix PR for new review comments (bot + human) and CI results via a background watcher that wakes Claude only on real events. Use after opening a PR or pushing, while waiting on CI or reviewers.\n---\n\n# Phx:Watch Pr\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nWatch an Elixir/Phoenix PR for new review comments (bot + human) and CI results via a background watcher that wakes Claude only on real events. Use after opening a PR or pushing, while waiting on CI or reviewers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/watch-pr\n"
+  },
+  {
+    "slug": "elixir-work",
+    "name": "Phx:Work",
+    "category": "coding",
+    "description": "Execute Elixir/Phoenix plan tasks with progress tracking. Use after /phx:plan to implement features with mix compile and mix test verification after each step, or --continue to resume interrupted work.",
+    "author": "oliver-kriska",
+    "source_url": "https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/work",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "ash"
+    ],
+    "skill_content": "---\nname: Phx:Work\ndescription: Execute Elixir/Phoenix plan tasks with progress tracking. Use after /phx:plan to implement features with mix compile and mix test verification after each step, or --continue to resume interrupted work.\n---\n\n# Phx:Work\n\nPart of the **Elixir & Phoenix Skills** pack by oliver-kriska (`oliver-kriska/claude-elixir-phoenix`).\n\nExecute Elixir/Phoenix plan tasks with progress tracking. Use after /phx:plan to implement features with mix compile and mix test verification after each step, or --continue to resume interrupted work.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/oliver-kriska/claude-elixir-phoenix/tree/main/plugins/elixir-phoenix/skills/work\n"
+  }
+]

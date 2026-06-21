@@ -1,0 +1,1472 @@
+[
+  {
+    "slug": "orchestra-0-autoresearch-skill",
+    "name": "Autoresearch",
+    "category": "data",
+    "description": "Orchestrates end-to-end autonomous AI research projects using a two-loop architecture. The inner loop runs rapid experiment iterations with clear optimization targets. The outer loop synthesizes results, identifies pa…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/0-autoresearch-skill",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Autoresearch\ndescription: Orchestrates end-to-end autonomous AI research projects using a two-loop architecture. The inner loop runs rapid experiment iterations with clear optimization targets. The outer loop synthesizes results, identifies patterns, and steers research direction. Routes to domain-specific skills for…\n---\n\n# Autoresearch\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOrchestrates end-to-end autonomous AI research projects using a two-loop architecture. The inner loop runs rapid experiment iterations with clear optimization targets. The outer loop synthesizes results, identifies patterns, and steers research direction. Routes to domain-specific skills for…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/0-autoresearch-skill\n"
+  },
+  {
+    "slug": "orchestra-litgpt",
+    "name": "Implementing Llms Litgpt",
+    "category": "data",
+    "description": "Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral). Use when need clean model implementations, educational understanding of architectures, or pr…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/litgpt",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Implementing Llms Litgpt\ndescription: Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral). Use when need clean model implementations, educational understanding of architectures, or production fine-tuning with LoRA/QLoRA. Single-file implementations, no…\n---\n\n# Implementing Llms Litgpt\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nImplements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained architectures (Llama, Gemma, Phi, Qwen, Mistral). Use when need clean model implementations, educational understanding of architectures, or production fine-tuning with LoRA/QLoRA. Single-file implementations, no…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/litgpt\n"
+  },
+  {
+    "slug": "orchestra-mamba",
+    "name": "Mamba Architecture",
+    "category": "data",
+    "description": "State-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/mamba",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Mamba Architecture\ndescription: State-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-head). Models 130M-2.8B on HuggingFace.\n---\n\n# Mamba Architecture\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nState-space model with O(n) complexity vs Transformers' O(n²). 5× faster inference, million-token sequences, no KV cache. Selective SSM with hardware-aware design. Mamba-1 (d_state=16) and Mamba-2 (d_state=128, multi-head). Models 130M-2.8B on HuggingFace.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/mamba\n"
+  },
+  {
+    "slug": "orchestra-nanogpt",
+    "name": "Nanogpt",
+    "category": "data",
+    "description": "Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hackable code for learning transformers. By Andrej Karpathy. Perfect for understanding GPT architecture from scratch. Train …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/nanogpt",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Nanogpt\ndescription: Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hackable code for learning transformers. By Andrej Karpathy. Perfect for understanding GPT architecture from scratch. Train on Shakespeare (CPU) or OpenWebText (multi-GPU).\n---\n\n# Nanogpt\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nEducational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWebText. Clean, hackable code for learning transformers. By Andrej Karpathy. Perfect for understanding GPT architecture from scratch. Train on Shakespeare (CPU) or OpenWebText (multi-GPU).\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/nanogpt\n"
+  },
+  {
+    "slug": "orchestra-rwkv",
+    "name": "Rwkv Architecture",
+    "category": "data",
+    "description": "RNN+Transformer hybrid with O(n) inference. Linear time, infinite context, no KV cache. Train like GPT (parallel), infer like RNN (sequential). Linux Foundation AI project. Production at Windows, Office, NeMo. RWKV-7 …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/rwkv",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Rwkv Architecture\ndescription: RNN+Transformer hybrid with O(n) inference. Linear time, infinite context, no KV cache. Train like GPT (parallel), infer like RNN (sequential). Linux Foundation AI project. Production at Windows, Office, NeMo. RWKV-7 (March 2025). Models up to 14B parameters.\n---\n\n# Rwkv Architecture\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nRNN+Transformer hybrid with O(n) inference. Linear time, infinite context, no KV cache. Train like GPT (parallel), infer like RNN (sequential). Linux Foundation AI project. Production at Windows, Office, NeMo. RWKV-7 (March 2025). Models up to 14B parameters.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/rwkv\n"
+  },
+  {
+    "slug": "orchestra-torchtitan",
+    "name": "Distributed Llm Pretraining Torchtitan",
+    "category": "data",
+    "description": "Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, tor…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/torchtitan",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Distributed Llm Pretraining Torchtitan\ndescription: Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, torch.compile, and distributed checkpointing.\n---\n\n# Distributed Llm Pretraining Torchtitan\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides PyTorch-native distributed LLM pretraining using torchtitan with 4D parallelism (FSDP2, TP, PP, CP). Use when pretraining Llama 3.1, DeepSeek V3, or custom models at scale from 8 to 512+ GPUs with Float8, torch.compile, and distributed checkpointing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/01-model-architecture/torchtitan\n"
+  },
+  {
+    "slug": "orchestra-huggingface-tokenizers",
+    "name": "Huggingface Tokenizers",
+    "category": "data",
+    "description": "Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle paddi…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/huggingface-tokenizers",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Huggingface Tokenizers\ndescription: Fast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with transformers. Use when you need…\n---\n\n# Huggingface Tokenizers\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFast tokenizers optimized for research and production. Rust-based implementation tokenizes 1GB in <20 seconds. Supports BPE, WordPiece, and Unigram algorithms. Train custom vocabularies, track alignments, handle padding/truncation. Integrates seamlessly with transformers. Use when you need…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/huggingface-tokenizers\n"
+  },
+  {
+    "slug": "orchestra-sentencepiece",
+    "name": "Sentencepiece",
+    "category": "data",
+    "description": "Language-independent tokenizer treating text as raw Unicode. Supports BPE and Unigram algorithms. Fast (50k sentences/sec), lightweight (6MB memory), deterministic vocabulary. Used by T5, ALBERT, XLNet, mBART. Train o…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/sentencepiece",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Sentencepiece\ndescription: Language-independent tokenizer treating text as raw Unicode. Supports BPE and Unigram algorithms. Fast (50k sentences/sec), lightweight (6MB memory), deterministic vocabulary. Used by T5, ALBERT, XLNet, mBART. Train on raw text without pre-tokenization. Use when you need multilingual support,…\n---\n\n# Sentencepiece\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nLanguage-independent tokenizer treating text as raw Unicode. Supports BPE and Unigram algorithms. Fast (50k sentences/sec), lightweight (6MB memory), deterministic vocabulary. Used by T5, ALBERT, XLNet, mBART. Train on raw text without pre-tokenization. Use when you need multilingual support,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/02-tokenization/sentencepiece\n"
+  },
+  {
+    "slug": "orchestra-axolotl",
+    "name": "Axolotl",
+    "category": "data",
+    "description": "Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/axolotl",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Axolotl\ndescription: Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support\n---\n\n# Axolotl\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExpert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/axolotl\n"
+  },
+  {
+    "slug": "orchestra-llama-factory",
+    "name": "Llama Factory",
+    "category": "data",
+    "description": "Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/llama-factory",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Llama Factory\ndescription: Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support\n---\n\n# Llama Factory\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExpert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ models, 2/3/4/5/6/8-bit QLoRA, multimodal support\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/llama-factory\n"
+  },
+  {
+    "slug": "orchestra-peft",
+    "name": "Peft Fine Tuning",
+    "category": "data",
+    "description": "Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/peft",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Peft Fine Tuning\ndescription: Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with…\n---\n\n# Peft Fine Tuning\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nParameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning large models (7B-70B) with limited GPU memory, when you need to train <1% of parameters with minimal accuracy loss, or for multi-adapter serving. HuggingFace's official library integrated with…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/peft\n"
+  },
+  {
+    "slug": "orchestra-unsloth",
+    "name": "Unsloth",
+    "category": "data",
+    "description": "Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/unsloth",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Unsloth\ndescription: Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization\n---\n\n# Unsloth\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExpert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80% less memory, LoRA/QLoRA optimization\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/03-fine-tuning/unsloth\n"
+  },
+  {
+    "slug": "orchestra-nnsight",
+    "name": "Nnsight Remote Interpretability",
+    "category": "data",
+    "description": "Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without loc…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/nnsight",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Nnsight Remote Interpretability\ndescription: Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local GPU resources, or when working with any PyTorch architecture.\n---\n\n# Nnsight Remote Interpretability\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local GPU resources, or when working with any PyTorch architecture.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/nnsight\n"
+  },
+  {
+    "slug": "orchestra-pyvene",
+    "name": "Pyvene Interventions",
+    "category": "data",
+    "description": "Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework. Use when conducting causal tracing, activation patching, interchange intervention training, or…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/pyvene",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Pyvene Interventions\ndescription: Provides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework. Use when conducting causal tracing, activation patching, interchange intervention training, or testing causal hypotheses about model behavior.\n---\n\n# Pyvene Interventions\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for performing causal interventions on PyTorch models using pyvene's declarative intervention framework. Use when conducting causal tracing, activation patching, interchange intervention training, or testing causal hypotheses about model behavior.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/pyvene\n"
+  },
+  {
+    "slug": "orchestra-saelens",
+    "name": "Sparse Autoencoder Training",
+    "category": "data",
+    "description": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superpo…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/saelens",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Sparse Autoencoder Training\ndescription: Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.\n---\n\n# Sparse Autoencoder Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/saelens\n"
+  },
+  {
+    "slug": "orchestra-transformer-lens",
+    "name": "Transformer Lens Interpretability",
+    "category": "data",
+    "description": "Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching. Use when reverse-engineering model algorithms, s…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/transformer-lens",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Transformer Lens Interpretability\ndescription: Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching. Use when reverse-engineering model algorithms, studying attention patterns, or performing activation patching experiments.\n---\n\n# Transformer Lens Interpretability\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching. Use when reverse-engineering model algorithms, studying attention patterns, or performing activation patching experiments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/04-mechanistic-interpretability/transformer-lens\n"
+  },
+  {
+    "slug": "orchestra-nemo-curator",
+    "name": "Nemo Curator",
+    "category": "data",
+    "description": "GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Sc…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/nemo-curator",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Nemo Curator\ndescription: GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets,…\n---\n\n# Nemo Curator\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nGPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/nemo-curator\n"
+  },
+  {
+    "slug": "orchestra-ray-data",
+    "name": "Ray Data",
+    "category": "data",
+    "description": "Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/CSV/JSON/images. Integrates with Ray Train, PyTorch, TensorFlow. Scales from single machine to 100s of nodes. Use for bat…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/ray-data",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ray Data\ndescription: Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/CSV/JSON/images. Integrates with Ray Train, PyTorch, TensorFlow. Scales from single machine to 100s of nodes. Use for batch inference, data preprocessing, multi-modal data loading, or distributed ETL…\n---\n\n# Ray Data\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nScalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/CSV/JSON/images. Integrates with Ray Train, PyTorch, TensorFlow. Scales from single machine to 100s of nodes. Use for batch inference, data preprocessing, multi-modal data loading, or distributed ETL…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/05-data-processing/ray-data\n"
+  },
+  {
+    "slug": "orchestra-grpo-rl-training",
+    "name": "Grpo Rl Training",
+    "category": "data",
+    "description": "Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/grpo-rl-training",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Grpo Rl Training\ndescription: Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training\n---\n\n# Grpo Rl Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExpert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/grpo-rl-training\n"
+  },
+  {
+    "slug": "orchestra-miles",
+    "name": "Miles Rl Training",
+    "category": "data",
+    "description": "Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training large MoE models with FP8/INT4, needing train-inference alignment, or requiring speculative RL for ma…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/miles",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Miles Rl Training\ndescription: Provides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training large MoE models with FP8/INT4, needing train-inference alignment, or requiring speculative RL for maximum throughput.\n---\n\n# Miles Rl Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for enterprise-grade RL training using miles, a production-ready fork of slime. Use when training large MoE models with FP8/INT4, needing train-inference alignment, or requiring speculative RL for maximum throughput.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/miles\n"
+  },
+  {
+    "slug": "orchestra-openrlhf",
+    "name": "Openrlhf Training",
+    "category": "data",
+    "description": "High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and G…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/openrlhf",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Openrlhf Training\ndescription: High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU resource sharing.\n---\n\n# Openrlhf Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nHigh-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU resource sharing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/openrlhf\n"
+  },
+  {
+    "slug": "orchestra-simpo",
+    "name": "Simpo Training",
+    "category": "data",
+    "description": "Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference align…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/simpo",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Simpo Training\ndescription: Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training than DPO/PPO.\n---\n\n# Simpo Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nSimple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better performance (+6.4 points on AlpacaEval 2.0). No reference model needed, more efficient than DPO. Use for preference alignment when want simpler, faster training than DPO/PPO.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/simpo\n"
+  },
+  {
+    "slug": "orchestra-slime",
+    "name": "Slime Rl Training",
+    "category": "data",
+    "description": "Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL sc…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/slime",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Slime Rl Training\ndescription: Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL scaling.\n---\n\n# Slime Rl Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for LLM post-training with RL using slime, a Megatron+SGLang framework. Use when training GLM models, implementing custom data generation workflows, or needing tight Megatron-LM integration for RL scaling.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/slime\n"
+  },
+  {
+    "slug": "orchestra-torchforge",
+    "name": "Torchforge Rl Training",
+    "category": "data",
+    "description": "Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Mon…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/torchforge",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Torchforge Rl Training\ndescription: Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan.\n---\n\n# Torchforge Rl Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for PyTorch-native agentic RL using torchforge, Meta's library separating infra from algorithms. Use when you want clean RL abstractions, easy algorithm experimentation, or scalable training with Monarch and TorchTitan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/torchforge\n"
+  },
+  {
+    "slug": "orchestra-trl-fine-tuning",
+    "name": "Fine Tuning With Trl",
+    "category": "data",
+    "description": "Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training. Use when need RLHF, align model with prefer…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/trl-fine-tuning",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Fine Tuning With Trl\ndescription: Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training. Use when need RLHF, align model with preferences, or train from human feedback. Works with HuggingFace Transformers.\n---\n\n# Fine Tuning With Trl\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for reward optimization, and reward model training. Use when need RLHF, align model with preferences, or train from human feedback. Works with HuggingFace Transformers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/trl-fine-tuning\n"
+  },
+  {
+    "slug": "orchestra-verl",
+    "name": "Verl Rl Training",
+    "category": "data",
+    "description": "Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Use when implementing RLHF, GRPO, PPO, or other RL algorithms for LLM post-training at scale with flexible infrastructure…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/verl",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Verl Rl Training\ndescription: Provides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Use when implementing RLHF, GRPO, PPO, or other RL algorithms for LLM post-training at scale with flexible infrastructure backends.\n---\n\n# Verl Rl Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for training LLMs with reinforcement learning using verl (Volcano Engine RL). Use when implementing RLHF, GRPO, PPO, or other RL algorithms for LLM post-training at scale with flexible infrastructure backends.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/06-post-training/verl\n"
+  },
+  {
+    "slug": "orchestra-constitutional-ai",
+    "name": "Constitutional Ai",
+    "category": "data",
+    "description": "Anthropic's method for training harmless AI through self-improvement. Two-phase approach - supervised learning with self-critique/revision, then RLAIF (RL from AI Feedback). Use for safety alignment, reducing harmful …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/constitutional-ai",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Constitutional Ai\ndescription: Anthropic's method for training harmless AI through self-improvement. Two-phase approach - supervised learning with self-critique/revision, then RLAIF (RL from AI Feedback). Use for safety alignment, reducing harmful outputs without human labels. Powers Claude's safety system.\n---\n\n# Constitutional Ai\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nAnthropic's method for training harmless AI through self-improvement. Two-phase approach - supervised learning with self-critique/revision, then RLAIF (RL from AI Feedback). Use for safety alignment, reducing harmful outputs without human labels. Powers Claude's safety system.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/constitutional-ai\n"
+  },
+  {
+    "slug": "orchestra-llamaguard",
+    "name": "Llamaguard",
+    "category": "data",
+    "description": "Meta's 7-8B specialized moderation model for LLM input/output filtering. 6 safety categories - violence/hate, sexual content, weapons, substances, self-harm, criminal planning. 94-95% accuracy. Deploy with vLLM, Huggi…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/llamaguard",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Llamaguard\ndescription: Meta's 7-8B specialized moderation model for LLM input/output filtering. 6 safety categories - violence/hate, sexual content, weapons, substances, self-harm, criminal planning. 94-95% accuracy. Deploy with vLLM, HuggingFace, Sagemaker. Integrates with NeMo Guardrails.\n---\n\n# Llamaguard\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nMeta's 7-8B specialized moderation model for LLM input/output filtering. 6 safety categories - violence/hate, sexual content, weapons, substances, self-harm, criminal planning. 94-95% accuracy. Deploy with vLLM, HuggingFace, Sagemaker. Integrates with NeMo Guardrails.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/llamaguard\n"
+  },
+  {
+    "slug": "orchestra-nemo-guardrails",
+    "name": "Nemo Guardrails",
+    "category": "data",
+    "description": "NVIDIA's runtime safety framework for LLM applications. Features jailbreak detection, input/output validation, fact-checking, hallucination detection, PII filtering, toxicity detection. Uses Colang 2.0 DSL for program…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/nemo-guardrails",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Nemo Guardrails\ndescription: NVIDIA's runtime safety framework for LLM applications. Features jailbreak detection, input/output validation, fact-checking, hallucination detection, PII filtering, toxicity detection. Uses Colang 2.0 DSL for programmable rails. Production-ready, runs on T4 GPU.\n---\n\n# Nemo Guardrails\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nNVIDIA's runtime safety framework for LLM applications. Features jailbreak detection, input/output validation, fact-checking, hallucination detection, PII filtering, toxicity detection. Uses Colang 2.0 DSL for programmable rails. Production-ready, runs on T4 GPU.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/nemo-guardrails\n"
+  },
+  {
+    "slug": "orchestra-prompt-guard",
+    "name": "Prompt Guard",
+    "category": "data",
+    "description": "Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch process…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/prompt-guard",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Prompt Guard\ndescription: Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch processing for RAG security.\n---\n\n# Prompt Guard\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nMeta's 86M prompt injection and jailbreak detector. Filters malicious prompts and third-party data for LLM apps. 99%+ TPR, <1% FPR. Fast (<2ms GPU). Multilingual (8 languages). Deploy with HuggingFace or batch processing for RAG security.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/07-safety-alignment/prompt-guard\n"
+  },
+  {
+    "slug": "orchestra-accelerate",
+    "name": "Huggingface Accelerate",
+    "category": "data",
+    "description": "Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/accelerate",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Huggingface Accelerate\ndescription: Simplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.\n---\n\n# Huggingface Accelerate\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nSimplest distributed training API. 4 lines to add distributed support to any PyTorch script. Unified API for DeepSpeed/FSDP/Megatron/DDP. Automatic device placement, mixed precision (FP16/BF16/FP8). Interactive config, single launch command. HuggingFace ecosystem standard.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/accelerate\n"
+  },
+  {
+    "slug": "orchestra-deepspeed",
+    "name": "Deepspeed",
+    "category": "data",
+    "description": "Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/deepspeed",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Deepspeed\ndescription: Expert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention\n---\n\n# Deepspeed\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExpert guidance for distributed training with DeepSpeed - ZeRO optimization stages, pipeline parallelism, FP16/BF16/FP8, 1-bit Adam, sparse attention\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/deepspeed\n"
+  },
+  {
+    "slug": "orchestra-megatron-core",
+    "name": "Training Llms Megatron",
+    "category": "data",
+    "description": "Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies. Use when training models >1B parameters, need maximum GPU efficiency (47% MFU on H100), or require ten…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/megatron-core",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Training Llms Megatron\ndescription: Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies. Use when training models >1B parameters, need maximum GPU efficiency (47% MFU on H100), or require tensor/pipeline/sequence/context/expert parallelism. Production-ready framework…\n---\n\n# Training Llms Megatron\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nTrains large language models (2B-462B parameters) using NVIDIA Megatron-Core with advanced parallelism strategies. Use when training models >1B parameters, need maximum GPU efficiency (47% MFU on H100), or require tensor/pipeline/sequence/context/expert parallelism. Production-ready framework…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/megatron-core\n"
+  },
+  {
+    "slug": "orchestra-pytorch-fsdp2",
+    "name": "Pytorch Fsdp2",
+    "category": "data",
+    "description": "Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-fsdp2",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Pytorch Fsdp2\ndescription: Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based sharding with DeviceMesh.\n---\n\n# Pytorch Fsdp2\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nAdds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding, mixed precision/offload config, and distributed checkpointing. Use when models exceed single-GPU memory or when you need DTensor-based sharding with DeviceMesh.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-fsdp2\n"
+  },
+  {
+    "slug": "orchestra-pytorch-lightning",
+    "name": "Pytorch Lightning",
+    "category": "data",
+    "description": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want cl…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-lightning",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Pytorch Lightning\ndescription: High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.\n---\n\n# Pytorch Lightning\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nHigh-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/pytorch-lightning\n"
+  },
+  {
+    "slug": "orchestra-ray-train",
+    "name": "Ray Train",
+    "category": "data",
+    "description": "Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nodes. Built-in hyperparameter tuning with Ray Tune, fault tolerance, elastic scaling. Use when trainin…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/ray-train",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ray Train\ndescription: Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nodes. Built-in hyperparameter tuning with Ray Tune, fault tolerance, elastic scaling. Use when training massive models across multiple machines or running distributed hyperparameter…\n---\n\n# Ray Train\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nDistributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nodes. Built-in hyperparameter tuning with Ray Tune, fault tolerance, elastic scaling. Use when training massive models across multiple machines or running distributed hyperparameter…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/08-distributed-training/ray-train\n"
+  },
+  {
+    "slug": "orchestra-lambda-labs",
+    "name": "Lambda Labs Gpu Cloud",
+    "category": "data",
+    "description": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-sca…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/lambda-labs",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Lambda Labs Gpu Cloud\ndescription: Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.\n---\n\n# Lambda Labs Gpu Cloud\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nReserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/lambda-labs\n"
+  },
+  {
+    "slug": "orchestra-modal",
+    "name": "Modal Serverless Gpu",
+    "category": "data",
+    "description": "Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/modal",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Modal Serverless Gpu\ndescription: Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.\n---\n\n# Modal Serverless Gpu\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nServerless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access without infrastructure management, deploying ML models as APIs, or running batch jobs with automatic scaling.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/modal\n"
+  },
+  {
+    "slug": "orchestra-skypilot",
+    "name": "Skypilot Multi Cloud Orchestration",
+    "category": "data",
+    "description": "Multi-cloud orchestration for ML workloads with automatic cost optimization. Use when you need to run training or batch jobs across multiple clouds, leverage spot instances with auto-recovery, or optimize GPU costs ac…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/skypilot",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Skypilot Multi Cloud Orchestration\ndescription: Multi-cloud orchestration for ML workloads with automatic cost optimization. Use when you need to run training or batch jobs across multiple clouds, leverage spot instances with auto-recovery, or optimize GPU costs across providers.\n---\n\n# Skypilot Multi Cloud Orchestration\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nMulti-cloud orchestration for ML workloads with automatic cost optimization. Use when you need to run training or batch jobs across multiple clouds, leverage spot instances with auto-recovery, or optimize GPU costs across providers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/09-infrastructure/skypilot\n"
+  },
+  {
+    "slug": "orchestra-awq",
+    "name": "Awq Quantization",
+    "category": "data",
+    "description": "Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss. Use when deploying large models (7B-70B) on limited GPU memory, when you need faster inference than GPTQ with b…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/awq",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Awq Quantization\ndescription: Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss. Use when deploying large models (7B-70B) on limited GPU memory, when you need faster inference than GPTQ with better accuracy preservation, or for instruction-tuned and multimodal models.…\n---\n\n# Awq Quantization\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nActivation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss. Use when deploying large models (7B-70B) on limited GPU memory, when you need faster inference than GPTQ with better accuracy preservation, or for instruction-tuned and multimodal models.…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/awq\n"
+  },
+  {
+    "slug": "orchestra-bitsandbytes",
+    "name": "Quantizing Models Bitsandbytes",
+    "category": "data",
+    "description": "Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss. Use when GPU memory is limited, need to fit larger models, or want faster inference. Supports INT8, NF4, FP4 formats, QLoRA trai…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/bitsandbytes",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Quantizing Models Bitsandbytes\ndescription: Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss. Use when GPU memory is limited, need to fit larger models, or want faster inference. Supports INT8, NF4, FP4 formats, QLoRA training, and 8-bit optimizers. Works with HuggingFace Transformers.\n---\n\n# Quantizing Models Bitsandbytes\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nQuantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accuracy loss. Use when GPU memory is limited, need to fit larger models, or want faster inference. Supports INT8, NF4, FP4 formats, QLoRA training, and 8-bit optimizers. Works with HuggingFace Transformers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/bitsandbytes\n"
+  },
+  {
+    "slug": "orchestra-flash-attention",
+    "name": "Optimizing Attention Flash",
+    "category": "data",
+    "description": "Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attentio…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/flash-attention",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Optimizing Attention Flash\ndescription: Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attention, or need faster inference. Supports PyTorch native SDPA, flash-attn library,…\n---\n\n# Optimizing Attention Flash\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOptimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x memory reduction. Use when training/running transformers with long sequences (>512 tokens), encountering GPU memory issues with attention, or need faster inference. Supports PyTorch native SDPA, flash-attn library,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/flash-attention\n"
+  },
+  {
+    "slug": "orchestra-gguf",
+    "name": "Gguf Quantization",
+    "category": "data",
+    "description": "GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements.",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gguf",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Gguf Quantization\ndescription: GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements.\n---\n\n# Gguf Quantization\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nGGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardware, Apple Silicon, or when needing flexible quantization from 2-8 bit without GPU requirements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gguf\n"
+  },
+  {
+    "slug": "orchestra-gptq",
+    "name": "Gptq",
+    "category": "data",
+    "description": "Post-training 4-bit quantization for LLMs with minimal accuracy loss. Use for deploying large models (70B, 405B) on consumer GPUs, when you need 4× memory reduction with <2% perplexity degradation, or for faster infer…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gptq",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Gptq\ndescription: Post-training 4-bit quantization for LLMs with minimal accuracy loss. Use for deploying large models (70B, 405B) on consumer GPUs, when you need 4× memory reduction with <2% perplexity degradation, or for faster inference (3-4× speedup) vs FP16. Integrates with transformers and PEFT for QLoRA…\n---\n\n# Gptq\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nPost-training 4-bit quantization for LLMs with minimal accuracy loss. Use for deploying large models (70B, 405B) on consumer GPUs, when you need 4× memory reduction with <2% perplexity degradation, or for faster inference (3-4× speedup) vs FP16. Integrates with transformers and PEFT for QLoRA…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/gptq\n"
+  },
+  {
+    "slug": "orchestra-hqq",
+    "name": "Hqq Quantization",
+    "category": "data",
+    "description": "Half-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or Hu…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/hqq",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Hqq Quantization\ndescription: Half-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or HuggingFace Transformers.\n---\n\n# Hqq Quantization\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nHalf-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or HuggingFace Transformers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/hqq\n"
+  },
+  {
+    "slug": "orchestra-ml-training-recipes",
+    "name": "Ml Training Recipes",
+    "category": "data",
+    "description": "Battle-tested PyTorch training recipes for all domains — LLMs, vision, diffusion, medical imaging, protein/drug discovery, spatial omics, genomics. Covers training loops, optimizer selection (AdamW, Muon), LR scheduli…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/ml-training-recipes",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ml Training Recipes\ndescription: Battle-tested PyTorch training recipes for all domains — LLMs, vision, diffusion, medical imaging, protein/drug discovery, spatial omics, genomics. Covers training loops, optimizer selection (AdamW, Muon), LR scheduling, mixed precision, debugging, and systematic experimentation. Use when…\n---\n\n# Ml Training Recipes\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nBattle-tested PyTorch training recipes for all domains — LLMs, vision, diffusion, medical imaging, protein/drug discovery, spatial omics, genomics. Covers training loops, optimizer selection (AdamW, Muon), LR scheduling, mixed precision, debugging, and systematic experimentation. Use when…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/10-optimization/ml-training-recipes\n"
+  },
+  {
+    "slug": "orchestra-bigcode-evaluation-harness",
+    "name": "Evaluating Code Models",
+    "category": "data",
+    "description": "Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring c…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/bigcode-evaluation-harness",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Evaluating Code Models\ndescription: Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring code generation quality. Industry standard from BigCode Project used by…\n---\n\n# Evaluating Code Models\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nEvaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring code generation quality. Industry standard from BigCode Project used by…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/bigcode-evaluation-harness\n"
+  },
+  {
+    "slug": "orchestra-lm-evaluation-harness",
+    "name": "Evaluating Llms Harness",
+    "category": "data",
+    "description": "Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/lm-evaluation-harness",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Evaluating Llms Harness\ndescription: Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry standard used by EleutherAI, HuggingFace, and major labs. Supports…\n---\n\n# Evaluating Llms Harness\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nEvaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry standard used by EleutherAI, HuggingFace, and major labs. Supports…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/lm-evaluation-harness\n"
+  },
+  {
+    "slug": "orchestra-nemo-evaluator",
+    "name": "Nemo Evaluator Sdk",
+    "category": "data",
+    "description": "Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution. Use when needing scalable evaluation on local Docker, Slurm HPC, or cloud platforms. NVIDIA'…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/nemo-evaluator",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Nemo Evaluator Sdk\ndescription: Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution. Use when needing scalable evaluation on local Docker, Slurm HPC, or cloud platforms. NVIDIA's enterprise-grade platform with container-first architecture for reproducible…\n---\n\n# Nemo Evaluator Sdk\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nEvaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K, safety, VLM) with multi-backend execution. Use when needing scalable evaluation on local Docker, Slurm HPC, or cloud platforms. NVIDIA's enterprise-grade platform with container-first architecture for reproducible…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/11-evaluation/nemo-evaluator\n"
+  },
+  {
+    "slug": "orchestra-llama-cpp",
+    "name": "Llama Cpp",
+    "category": "data",
+    "description": "Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge deployment, M1/M2/M3 Macs, AMD/Intel GPUs, or when CUDA is unavailable. Supports GGUF quantization (1.5-8 bit) for redu…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/llama-cpp",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Llama Cpp\ndescription: Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge deployment, M1/M2/M3 Macs, AMD/Intel GPUs, or when CUDA is unavailable. Supports GGUF quantization (1.5-8 bit) for reduced memory and 4-10× speedup vs PyTorch on CPU.\n---\n\n# Llama Cpp\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nRuns LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardware. Use for edge deployment, M1/M2/M3 Macs, AMD/Intel GPUs, or when CUDA is unavailable. Supports GGUF quantization (1.5-8 bit) for reduced memory and 4-10× speedup vs PyTorch on CPU.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/llama-cpp\n"
+  },
+  {
+    "slug": "orchestra-sglang",
+    "name": "Sglang",
+    "category": "data",
+    "description": "Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM w…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/sglang",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Sglang\ndescription: Fast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM with prefix sharing. Powers 300,000+ GPUs at xAI, AMD, NVIDIA, and LinkedIn.\n---\n\n# Sglang\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFast structured generation and serving for LLMs with RadixAttention prefix caching. Use for JSON/regex outputs, constrained decoding, agentic workflows with tool calls, or when you need 5× faster inference than vLLM with prefix sharing. Powers 300,000+ GPUs at xAI, AMD, NVIDIA, and LinkedIn.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/sglang\n"
+  },
+  {
+    "slug": "orchestra-tensorrt-llm",
+    "name": "Tensorrt Llm",
+    "category": "data",
+    "description": "Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. Use for production deployment on NVIDIA GPUs (A100/H100), when you need 10-100x faster inference than PyTorch, or for serving mod…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/tensorrt-llm",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Tensorrt Llm\ndescription: Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. Use for production deployment on NVIDIA GPUs (A100/H100), when you need 10-100x faster inference than PyTorch, or for serving models with quantization (FP8/INT4), in-flight batching, and multi-GPU scaling.\n---\n\n# Tensorrt Llm\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOptimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. Use for production deployment on NVIDIA GPUs (A100/H100), when you need 10-100x faster inference than PyTorch, or for serving models with quantization (FP8/INT4), in-flight batching, and multi-GPU scaling.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/tensorrt-llm\n"
+  },
+  {
+    "slug": "orchestra-vllm",
+    "name": "Serving Llms Vllm",
+    "category": "data",
+    "description": "Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Support…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/vllm",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Serving Llms Vllm\ndescription: Serves LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Supports OpenAI-compatible endpoints, quantization (GPTQ/AWQ/FP8), and tensor parallelism.\n---\n\n# Serving Llms Vllm\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nServes LLMs with high throughput using vLLM's PagedAttention and continuous batching. Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Supports OpenAI-compatible endpoints, quantization (GPTQ/AWQ/FP8), and tensor parallelism.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/12-inference-serving/vllm\n"
+  },
+  {
+    "slug": "orchestra-mlflow",
+    "name": "Mlflow",
+    "category": "data",
+    "description": "Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/mlflow",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Mlflow\ndescription: Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform\n---\n\n# Mlflow\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nTrack ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow - framework-agnostic ML lifecycle platform\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/mlflow\n"
+  },
+  {
+    "slug": "orchestra-swanlab",
+    "name": "Experiment Tracking Swanlab",
+    "category": "data",
+    "description": "Provides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows.",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/swanlab",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Experiment Tracking Swanlab\ndescription: Provides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows.\n---\n\n# Experiment Tracking Swanlab\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/swanlab\n"
+  },
+  {
+    "slug": "orchestra-tensorboard",
+    "name": "Tensorboard",
+    "category": "data",
+    "description": "Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/tensorboard",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Tensorboard\ndescription: Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit\n---\n\n# Tensorboard\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nVisualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance with TensorBoard - Google's ML visualization toolkit\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/tensorboard\n"
+  },
+  {
+    "slug": "orchestra-weights-and-biases",
+    "name": "Weights And Biases",
+    "category": "data",
+    "description": "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/weights-and-biases",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Weights And Biases\ndescription: Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform\n---\n\n# Weights And Biases\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nTrack ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/13-mlops/weights-and-biases\n"
+  },
+  {
+    "slug": "orchestra-a-evolve",
+    "name": "Evolving Ai Agents",
+    "category": "data",
+    "description": "Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing agent prompts and skills against bench…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/a-evolve",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Evolving Ai Agents\ndescription: Provides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing agent prompts and skills against benchmarks, or implementing automated agent evaluation loops.\n---\n\n# Evolving Ai Agents\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nProvides guidance for automatically evolving and optimizing AI agents across any domain using LLM-driven evolution algorithms. Use when building self-improving agents, optimizing agent prompts and skills against benchmarks, or implementing automated agent evaluation loops.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/a-evolve\n"
+  },
+  {
+    "slug": "orchestra-autogpt",
+    "name": "Autogpt Agents",
+    "category": "data",
+    "description": "Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems.",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/autogpt",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Autogpt Agents\ndescription: Autonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems.\n---\n\n# Autogpt Agents\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nAutonomous AI agent platform for building and deploying continuous agents. Use when creating visual workflow agents, deploying persistent autonomous agents, or building complex multi-step AI automation systems.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/autogpt\n"
+  },
+  {
+    "slug": "orchestra-crewai",
+    "name": "Crewai Multi Agent",
+    "category": "data",
+    "description": "Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for pr…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/crewai",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Crewai Multi Agent\ndescription: Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without…\n---\n\n# Crewai Multi Agent\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nMulti-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/crewai\n"
+  },
+  {
+    "slug": "orchestra-langchain",
+    "name": "Langchain",
+    "category": "data",
+    "description": "Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool calling, memory management, and vector store…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/langchain",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Langchain\ndescription: Framework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool calling, memory management, and vector store retrieval. Use for building chatbots, question-answering systems, autonomous…\n---\n\n# Langchain\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFramework for building LLM-powered applications with agents, chains, and RAG. Supports multiple providers (OpenAI, Anthropic, Google), 500+ integrations, ReAct agents, tool calling, memory management, and vector store retrieval. Use for building chatbots, question-answering systems, autonomous…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/langchain\n"
+  },
+  {
+    "slug": "orchestra-llamaindex",
+    "name": "Llamaindex",
+    "category": "data",
+    "description": "Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for docu…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/llamaindex",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Llamaindex\ndescription: Data framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for document Q&A, chatbots, knowledge retrieval, or building RAG pipelines. Best for…\n---\n\n# Llamaindex\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nData framework for building LLM applications with RAG. Specializes in document ingestion (300+ connectors), indexing, and querying. Features vector indices, query engines, agents, and multi-modal support. Use for document Q&A, chatbots, knowledge retrieval, or building RAG pipelines. Best for…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/14-agents/llamaindex\n"
+  },
+  {
+    "slug": "orchestra-chroma",
+    "name": "Chroma",
+    "category": "data",
+    "description": "Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/chroma",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Chroma\ndescription: Open-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local…\n---\n\n# Chroma\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOpen-source embedding database for AI applications. Store embeddings and metadata, perform vector and full-text search, filter by metadata. Simple 4-function API. Scales from notebooks to production clusters. Use for semantic search, RAG applications, or document retrieval. Best for local…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/chroma\n"
+  },
+  {
+    "slug": "orchestra-faiss",
+    "name": "Faiss",
+    "category": "data",
+    "description": "Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vect…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/faiss",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Faiss\ndescription: Facebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best…\n---\n\n# Faiss\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFacebook's library for efficient similarity search and clustering of dense vectors. Supports billions of vectors, GPU acceleration, and various index types (Flat, IVF, HNSW). Use for fast k-NN search, large-scale vector retrieval, or when you need pure similarity search without metadata. Best…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/faiss\n"
+  },
+  {
+    "slug": "orchestra-pinecone",
+    "name": "Pinecone",
+    "category": "data",
+    "description": "Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommend…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/pinecone",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Pinecone\ndescription: Managed vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed…\n---\n\n# Pinecone\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nManaged vector database for production AI applications. Fully managed, auto-scaling, with hybrid search (dense + sparse), metadata filtering, and namespaces. Low latency (<100ms p95). Use for production RAG, recommendation systems, or semantic search at scale. Best for serverless, managed…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/pinecone\n"
+  },
+  {
+    "slug": "orchestra-qdrant",
+    "name": "Qdrant Vector Search",
+    "category": "data",
+    "description": "High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage w…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/qdrant",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Qdrant Vector Search\ndescription: High-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.\n---\n\n# Qdrant Vector Search\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nHigh-performance vector similarity search engine for RAG and semantic search. Use when building production RAG systems requiring fast nearest neighbor search, hybrid search with filtering, or scalable vector storage with Rust-powered performance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/qdrant\n"
+  },
+  {
+    "slug": "orchestra-sentence-transformers",
+    "name": "Sentence Transformers",
+    "category": "data",
+    "description": "Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models.…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/sentence-transformers",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Sentence Transformers\ndescription: Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models. Use for generating embeddings for RAG, semantic search, or similarity tasks.…\n---\n\n# Sentence Transformers\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFramework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models. Use for generating embeddings for RAG, semantic search, or similarity tasks.…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/15-rag/sentence-transformers\n"
+  },
+  {
+    "slug": "orchestra-dspy",
+    "name": "Dspy",
+    "category": "data",
+    "description": "Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/dspy",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Dspy\ndescription: Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming\n---\n\n# Dspy\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nBuild complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/dspy\n"
+  },
+  {
+    "slug": "orchestra-guidance",
+    "name": "Guidance",
+    "category": "data",
+    "description": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/guidance",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Guidance\ndescription: Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework\n---\n\n# Guidance\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nControl LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/guidance\n"
+  },
+  {
+    "slug": "orchestra-instructor",
+    "name": "Instructor",
+    "category": "data",
+    "description": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured o…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/instructor",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Instructor\ndescription: Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library\n---\n\n# Instructor\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExtract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/instructor\n"
+  },
+  {
+    "slug": "orchestra-outlines",
+    "name": "Outlines",
+    "category": "data",
+    "description": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured gene…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/outlines",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Outlines\ndescription: Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library\n---\n\n# Outlines\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nGuarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/16-prompt-engineering/outlines\n"
+  },
+  {
+    "slug": "orchestra-langsmith",
+    "name": "Langsmith Observability",
+    "category": "data",
+    "description": "LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelin…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/langsmith",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Langsmith Observability\ndescription: LLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.\n---\n\n# Langsmith Observability\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nLLM observability platform for tracing, evaluation, and monitoring. Use when debugging LLM applications, evaluating model outputs against datasets, monitoring production systems, or building systematic testing pipelines for AI applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/langsmith\n"
+  },
+  {
+    "slug": "orchestra-phoenix",
+    "name": "Phoenix Observability",
+    "category": "data",
+    "description": "Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with re…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/phoenix",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Phoenix Observability\ndescription: Open-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.\n---\n\n# Phoenix Observability\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOpen-source AI observability platform for LLM tracing, evaluation, and monitoring. Use when debugging LLM applications with detailed traces, running evaluations on datasets, or monitoring production AI systems with real-time insights.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/17-observability/phoenix\n"
+  },
+  {
+    "slug": "orchestra-audiocraft",
+    "name": "Audiocraft Audio Generation",
+    "category": "data",
+    "description": "PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned mus…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/audiocraft",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Audiocraft Audio Generation\ndescription: PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music generation.\n---\n\n# Audiocraft Audio Generation\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nPyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music generation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/audiocraft\n"
+  },
+  {
+    "slug": "orchestra-blip-2",
+    "name": "Blip 2 Vision Language",
+    "category": "data",
+    "description": "Vision-language pre-training framework bridging frozen image encoders and LLMs. Use when you need image captioning, visual question answering, image-text retrieval, or multimodal chat with state-of-the-art zero-shot p…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/blip-2",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Blip 2 Vision Language\ndescription: Vision-language pre-training framework bridging frozen image encoders and LLMs. Use when you need image captioning, visual question answering, image-text retrieval, or multimodal chat with state-of-the-art zero-shot performance.\n---\n\n# Blip 2 Vision Language\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nVision-language pre-training framework bridging frozen image encoders and LLMs. Use when you need image captioning, visual question answering, image-text retrieval, or multimodal chat with state-of-the-art zero-shot performance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/blip-2\n"
+  },
+  {
+    "slug": "orchestra-clip",
+    "name": "Clip",
+    "category": "data",
+    "description": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vis…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/clip",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Clip\ndescription: OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image…\n---\n\n# Clip\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/clip\n"
+  },
+  {
+    "slug": "orchestra-cosmos-policy",
+    "name": "Evaluating Cosmos Policy",
+    "category": "data",
+    "description": "Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inf…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/cosmos-policy",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Evaluating Cosmos Policy\ndescription: Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inference latency on cluster or local GPU machines.\n---\n\n# Evaluating Cosmos Policy\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nEvaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inference latency on cluster or local GPU machines.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/cosmos-policy\n"
+  },
+  {
+    "slug": "orchestra-llava",
+    "name": "Llava",
+    "category": "data",
+    "description": "Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question ans…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/llava",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Llava\ndescription: Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image…\n---\n\n# Llava\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nLarge Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/llava\n"
+  },
+  {
+    "slug": "orchestra-openpi",
+    "name": "Fine Tuning Serving Openpi",
+    "category": "data",
+    "description": "Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments. Use when adapting pi0 models to cus…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openpi",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Fine Tuning Serving Openpi\ndescription: Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments. Use when adapting pi0 models to custom datasets, converting JAX checkpoints to PyTorch, running policy inference…\n---\n\n# Fine Tuning Serving Openpi\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) using JAX or PyTorch backends for robot policy inference across ALOHA, DROID, and LIBERO environments. Use when adapting pi0 models to custom datasets, converting JAX checkpoints to PyTorch, running policy inference…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openpi\n"
+  },
+  {
+    "slug": "orchestra-openvla-oft",
+    "name": "Fine Tuning Openvla Oft",
+    "category": "data",
+    "description": "Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO simulation and ALOHA real-world setups. Use whe…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openvla-oft",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Fine Tuning Openvla Oft\ndescription: Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO simulation and ALOHA real-world setups. Use when reproducing OpenVLA-OFT paper results, training custom VLA action heads (L1…\n---\n\n# Fine Tuning Openvla Oft\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action generation with continuous action heads, LoRA adaptation, and FiLM conditioning on LIBERO simulation and ALOHA real-world setups. Use when reproducing OpenVLA-OFT paper results, training custom VLA action heads (L1…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/openvla-oft\n"
+  },
+  {
+    "slug": "orchestra-segment-anything",
+    "name": "Segment Anything Model",
+    "category": "data",
+    "description": "Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/segment-anything",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Segment Anything Model\ndescription: Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.\n---\n\n# Segment Anything Model\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nFoundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/segment-anything\n"
+  },
+  {
+    "slug": "orchestra-stable-diffusion",
+    "name": "Stable Diffusion Image Generation",
+    "category": "data",
+    "description": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom dif…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/stable-diffusion",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Stable Diffusion Image Generation\ndescription: State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.\n---\n\n# Stable Diffusion Image Generation\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nState-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/stable-diffusion\n"
+  },
+  {
+    "slug": "orchestra-whisper",
+    "name": "Whisper",
+    "category": "data",
+    "description": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for spe…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/whisper",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Whisper\ndescription: OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for…\n---\n\n# Whisper\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nOpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/18-multimodal/whisper\n"
+  },
+  {
+    "slug": "orchestra-knowledge-distillation",
+    "name": "Knowledge Distillation",
+    "category": "data",
+    "description": "Compress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reduci…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/knowledge-distillation",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Knowledge Distillation\ndescription: Compress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reducing inference costs. Covers temperature scaling, soft targets, reverse KLD,…\n---\n\n# Knowledge Distillation\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nCompress large language models using knowledge distillation from teacher to student models. Use when deploying smaller models with retained performance, transferring GPT-4 capabilities to open-source models, or reducing inference costs. Covers temperature scaling, soft targets, reverse KLD,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/knowledge-distillation\n"
+  },
+  {
+    "slug": "orchestra-long-context",
+    "name": "Long Context",
+    "category": "data",
+    "description": "Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ tokens), extending pre-trained models beyond original context …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/long-context",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Long Context\ndescription: Extend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ tokens), extending pre-trained models beyond original context limits, or implementing efficient positional encodings. Covers rotary…\n---\n\n# Long Context\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nExtend context windows of transformer models using RoPE, YaRN, ALiBi, and position interpolation techniques. Use when processing long documents (32k-128k+ tokens), extending pre-trained models beyond original context limits, or implementing efficient positional encodings. Covers rotary…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/long-context\n"
+  },
+  {
+    "slug": "orchestra-model-merging",
+    "name": "Model Merging",
+    "category": "data",
+    "description": "Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use when creating specialized models by blending domain-specific expertise (math + coding + chat), improving performance beyo…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-merging",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Model Merging\ndescription: Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use when creating specialized models by blending domain-specific expertise (math + coding + chat), improving performance beyond single models, or experimenting rapidly with model variants. Covers SLERP,…\n---\n\n# Model Merging\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nMerge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use when creating specialized models by blending domain-specific expertise (math + coding + chat), improving performance beyond single models, or experimenting rapidly with model variants. Covers SLERP,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-merging\n"
+  },
+  {
+    "slug": "orchestra-model-pruning",
+    "name": "Model Pruning",
+    "category": "data",
+    "description": "Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal accuracy loss, or enabling faster inferen…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-pruning",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Model Pruning\ndescription: Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal accuracy loss, or enabling faster inference on hardware accelerators. Covers unstructured pruning, structured pruning,…\n---\n\n# Model Pruning\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nReduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. Use when compressing models without retraining, achieving 50% sparsity with minimal accuracy loss, or enabling faster inference on hardware accelerators. Covers unstructured pruning, structured pruning,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/model-pruning\n"
+  },
+  {
+    "slug": "orchestra-moe-training",
+    "name": "Moe Training",
+    "category": "data",
+    "description": "Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace. Use when training large-scale models with limited compute (5× cost reduction vs dense models), implementing sparse architectures like Mixtral 8x7B …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/moe-training",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Moe Training\ndescription: Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace. Use when training large-scale models with limited compute (5× cost reduction vs dense models), implementing sparse architectures like Mixtral 8x7B or DeepSeek-V3, or scaling model capacity without proportional compute…\n---\n\n# Moe Training\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nTrain Mixture of Experts (MoE) models using DeepSpeed or HuggingFace. Use when training large-scale models with limited compute (5× cost reduction vs dense models), implementing sparse architectures like Mixtral 8x7B or DeepSeek-V3, or scaling model capacity without proportional compute…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/moe-training\n"
+  },
+  {
+    "slug": "orchestra-speculative-decoding",
+    "name": "Speculative Decoding",
+    "category": "data",
+    "description": "Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques. Use when optimizing inference speed (1.5-3.6× speedup), reducing latency for real-time applications, or de…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/speculative-decoding",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Speculative Decoding\ndescription: Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques. Use when optimizing inference speed (1.5-3.6× speedup), reducing latency for real-time applications, or deploying models with limited compute. Covers draft models, tree-based attention,…\n---\n\n# Speculative Decoding\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nAccelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques. Use when optimizing inference speed (1.5-3.6× speedup), reducing latency for real-time applications, or deploying models with limited compute. Covers draft models, tree-based attention,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/19-emerging-techniques/speculative-decoding\n"
+  },
+  {
+    "slug": "orchestra-academic-plotting",
+    "name": "Academic Plotting",
+    "category": "data",
+    "description": "Generates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architecture diagrams via Gemini. Given experim…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/academic-plotting",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Academic Plotting\ndescription: Generates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architecture diagrams via Gemini. Given experiment results or data, auto-selects chart type and generates data-driven figures…\n---\n\n# Academic Plotting\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nGenerates publication-quality figures for ML papers from research context. Given a paper section or description, extracts system components and relationships to generate architecture diagrams via Gemini. Given experiment results or data, auto-selects chart type and generates data-driven figures…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/academic-plotting\n"
+  },
+  {
+    "slug": "orchestra-ml-paper-writing",
+    "name": "Ml Paper Writing",
+    "category": "data",
+    "description": "Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. For syste…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/ml-paper-writing",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ml Paper Writing\ndescription: Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. For systems venues (OSDI, NSDI, ASPLOS, SOSP), use systems-paper-writing instead.\n---\n\n# Ml Paper Writing\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nWrite publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. For systems venues (OSDI, NSDI, ASPLOS, SOSP), use systems-paper-writing instead.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/ml-paper-writing\n"
+  },
+  {
+    "slug": "orchestra-presenting-conference-talks",
+    "name": "Presenting Conference Talks",
+    "category": "data",
+    "description": "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script. Use when preparing oral talks, spotlight presentations, or invited talks for ML a…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/presenting-conference-talks",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Presenting Conference Talks\ndescription: Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script. Use when preparing oral talks, spotlight presentations, or invited talks for ML and systems conferences.\n---\n\n# Presenting Conference Talks\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nGenerates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script. Use when preparing oral talks, spotlight presentations, or invited talks for ML and systems conferences.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/presenting-conference-talks\n"
+  },
+  {
+    "slug": "orchestra-systems-paper-writing",
+    "name": "Systems Paper Writing",
+    "category": "data",
+    "description": "Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides paragraph-level structural blueprints, writing patterns, venue-specific checklists, reviewer guidelines, LaTeX t…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/systems-paper-writing",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Systems Paper Writing\ndescription: Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides paragraph-level structural blueprints, writing patterns, venue-specific checklists, reviewer guidelines, LaTeX templates, and conference deadlines. Use this skill for all systems conference…\n---\n\n# Systems Paper Writing\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nComprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. Provides paragraph-level structural blueprints, writing patterns, venue-specific checklists, reviewer guidelines, LaTeX templates, and conference deadlines. Use this skill for all systems conference…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/20-ml-paper-writing/systems-paper-writing\n"
+  },
+  {
+    "slug": "orchestra-brainstorming-research-ideas",
+    "name": "Brainstorming Research Ideas",
+    "category": "data",
+    "description": "Guides researchers through structured ideation frameworks to discover high-impact research directions. Use when exploring new problem spaces, pivoting between projects, or seeking novel angles on existing work.",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/brainstorming-research-ideas",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Brainstorming Research Ideas\ndescription: Guides researchers through structured ideation frameworks to discover high-impact research directions. Use when exploring new problem spaces, pivoting between projects, or seeking novel angles on existing work.\n---\n\n# Brainstorming Research Ideas\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nGuides researchers through structured ideation frameworks to discover high-impact research directions. Use when exploring new problem spaces, pivoting between projects, or seeking novel angles on existing work.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/brainstorming-research-ideas\n"
+  },
+  {
+    "slug": "orchestra-creative-thinking-for-research",
+    "name": "Creative Thinking For Research",
+    "category": "data",
+    "description": "Applies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint …",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/creative-thinking-for-research",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Creative Thinking For Research\ndescription: Applies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint manipulation, and other empirically grounded creative strategies.\n---\n\n# Creative Thinking For Research\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nApplies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint manipulation, and other empirically grounded creative strategies.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/21-research-ideation/creative-thinking-for-research\n"
+  },
+  {
+    "slug": "orchestra-compiler",
+    "name": "Ara Compiler",
+    "category": "data",
+    "description": "Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics)…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/compiler",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ara Compiler\ndescription: Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics), physical layer (configs, code stubs), exploration graph, and grounded…\n---\n\n# Ara Compiler\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nCompiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete Agent-Native Research Artifact (ARA) with cognitive layer (claims, concepts, heuristics), physical layer (configs, code stubs), exploration graph, and grounded…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/compiler\n"
+  },
+  {
+    "slug": "orchestra-research-manager",
+    "name": "Ara Research Manager",
+    "category": "data",
+    "description": "Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends, claims, heuristics, and pivots, and writing t…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/research-manager",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ara Research Manager\ndescription: Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends, claims, heuristics, and pivots, and writing them into the ara/ directory with user-vs-AI provenance tags. Use as a session…\n---\n\n# Ara Research Manager\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nRecords research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to extract decisions, experiments, dead ends, claims, heuristics, and pivots, and writing them into the ara/ directory with user-vs-AI provenance tags. Use as a session…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/research-manager\n"
+  },
+  {
+    "slug": "orchestra-rigor-reviewer",
+    "name": "Ara Rigor Reviewer",
+    "category": "data",
+    "description": "Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument coherence, exploration integrity, methodo…",
+    "author": "Orchestra Research",
+    "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/rigor-reviewer",
+    "tags": [
+      "ml",
+      "llm",
+      "research",
+      "fine-tuning"
+    ],
+    "skill_content": "---\nname: Ara Rigor Reviewer\ndescription: Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument coherence, exploration integrity, methodological rigor) and producing a constructive, severity-ranked report with a…\n---\n\n# Ara Rigor Reviewer\n\nPart of the **AI/ML Research Engineering** pack by Orchestra Research (`Orchestra-Research/AI-Research-SKILLs`).\n\nPerforms ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence relevance, falsifiability, scope calibration, argument coherence, exploration integrity, methodological rigor) and producing a constructive, severity-ranked report with a…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main/22-agent-native-research-artifact/rigor-reviewer\n"
+  }
+]

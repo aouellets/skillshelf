@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "devops-aws-cost-scan",
+    "name": "Aws Cost Scan",
+    "category": "coding",
+    "description": "Use when asked to find AWS waste, cut cloud spend, do a cost review/FinOps pass, explain a bill spike, or hunt idle/orphaned resources (unused load balancers, unattached EIPs, orphan EBS volumes & old snapshots, over-…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/cloud-toolkit/skills/aws-cost-scan",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Aws Cost Scan\ndescription: Use when asked to find AWS waste, cut cloud spend, do a cost review/FinOps pass, explain a bill spike, or hunt idle/orphaned resources (unused load balancers, unattached EIPs, orphan EBS volumes & old snapshots, over-provisioned node pools, NAT/cross-AZ traffic, never-expiring logs, RI/Savings…\n---\n\n# Aws Cost Scan\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when asked to find AWS waste, cut cloud spend, do a cost review/FinOps pass, explain a bill spike, or hunt idle/orphaned resources (unused load balancers, unattached EIPs, orphan EBS volumes & old snapshots, over-provisioned node pools, NAT/cross-AZ traffic, never-expiring logs, RI/Savings…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/cloud-toolkit/skills/aws-cost-scan\n"
+  },
+  {
+    "slug": "devops-ram-iam-audit",
+    "name": "Ram Iam Audit",
+    "category": "coding",
+    "description": "Use when reviewing AWS IAM or Alibaba Cloud RAM for least-privilege — hunting wildcard Action/Resource (`*:*`, `*`), AdministratorAccess / *FullAccess over-grants, long-lived access keys instead of roles, unused or st…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/cloud-toolkit/skills/ram-iam-audit",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Ram Iam Audit\ndescription: Use when reviewing AWS IAM or Alibaba Cloud RAM for least-privilege — hunting wildcard Action/Resource (`*:*`, `*`), AdministratorAccess / *FullAccess over-grants, long-lived access keys instead of roles, unused or stale credentials, over-broad cross-account trust, inline policies, missing MFA,…\n---\n\n# Ram Iam Audit\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when reviewing AWS IAM or Alibaba Cloud RAM for least-privilege — hunting wildcard Action/Resource (`*:*`, `*`), AdministratorAccess / *FullAccess over-grants, long-lived access keys instead of roles, unused or stale credentials, over-broad cross-account trust, inline policies, missing MFA,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/cloud-toolkit/skills/ram-iam-audit\n"
+  },
+  {
+    "slug": "devops-ack-triage",
+    "name": "Ack Triage",
+    "category": "coding",
+    "description": "Use when an Alibaba Cloud ACK / Serverless-ACK cluster has problems specific to ACK rather than generic Kubernetes — ECI/virtual-node pods stuck pulling images (cross-border registry timeouts, needing a regional mirro…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/ack-triage",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Ack Triage\ndescription: Use when an Alibaba Cloud ACK / Serverless-ACK cluster has problems specific to ACK rather than generic Kubernetes — ECI/virtual-node pods stuck pulling images (cross-border registry timeouts, needing a regional mirror), node-pool scaling not firing, Terway CNI ENI/IP issues, CCM-managed SLB…\n---\n\n# Ack Triage\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when an Alibaba Cloud ACK / Serverless-ACK cluster has problems specific to ACK rather than generic Kubernetes — ECI/virtual-node pods stuck pulling images (cross-border registry timeouts, needing a regional mirror), node-pool scaling not firing, Terway CNI ENI/IP issues, CCM-managed SLB…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/ack-triage\n"
+  },
+  {
+    "slug": "devops-dockerfile-audit",
+    "name": "Dockerfile Audit",
+    "category": "coding",
+    "description": "Use when reviewing a Dockerfile (or container build) for security, image size, reproducibility, and maintainability — runs as root? secrets baked into layers? unpinned base/deps? no multi-stage? missing .dockerignore/…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/dockerfile-audit",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Dockerfile Audit\ndescription: Use when reviewing a Dockerfile (or container build) for security, image size, reproducibility, and maintainability — runs as root? secrets baked into layers? unpinned base/deps? no multi-stage? missing .dockerignore/HEALTHCHECK? Produces a severity-ranked issue list with concrete fixes.…\n---\n\n# Dockerfile Audit\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when reviewing a Dockerfile (or container build) for security, image size, reproducibility, and maintainability — runs as root? secrets baked into layers? unpinned base/deps? no multi-stage? missing .dockerignore/HEALTHCHECK? Produces a severity-ranked issue list with concrete fixes.…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/dockerfile-audit\n"
+  },
+  {
+    "slug": "devops-eks-triage",
+    "name": "Eks Triage",
+    "category": "coding",
+    "description": "Use when an AWS EKS cluster has problems that are specific to EKS rather than generic Kubernetes — managed nodegroup nodes won't join / stay NotReady, the aws-node (VPC CNI) DaemonSet CrashLoops, pods stuck ContainerC…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/eks-triage",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Eks Triage\ndescription: Use when an AWS EKS cluster has problems that are specific to EKS rather than generic Kubernetes — managed nodegroup nodes won't join / stay NotReady, the aws-node (VPC CNI) DaemonSet CrashLoops, pods stuck ContainerCreating with CNI/ENI errors, IRSA/IAM permission denials,…\n---\n\n# Eks Triage\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when an AWS EKS cluster has problems that are specific to EKS rather than generic Kubernetes — managed nodegroup nodes won't join / stay NotReady, the aws-node (VPC CNI) DaemonSet CrashLoops, pods stuck ContainerCreating with CNI/ENI errors, IRSA/IAM permission denials,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/eks-triage\n"
+  },
+  {
+    "slug": "devops-incident-rca",
+    "name": "Incident Rca",
+    "category": "coding",
+    "description": "Use when you need to find the root cause of an incident, outage, or regression systematically — reconstruct a timeline, correlate with recent changes, test multiple hypotheses in parallel, and produce an evidence-back…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/incident-rca",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Incident Rca\ndescription: Use when you need to find the root cause of an incident, outage, or regression systematically — reconstruct a timeline, correlate with recent changes, test multiple hypotheses in parallel, and produce an evidence-backed root-cause writeup instead of a guess. For methodical RCA and blameless…\n---\n\n# Incident Rca\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when you need to find the root cause of an incident, outage, or regression systematically — reconstruct a timeline, correlate with recent changes, test multiple hypotheses in parallel, and produce an evidence-backed root-cause writeup instead of a guess. For methodical RCA and blameless…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/incident-rca\n"
+  },
+  {
+    "slug": "devops-k8s-triage",
+    "name": "K8s Triage",
+    "category": "coding",
+    "description": "Use when a Kubernetes workload is unhealthy — pods CrashLoopBackOff / Pending / OOMKilled / ImagePullBackOff, a Deployment won't roll out, or a service returns 5xx after a deploy. Drives a read-only, evidence-first tr…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/k8s-triage",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: K8s Triage\ndescription: Use when a Kubernetes workload is unhealthy — pods CrashLoopBackOff / Pending / OOMKilled / ImagePullBackOff, a Deployment won't roll out, or a service returns 5xx after a deploy. Drives a read-only, evidence-first triage in a fixed order (workload → events → logs → scheduling/resources →…\n---\n\n# K8s Triage\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when a Kubernetes workload is unhealthy — pods CrashLoopBackOff / Pending / OOMKilled / ImagePullBackOff, a Deployment won't roll out, or a service returns 5xx after a deploy. Drives a read-only, evidence-first triage in a fixed order (workload → events → logs → scheduling/resources →…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/ops-toolkit/skills/k8s-triage\n"
+  },
+  {
+    "slug": "devops-browser-verify",
+    "name": "Browser Verify",
+    "category": "coding",
+    "description": "Use when you need to verify a frontend / gateway / end-to-end flow in a real browser instead of by hand — drive a containerized Chromium (Playwright over CDP) through the click path, capture console/network/screenshot…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/browser-verify",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Browser Verify\ndescription: Use when you need to verify a frontend / gateway / end-to-end flow in a real browser instead of by hand — drive a containerized Chromium (Playwright over CDP) through the click path, capture console/network/screenshots, correlate the frontend symptoms with backend logs by trace id, and report a…\n---\n\n# Browser Verify\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when you need to verify a frontend / gateway / end-to-end flow in a real browser instead of by hand — drive a containerized Chromium (Playwright over CDP) through the click path, capture console/network/screenshots, correlate the frontend symptoms with backend logs by trace id, and report a…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/browser-verify\n"
+  },
+  {
+    "slug": "devops-drawio-arch",
+    "name": "Drawio Arch",
+    "category": "coding",
+    "description": "Use when asked to draw an architecture diagram, flowchart, call/sequence path, deployment topology, troubleshooting SOP, or before/after comparison as a draw.io / diagrams.net diagram. Designs the layout first (six-se…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/drawio-arch",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Drawio Arch\ndescription: Use when asked to draw an architecture diagram, flowchart, call/sequence path, deployment topology, troubleshooting SOP, or before/after comparison as a draw.io / diagrams.net diagram. Designs the layout first (six-segment plan), writes semantic XML, renders to PNG/SVG with the draw.io CLI, and…\n---\n\n# Drawio Arch\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when asked to draw an architecture diagram, flowchart, call/sequence path, deployment topology, troubleshooting SOP, or before/after comparison as a draw.io / diagrams.net diagram. Designs the layout first (six-segment plan), writes semantic XML, renders to PNG/SVG with the draw.io CLI, and…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/drawio-arch\n"
+  },
+  {
+    "slug": "devops-html-report",
+    "name": "Html Report",
+    "category": "coding",
+    "description": "Use when you need to turn a long markdown report, design doc, research writeup, or blueprint into a polished, shareable single-file HTML onepager — light Linear/Notion style, card grid + tables + collapsible details l…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/html-report",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Html Report\ndescription: Use when you need to turn a long markdown report, design doc, research writeup, or blueprint into a polished, shareable single-file HTML onepager — light Linear/Notion style, card grid + tables + collapsible details library + top filter chips, no external CSS/JS. Triggers like \"make an HTML…\n---\n\n# Html Report\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when you need to turn a long markdown report, design doc, research writeup, or blueprint into a polished, shareable single-file HTML onepager — light Linear/Notion style, card grid + tables + collapsible details library + top filter chips, no external CSS/JS. Triggers like \"make an HTML…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/html-report\n"
+  },
+  {
+    "slug": "devops-ops-session",
+    "name": "Ops Session",
+    "category": "coding",
+    "description": "Use when running a structured operational change or investigation that deserves a paper trail — a production change, multi-step troubleshooting, a migration/upgrade, or a recurring routine op. Drives a Plan→RootCause→…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/ops-session",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Ops Session\ndescription: Use when running a structured operational change or investigation that deserves a paper trail — a production change, multi-step troubleshooting, a migration/upgrade, or a recurring routine op. Drives a Plan→RootCause→Action→Verify→Learn loop with an anti-hallucination root-cause card (weak…\n---\n\n# Ops Session\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when running a structured operational change or investigation that deserves a paper trail — a production change, multi-step troubleshooting, a migration/upgrade, or a recurring routine op. Drives a Plan→RootCause→Action→Verify→Learn loop with an anti-hallucination root-cause card (weak…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/ops-session\n"
+  },
+  {
+    "slug": "devops-pr-describe",
+    "name": "Pr Describe",
+    "category": "coding",
+    "description": "Use when opening a pull request or writing/rewriting its description — turn a branch's git diff and commit log into a clear, reviewer-friendly PR writeup with what/why/how, breaking changes, risk, testing, rollback, a…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/pr-describe",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Pr Describe\ndescription: Use when opening a pull request or writing/rewriting its description — turn a branch's git diff and commit log into a clear, reviewer-friendly PR writeup with what/why/how, breaking changes, risk, testing, rollback, and where reviewers should focus. Honest about gaps; no filler.\n---\n\n# Pr Describe\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse when opening a pull request or writing/rewriting its description — turn a branch's git diff and commit log into a clear, reviewer-friendly PR writeup with what/why/how, breaking changes, risk, testing, rollback, and where reviewers should focus. Honest about gaps; no filler.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/pr-describe\n"
+  },
+  {
+    "slug": "devops-task-kickoff",
+    "name": "Task Kickoff",
+    "category": "coding",
+    "description": "Use at the start of a complex or long task — anything past ~5 tool calls, multi-service/multi-environment work, production writes, debugging with several hypotheses, cross-repo refactors, or resuming work across sessi…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/task-kickoff",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Task Kickoff\ndescription: Use at the start of a complex or long task — anything past ~5 tool calls, multi-service/multi-environment work, production writes, debugging with several hypotheses, cross-repo refactors, or resuming work across sessions. Sets up the session right: plan/implement separation, externalized state,…\n---\n\n# Task Kickoff\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nUse at the start of a complex or long task — anything past ~5 tool calls, multi-service/multi-environment work, production writes, debugging with several hypotheses, cross-repo refactors, or resuming work across sessions. Sets up the session right: plan/implement separation, externalized state,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/plugins/workflow-toolkit/skills/task-kickoff\n"
+  },
+  {
+    "slug": "devops-stitch-design-taste",
+    "name": "Stitch Design Taste",
+    "category": "coding",
+    "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motio…",
+    "author": "socake",
+    "source_url": "https://github.com/socake/cc-skillkit/tree/main/vendored/stitch-design-taste",
+    "tags": [
+      "devops",
+      "sre",
+      "kubernetes",
+      "cloud"
+    ],
+    "skill_content": "---\nname: Stitch Design Taste\ndescription: Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.\n---\n\n# Stitch Design Taste\n\nPart of the **DevOps & SRE Skillkit** pack by socake (`socake/cc-skillkit`).\n\nSemantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/socake/cc-skillkit/tree/main/vendored/stitch-design-taste\n"
+  }
+]

@@ -1,0 +1,1067 @@
+[
+  {
+    "slug": "browseract-browser-act-skill-forge",
+    "name": "Browser Act Skill Forge",
+    "category": "productivity",
+    "description": "Forges reusable Skill packages (SKILL.md + scripts) from website exploration via browser-act — no re-exploration later. Use when: user wants a reusable Skill for any website, needs to understand a site's internal APIs…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/browser-act-skill-forge",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Browser Act Skill Forge\ndescription: Forges reusable Skill packages (SKILL.md + scripts) from website exploration via browser-act — no re-exploration later. Use when: user wants a reusable Skill for any website, needs to understand a site's internal APIs, wants to reproduce an existing scraper/SaaS/tool product (shown its product…\n---\n\n# Browser Act Skill Forge\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nForges reusable Skill packages (SKILL.md + scripts) from website exploration via browser-act — no re-exploration later. Use when: user wants a reusable Skill for any website, needs to understand a site's internal APIs, wants to reproduce an existing scraper/SaaS/tool product (shown its product…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/browser-act-skill-forge\n"
+  },
+  {
+    "slug": "browseract-browser-act",
+    "name": "Browser Act",
+    "category": "productivity",
+    "description": "Browser automation CLI for AI agents. NEVER run browser-act commands directly via Bash — always invoke this skill first. Use browser-act when a user mentions it by name, includes or asks to run a browser-act CLI comma…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/browser-act",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Browser Act\ndescription: Browser automation CLI for AI agents. NEVER run browser-act commands directly via Bash — always invoke this skill first. Use browser-act when a user mentions it by name, includes or asks to run a browser-act CLI command (e.g., browser-act browser list), or to: fetch, view, or extract rendered…\n---\n\n# Browser Act\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nBrowser automation CLI for AI agents. NEVER run browser-act commands directly via Bash — always invoke this skill first. Use browser-act when a user mentions it by name, includes or asks to run a browser-act CLI command (e.g., browser-act browser list), or to: fetch, view, or extract rendered…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/browser-act\n"
+  },
+  {
+    "slug": "browseract-amazon-alexa-qa",
+    "name": "Amazon Alexa Qa",
+    "category": "productivity",
+    "description": "Amazon Alexa for Shopping Q&A automation: submits questions to Amazon's Alexa/Rufus AI shopping assistant and collects response text; supports optional keyword search context (navigate to search results page before as…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-alexa-qa",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Alexa Qa\ndescription: Amazon Alexa for Shopping Q&A automation: submits questions to Amazon's Alexa/Rufus AI shopping assistant and collects response text; supports optional keyword search context (navigate to search results page before asking for category-specific answers). Use when user mentions Amazon Alexa,…\n---\n\n# Amazon Alexa Qa\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nAmazon Alexa for Shopping Q&A automation: submits questions to Amazon's Alexa/Rufus AI shopping assistant and collects response text; supports optional keyword search context (navigate to search results page before asking for category-specific answers). Use when user mentions Amazon Alexa,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-alexa-qa\n"
+  },
+  {
+    "slug": "browseract-amazon-asin-lookup-api-skill",
+    "name": "Amazon Asin Lookup Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract structured product details from Amazon using a specific ASIN (Amazon Standard Identification Number). Use this skill when the user asks to get Amazon product details by ASIN, lookup Amaz…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-asin-lookup-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Asin Lookup Api Skill\ndescription: This skill helps users extract structured product details from Amazon using a specific ASIN (Amazon Standard Identification Number). Use this skill when the user asks to get Amazon product details by ASIN, lookup Amazon product title and price using ASIN, extract Amazon product ratings and…\n---\n\n# Amazon Asin Lookup Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract structured product details from Amazon using a specific ASIN (Amazon Standard Identification Number). Use this skill when the user asks to get Amazon product details by ASIN, lookup Amazon product title and price using ASIN, extract Amazon product ratings and…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-asin-lookup-api-skill\n"
+  },
+  {
+    "slug": "browseract-amazon-best-selling-products-finder-api-skill",
+    "name": "Amazon Best Selling Products Finder Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract structured best-selling product data from Amazon via the BrowserAct API. Agent should proactively apply this skill when users express needs like search for best selling products on Amazo…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-best-selling-products-finder-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Best Selling Products Finder Api Skill\ndescription: This skill helps users extract structured best-selling product data from Amazon via the BrowserAct API. Agent should proactively apply this skill when users express needs like search for best selling products on Amazon, extract Amazon product data based on keywords, find top rated Amazon…\n---\n\n# Amazon Best Selling Products Finder Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract structured best-selling product data from Amazon via the BrowserAct API. Agent should proactively apply this skill when users express needs like search for best selling products on Amazon, extract Amazon product data based on keywords, find top rated Amazon…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-best-selling-products-finder-api-skill\n"
+  },
+  {
+    "slug": "browseract-amazon-buy-box-monitor-api-skill",
+    "name": "Amazon Buy Box Monitor Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract basic product details other sellers prices and seller ratings from Amazon via ASIN automatically using the BrowserAct API. Agent should proactively apply this skill when users express ne…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-buy-box-monitor-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Buy Box Monitor Api Skill\ndescription: This skill helps users extract basic product details other sellers prices and seller ratings from Amazon via ASIN automatically using the BrowserAct API. Agent should proactively apply this skill when users express needs like query Amazon buy box information, monitor Amazon product prices,…\n---\n\n# Amazon Buy Box Monitor Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract basic product details other sellers prices and seller ratings from Amazon via ASIN automatically using the BrowserAct API. Agent should proactively apply this skill when users express needs like query Amazon buy box information, monitor Amazon product prices,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-buy-box-monitor-api-skill\n"
+  },
+  {
+    "slug": "browseract-amazon-competitor-analyzer",
+    "name": "Amazon Competitor Analyzer",
+    "category": "productivity",
+    "description": "Scrapes Amazon product data from ASINs using browseract.com automation API and performs surgical competitive analysis. Compares specifications, pricing, review quality, and visual strategies to identify competitor moa…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-competitor-analyzer",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Competitor Analyzer\ndescription: Scrapes Amazon product data from ASINs using browseract.com automation API and performs surgical competitive analysis. Compares specifications, pricing, review quality, and visual strategies to identify competitor moats and vulnerabilities.\n---\n\n# Amazon Competitor Analyzer\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes Amazon product data from ASINs using browseract.com automation API and performs surgical competitive analysis. Compares specifications, pricing, review quality, and visual strategies to identify competitor moats and vulnerabilities.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-competitor-analyzer\n"
+  },
+  {
+    "slug": "browseract-amazon-listing-competitor-analysis-skill",
+    "name": "Amazon Listing Competitor Analysis Skill",
+    "category": "productivity",
+    "description": "This skill helps users analyze Amazon competitor listings by ASIN and produce structured competitive intelligence plus strategic opportunity points for their own go-to-market. The Agent should proactively apply this s…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-listing-competitor-analysis-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Listing Competitor Analysis Skill\ndescription: This skill helps users analyze Amazon competitor listings by ASIN and produce structured competitive intelligence plus strategic opportunity points for their own go-to-market. The Agent should proactively apply this skill when users want to analyze a competitor Amazon listing by ASIN, understand…\n---\n\n# Amazon Listing Competitor Analysis Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users analyze Amazon competitor listings by ASIN and produce structured competitive intelligence plus strategic opportunity points for their own go-to-market. The Agent should proactively apply this skill when users want to analyze a competitor Amazon listing by ASIN, understand…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-listing-competitor-analysis-skill\n"
+  },
+  {
+    "slug": "browseract-amazon-product-api-skill",
+    "name": "Amazon Product Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings, and specifications. Use this skill when users want to search for products on Amazon, find the best sell…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-product-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Product Api Skill\ndescription: This skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings, and specifications. Use this skill when users want to search for products on Amazon, find the best selling brand products, track price changes for items, get a list of categories…\n---\n\n# Amazon Product Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings, and specifications. Use this skill when users want to search for products on Amazon, find the best selling brand products, track price changes for items, get a list of categories…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-product-api-skill\n"
+  },
+  {
+    "slug": "browseract-amazon-product-search-api-skill",
+    "name": "Amazon Product Search Api Skill",
+    "category": "productivity",
+    "description": "This skill is designed to help users automatically extract product data from Amazon search results. The Agent should proactively apply this skill when users request searching for products related to keywords, finding …",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-product-search-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Product Search Api Skill\ndescription: This skill is designed to help users automatically extract product data from Amazon search results. The Agent should proactively apply this skill when users request searching for products related to keywords, finding best-selling items from specific brands, monitoring product prices and…\n---\n\n# Amazon Product Search Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill is designed to help users automatically extract product data from Amazon search results. The Agent should proactively apply this skill when users request searching for products related to keywords, finding best-selling items from specific brands, monitoring product prices and…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-product-search-api-skill\n"
+  },
+  {
+    "slug": "browseract-amazon-reviews-api-skill",
+    "name": "Amazon Reviews Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract Amazon product reviews via the Amazon Reviews API. Agent should proactively apply this skill when users express needs like getting reviews for Amazon product with ASIN B07T…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-reviews-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Amazon Reviews Api Skill\ndescription: This skill helps users automatically extract Amazon product reviews via the Amazon Reviews API. Agent should proactively apply this skill when users express needs like getting reviews for Amazon product with ASIN B07TS6R1SF, analyzing customer feedback for a specific Amazon item, getting ratings…\n---\n\n# Amazon Reviews Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract Amazon product reviews via the Amazon Reviews API. Agent should proactively apply this skill when users express needs like getting reviews for Amazon product with ASIN B07TS6R1SF, analyzing customer feedback for a specific Amazon item, getting ratings…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/amazon-reviews-api-skill\n"
+  },
+  {
+    "slug": "browseract-ecommerce-listing",
+    "name": "Ecommerce Listing",
+    "category": "productivity",
+    "description": "Extract product list from any e-commerce category page, search results page, or keyword search with filters. Returns paginated product arrays with URL, name, price, currency, image, rating, review count per item. Supp…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-listing",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Ecommerce Listing\ndescription: Extract product list from any e-commerce category page, search results page, or keyword search with filters. Returns paginated product arrays with URL, name, price, currency, image, rating, review count per item. Supports URL input, keyword search, and site-scoped search with filters: price…\n---\n\n# Ecommerce Listing\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nExtract product list from any e-commerce category page, search results page, or keyword search with filters. Returns paginated product arrays with URL, name, price, currency, image, rating, review count per item. Supports URL input, keyword search, and site-scoped search with filters: price…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-listing\n"
+  },
+  {
+    "slug": "browseract-ecommerce-product-detail",
+    "name": "Ecommerce Product Detail",
+    "category": "productivity",
+    "description": "Extract complete product information from any e-commerce product page. Returns name, price, currency, brand, images, description, SKU/ASIN/EAN/UPC/GTIN/MPN identifiers, stock availability, rating, review count, varian…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-product-detail",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Ecommerce Product Detail\ndescription: Extract complete product information from any e-commerce product page. Returns name, price, currency, brand, images, description, SKU/ASIN/EAN/UPC/GTIN/MPN identifiers, stock availability, rating, review count, variants, and seller. Works on Shopify, Amazon, WooCommerce, eBay, Walmart, Etsy,…\n---\n\n# Ecommerce Product Detail\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nExtract complete product information from any e-commerce product page. Returns name, price, currency, brand, images, description, SKU/ASIN/EAN/UPC/GTIN/MPN identifiers, stock availability, rating, review count, variants, and seller. Works on Shopify, Amazon, WooCommerce, eBay, Walmart, Etsy,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-product-detail\n"
+  },
+  {
+    "slug": "browseract-ecommerce-reviews",
+    "name": "Ecommerce Reviews",
+    "category": "productivity",
+    "description": "Extract customer reviews from any e-commerce product page or reviews page. Returns reviewer name, star rating, date, review title, review body, verified purchase status, and helpful votes per review. Works on Amazon, …",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-reviews",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Ecommerce Reviews\ndescription: Extract customer reviews from any e-commerce product page or reviews page. Returns reviewer name, star rating, date, review title, review body, verified purchase status, and helpful votes per review. Works on Amazon, WooCommerce, Shopify, and any site with standard review markup. Supports…\n---\n\n# Ecommerce Reviews\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nExtract customer reviews from any e-commerce product page or reviews page. Returns reviewer name, star rating, date, review title, review body, verified purchase status, and helpful votes per review. Works on Amazon, WooCommerce, Shopify, and any site with standard review markup. Supports…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-reviews\n"
+  },
+  {
+    "slug": "browseract-ecommerce-seller-info",
+    "name": "Ecommerce Seller Info",
+    "category": "productivity",
+    "description": "Extract seller or merchant profile data from marketplace platform seller pages. Returns seller name, rating, review count, positive feedback percentage, joined date, and return policy. Works on Amazon seller pages, eB…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-seller-info",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Ecommerce Seller Info\ndescription: Extract seller or merchant profile data from marketplace platform seller pages. Returns seller name, rating, review count, positive feedback percentage, joined date, and return policy. Works on Amazon seller pages, eBay seller pages, and any e-commerce site with seller profiles. Use when: seller…\n---\n\n# Ecommerce Seller Info\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nExtract seller or merchant profile data from marketplace platform seller pages. Returns seller name, rating, review count, positive feedback percentage, joined date, and return policy. Works on Amazon seller pages, eBay seller pages, and any e-commerce site with seller profiles. Use when: seller…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/ecommerce-seller-info\n"
+  },
+  {
+    "slug": "browseract-goofish-item-detail",
+    "name": "Goofish Item Detail",
+    "category": "productivity",
+    "description": "Extracts full detail data from a single Goofish (闲鱼/xianyu, goofish.com) second-hand item page. Input: item URL or item ID. Output: title, price, seller info (name, labels), full description, image gallery, item tags/…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/goofish-item-detail",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Goofish Item Detail\ndescription: Extracts full detail data from a single Goofish (闲鱼/xianyu, goofish.com) second-hand item page. Input: item URL or item ID. Output: title, price, seller info (name, labels), full description, image gallery, item tags/attributes, want-count. Use when user mentions goofish item detail, 闲鱼商品详情,…\n---\n\n# Goofish Item Detail\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nExtracts full detail data from a single Goofish (闲鱼/xianyu, goofish.com) second-hand item page. Input: item URL or item ID. Output: title, price, seller info (name, labels), full description, image gallery, item tags/attributes, want-count. Use when user mentions goofish item detail, 闲鱼商品详情,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/goofish-item-detail\n"
+  },
+  {
+    "slug": "browseract-goofish-search-list",
+    "name": "Goofish Search List",
+    "category": "productivity",
+    "description": "Scrapes second-hand item search results from Goofish (闲鱼/xianyu, goofish.com) — China's largest second-hand marketplace. Input: keyword, optional sort/filter params. Output: list of items with id, title, price, image,…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/goofish-search-list",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Goofish Search List\ndescription: Scrapes second-hand item search results from Goofish (闲鱼/xianyu, goofish.com) — China's largest second-hand marketplace. Input: keyword, optional sort/filter params. Output: list of items with id, title, price, image, location, want-count per page (30 items/page). Use when user mentions goofish,…\n---\n\n# Goofish Search List\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes second-hand item search results from Goofish (闲鱼/xianyu, goofish.com) — China's largest second-hand marketplace. Input: keyword, optional sort/filter params. Output: list of items with id, title, price, image, location, want-count per page (30 items/page). Use when user mentions goofish,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/goofish-search-list\n"
+  },
+  {
+    "slug": "browseract-taobao-keyword-search",
+    "name": "Taobao Keyword Search",
+    "category": "productivity",
+    "description": "Search Taobao and Tmall product listings by keyword, returning paginated product cards with title, price, shop, image, sales, and tags. Use when user asks to search Taobao, find products on Taobao/Tmall, scrape Taobao…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-keyword-search",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Taobao Keyword Search\ndescription: Search Taobao and Tmall product listings by keyword, returning paginated product cards with title, price, shop, image, sales, and tags. Use when user asks to search Taobao, find products on Taobao/Tmall, scrape Taobao search results, get product listings from Taobao, collect Taobao items by…\n---\n\n# Taobao Keyword Search\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nSearch Taobao and Tmall product listings by keyword, returning paginated product cards with title, price, shop, image, sales, and tags. Use when user asks to search Taobao, find products on Taobao/Tmall, scrape Taobao search results, get product listings from Taobao, collect Taobao items by…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-keyword-search\n"
+  },
+  {
+    "slug": "browseract-taobao-product-detail",
+    "name": "Taobao Product Detail",
+    "category": "productivity",
+    "description": "Fetch full product detail from a Taobao or Tmall product page by itemId, returning title, price, shop info, images, SKU variants, and product attributes. Use when user asks to get product details from Taobao, scrape a…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-product-detail",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Taobao Product Detail\ndescription: Fetch full product detail from a Taobao or Tmall product page by itemId, returning title, price, shop info, images, SKU variants, and product attributes. Use when user asks to get product details from Taobao, scrape a Taobao item page, extract product info by item ID, fetch Tmall product data,…\n---\n\n# Taobao Product Detail\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nFetch full product detail from a Taobao or Tmall product page by itemId, returning title, price, shop info, images, SKU variants, and product attributes. Use when user asks to get product details from Taobao, scrape a Taobao item page, extract product info by item ID, fetch Tmall product data,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-product-detail\n"
+  },
+  {
+    "slug": "browseract-taobao-product-reviews",
+    "name": "Taobao Product Reviews",
+    "category": "productivity",
+    "description": "Fetch customer reviews for a Taobao or Tmall product by itemId, returning reviewer name, date, purchased variant, review text, and photo URLs. Use when user asks to get product reviews from Taobao, scrape Taobao custo…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-product-reviews",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Taobao Product Reviews\ndescription: Fetch customer reviews for a Taobao or Tmall product by itemId, returning reviewer name, date, purchased variant, review text, and photo URLs. Use when user asks to get product reviews from Taobao, scrape Taobao customer feedback, extract buyer reviews by item ID, collect Tmall ratings and…\n---\n\n# Taobao Product Reviews\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nFetch customer reviews for a Taobao or Tmall product by itemId, returning reviewer name, date, purchased variant, review text, and photo URLs. Use when user asks to get product reviews from Taobao, scrape Taobao customer feedback, extract buyer reviews by item ID, collect Tmall ratings and…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-product-reviews\n"
+  },
+  {
+    "slug": "browseract-taobao-shop-catalog",
+    "name": "Taobao Shop Catalog",
+    "category": "productivity",
+    "description": "Browse a Taobao or Tmall shop's product catalog by shopId, returning paginated product listings with itemId and title. Use when user asks to scrape a Taobao shop, get all products from a store, list items in a Taobao/…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-shop-catalog",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Taobao Shop Catalog\ndescription: Browse a Taobao or Tmall shop's product catalog by shopId, returning paginated product listings with itemId and title. Use when user asks to scrape a Taobao shop, get all products from a store, list items in a Taobao/Tmall shop, fetch shop catalog by userId or shopId, 采集淘宝店铺商品, 抓取淘宝店铺所有商品,…\n---\n\n# Taobao Shop Catalog\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nBrowse a Taobao or Tmall shop's product catalog by shopId, returning paginated product listings with itemId and title. Use when user asks to scrape a Taobao shop, get all products from a store, list items in a Taobao/Tmall shop, fetch shop catalog by userId or shopId, 采集淘宝店铺商品, 抓取淘宝店铺所有商品,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/ecommerce/taobao-shop-catalog\n"
+  },
+  {
+    "slug": "browseract-business-contact-social-links-skill",
+    "name": "Business Contact Social Links Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract official website and social media profiles. Agent should proactively apply this skill when users express needs like search for official website and social media contacts of…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/business-contact-social-links-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Business Contact Social Links Skill\ndescription: This skill helps users automatically extract official website and social media profiles. Agent should proactively apply this skill when users express needs like search for official website and social media contacts of a company, find YouTube and LinkedIn profiles by company name, extract social…\n---\n\n# Business Contact Social Links Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract official website and social media profiles. Agent should proactively apply this skill when users express needs like search for official website and social media contacts of a company, find YouTube and LinkedIn profiles by company name, extract social…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/business-contact-social-links-skill\n"
+  },
+  {
+    "slug": "browseract-github-project-contributor-finder-api-skill",
+    "name": "Github Project Contributor Finder Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract GitHub repository project details and contributor contact information using keywords, stars, and update dates. Agent should proactively apply this skill when users express needs like sea…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/github-project-contributor-finder-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Github Project Contributor Finder Api Skill\ndescription: This skill helps users extract GitHub repository project details and contributor contact information using keywords, stars, and update dates. Agent should proactively apply this skill when users express needs like search for GitHub projects by keywords, find top open-source contributors in…\n---\n\n# Github Project Contributor Finder Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract GitHub repository project details and contributor contact information using keywords, stars, and update dates. Agent should proactively apply this skill when users express needs like search for GitHub projects by keywords, find top open-source contributors in…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/github-project-contributor-finder-api-skill\n"
+  },
+  {
+    "slug": "browseract-google-maps-api-skill",
+    "name": "Google Maps Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically scrape business data from Google Maps using the BrowserAct Google Maps API. Agent should proactively trigger this skill for needs like finding restaurants in a specific city, extra…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-maps-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google Maps Api Skill\ndescription: This skill helps users automatically scrape business data from Google Maps using the BrowserAct Google Maps API. Agent should proactively trigger this skill for needs like finding restaurants in a specific city, extracting contact info of dental clinics, researching local competitors, collecting…\n---\n\n# Google Maps Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically scrape business data from Google Maps using the BrowserAct Google Maps API. Agent should proactively trigger this skill for needs like finding restaurants in a specific city, extracting contact info of dental clinics, researching local competitors, collecting…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-maps-api-skill\n"
+  },
+  {
+    "slug": "browseract-google-maps-reviews-api-skill",
+    "name": "Google Maps Reviews Api Skill",
+    "category": "productivity",
+    "description": "This skill is designed to help users automatically extract reviews from Google Maps via the Google Maps Reviews API. Agent should proactively apply this skill when users request to find reviews for local businesses (e…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-maps-reviews-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google Maps Reviews Api Skill\ndescription: This skill is designed to help users automatically extract reviews from Google Maps via the Google Maps Reviews API. Agent should proactively apply this skill when users request to find reviews for local businesses (e.g., coffee shops, clinics), monitor customer feedback for a specific brand or…\n---\n\n# Google Maps Reviews Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill is designed to help users automatically extract reviews from Google Maps via the Google Maps Reviews API. Agent should proactively apply this skill when users request to find reviews for local businesses (e.g., coffee shops, clinics), monitor customer feedback for a specific brand or…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-maps-reviews-api-skill\n"
+  },
+  {
+    "slug": "browseract-google-maps-search-api-skill",
+    "name": "Google Maps Search Api Skill",
+    "category": "productivity",
+    "description": "This skill is designed to help users automatically extract business data from Google Maps search results. The Agent should proactively apply this skill when the user makes the following requests searching for coffee s…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-maps-search-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google Maps Search Api Skill\ndescription: This skill is designed to help users automatically extract business data from Google Maps search results. The Agent should proactively apply this skill when the user makes the following requests searching for coffee shops in a specific city, finding dentists or medical clinics nearby, tracking…\n---\n\n# Google Maps Search Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill is designed to help users automatically extract business data from Google Maps search results. The Agent should proactively apply this skill when the user makes the following requests searching for coffee shops in a specific city, finding dentists or medical clinics nearby, tracking…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-maps-search-api-skill\n"
+  },
+  {
+    "slug": "browseract-google-social-media-finder",
+    "name": "Google Social Media Finder",
+    "category": "productivity",
+    "description": "Searches Google to discover social media profiles associated with a person, brand, or username; returns platform name, profile URL, username, bio snippet, and follower count across X, Instagram, Facebook, LinkedIn, Ti…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-social-media-finder",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google Social Media Finder\ndescription: Searches Google to discover social media profiles associated with a person, brand, or username; returns platform name, profile URL, username, bio snippet, and follower count across X, Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest, Reddit, Snapchat, Threads, and more. Use when user…\n---\n\n# Google Social Media Finder\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nSearches Google to discover social media profiles associated with a person, brand, or username; returns platform name, profile URL, username, bio snippet, and follower count across X, Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest, Reddit, Snapchat, Threads, and more. Use when user…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/google-social-media-finder\n"
+  },
+  {
+    "slug": "browseract-indeed-job-search",
+    "name": "Indeed Job Search",
+    "category": "productivity",
+    "description": "Scrape job listings from Indeed.com by keyword, location, and country. Returns job title, company, salary, rating, description, benefits, and apply links. Use when user mentions Indeed, Indeed scraper, Indeed jobs, sc…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/indeed-job-search",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Indeed Job Search\ndescription: Scrape job listings from Indeed.com by keyword, location, and country. Returns job title, company, salary, rating, description, benefits, and apply links. Use when user mentions Indeed, Indeed scraper, Indeed jobs, scrape Indeed, job search Indeed, Indeed job listings, extract Indeed data,…\n---\n\n# Indeed Job Search\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrape job listings from Indeed.com by keyword, location, and country. Returns job title, company, salary, rating, description, benefits, and apply links. Use when user mentions Indeed, Indeed scraper, Indeed jobs, scrape Indeed, job search Indeed, Indeed job listings, extract Indeed data,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/indeed-job-search\n"
+  },
+  {
+    "slug": "browseract-industry-key-contact-radar-api-skill",
+    "name": "Industry Key Contact Radar Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users discover key contacts across industries, roles, and social platforms via the BrowserAct API. Agent should proactively apply this skill when users express needs like finding public profiles for f…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/industry-key-contact-radar-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Industry Key Contact Radar Api Skill\ndescription: This skill helps users discover key contacts across industries, roles, and social platforms via the BrowserAct API. Agent should proactively apply this skill when users express needs like finding public profiles for founders or CEOs, discovering key decision-makers in a specific industry,…\n---\n\n# Industry Key Contact Radar Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users discover key contacts across industries, roles, and social platforms via the BrowserAct API. Agent should proactively apply this skill when users express needs like finding public profiles for founders or CEOs, discovering key decision-makers in a specific industry,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/industry-key-contact-radar-api-skill\n"
+  },
+  {
+    "slug": "browseract-linkedin-jobs-search",
+    "name": "Linkedin Jobs Search",
+    "category": "productivity",
+    "description": "Search LinkedIn job listings and extract full job details. Supports filtering by work type (remote/on-site/hybrid), contract type (full-time/part-time/contract/internship), experience level, date posted, and company. …",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/linkedin-jobs-search",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Linkedin Jobs Search\ndescription: Search LinkedIn job listings and extract full job details. Supports filtering by work type (remote/on-site/hybrid), contract type (full-time/part-time/contract/internship), experience level, date posted, and company. Returns job title, company, location, work type, contract type, experience…\n---\n\n# Linkedin Jobs Search\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nSearch LinkedIn job listings and extract full job details. Supports filtering by work type (remote/on-site/hybrid), contract type (full-time/part-time/contract/internship), experience level, date posted, and company. Returns job title, company, location, work type, contract type, experience…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/linkedin-jobs-search\n"
+  },
+  {
+    "slug": "browseract-producthunt-launches",
+    "name": "Producthunt Launches",
+    "category": "productivity",
+    "description": "Scrape Product Hunt daily/weekly/monthly/yearly leaderboard launches with full product details, maker profiles, and website contact info. Use when user mentions Product Hunt, producthunt, PH scraper, product hunt laun…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/producthunt-launches",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Producthunt Launches\ndescription: Scrape Product Hunt daily/weekly/monthly/yearly leaderboard launches with full product details, maker profiles, and website contact info. Use when user mentions Product Hunt, producthunt, PH scraper, product hunt launches, product hunt leaderboard, scrape product hunt, product hunt data, PH…\n---\n\n# Producthunt Launches\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrape Product Hunt daily/weekly/monthly/yearly leaderboard launches with full product details, maker profiles, and website contact info. Use when user mentions Product Hunt, producthunt, PH scraper, product hunt launches, product hunt leaderboard, scrape product hunt, product hunt data, PH…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/producthunt-launches\n"
+  },
+  {
+    "slug": "browseract-social-media-finder-skill",
+    "name": "Social Media Finder Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically find social media profiles across platforms like Facebook, Twitter, Instagram, LinkedIn, etc. using the BrowserAct API. Agent should proactively apply this skill when users express…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/lead-generation/social-media-finder-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Social Media Finder Skill\ndescription: This skill helps users automatically find social media profiles across platforms like Facebook, Twitter, Instagram, LinkedIn, etc. using the BrowserAct API. Agent should proactively apply this skill when users express needs like finding someone's social media accounts, discovering a brand's…\n---\n\n# Social Media Finder Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically find social media profiles across platforms like Facebook, Twitter, Instagram, LinkedIn, etc. using the BrowserAct API. Agent should proactively apply this skill when users express needs like finding someone's social media accounts, discovering a brand's…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/lead-generation/social-media-finder-skill\n"
+  },
+  {
+    "slug": "browseract-google-image-api-skill",
+    "name": "Google Image Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract structured image data from Google Images via BrowserAct API. Agent should proactively apply this skill when users express needs like finding images for specific keywords, g…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/search-research/google-image-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google Image Api Skill\ndescription: This skill helps users automatically extract structured image data from Google Images via BrowserAct API. Agent should proactively apply this skill when users express needs like finding images for specific keywords, gathering product style images for competitors, building visual datasets at…\n---\n\n# Google Image Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract structured image data from Google Images via BrowserAct API. Agent should proactively apply this skill when users express needs like finding images for specific keywords, gathering product style images for competitors, building visual datasets at…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/search-research/google-image-api-skill\n"
+  },
+  {
+    "slug": "browseract-google-news-api-skill",
+    "name": "Google News Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract structured news data from Google News via BrowserAct API. Agent should proactively apply this skill when users express needs like searching for news about a specific topic,…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/search-research/google-news-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google News Api Skill\ndescription: This skill helps users automatically extract structured news data from Google News via BrowserAct API. Agent should proactively apply this skill when users express needs like searching for news about a specific topic, tracking industry trends, monitoring public relations or sentiment, collecting…\n---\n\n# Google News Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract structured news data from Google News via BrowserAct API. Agent should proactively apply this skill when users express needs like searching for news about a specific topic, tracking industry trends, monitoring public relations or sentiment, collecting…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/search-research/google-news-api-skill\n"
+  },
+  {
+    "slug": "browseract-google-search-serp",
+    "name": "Google Search Serp",
+    "category": "productivity",
+    "description": "Extracts Google Search results page (SERP) data including organic results, paid ads, related searches, People Also Ask questions, AI Overview text, and total result count from google.com. Use when user mentions Google…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/search-research/google-search-serp",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Google Search Serp\ndescription: Extracts Google Search results page (SERP) data including organic results, paid ads, related searches, People Also Ask questions, AI Overview text, and total result count from google.com. Use when user mentions Google search results, SERP scraping, google search data, search engine results page,…\n---\n\n# Google Search Serp\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nExtracts Google Search results page (SERP) data including organic results, paid ads, related searches, People Also Ask questions, AI Overview text, and total result count from google.com. Use when user mentions Google search results, SERP scraping, google search data, search engine results page,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/search-research/google-search-serp\n"
+  },
+  {
+    "slug": "browseract-web-research-assistant",
+    "name": "Web Research Assistant",
+    "category": "productivity",
+    "description": "AI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for additional information. Designed for OpenClaw and Claude Code.",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/search-research/web-research-assistant",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Web Research Assistant\ndescription: AI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for additional information. Designed for OpenClaw and Claude Code.\n---\n\n# Web Research Assistant\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nAI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for additional information. Designed for OpenClaw and Claude Code.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/search-research/web-research-assistant\n"
+  },
+  {
+    "slug": "browseract-web-search-scraper-api-skill",
+    "name": "Web Search Scraper Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract complete Markdown content from any website via the BrowserAct Web Search Scraper API. The Agent should proactively apply this skill when users express needs like extract co…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/search-research/web-search-scraper-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Web Search Scraper Api Skill\ndescription: This skill helps users automatically extract complete Markdown content from any website via the BrowserAct Web Search Scraper API. The Agent should proactively apply this skill when users express needs like extract complete markdown from a specific website, scrape the content of an article link,…\n---\n\n# Web Search Scraper Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract complete Markdown content from any website via the BrowserAct Web Search Scraper API. The Agent should proactively apply this skill when users express needs like extract complete markdown from a specific website, scrape the content of an article link,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/search-research/web-search-scraper-api-skill\n"
+  },
+  {
+    "slug": "browseract-facebook-ads-library-search",
+    "name": "Facebook Ads Library Search",
+    "category": "productivity",
+    "description": "Searches Meta Ad Library (Facebook/Instagram/WhatsApp ads) by keyword or Facebook page ID and extracts ad details including creatives, copy, CTA, publisher platforms, spend, impressions, reach estimates, and page tran…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-ads-library-search",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Facebook Ads Library Search\ndescription: Searches Meta Ad Library (Facebook/Instagram/WhatsApp ads) by keyword or Facebook page ID and extracts ad details including creatives, copy, CTA, publisher platforms, spend, impressions, reach estimates, and page transparency info. Use when user mentions Meta Ad Library, Facebook ads scraper,…\n---\n\n# Facebook Ads Library Search\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nSearches Meta Ad Library (Facebook/Instagram/WhatsApp ads) by keyword or Facebook page ID and extracts ad details including creatives, copy, CTA, publisher platforms, spend, impressions, reach estimates, and page transparency info. Use when user mentions Meta Ad Library, Facebook ads scraper,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-ads-library-search\n"
+  },
+  {
+    "slug": "browseract-facebook-groups-scrape-posts",
+    "name": "Facebook Groups Scrape Posts",
+    "category": "productivity",
+    "description": "Scrapes posts from a Facebook group given a group URL, sort order, and desired count — returns structured post metadata including post_id, permalink, author, timestamp, body text, images/videos, reaction counts, react…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-groups-scrape-posts",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Facebook Groups Scrape Posts\ndescription: Scrapes posts from a Facebook group given a group URL, sort order, and desired count — returns structured post metadata including post_id, permalink, author, timestamp, body text, images/videos, reaction counts, reaction type breakdown, comment count, and share count. Use when: user wants to…\n---\n\n# Facebook Groups Scrape Posts\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes posts from a Facebook group given a group URL, sort order, and desired count — returns structured post metadata including post_id, permalink, author, timestamp, body text, images/videos, reaction counts, reaction type breakdown, comment count, and share count. Use when: user wants to…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-groups-scrape-posts\n"
+  },
+  {
+    "slug": "browseract-facebook-page-posts",
+    "name": "Facebook Page Posts",
+    "category": "productivity",
+    "description": "Scrapes posts from any public Facebook Page timeline, returning structured data including post text, author info, engagement metrics (likes/comments/shares), reaction breakdowns (like/love/haha/wow/sad/angry/care), ha…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-page-posts",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Facebook Page Posts\ndescription: Scrapes posts from any public Facebook Page timeline, returning structured data including post text, author info, engagement metrics (likes/comments/shares), reaction breakdowns (like/love/haha/wow/sad/angry/care), hashtags and external links, and media type. Use when user wants to scrape…\n---\n\n# Facebook Page Posts\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes posts from any public Facebook Page timeline, returning structured data including post text, author info, engagement metrics (likes/comments/shares), reaction breakdowns (like/love/haha/wow/sad/angry/care), hashtags and external links, and media type. Use when user wants to scrape…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-page-posts\n"
+  },
+  {
+    "slug": "browseract-facebook-page-profile-posts",
+    "name": "Facebook Page Profile Posts",
+    "category": "productivity",
+    "description": "Scrapes posts from any public Facebook Page or personal Profile timeline, returning structured data including post text, author info with profile picture, engagement metrics (likes/comments/shares), full reaction brea…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-page-profile-posts",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Facebook Page Profile Posts\ndescription: Scrapes posts from any public Facebook Page or personal Profile timeline, returning structured data including post text, author info with profile picture, engagement metrics (likes/comments/shares), full reaction breakdown (Like/Love/Wow/Haha/Sad/Angry/Care as both array and flat counts),…\n---\n\n# Facebook Page Profile Posts\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes posts from any public Facebook Page or personal Profile timeline, returning structured data including post text, author info with profile picture, engagement metrics (likes/comments/shares), full reaction breakdown (Like/Love/Wow/Haha/Sad/Angry/Care as both array and flat counts),…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/facebook-page-profile-posts\n"
+  },
+  {
+    "slug": "browseract-instagram-hashtag-posts",
+    "name": "Instagram Hashtag Posts",
+    "category": "productivity",
+    "description": "Scrapes Instagram posts by hashtag, returning media items with captions, like/comment counts, media URLs and user info from the hashtag explore feed. Use when user mentions Instagram hashtag scraping, get posts by has…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-hashtag-posts",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Instagram Hashtag Posts\ndescription: Scrapes Instagram posts by hashtag, returning media items with captions, like/comment counts, media URLs and user info from the hashtag explore feed. Use when user mentions Instagram hashtag scraping, get posts by hashtag, IG hashtag feed, scrape Instagram by tag, hashtag posts Instagram, search…\n---\n\n# Instagram Hashtag Posts\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes Instagram posts by hashtag, returning media items with captions, like/comment counts, media URLs and user info from the hashtag explore feed. Use when user mentions Instagram hashtag scraping, get posts by hashtag, IG hashtag feed, scrape Instagram by tag, hashtag posts Instagram, search…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-hashtag-posts\n"
+  },
+  {
+    "slug": "browseract-instagram-place-posts",
+    "name": "Instagram Place Posts",
+    "category": "productivity",
+    "description": "Scrapes Instagram posts tagged at a specific location or place, returning media items with captions, like/comment counts, media URLs and user info. Use when user mentions Instagram location posts, posts from a place o…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-place-posts",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Instagram Place Posts\ndescription: Scrapes Instagram posts tagged at a specific location or place, returning media items with captions, like/comment counts, media URLs and user info. Use when user mentions Instagram location posts, posts from a place on Instagram, Instagram geotag scraping, posts tagged at location, Instagram…\n---\n\n# Instagram Place Posts\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes Instagram posts tagged at a specific location or place, returning media items with captions, like/comment counts, media URLs and user info. Use when user mentions Instagram location posts, posts from a place on Instagram, Instagram geotag scraping, posts tagged at location, Instagram…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-place-posts\n"
+  },
+  {
+    "slug": "browseract-instagram-post-comments",
+    "name": "Instagram Post Comments",
+    "category": "productivity",
+    "description": "Fetches comments from an Instagram post including comment text, username, timestamp, like count and reply count. Use when user mentions Instagram comments scraping, get comments from Instagram post, Instagram comment …",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-post-comments",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Instagram Post Comments\ndescription: Fetches comments from an Instagram post including comment text, username, timestamp, like count and reply count. Use when user mentions Instagram comments scraping, get comments from Instagram post, Instagram comment list, pull Instagram comments, read Instagram comments, Instagram post…\n---\n\n# Instagram Post Comments\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nFetches comments from an Instagram post including comment text, username, timestamp, like count and reply count. Use when user mentions Instagram comments scraping, get comments from Instagram post, Instagram comment list, pull Instagram comments, read Instagram comments, Instagram post…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-post-comments\n"
+  },
+  {
+    "slug": "browseract-instagram-profile-meta",
+    "name": "Instagram Profile Meta",
+    "category": "productivity",
+    "description": "Fetches Instagram user profile metadata including bio, follower count, following count, post count, verification status and other profile details. Use when user mentions Instagram profile info, user stats, account det…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-profile-meta",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Instagram Profile Meta\ndescription: Fetches Instagram user profile metadata including bio, follower count, following count, post count, verification status and other profile details. Use when user mentions Instagram profile info, user stats, account details, follower count, bio scraping, Instagram user data, IG profile, check…\n---\n\n# Instagram Profile Meta\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nFetches Instagram user profile metadata including bio, follower count, following count, post count, verification status and other profile details. Use when user mentions Instagram profile info, user stats, account details, follower count, bio scraping, Instagram user data, IG profile, check…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-profile-meta\n"
+  },
+  {
+    "slug": "browseract-instagram-profile-posts",
+    "name": "Instagram Profile Posts",
+    "category": "productivity",
+    "description": "Scrapes posts from an Instagram user's profile feed including captions, media URLs, like/comment counts, timestamps and location tags. Use when user mentions scraping Instagram posts, download Instagram feed, get post…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-profile-posts",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Instagram Profile Posts\ndescription: Scrapes posts from an Instagram user's profile feed including captions, media URLs, like/comment counts, timestamps and location tags. Use when user mentions scraping Instagram posts, download Instagram feed, get posts from Instagram account, IG profile posts, Instagram user posts, pull posts…\n---\n\n# Instagram Profile Posts\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes posts from an Instagram user's profile feed including captions, media URLs, like/comment counts, timestamps and location tags. Use when user mentions scraping Instagram posts, download Instagram feed, get posts from Instagram account, IG profile posts, Instagram user posts, pull posts…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/instagram-profile-posts\n"
+  },
+  {
+    "slug": "browseract-reddit-competitor-analysis-api-skill",
+    "name": "Reddit Competitor Analysis Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract structured data from Reddit posts and comments via BrowserAct API. Agent should proactively apply this skill when users express needs like analyzing competitor mentions on Reddit, tracki…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/reddit-competitor-analysis-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Reddit Competitor Analysis Api Skill\ndescription: This skill helps users extract structured data from Reddit posts and comments via BrowserAct API. Agent should proactively apply this skill when users express needs like analyzing competitor mentions on Reddit, tracking brand sentiment in Reddit comments, extracting Reddit discussions for market…\n---\n\n# Reddit Competitor Analysis Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract structured data from Reddit posts and comments via BrowserAct API. Agent should proactively apply this skill when users express needs like analyzing competitor mentions on Reddit, tracking brand sentiment in Reddit comments, extracting Reddit discussions for market…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/reddit-competitor-analysis-api-skill\n"
+  },
+  {
+    "slug": "browseract-reddit-warmup",
+    "name": "Reddit Warmup",
+    "category": "productivity",
+    "description": "Reddit Warmup — part of the Browser Automation Solutions pack. Browser-automation skills for e-commerce and data extraction.",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/reddit-warmup",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Reddit Warmup\ndescription: Reddit Warmup — part of the Browser Automation Solutions pack. Browser-automation skills for e-commerce and data extraction.\n---\n\n# Reddit Warmup\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nReddit Warmup — part of the Browser Automation Solutions pack. Browser-automation skills for e-commerce and data extraction.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/reddit-warmup\n"
+  },
+  {
+    "slug": "browseract-wechat-article-search-api-skill",
+    "name": "Wechat Article Search Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract full article contents from WeChat using the BrowserAct API. The Agent should proactively apply this skill when users express needs like finding full WeChat articles for specific keywords…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/wechat-article-search-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Wechat Article Search Api Skill\ndescription: This skill helps users extract full article contents from WeChat using the BrowserAct API. The Agent should proactively apply this skill when users express needs like finding full WeChat articles for specific keywords, tracking WeChat public accounts for industry trends, extracting WeChat…\n---\n\n# Wechat Article Search Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract full article contents from WeChat using the BrowserAct API. The Agent should proactively apply this skill when users express needs like finding full WeChat articles for specific keywords, tracking WeChat public accounts for industry trends, extracting WeChat…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/wechat-article-search-api-skill\n"
+  },
+  {
+    "slug": "browseract-x-dm-auto-chat",
+    "name": "X Dm Auto Chat",
+    "category": "productivity",
+    "description": "X (Twitter) DM automated chat end-to-end Skill: scan DM inbox to identify pending-reply conversations, read message history, generate persona-based replies and send; also supports searching users and starting new conv…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/x-dm-auto-chat",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: X Dm Auto Chat\ndescription: X (Twitter) DM automated chat end-to-end Skill: scan DM inbox to identify pending-reply conversations, read message history, generate persona-based replies and send; also supports searching users and starting new conversations. Built-in E2E passcode unlock, DM permission filtering, and rate…\n---\n\n# X Dm Auto Chat\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nX (Twitter) DM automated chat end-to-end Skill: scan DM inbox to identify pending-reply conversations, read message history, generate persona-based replies and send; also supports searching users and starting new conversations. Built-in E2E passcode unlock, DM permission filtering, and rate…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/x-dm-auto-chat\n"
+  },
+  {
+    "slug": "browseract-x-keyword-comment",
+    "name": "X Keyword Comment",
+    "category": "productivity",
+    "description": "X (Twitter) keyword-based reply posting: search tweets by keyword, read each tweet's content, generate contextual replies from a configured brand persona, and post replies to the reply area. Use when user wants to bat…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/x-keyword-comment",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: X Keyword Comment\ndescription: X (Twitter) keyword-based reply posting: search tweets by keyword, read each tweet's content, generate contextual replies from a configured brand persona, and post replies to the reply area. Use when user wants to batch reply to X tweets by keyword, auto-comment on X topic tweets, drive traffic…\n---\n\n# X Keyword Comment\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nX (Twitter) keyword-based reply posting: search tweets by keyword, read each tweet's content, generate contextual replies from a configured brand persona, and post replies to the reply area. Use when user wants to batch reply to X tweets by keyword, auto-comment on X topic tweets, drive traffic…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/x-keyword-comment\n"
+  },
+  {
+    "slug": "browseract-x-tweet-search",
+    "name": "X Tweet Search",
+    "category": "productivity",
+    "description": "Scrapes tweets from X (Twitter) by search query, user handle, or direct URL — returns full tweet data including text, author info, engagement metrics, media, and hashtags. Use when user mentions X, Twitter, tweet scra…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/x-tweet-search",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: X Tweet Search\ndescription: Scrapes tweets from X (Twitter) by search query, user handle, or direct URL — returns full tweet data including text, author info, engagement metrics, media, and hashtags. Use when user mentions X, Twitter, tweet scraping, scrape tweets, get tweets, fetch tweets, twitter data, x.com data, tweet…\n---\n\n# X Tweet Search\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nScrapes tweets from X (Twitter) by search query, user handle, or direct URL — returns full tweet data including text, author info, engagement metrics, media, and hashtags. Use when user mentions X, Twitter, tweet scraping, scrape tweets, get tweets, fetch tweets, twitter data, x.com data, tweet…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/x-tweet-search\n"
+  },
+  {
+    "slug": "browseract-xiaohongshu-auto-posting",
+    "name": "Xiaohongshu Auto Posting",
+    "category": "productivity",
+    "description": "Automates the complete Xiaohongshu (XHS / Little Red Book) content operation workflow: pain-point topic collection → style case collection → topic selection → content writing → publishing → performance tracking. Use w…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-auto-posting",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Xiaohongshu Auto Posting\ndescription: Automates the complete Xiaohongshu (XHS / Little Red Book) content operation workflow: pain-point topic collection → style case collection → topic selection → content writing → publishing → performance tracking. Use when user mentions xiaohongshu auto posting, xhs auto post, little red book…\n---\n\n# Xiaohongshu Auto Posting\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nAutomates the complete Xiaohongshu (XHS / Little Red Book) content operation workflow: pain-point topic collection → style case collection → topic selection → content writing → publishing → performance tracking. Use when user mentions xiaohongshu auto posting, xhs auto post, little red book…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-auto-posting\n"
+  },
+  {
+    "slug": "browseract-xiaohongshu-note-detail",
+    "name": "Xiaohongshu Note Detail",
+    "category": "productivity",
+    "description": "Fetch Xiaohongshu (RedNote / xhs) note detail and comments by note ID, returning title, description, author info, engagement stats, tags, and paginated comment list. Use when user mentions note detail xiaohongshu, get…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-note-detail",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Xiaohongshu Note Detail\ndescription: Fetch Xiaohongshu (RedNote / xhs) note detail and comments by note ID, returning title, description, author info, engagement stats, tags, and paginated comment list. Use when user mentions note detail xiaohongshu, get rednote post, xhs note content, xiaohongshu comment scrape, fetch post…\n---\n\n# Xiaohongshu Note Detail\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nFetch Xiaohongshu (RedNote / xhs) note detail and comments by note ID, returning title, description, author info, engagement stats, tags, and paginated comment list. Use when user mentions note detail xiaohongshu, get rednote post, xhs note content, xiaohongshu comment scrape, fetch post…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-note-detail\n"
+  },
+  {
+    "slug": "browseract-xiaohongshu-search",
+    "name": "Xiaohongshu Search",
+    "category": "productivity",
+    "description": "Search Xiaohongshu (RedNote / xhs) notes by keyword and return a paginated list with title, author, engagement stats (likes, collects, comments), cover image URL, and xsecToken for detail lookup. Use when user mention…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-search",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Xiaohongshu Search\ndescription: Search Xiaohongshu (RedNote / xhs) notes by keyword and return a paginated list with title, author, engagement stats (likes, collects, comments), cover image URL, and xsecToken for detail lookup. Use when user mentions find notes on xiaohongshu, search rednote, search xhs, scrape xiaohongshu…\n---\n\n# Xiaohongshu Search\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nSearch Xiaohongshu (RedNote / xhs) notes by keyword and return a paginated list with title, author, engagement stats (likes, collects, comments), cover image URL, and xsecToken for detail lookup. Use when user mentions find notes on xiaohongshu, search rednote, search xhs, scrape xiaohongshu…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-search\n"
+  },
+  {
+    "slug": "browseract-xiaohongshu-user-profile",
+    "name": "Xiaohongshu User Profile",
+    "category": "productivity",
+    "description": "Fetch Xiaohongshu (RedNote / xhs) user profile information and their published notes list by user ID, returning nickname, bio, follower/following counts, engagement totals, tags, and paginated notes with engagement st…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-user-profile",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Xiaohongshu User Profile\ndescription: Fetch Xiaohongshu (RedNote / xhs) user profile information and their published notes list by user ID, returning nickname, bio, follower/following counts, engagement totals, tags, and paginated notes with engagement stats. Use when user mentions user profile xiaohongshu, rednote creator profile,…\n---\n\n# Xiaohongshu User Profile\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nFetch Xiaohongshu (RedNote / xhs) user profile information and their published notes list by user ID, returning nickname, bio, follower/following counts, engagement totals, tags, and paginated notes with engagement stats. Use when user mentions user profile xiaohongshu, rednote creator profile,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/xiaohongshu-user-profile\n"
+  },
+  {
+    "slug": "browseract-zhihu-search-api-skill",
+    "name": "Zhihu Search Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract structured article details and full content from Zhihu via the BrowserAct API. Agent should proactively apply this skill when users express needs like: searching for Zhihu …",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/social-listening/zhihu-search-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Zhihu Search Api Skill\ndescription: This skill helps users automatically extract structured article details and full content from Zhihu via the BrowserAct API. Agent should proactively apply this skill when users express needs like: searching for Zhihu articles on a specific topic, tracking industry trends on Zhihu, monitoring…\n---\n\n# Zhihu Search Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract structured article details and full content from Zhihu via the BrowserAct API. Agent should proactively apply this skill when users express needs like: searching for Zhihu articles on a specific topic, tracking industry trends on Zhihu, monitoring…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/social-listening/zhihu-search-api-skill\n"
+  },
+  {
+    "slug": "browseract-tiktok-hashtag-videos",
+    "name": "Tiktok Hashtag Videos",
+    "category": "productivity",
+    "description": "TikTok hashtag video scraper: input a hashtag name → output paginated video list with full metadata (author profile, engagement stats, music, video meta, hashtag list). Use when user mentions TikTok hashtag scraping, …",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-hashtag-videos",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Tiktok Hashtag Videos\ndescription: TikTok hashtag video scraper: input a hashtag name → output paginated video list with full metadata (author profile, engagement stats, music, video meta, hashtag list). Use when user mentions TikTok hashtag scraping, TikTok tag videos, scrape TikTok by hashtag, extract TikTok hashtag data,…\n---\n\n# Tiktok Hashtag Videos\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nTikTok hashtag video scraper: input a hashtag name → output paginated video list with full metadata (author profile, engagement stats, music, video meta, hashtag list). Use when user mentions TikTok hashtag scraping, TikTok tag videos, scrape TikTok by hashtag, extract TikTok hashtag data,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-hashtag-videos\n"
+  },
+  {
+    "slug": "browseract-tiktok-profile-videos",
+    "name": "Tiktok Profile Videos",
+    "category": "productivity",
+    "description": "TikTok user profile video scraper: input a TikTok username → output the user's profile info plus paginated video list with full metadata (engagement stats, music, video meta). Use when user mentions TikTok profile scr…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-profile-videos",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Tiktok Profile Videos\ndescription: TikTok user profile video scraper: input a TikTok username → output the user's profile info plus paginated video list with full metadata (engagement stats, music, video meta). Use when user mentions TikTok profile scraping, scrape TikTok user videos, get TikTok creator videos, extract TikTok…\n---\n\n# Tiktok Profile Videos\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nTikTok user profile video scraper: input a TikTok username → output the user's profile info plus paginated video list with full metadata (engagement stats, music, video meta). Use when user mentions TikTok profile scraping, scrape TikTok user videos, get TikTok creator videos, extract TikTok…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-profile-videos\n"
+  },
+  {
+    "slug": "browseract-tiktok-search-videos",
+    "name": "Tiktok Search Videos",
+    "category": "productivity",
+    "description": "TikTok keyword search video scraper: input search keyword → output paginated video list with full metadata (author, engagement stats, music, video meta). Use when user mentions TikTok search scraping, search TikTok by…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-search-videos",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Tiktok Search Videos\ndescription: TikTok keyword search video scraper: input search keyword → output paginated video list with full metadata (author, engagement stats, music, video meta). Use when user mentions TikTok search scraping, search TikTok by keyword, TikTok search results, extract TikTok search data, scrape TikTok…\n---\n\n# Tiktok Search Videos\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nTikTok keyword search video scraper: input search keyword → output paginated video list with full metadata (author, engagement stats, music, video meta). Use when user mentions TikTok search scraping, search TikTok by keyword, TikTok search results, extract TikTok search data, scrape TikTok…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-search-videos\n"
+  },
+  {
+    "slug": "browseract-tiktok-video-detail",
+    "name": "Tiktok Video Detail",
+    "category": "productivity",
+    "description": "TikTok single video detail scraper: input a TikTok video URL → output full video metadata (author profile, engagement stats, music, video meta, hashtags, mentions, slideshow images). Use when user mentions TikTok vide…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-video-detail",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Tiktok Video Detail\ndescription: TikTok single video detail scraper: input a TikTok video URL → output full video metadata (author profile, engagement stats, music, video meta, hashtags, mentions, slideshow images). Use when user mentions TikTok video detail, get TikTok video data, extract TikTok video metadata, scrape single…\n---\n\n# Tiktok Video Detail\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nTikTok single video detail scraper: input a TikTok video URL → output full video metadata (author profile, engagement stats, music, video meta, hashtags, mentions, slideshow images). Use when user mentions TikTok video detail, get TikTok video data, extract TikTok video metadata, scrape single…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/tiktok-video-detail\n"
+  },
+  {
+    "slug": "browseract-youtube-api-skill",
+    "name": "Youtube Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract detailed video metrics and channel information from YouTube based on keyword searches using the BrowserAct API. The Agent should proactively apply this skill when users exp…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Api Skill\ndescription: This skill helps users automatically extract detailed video metrics and channel information from YouTube based on keyword searches using the BrowserAct API. The Agent should proactively apply this skill when users express needs such as extract specific keyword YouTube video detailed data,…\n---\n\n# Youtube Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract detailed video metrics and channel information from YouTube based on keyword searches using the BrowserAct API. The Agent should proactively apply this skill when users express needs such as extract specific keyword YouTube video detailed data,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-batch-transcript-extractor-api-skill",
+    "name": "Youtube Batch Transcript Extractor Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract YouTube video transcripts and metadata in batch via the BrowserAct API. The Agent should proactively apply this skill when users express needs like batch extract full trans…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-batch-transcript-extractor-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Batch Transcript Extractor Api Skill\ndescription: This skill helps users automatically extract YouTube video transcripts and metadata in batch via the BrowserAct API. The Agent should proactively apply this skill when users express needs like batch extract full transcripts from YouTube videos for specific keywords, scrape YouTube subtitles for…\n---\n\n# Youtube Batch Transcript Extractor Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract YouTube video transcripts and metadata in batch via the BrowserAct API. The Agent should proactively apply this skill when users express needs like batch extract full transcripts from YouTube videos for specific keywords, scrape YouTube subtitles for…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-batch-transcript-extractor-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-channel-api-skill",
+    "name": "Youtube Channel Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract structured channel data from YouTube search results via BrowserAct API. Agent should proactively apply this skill when users express needs like finding YouTube channels abo…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-channel-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Channel Api Skill\ndescription: This skill helps users automatically extract structured channel data from YouTube search results via BrowserAct API. Agent should proactively apply this skill when users express needs like finding YouTube channels about specific topics, collecting data on YouTube content creators, tracking…\n---\n\n# Youtube Channel Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract structured channel data from YouTube search results via BrowserAct API. Agent should proactively apply this skill when users express needs like finding YouTube channels about specific topics, collecting data on YouTube content creators, tracking…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-channel-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-comments-api-skill",
+    "name": "Youtube Comments Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract structured video list data and comment data from YouTube using the BrowserAct API. The Agent should proactively apply this skill when users request searching for YouTube videos and their…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-comments-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Comments Api Skill\ndescription: This skill helps users extract structured video list data and comment data from YouTube using the BrowserAct API. The Agent should proactively apply this skill when users request searching for YouTube videos and their comments, analyzing viewer sentiment for a specific video topic, gathering…\n---\n\n# Youtube Comments Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract structured video list data and comment data from YouTube using the BrowserAct API. The Agent should proactively apply this skill when users request searching for YouTube videos and their comments, analyzing viewer sentiment for a specific video topic, gathering…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-comments-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-influencer-finder-api-skill",
+    "name": "Youtube Influencer Finder Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract YouTube influencer profiles including social links, subscriber counts, and channel stats via the BrowserAct API. Agent should proactively apply this skill when users express needs like f…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-influencer-finder-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Influencer Finder Api Skill\ndescription: This skill helps users extract YouTube influencer profiles including social links, subscriber counts, and channel stats via the BrowserAct API. Agent should proactively apply this skill when users express needs like finding YouTube creators for specific keywords, discovering influencers for a…\n---\n\n# Youtube Influencer Finder Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract YouTube influencer profiles including social links, subscriber counts, and channel stats via the BrowserAct API. Agent should proactively apply this skill when users express needs like finding YouTube creators for specific keywords, discovering influencers for a…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-influencer-finder-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-search-api-skill",
+    "name": "Youtube Search Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract structured data from YouTube search results using the BrowserAct API. The Agent should proactively apply this skill when users express needs like searching for YouTube vide…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-search-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Search Api Skill\ndescription: This skill helps users automatically extract structured data from YouTube search results using the BrowserAct API. The Agent should proactively apply this skill when users express needs like searching for YouTube videos by keywords, finding the latest YouTube Shorts for a specific topic,…\n---\n\n# Youtube Search Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract structured data from YouTube search results using the BrowserAct API. The Agent should proactively apply this skill when users express needs like searching for YouTube videos by keywords, finding the latest YouTube Shorts for a specific topic,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-search-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-transcript-analysis-api-skill",
+    "name": "Youtube Transcript Analysis Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users extract YouTube video transcripts and perform deep competitive analysis on the content. Agent should proactively apply this skill when users express needs like analyze YouTube video content stra…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-transcript-analysis-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Transcript Analysis Api Skill\ndescription: This skill helps users extract YouTube video transcripts and perform deep competitive analysis on the content. Agent should proactively apply this skill when users express needs like analyze YouTube video content strategy, perform competitive video content analysis, extract and analyze YouTube…\n---\n\n# Youtube Transcript Analysis Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users extract YouTube video transcripts and perform deep competitive analysis on the content. Agent should proactively apply this skill when users express needs like analyze YouTube video content strategy, perform competitive video content analysis, extract and analyze YouTube…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-transcript-analysis-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-transcript-extractor-api-skill",
+    "name": "Youtube Transcript Extractor Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract YouTube video transcripts and metadata via the BrowserAct API. The Agent should proactively apply this skill when users express needs like extracting full transcript from a…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-transcript-extractor-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Transcript Extractor Api Skill\ndescription: This skill helps users automatically extract YouTube video transcripts and metadata via the BrowserAct API. The Agent should proactively apply this skill when users express needs like extracting full transcript from a specific YouTube video, getting subtitles and metadata for video content…\n---\n\n# Youtube Transcript Extractor Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract YouTube video transcripts and metadata via the BrowserAct API. The Agent should proactively apply this skill when users express needs like extracting full transcript from a specific YouTube video, getting subtitles and metadata for video content…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-transcript-extractor-api-skill\n"
+  },
+  {
+    "slug": "browseract-youtube-transcript",
+    "name": "Youtube Transcript",
+    "category": "productivity",
+    "description": "YouTube transcript extraction and content reformatting: given a YouTube video URL, opens the video's transcript panel, extracts all timestamped segments, and transforms the raw transcript into summaries, chapter outli…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-transcript",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Transcript\ndescription: YouTube transcript extraction and content reformatting: given a YouTube video URL, opens the video's transcript panel, extracts all timestamped segments, and transforms the raw transcript into summaries, chapter outlines, Twitter/X threads, blog posts, or notable quotes. Use when the user shares…\n---\n\n# Youtube Transcript\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nYouTube transcript extraction and content reformatting: given a YouTube video URL, opens the video's transcript panel, extracts all timestamped segments, and transforms the raw transcript into summaries, chapter outlines, Twitter/X threads, blog posts, or notable quotes. Use when the user shares…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-transcript\n"
+  },
+  {
+    "slug": "browseract-youtube-video-api-skill",
+    "name": "Youtube Video Api Skill",
+    "category": "productivity",
+    "description": "This skill helps users automatically extract channel-level and video detail data from a specific YouTube channel via BrowserAct API. Agent should proactively apply this skill when users express needs like extracting c…",
+    "author": "browser-act",
+    "source_url": "https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-video-api-skill",
+    "tags": [
+      "browser-automation",
+      "scraping",
+      "ecommerce",
+      "data-extraction"
+    ],
+    "skill_content": "---\nname: Youtube Video Api Skill\ndescription: This skill helps users automatically extract channel-level and video detail data from a specific YouTube channel via BrowserAct API. Agent should proactively apply this skill when users express needs like extracting channel video data, getting latest or popular videos from a YouTube channel,…\n---\n\n# Youtube Video Api Skill\n\nPart of the **Browser Automation Solutions** pack by browser-act (`browser-act/skills`).\n\nThis skill helps users automatically extract channel-level and video detail data from a specific YouTube channel via BrowserAct API. Agent should proactively apply this skill when users express needs like extracting channel video data, getting latest or popular videos from a YouTube channel,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/browser-act/skills/tree/main/solutions/video-platforms/youtube-video-api-skill\n"
+  }
+]

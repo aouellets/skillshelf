@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "vercel-composition-patterns",
+    "name": "Vercel Composition Patterns",
+    "category": "coding",
+    "description": "React composition patterns that scale. Use when refactoring components with",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Vercel Composition Patterns\ndescription: React composition patterns that scale. Use when refactoring components with\n---\n\n# Vercel Composition Patterns\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nReact composition patterns that scale. Use when refactoring components with\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns\n"
+  },
+  {
+    "slug": "vercel-deploy-to-vercel",
+    "name": "Deploy To Vercel",
+    "category": "coding",
+    "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Deploy To Vercel\ndescription: Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".\n---\n\n# Deploy To Vercel\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nDeploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel\n"
+  },
+  {
+    "slug": "vercel-react-best-practices",
+    "name": "Vercel React Best Practices",
+    "category": "coding",
+    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on t…",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Vercel React Best Practices\ndescription: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle…\n---\n\n# Vercel React Best Practices\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nReact and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices\n"
+  },
+  {
+    "slug": "vercel-react-native-skills",
+    "name": "Vercel React Native Skills",
+    "category": "coding",
+    "description": "React Native and Expo best practices for building performant mobile apps. Use",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Vercel React Native Skills\ndescription: React Native and Expo best practices for building performant mobile apps. Use\n---\n\n# Vercel React Native Skills\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nReact Native and Expo best practices for building performant mobile apps. Use\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills\n"
+  },
+  {
+    "slug": "vercel-react-view-transitions",
+    "name": "Vercel React View Transitions",
+    "category": "coding",
+    "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user…",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Vercel React View Transitions\ndescription: Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element…\n---\n\n# Vercel React View Transitions\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nGuide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions\n"
+  },
+  {
+    "slug": "vercel-vercel-cli-with-tokens",
+    "name": "Vercel Cli With Tokens",
+    "category": "coding",
+    "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment va…",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Vercel Cli With Tokens\ndescription: Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".\n---\n\n# Vercel Cli With Tokens\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nDeploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens\n"
+  },
+  {
+    "slug": "vercel-vercel-optimize",
+    "name": "Vercel Optimize",
+    "category": "coding",
+    "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investiga…",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Vercel Optimize\ndescription: Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in…\n---\n\n# Vercel Optimize\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nUse for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize\n"
+  },
+  {
+    "slug": "vercel-web-design-guidelines",
+    "name": "Web Design Guidelines",
+    "category": "coding",
+    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Web Design Guidelines\ndescription: Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".\n---\n\n# Web Design Guidelines\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nReview UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines\n"
+  },
+  {
+    "slug": "vercel-writing-guidelines",
+    "name": "Writing Guidelines",
+    "category": "coding",
+    "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+    "author": "Vercel",
+    "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/writing-guidelines",
+    "tags": [
+      "vercel",
+      "react",
+      "frontend",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Writing Guidelines\ndescription: Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".\n---\n\n# Writing Guidelines\n\nPart of the **Vercel Agent Skills** pack by Vercel (`vercel-labs/agent-skills`).\n\nReview docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/vercel-labs/agent-skills/tree/main/skills/writing-guidelines\n"
+  }
+]

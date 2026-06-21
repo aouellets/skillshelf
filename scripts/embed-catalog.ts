@@ -64,14 +64,30 @@ async function main() {
   const supabase = createClient(url, key, { auth: { persistSession: false } })
   console.log(`Embedding model: ${EMBEDDING_MODEL}${FORCE ? '  (--all: re-embedding everything)' : ''}`)
 
+  // PostgREST caps a single response at 1000 rows; the catalog now exceeds
+  // that, so page through every table or rows beyond 1000 are silently
+  // dropped (and never embedded).
+  async function fetchAll<T>(table: string, columns: string): Promise<T[]> {
+    const PAGE = 1000
+    const rows: T[] = []
+    for (let from = 0; ; from += PAGE) {
+      const { data, error } = await supabase.from(table).select(columns).range(from, from + PAGE - 1)
+      if (error) throw new Error(`Fetch ${table} failed: ${error.message}`)
+      const batch = (data ?? []) as T[]
+      rows.push(...batch)
+      if (batch.length < PAGE) break
+    }
+    return rows
+  }
+
   // ── Gather pending work ────────────────────────────────────────────────
   const pending: Pending[] = []
 
   // Skills
-  const { data: skills, error: skillErr } = await supabase
-    .from('skills')
-    .select('id, name, description, category, tags, skill_content, embedding, embedding_hash')
-  if (skillErr) throw new Error(`Fetch skills failed: ${skillErr.message}`)
+  const skills = await fetchAll<any>(
+    'skills',
+    'id, name, description, category, tags, skill_content, embedding, embedding_hash'
+  )
   for (const s of skills ?? []) {
     const input = skillEmbeddingInput(s)
     const hash = embeddingHash(input)
@@ -80,14 +96,11 @@ async function main() {
   }
 
   // Packs — member skill names give a pack its semantic footprint.
-  const { data: members, error: memErr } = await supabase
-    .from('pack_skills')
-    .select('pack_id, skills(name)')
-  if (memErr) throw new Error(`Fetch pack_skills failed: ${memErr.message}`)
+  const members = await fetchAll<{ pack_id: string; skills: unknown }>('pack_skills', 'pack_id, skills(name)')
   const namesByPack = new Map<string, string[]>()
   // PostgREST types an embedded resource as an array even when the FK is
   // to-one, so normalise object-or-array before reading names.
-  for (const m of (members ?? []) as Array<{ pack_id: string; skills: unknown }>) {
+  for (const m of members) {
     const rel = m.skills
     const names = (Array.isArray(rel) ? rel : rel ? [rel] : []) as Array<{ name?: string }>
     for (const r of names) {
@@ -98,10 +111,7 @@ async function main() {
     }
   }
 
-  const { data: packs, error: packErr } = await supabase
-    .from('packs')
-    .select('id, name, tagline, description, category, tags, embedding, embedding_hash')
-  if (packErr) throw new Error(`Fetch packs failed: ${packErr.message}`)
+  const packs = await fetchAll<any>('packs', 'id, name, tagline, description, category, tags, embedding, embedding_hash')
   for (const p of packs ?? []) {
     const input = packEmbeddingInput(p, namesByPack.get(p.id) ?? [])
     const hash = embeddingHash(input)

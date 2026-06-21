@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "books-37signals-way",
+    "name": "37signals Way",
+    "category": "business",
+    "description": "Build lean, opinionated products using the 37signals philosophy from Getting Real, Rework, and Shape Up. Use when the user mentions \"Getting Real\", \"Rework\", \"Shape Up\", \"37signals\", \"Basecamp method\", \"six-week cycle…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/37signals-way",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: 37signals Way\ndescription: Build lean, opinionated products using the 37signals philosophy from Getting Real, Rework, and Shape Up. Use when the user mentions \"Getting Real\", \"Rework\", \"Shape Up\", \"37signals\", \"Basecamp method\", \"six-week cycles\", \"fixed time variable scope\", \"appetite vs estimates\", \"betting table\",…\n---\n\n# 37signals Way\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild lean, opinionated products using the 37signals philosophy from Getting Real, Rework, and Shape Up. Use when the user mentions \"Getting Real\", \"Rework\", \"Shape Up\", \"37signals\", \"Basecamp method\", \"six-week cycles\", \"fixed time variable scope\", \"appetite vs estimates\", \"betting table\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/37signals-way\n"
+  },
+  {
+    "slug": "books-blue-ocean-strategy",
+    "name": "Blue Ocean Strategy",
+    "category": "business",
+    "description": "Create uncontested market space using value innovation instead of competing head-to-head. Use when the user mentions \"blue ocean\", \"red ocean\", \"strategy canvas\", \"ERRC framework\", \"value innovation\", \"non-customers\",…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/blue-ocean-strategy",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Blue Ocean Strategy\ndescription: Create uncontested market space using value innovation instead of competing head-to-head. Use when the user mentions \"blue ocean\", \"red ocean\", \"strategy canvas\", \"ERRC framework\", \"value innovation\", \"non-customers\", \"buyer utility map\", \"eliminate-reduce-raise-create\", or \"uncontested market\".…\n---\n\n# Blue Ocean Strategy\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nCreate uncontested market space using value innovation instead of competing head-to-head. Use when the user mentions \"blue ocean\", \"red ocean\", \"strategy canvas\", \"ERRC framework\", \"value innovation\", \"non-customers\", \"buyer utility map\", \"eliminate-reduce-raise-create\", or \"uncontested market\".…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/blue-ocean-strategy\n"
+  },
+  {
+    "slug": "books-clean-architecture",
+    "name": "Clean Architecture",
+    "category": "business",
+    "description": "Structure software around the Dependency Rule: source code dependencies point inward from frameworks to use cases to entities. Use when the user mentions \"architecture layers\", \"dependency rule\", \"ports and adapters\",…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/clean-architecture",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Clean Architecture\ndescription: Structure software around the Dependency Rule: source code dependencies point inward from frameworks to use cases to entities. Use when the user mentions \"architecture layers\", \"dependency rule\", \"ports and adapters\", \"hexagonal architecture\", \"use case boundary\", \"onion architecture\",…\n---\n\n# Clean Architecture\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nStructure software around the Dependency Rule: source code dependencies point inward from frameworks to use cases to entities. Use when the user mentions \"architecture layers\", \"dependency rule\", \"ports and adapters\", \"hexagonal architecture\", \"use case boundary\", \"onion architecture\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/clean-architecture\n"
+  },
+  {
+    "slug": "books-clean-code",
+    "name": "Clean Code",
+    "category": "business",
+    "description": "Write readable, maintainable code through disciplined naming, small functions, and clean error handling. Use when the user mentions \"code review\", \"naming conventions\", \"function too long\", \"code smells\", \"readable co…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/clean-code",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Clean Code\ndescription: Write readable, maintainable code through disciplined naming, small functions, and clean error handling. Use when the user mentions \"code review\", \"naming conventions\", \"function too long\", \"code smells\", \"readable code\", \"boy scout rule\", \"single responsibility\", or \"unit test quality\". Also…\n---\n\n# Clean Code\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nWrite readable, maintainable code through disciplined naming, small functions, and clean error handling. Use when the user mentions \"code review\", \"naming conventions\", \"function too long\", \"code smells\", \"readable code\", \"boy scout rule\", \"single responsibility\", or \"unit test quality\". Also…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/clean-code\n"
+  },
+  {
+    "slug": "books-cold-start-problem",
+    "name": "Cold Start Problem",
+    "category": "business",
+    "description": "Start and scale networked products using Andrew Chen''s \"The Cold Start Problem\" framework for network effects. Use when the user mentions \"network effects\", \"chicken and egg\", \"cold start\", \"two-sided marketplace\", \"…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/cold-start-problem",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Cold Start Problem\ndescription: Start and scale networked products using Andrew Chen''s \"The Cold Start Problem\" framework for network effects. Use when the user mentions \"network effects\", \"chicken and egg\", \"cold start\", \"two-sided marketplace\", \"atomic network\", \"hard side\", \"liquidity\", \"critical mass\", \"invite-only…\n---\n\n# Cold Start Problem\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nStart and scale networked products using Andrew Chen''s \"The Cold Start Problem\" framework for network effects. Use when the user mentions \"network effects\", \"chicken and egg\", \"cold start\", \"two-sided marketplace\", \"atomic network\", \"hard side\", \"liquidity\", \"critical mass\", \"invite-only…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/cold-start-problem\n"
+  },
+  {
+    "slug": "books-contagious",
+    "name": "Contagious",
+    "category": "business",
+    "description": "Engineer word-of-mouth and virality using the STEPPS framework (Social Currency, Triggers, Emotion, Public, Practical Value, Stories). Use when the user mentions \"go viral\", \"word of mouth\", \"shareable content\", \"soci…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/contagious",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Contagious\ndescription: Engineer word-of-mouth and virality using the STEPPS framework (Social Currency, Triggers, Emotion, Public, Practical Value, Stories). Use when the user mentions \"go viral\", \"word of mouth\", \"shareable content\", \"social currency\", \"why people share\", \"viral loop\", \"referral program\", or \"organic…\n---\n\n# Contagious\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nEngineer word-of-mouth and virality using the STEPPS framework (Social Currency, Triggers, Emotion, Public, Practical Value, Stories). Use when the user mentions \"go viral\", \"word of mouth\", \"shareable content\", \"social currency\", \"why people share\", \"viral loop\", \"referral program\", or \"organic…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/contagious\n"
+  },
+  {
+    "slug": "books-continuous-discovery",
+    "name": "Continuous Discovery",
+    "category": "business",
+    "description": "Build a weekly cadence of customer touchpoints using Opportunity Solution Trees, assumption mapping, and interview snapshots. Use when the user mentions \"continuous discovery\", \"opportunity solution tree\", \"weekly int…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/continuous-discovery",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Continuous Discovery\ndescription: Build a weekly cadence of customer touchpoints using Opportunity Solution Trees, assumption mapping, and interview snapshots. Use when the user mentions \"continuous discovery\", \"opportunity solution tree\", \"weekly interviews\", \"assumption testing\", \"discovery habits\", \"product trio\", or…\n---\n\n# Continuous Discovery\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild a weekly cadence of customer touchpoints using Opportunity Solution Trees, assumption mapping, and interview snapshots. Use when the user mentions \"continuous discovery\", \"opportunity solution tree\", \"weekly interviews\", \"assumption testing\", \"discovery habits\", \"product trio\", or…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/continuous-discovery\n"
+  },
+  {
+    "slug": "books-cro-methodology",
+    "name": "Cro Methodology",
+    "category": "business",
+    "description": "Audit websites and landing pages for conversion issues and design evidence-based A/B tests. Use when the user mentions \"landing page isnt converting\", \"conversion rate\", \"A/B test\", \"why visitors leave\", \"objection ha…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/cro-methodology",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Cro Methodology\ndescription: Audit websites and landing pages for conversion issues and design evidence-based A/B tests. Use when the user mentions \"landing page isnt converting\", \"conversion rate\", \"A/B test\", \"why visitors leave\", \"objection handling\", \"bounce rate\", \"split testing\", or \"conversion funnel\". Also trigger…\n---\n\n# Cro Methodology\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nAudit websites and landing pages for conversion issues and design evidence-based A/B tests. Use when the user mentions \"landing page isnt converting\", \"conversion rate\", \"A/B test\", \"why visitors leave\", \"objection handling\", \"bounce rate\", \"split testing\", or \"conversion funnel\". Also trigger…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/cro-methodology\n"
+  },
+  {
+    "slug": "books-crossing-the-chasm",
+    "name": "Crossing The Chasm",
+    "category": "business",
+    "description": "Navigate the technology adoption lifecycle from early adopters to mainstream market. Use when the user mentions \"crossing the chasm\", \"beachhead segment\", \"whole product\", \"early adopters vs. mainstream\", \"tech go-to-…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/crossing-the-chasm",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Crossing The Chasm\ndescription: Navigate the technology adoption lifecycle from early adopters to mainstream market. Use when the user mentions \"crossing the chasm\", \"beachhead segment\", \"whole product\", \"early adopters vs. mainstream\", \"tech go-to-market\", \"bowling pin strategy\", \"technology adoption lifecycle\", or…\n---\n\n# Crossing The Chasm\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nNavigate the technology adoption lifecycle from early adopters to mainstream market. Use when the user mentions \"crossing the chasm\", \"beachhead segment\", \"whole product\", \"early adopters vs. mainstream\", \"tech go-to-market\", \"bowling pin strategy\", \"technology adoption lifecycle\", or…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/crossing-the-chasm\n"
+  },
+  {
+    "slug": "books-ddia-systems",
+    "name": "Ddia Systems",
+    "category": "business",
+    "description": "Design data systems by understanding storage engines, replication, partitioning, transactions, and consistency models. Use when the user mentions \"database choice\", \"replication lag\", \"partitioning strategy\", \"consist…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/ddia-systems",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Ddia Systems\ndescription: Design data systems by understanding storage engines, replication, partitioning, transactions, and consistency models. Use when the user mentions \"database choice\", \"replication lag\", \"partitioning strategy\", \"consistency vs availability\", \"stream processing\", \"ACID transactions\", \"eventual…\n---\n\n# Ddia Systems\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign data systems by understanding storage engines, replication, partitioning, transactions, and consistency models. Use when the user mentions \"database choice\", \"replication lag\", \"partitioning strategy\", \"consistency vs availability\", \"stream processing\", \"ACID transactions\", \"eventual…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/ddia-systems\n"
+  },
+  {
+    "slug": "books-design-everyday-things",
+    "name": "Design Everyday Things",
+    "category": "business",
+    "description": "Apply foundational design principles: affordances, signifiers, constraints, feedback, and conceptual models. Use when the user mentions \"why is this confusing\", \"affordance\", \"error prevention\", \"discoverability\", \"hu…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/design-everyday-things",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Design Everyday Things\ndescription: Apply foundational design principles: affordances, signifiers, constraints, feedback, and conceptual models. Use when the user mentions \"why is this confusing\", \"affordance\", \"error prevention\", \"discoverability\", \"human-centered design\", \"fault tolerance\", \"mental model\", \"mapping\", or \"seven…\n---\n\n# Design Everyday Things\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nApply foundational design principles: affordances, signifiers, constraints, feedback, and conceptual models. Use when the user mentions \"why is this confusing\", \"affordance\", \"error prevention\", \"discoverability\", \"human-centered design\", \"fault tolerance\", \"mental model\", \"mapping\", or \"seven…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/design-everyday-things\n"
+  },
+  {
+    "slug": "books-design-sprint",
+    "name": "Design Sprint",
+    "category": "business",
+    "description": "Run a structured 5-day process to prototype, test, and validate product ideas with real users. Use when the user mentions \"design sprint\", \"validate in a week\", \"rapid prototype\", \"test with users\", \"de-risk before bu…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/design-sprint",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Design Sprint\ndescription: Run a structured 5-day process to prototype, test, and validate product ideas with real users. Use when the user mentions \"design sprint\", \"validate in a week\", \"rapid prototype\", \"test with users\", \"de-risk before building\", \"GV sprint\", \"prototype testing\", or \"design workshop\". Also trigger…\n---\n\n# Design Sprint\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nRun a structured 5-day process to prototype, test, and validate product ideas with real users. Use when the user mentions \"design sprint\", \"validate in a week\", \"rapid prototype\", \"test with users\", \"de-risk before building\", \"GV sprint\", \"prototype testing\", or \"design workshop\". Also trigger…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/design-sprint\n"
+  },
+  {
+    "slug": "books-domain-driven-design",
+    "name": "Domain Driven Design",
+    "category": "business",
+    "description": "Model software around the business domain using bounded contexts, aggregates, and ubiquitous language. Use when the user mentions \"domain modeling\", \"bounded context\", \"aggregate root\", \"ubiquitous language\", \"anti-co…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/domain-driven-design",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Domain Driven Design\ndescription: Model software around the business domain using bounded contexts, aggregates, and ubiquitous language. Use when the user mentions \"domain modeling\", \"bounded context\", \"aggregate root\", \"ubiquitous language\", \"anti-corruption layer\", \"context mapping\", \"domain events\", or \"strategic design\".…\n---\n\n# Domain Driven Design\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nModel software around the business domain using bounded contexts, aggregates, and ubiquitous language. Use when the user mentions \"domain modeling\", \"bounded context\", \"aggregate root\", \"ubiquitous language\", \"anti-corruption layer\", \"context mapping\", \"domain events\", or \"strategic design\".…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/domain-driven-design\n"
+  },
+  {
+    "slug": "books-drive-motivation",
+    "name": "Drive Motivation",
+    "category": "business",
+    "description": "Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for products and teams. Use when the user mentions \"intrinsic motivation\", \"gamification isnt working\", \"team incentives\", \"autonomy\", \"mastery\", \"p…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/drive-motivation",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Drive Motivation\ndescription: Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for products and teams. Use when the user mentions \"intrinsic motivation\", \"gamification isnt working\", \"team incentives\", \"autonomy\", \"mastery\", \"purpose-driven\", \"employee engagement\", or \"reward systems\". Also trigger when…\n---\n\n# Drive Motivation\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign motivation systems using Autonomy, Mastery, and Purpose (AMP) for products and teams. Use when the user mentions \"intrinsic motivation\", \"gamification isnt working\", \"team incentives\", \"autonomy\", \"mastery\", \"purpose-driven\", \"employee engagement\", or \"reward systems\". Also trigger when…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/drive-motivation\n"
+  },
+  {
+    "slug": "books-good-strategy-bad-strategy",
+    "name": "Good Strategy Bad Strategy",
+    "category": "business",
+    "description": "Formulate and audit real strategy using Richard Rumelt''s \"Good Strategy Bad Strategy\": an honest diagnosis, a guiding policy, and coherent action instead of goals, vision, and wishful thinking. Use when the user ment…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/good-strategy-bad-strategy",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Good Strategy Bad Strategy\ndescription: Formulate and audit real strategy using Richard Rumelt''s \"Good Strategy Bad Strategy\": an honest diagnosis, a guiding policy, and coherent action instead of goals, vision, and wishful thinking. Use when the user mentions \"good strategy bad strategy\", \"strategy kernel\", \"diagnosis guiding policy…\n---\n\n# Good Strategy Bad Strategy\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nFormulate and audit real strategy using Richard Rumelt''s \"Good Strategy Bad Strategy\": an honest diagnosis, a guiding policy, and coherent action instead of goals, vision, and wishful thinking. Use when the user mentions \"good strategy bad strategy\", \"strategy kernel\", \"diagnosis guiding policy…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/good-strategy-bad-strategy\n"
+  },
+  {
+    "slug": "books-high-output-management",
+    "name": "High Output Management",
+    "category": "business",
+    "description": "Manage for output using Andrew S. Grove''s \"High Output Management\": a manager''s output is their organization''s output, raised by choosing high-leverage activities. Use when the user mentions \"high output management…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/high-output-management",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: High Output Management\ndescription: Manage for output using Andrew S. Grove''s \"High Output Management\": a manager''s output is their organization''s output, raised by choosing high-leverage activities. Use when the user mentions \"high output management\", \"managerial leverage\", \"one-on-ones\", \"1:1 agenda\", \"OKRs\", \"performance…\n---\n\n# High Output Management\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nManage for output using Andrew S. Grove''s \"High Output Management\": a manager''s output is their organization''s output, raised by choosing high-leverage activities. Use when the user mentions \"high output management\", \"managerial leverage\", \"one-on-ones\", \"1:1 agenda\", \"OKRs\", \"performance…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/high-output-management\n"
+  },
+  {
+    "slug": "books-high-perf-browser",
+    "name": "High Perf Browser",
+    "category": "business",
+    "description": "Optimize web performance through network protocols, resource loading, and browser rendering internals. Use when the user mentions \"page load speed\", \"Core Web Vitals\", \"HTTP/2\", \"resource hints\", \"network latency\", \"r…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/high-perf-browser",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: High Perf Browser\ndescription: Optimize web performance through network protocols, resource loading, and browser rendering internals. Use when the user mentions \"page load speed\", \"Core Web Vitals\", \"HTTP/2\", \"resource hints\", \"network latency\", \"render blocking\", \"TCP optimization\", \"service worker\", or \"critical rendering…\n---\n\n# High Perf Browser\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nOptimize web performance through network protocols, resource loading, and browser rendering internals. Use when the user mentions \"page load speed\", \"Core Web Vitals\", \"HTTP/2\", \"resource hints\", \"network latency\", \"render blocking\", \"TCP optimization\", \"service worker\", or \"critical rendering…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/high-perf-browser\n"
+  },
+  {
+    "slug": "books-hooked-ux",
+    "name": "Hooked Ux",
+    "category": "business",
+    "description": "Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming back\", \"engagement loops\", \"habit formation\", \"push notifications\"…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/hooked-ux",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Hooked Ux\ndescription: Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", \"variable rewards\", \"daily active users\", \"habit zone\", or \"user retention…\n---\n\n# Hooked Ux\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", \"variable rewards\", \"daily active users\", \"habit zone\", or \"user retention…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/hooked-ux\n"
+  },
+  {
+    "slug": "books-hundred-million-offers",
+    "name": "Hundred Million Offers",
+    "category": "business",
+    "description": "Create irresistible offers using the Value Equation, bonus stacking, risk-reversing guarantees, and ethical scarcity. Use when the user mentions \"pricing strategy\", \"irresistible offer\", \"bonuses and guarantees\", \"val…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/hundred-million-offers",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Hundred Million Offers\ndescription: Create irresistible offers using the Value Equation, bonus stacking, risk-reversing guarantees, and ethical scarcity. Use when the user mentions \"pricing strategy\", \"irresistible offer\", \"bonuses and guarantees\", \"value-to-price ratio\", \"offer naming\", \"grand slam offer\", \"guarantee strategy\",…\n---\n\n# Hundred Million Offers\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nCreate irresistible offers using the Value Equation, bonus stacking, risk-reversing guarantees, and ethical scarcity. Use when the user mentions \"pricing strategy\", \"irresistible offer\", \"bonuses and guarantees\", \"value-to-price ratio\", \"offer naming\", \"grand slam offer\", \"guarantee strategy\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/hundred-million-offers\n"
+  },
+  {
+    "slug": "books-improve-retention",
+    "name": "Improve Retention",
+    "category": "business",
+    "description": "Diagnose and fix retention problems using behavior design (B=MAP). Use when the user mentions \"users drop off\", \"activation rate\", \"onboarding friction\", \"retention metrics\", \"why users dont complete\", \"churn analysis…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/improve-retention",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Improve Retention\ndescription: Diagnose and fix retention problems using behavior design (B=MAP). Use when the user mentions \"users drop off\", \"activation rate\", \"onboarding friction\", \"retention metrics\", \"why users dont complete\", \"churn analysis\", \"user activation\", or \"aha moment\". Also trigger when analyzing cohort…\n---\n\n# Improve Retention\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDiagnose and fix retention problems using behavior design (B=MAP). Use when the user mentions \"users drop off\", \"activation rate\", \"onboarding friction\", \"retention metrics\", \"why users dont complete\", \"churn analysis\", \"user activation\", or \"aha moment\". Also trigger when analyzing cohort…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/improve-retention\n"
+  },
+  {
+    "slug": "books-influence-psychology",
+    "name": "Influence Psychology",
+    "category": "business",
+    "description": "Apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. Use when the user mentions \"social proof\", \"persuasive copy\", \"wh…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/influence-psychology",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Influence Psychology\ndescription: Apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. Use when the user mentions \"social proof\", \"persuasive copy\", \"why users dont convert\", \"ethical persuasion\", \"reciprocity\", \"scarcity tactics\",…\n---\n\n# Influence Psychology\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nApply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. Use when the user mentions \"social proof\", \"persuasive copy\", \"why users dont convert\", \"ethical persuasion\", \"reciprocity\", \"scarcity tactics\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/influence-psychology\n"
+  },
+  {
+    "slug": "books-inspired-product",
+    "name": "Inspired Product",
+    "category": "business",
+    "description": "Build empowered product teams using discovery and delivery dual-track. Use when the user mentions \"product discovery\", \"empowered teams\", \"feature factory\", \"product roadmap\", \"opportunity assessment\", \"product vision…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/inspired-product",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Inspired Product\ndescription: Build empowered product teams using discovery and delivery dual-track. Use when the user mentions \"product discovery\", \"empowered teams\", \"feature factory\", \"product roadmap\", \"opportunity assessment\", \"product vision\", \"product-led growth\", or \"discovery vs delivery\". Also trigger when…\n---\n\n# Inspired Product\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild empowered product teams using discovery and delivery dual-track. Use when the user mentions \"product discovery\", \"empowered teams\", \"feature factory\", \"product roadmap\", \"opportunity assessment\", \"product vision\", \"product-led growth\", or \"discovery vs delivery\". Also trigger when…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/inspired-product\n"
+  },
+  {
+    "slug": "books-ios-hig-design",
+    "name": "Ios Hig Design",
+    "category": "business",
+    "description": "Design native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \"Dynamic Island\", \"safe areas\", \"HIG compliance\", \"SF Symbols\", \"hap…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/ios-hig-design",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Ios Hig Design\ndescription: Design native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \"Dynamic Island\", \"safe areas\", \"HIG compliance\", \"SF Symbols\", \"haptic feedback\", or \"iOS accessibility\". Also trigger when building tab bars,…\n---\n\n# Ios Hig Design\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \"Dynamic Island\", \"safe areas\", \"HIG compliance\", \"SF Symbols\", \"haptic feedback\", or \"iOS accessibility\". Also trigger when building tab bars,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/ios-hig-design\n"
+  },
+  {
+    "slug": "books-jobs-to-be-done",
+    "name": "Jobs To Be Done",
+    "category": "business",
+    "description": "Discover what customers truly need by analyzing the \"job\" they hire your product to do. Use when the user mentions \"customer discovery\", \"why customers churn\", \"what job does this solve\", \"competing against luck\", \"pr…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/jobs-to-be-done",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Jobs To Be Done\ndescription: Discover what customers truly need by analyzing the \"job\" they hire your product to do. Use when the user mentions \"customer discovery\", \"why customers churn\", \"what job does this solve\", \"competing against luck\", \"product-market fit\", \"switching behavior\", \"milkshake moment\", or \"functional vs…\n---\n\n# Jobs To Be Done\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDiscover what customers truly need by analyzing the \"job\" they hire your product to do. Use when the user mentions \"customer discovery\", \"why customers churn\", \"what job does this solve\", \"competing against luck\", \"product-market fit\", \"switching behavior\", \"milkshake moment\", or \"functional vs…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/jobs-to-be-done\n"
+  },
+  {
+    "slug": "books-lean-analytics",
+    "name": "Lean Analytics",
+    "category": "business",
+    "description": "Choose and audit startup metrics using Alistair Croll and Benjamin Yoskovitz''s \"Lean Analytics: Use Data to Build a Better Startup Faster\". Use when the user mentions \"what metrics should we track\", \"KPIs\", \"north st…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/lean-analytics",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Lean Analytics\ndescription: Choose and audit startup metrics using Alistair Croll and Benjamin Yoskovitz''s \"Lean Analytics: Use Data to Build a Better Startup Faster\". Use when the user mentions \"what metrics should we track\", \"KPIs\", \"north star metric\", \"One Metric That Matters\", \"OMTM\", \"vanity metrics\", \"analytics…\n---\n\n# Lean Analytics\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nChoose and audit startup metrics using Alistair Croll and Benjamin Yoskovitz''s \"Lean Analytics: Use Data to Build a Better Startup Faster\". Use when the user mentions \"what metrics should we track\", \"KPIs\", \"north star metric\", \"One Metric That Matters\", \"OMTM\", \"vanity metrics\", \"analytics…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/lean-analytics\n"
+  },
+  {
+    "slug": "books-lean-startup",
+    "name": "Lean Startup",
+    "category": "business",
+    "description": "Design MVPs, validated learning experiments, and pivot-or-persevere decisions using Build-Measure-Learn. Use when the user mentions \"MVP scope\", \"validated learning\", \"pivot or persevere\", \"vanity metrics\", \"test assu…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/lean-startup",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Lean Startup\ndescription: Design MVPs, validated learning experiments, and pivot-or-persevere decisions using Build-Measure-Learn. Use when the user mentions \"MVP scope\", \"validated learning\", \"pivot or persevere\", \"vanity metrics\", \"test assumptions\", \"innovation accounting\", \"build-measure-learn\", or \"minimum viable…\n---\n\n# Lean Startup\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign MVPs, validated learning experiments, and pivot-or-persevere decisions using Build-Measure-Learn. Use when the user mentions \"MVP scope\", \"validated learning\", \"pivot or persevere\", \"vanity metrics\", \"test assumptions\", \"innovation accounting\", \"build-measure-learn\", or \"minimum viable…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/lean-startup\n"
+  },
+  {
+    "slug": "books-lean-ux",
+    "name": "Lean Ux",
+    "category": "business",
+    "description": "Apply lean thinking to UX: hypothesis-driven design, collaborative sketching, and rapid experiments instead of heavy deliverables. Use when the user mentions \"Lean UX\", \"design hypothesis\", \"UX experiment\", \"collabora…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/lean-ux",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Lean Ux\ndescription: Apply lean thinking to UX: hypothesis-driven design, collaborative sketching, and rapid experiments instead of heavy deliverables. Use when the user mentions \"Lean UX\", \"design hypothesis\", \"UX experiment\", \"collaborative design\", \"outcome over output\", \"design studio method\", \"assumption…\n---\n\n# Lean Ux\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nApply lean thinking to UX: hypothesis-driven design, collaborative sketching, and rapid experiments instead of heavy deliverables. Use when the user mentions \"Lean UX\", \"design hypothesis\", \"UX experiment\", \"collaborative design\", \"outcome over output\", \"design studio method\", \"assumption…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/lean-ux\n"
+  },
+  {
+    "slug": "books-made-to-stick",
+    "name": "Made To Stick",
+    "category": "business",
+    "description": "Craft messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional, Stories). Use when the user mentions \"make it memorable\", \"sticky messag…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/made-to-stick",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Made To Stick\ndescription: Craft messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional, Stories). Use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", \"why the message isnt landing\",…\n---\n\n# Made To Stick\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nCraft messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional, Stories). Use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", \"why the message isnt landing\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/made-to-stick\n"
+  },
+  {
+    "slug": "books-microinteractions",
+    "name": "Microinteractions",
+    "category": "business",
+    "description": "Design the small details -- triggers, rules, feedback, loops and modes -- that separate good products from great ones. Use when the user mentions \"microinteraction\", \"button feedback\", \"loading state\", \"toggle design\"…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/microinteractions",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Microinteractions\ndescription: Design the small details -- triggers, rules, feedback, loops and modes -- that separate good products from great ones. Use when the user mentions \"microinteraction\", \"button feedback\", \"loading state\", \"toggle design\", \"animation detail\", \"interaction polish\", \"state transitions\", or \"input…\n---\n\n# Microinteractions\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign the small details -- triggers, rules, feedback, loops and modes -- that separate good products from great ones. Use when the user mentions \"microinteraction\", \"button feedback\", \"loading state\", \"toggle design\", \"animation detail\", \"interaction polish\", \"state transitions\", or \"input…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/microinteractions\n"
+  },
+  {
+    "slug": "books-mom-test",
+    "name": "Mom Test",
+    "category": "business",
+    "description": "Talk to customers without leading them using Mom Test rules: discuss their life not your idea, ask about specifics in the past, and talk less. Use when the user mentions \"customer interviews\", \"validate my idea\", \"use…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/mom-test",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Mom Test\ndescription: Talk to customers without leading them using Mom Test rules: discuss their life not your idea, ask about specifics in the past, and talk less. Use when the user mentions \"customer interviews\", \"validate my idea\", \"users say they want it but dont buy\", \"leading questions\", \"The Mom Test\",…\n---\n\n# Mom Test\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nTalk to customers without leading them using Mom Test rules: discuss their life not your idea, ask about specifics in the past, and talk less. Use when the user mentions \"customer interviews\", \"validate my idea\", \"users say they want it but dont buy\", \"leading questions\", \"The Mom Test\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/mom-test\n"
+  },
+  {
+    "slug": "books-monetizing-innovation",
+    "name": "Monetizing Innovation",
+    "category": "business",
+    "description": "Design products and pricing around validated willingness to pay using Madhavan Ramanujam & Georg Tacke''s \"Monetizing Innovation\". Use when the user mentions \"pricing\", \"how much should we charge\", \"willingness to pay…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/monetizing-innovation",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Monetizing Innovation\ndescription: Design products and pricing around validated willingness to pay using Madhavan Ramanujam & Georg Tacke''s \"Monetizing Innovation\". Use when the user mentions \"pricing\", \"how much should we charge\", \"willingness to pay\", \"pricing page\", \"pricing tiers\", \"packaging\", \"freemium vs free trial\",…\n---\n\n# Monetizing Innovation\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign products and pricing around validated willingness to pay using Madhavan Ramanujam & Georg Tacke''s \"Monetizing Innovation\". Use when the user mentions \"pricing\", \"how much should we charge\", \"willingness to pay\", \"pricing page\", \"pricing tiers\", \"packaging\", \"freemium vs free trial\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/monetizing-innovation\n"
+  },
+  {
+    "slug": "books-negotiation",
+    "name": "Negotiation",
+    "category": "business",
+    "description": "Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/negotiation",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Negotiation\ndescription: Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", \"difficult conversation\", \"deal terms\", \"BATNA\", or \"anchoring\". Also…\n---\n\n# Negotiation\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nPrepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", \"difficult conversation\", \"deal terms\", \"BATNA\", or \"anchoring\". Also…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/negotiation\n"
+  },
+  {
+    "slug": "books-obviously-awesome",
+    "name": "Obviously Awesome",
+    "category": "business",
+    "description": "Define product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the user mentions \"positioning\", \"competitive alternatives\", \"how to pos…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/obviously-awesome",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Obviously Awesome\ndescription: Define product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", \"why customers dont get it\", \"positioning canvas\",…\n---\n\n# Obviously Awesome\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDefine product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", \"why customers dont get it\", \"positioning canvas\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/obviously-awesome\n"
+  },
+  {
+    "slug": "books-one-page-marketing",
+    "name": "One Page Marketing",
+    "category": "business",
+    "description": "Build a complete marketing plan covering the full customer journey from stranger to raving fan. Use when the user mentions \"marketing plan\", \"target market\", \"USP\", \"lead nurture\", \"customer lifetime value\", \"referral…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/one-page-marketing",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: One Page Marketing\ndescription: Build a complete marketing plan covering the full customer journey from stranger to raving fan. Use when the user mentions \"marketing plan\", \"target market\", \"USP\", \"lead nurture\", \"customer lifetime value\", \"referral program\", \"marketing strategy\", or \"PVP Index\". Also trigger when building a…\n---\n\n# One Page Marketing\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild a complete marketing plan covering the full customer journey from stranger to raving fan. Use when the user mentions \"marketing plan\", \"target market\", \"USP\", \"lead nurture\", \"customer lifetime value\", \"referral program\", \"marketing strategy\", or \"PVP Index\". Also trigger when building a…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/one-page-marketing\n"
+  },
+  {
+    "slug": "books-pragmatic-programmer",
+    "name": "Pragmatic Programmer",
+    "category": "business",
+    "description": "Apply meta-principles of software craftsmanship: DRY, orthogonality, tracer bullets, and design by contract. Use when the user mentions \"best practices\", \"pragmatic approach\", \"broken windows\", \"tracer bullet\", \"softw…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/pragmatic-programmer",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Pragmatic Programmer\ndescription: Apply meta-principles of software craftsmanship: DRY, orthogonality, tracer bullets, and design by contract. Use when the user mentions \"best practices\", \"pragmatic approach\", \"broken windows\", \"tracer bullet\", \"software craftsmanship\", \"technical debt prevention\", \"prototype vs tracer bullet\",…\n---\n\n# Pragmatic Programmer\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nApply meta-principles of software craftsmanship: DRY, orthogonality, tracer bullets, and design by contract. Use when the user mentions \"best practices\", \"pragmatic approach\", \"broken windows\", \"tracer bullet\", \"software craftsmanship\", \"technical debt prevention\", \"prototype vs tracer bullet\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/pragmatic-programmer\n"
+  },
+  {
+    "slug": "books-predictable-revenue",
+    "name": "Predictable Revenue",
+    "category": "business",
+    "description": "Build a scalable outbound B2B sales process with specialized roles (SDR, AE, CSM). Use when the user mentions \"outbound sales\", \"Cold Calling 2.0\", \"prospecting emails\", \"sales pipeline\", \"SDR process\", \"B2B SaaS sale…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/predictable-revenue",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Predictable Revenue\ndescription: Build a scalable outbound B2B sales process with specialized roles (SDR, AE, CSM). Use when the user mentions \"outbound sales\", \"Cold Calling 2.0\", \"prospecting emails\", \"sales pipeline\", \"SDR process\", \"B2B SaaS sales\", \"sales development\", or \"pipeline velocity\". Also trigger when setting up a…\n---\n\n# Predictable Revenue\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild a scalable outbound B2B sales process with specialized roles (SDR, AE, CSM). Use when the user mentions \"outbound sales\", \"Cold Calling 2.0\", \"prospecting emails\", \"sales pipeline\", \"SDR process\", \"B2B SaaS sales\", \"sales development\", or \"pipeline velocity\". Also trigger when setting up a…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/predictable-revenue\n"
+  },
+  {
+    "slug": "books-refactoring-patterns",
+    "name": "Refactoring Patterns",
+    "category": "business",
+    "description": "Apply named refactoring transformations to improve code structure without changing behavior. Use when the user mentions \"refactor this\", \"code smells\", \"extract method\", \"replace conditional\", \"technical debt\", \"move …",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/refactoring-patterns",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Refactoring Patterns\ndescription: Apply named refactoring transformations to improve code structure without changing behavior. Use when the user mentions \"refactor this\", \"code smells\", \"extract method\", \"replace conditional\", \"technical debt\", \"move method\", \"inline variable\", or \"decompose conditional\". Also trigger when…\n---\n\n# Refactoring Patterns\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nApply named refactoring transformations to improve code structure without changing behavior. Use when the user mentions \"refactor this\", \"code smells\", \"extract method\", \"replace conditional\", \"technical debt\", \"move method\", \"inline variable\", or \"decompose conditional\". Also trigger when…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/refactoring-patterns\n"
+  },
+  {
+    "slug": "books-refactoring-ui",
+    "name": "Refactoring Ui",
+    "category": "business",
+    "description": "Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\", \"fix the design\", \"Tailwind styling\", \"color palette\", \"visual hierarchy\", \"design system\", \"spacing …",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/refactoring-ui",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Refactoring Ui\ndescription: Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\", \"fix the design\", \"Tailwind styling\", \"color palette\", \"visual hierarchy\", \"design system\", \"spacing scale\", or \"component styling\". Also trigger when building consistent design…\n---\n\n# Refactoring Ui\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nAudit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\", \"fix the design\", \"Tailwind styling\", \"color palette\", \"visual hierarchy\", \"design system\", \"spacing scale\", or \"component styling\". Also trigger when building consistent design…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/refactoring-ui\n"
+  },
+  {
+    "slug": "books-release-it",
+    "name": "Release It",
+    "category": "business",
+    "description": "Build production-ready systems with stability patterns: circuit breakers, bulkheads, timeouts, and retry logic. Use when the user mentions \"production outage\", \"circuit breaker\", \"timeout strategy\", \"deployment pipeli…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/release-it",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Release It\ndescription: Build production-ready systems with stability patterns: circuit breakers, bulkheads, timeouts, and retry logic. Use when the user mentions \"production outage\", \"circuit breaker\", \"timeout strategy\", \"deployment pipeline\", \"chaos engineering\", \"bulkhead pattern\", \"retry with backoff\", or \"health…\n---\n\n# Release It\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild production-ready systems with stability patterns: circuit breakers, bulkheads, timeouts, and retry logic. Use when the user mentions \"production outage\", \"circuit breaker\", \"timeout strategy\", \"deployment pipeline\", \"chaos engineering\", \"bulkhead pattern\", \"retry with backoff\", or \"health…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/release-it\n"
+  },
+  {
+    "slug": "books-scorecard-marketing",
+    "name": "Scorecard Marketing",
+    "category": "business",
+    "description": "Build quiz and assessment funnels that generate qualified leads at 30-50% conversion. Use when the user mentions \"lead magnet\", \"quiz funnel\", \"assessment tool\", \"lead generation\", \"score-based segmentation\", \"interac…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/scorecard-marketing",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Scorecard Marketing\ndescription: Build quiz and assessment funnels that generate qualified leads at 30-50% conversion. Use when the user mentions \"lead magnet\", \"quiz funnel\", \"assessment tool\", \"lead generation\", \"score-based segmentation\", \"interactive content\", \"lead qualification\", or \"quiz marketing\". Also trigger when…\n---\n\n# Scorecard Marketing\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nBuild quiz and assessment funnels that generate qualified leads at 30-50% conversion. Use when the user mentions \"lead magnet\", \"quiz funnel\", \"assessment tool\", \"lead generation\", \"score-based segmentation\", \"interactive content\", \"lead qualification\", or \"quiz marketing\". Also trigger when…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/scorecard-marketing\n"
+  },
+  {
+    "slug": "books-software-design-philosophy",
+    "name": "Software Design Philosophy",
+    "category": "business",
+    "description": "Manage software complexity through deep modules, information hiding, and strategic programming. Use when the user mentions \"module design\", \"API too complex\", \"shallow class\", \"complexity budget\", \"strategic vs tactic…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/software-design-philosophy",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Software Design Philosophy\ndescription: Manage software complexity through deep modules, information hiding, and strategic programming. Use when the user mentions \"module design\", \"API too complex\", \"shallow class\", \"complexity budget\", \"strategic vs tactical\", \"deep module\", \"information leakage\", or \"pass-through method\". Also…\n---\n\n# Software Design Philosophy\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nManage software complexity through deep modules, information hiding, and strategic programming. Use when the user mentions \"module design\", \"API too complex\", \"shallow class\", \"complexity budget\", \"strategic vs tactical\", \"deep module\", \"information leakage\", or \"pass-through method\". Also…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/software-design-philosophy\n"
+  },
+  {
+    "slug": "books-steve-jobs-design-review",
+    "name": "Steve Jobs Design Review",
+    "category": "business",
+    "description": "Review designs, products, and features with Steve Jobs'' standards: ruthless simplicity, focus, and end-to-end excellence. Use when the user mentions \"Steve Jobs review\", \"design review\", \"product review\", \"what would…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/steve-jobs-design-review",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Steve Jobs Design Review\ndescription: Review designs, products, and features with Steve Jobs'' standards: ruthless simplicity, focus, and end-to-end excellence. Use when the user mentions \"Steve Jobs review\", \"design review\", \"product review\", \"what would Steve do\", \"insanely great\", \"simplify this product\", \"too many features\",…\n---\n\n# Steve Jobs Design Review\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nReview designs, products, and features with Steve Jobs'' standards: ruthless simplicity, focus, and end-to-end excellence. Use when the user mentions \"Steve Jobs review\", \"design review\", \"product review\", \"what would Steve do\", \"insanely great\", \"simplify this product\", \"too many features\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/steve-jobs-design-review\n"
+  },
+  {
+    "slug": "books-storybrand-messaging",
+    "name": "Storybrand Messaging",
+    "category": "business",
+    "description": "Clarify brand messaging using narrative structure that positions the customer as hero. Use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isnt resonating\", \"brand scr…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/storybrand-messaging",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Storybrand Messaging\ndescription: Clarify brand messaging using narrative structure that positions the customer as hero. Use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isnt resonating\", \"brand script\", \"StoryBrand framework\", or \"customer as hero\". Also trigger when…\n---\n\n# Storybrand Messaging\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nClarify brand messaging using narrative structure that positions the customer as hero. Use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isnt resonating\", \"brand script\", \"StoryBrand framework\", or \"customer as hero\". Also trigger when…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/storybrand-messaging\n"
+  },
+  {
+    "slug": "books-system-design",
+    "name": "System Design",
+    "category": "business",
+    "description": "Design scalable distributed systems using structured approaches for load balancing, caching, database scaling, and message queues. Use when the user mentions \"system design\", \"scale this\", \"high availability\", \"rate l…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/system-design",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: System Design\ndescription: Design scalable distributed systems using structured approaches for load balancing, caching, database scaling, and message queues. Use when the user mentions \"system design\", \"scale this\", \"high availability\", \"rate limiter\", \"design a URL shortener\", \"system design interview\", \"capacity…\n---\n\n# System Design\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nDesign scalable distributed systems using structured approaches for load balancing, caching, database scaling, and message queues. Use when the user mentions \"system design\", \"scale this\", \"high availability\", \"rate limiter\", \"design a URL shortener\", \"system design interview\", \"capacity…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/system-design\n"
+  },
+  {
+    "slug": "books-team-topologies",
+    "name": "Team Topologies",
+    "category": "business",
+    "description": "Organize business and technology teams for fast flow using Matthew Skelton and Manuel Pais''s \"Team Topologies\". Use when the user mentions \"team topologies\", \"Conway''s law\", \"platform team\", \"stream-aligned team\", \"…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/team-topologies",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Team Topologies\ndescription: Organize business and technology teams for fast flow using Matthew Skelton and Manuel Pais''s \"Team Topologies\". Use when the user mentions \"team topologies\", \"Conway''s law\", \"platform team\", \"stream-aligned team\", \"team boundaries\", \"cognitive load\", \"how should we split teams\", \"org design\",…\n---\n\n# Team Topologies\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nOrganize business and technology teams for fast flow using Matthew Skelton and Manuel Pais''s \"Team Topologies\". Use when the user mentions \"team topologies\", \"Conway''s law\", \"platform team\", \"stream-aligned team\", \"team boundaries\", \"cognitive load\", \"how should we split teams\", \"org design\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/team-topologies\n"
+  },
+  {
+    "slug": "books-top-design",
+    "name": "Top Design",
+    "category": "business",
+    "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", …",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/top-design",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Top Design\ndescription: Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also…\n---\n\n# Top Design\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nCreate award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/top-design\n"
+  },
+  {
+    "slug": "books-traction-eos",
+    "name": "Traction Eos",
+    "category": "business",
+    "description": "Implement the Entrepreneurial Operating System (EOS) to align vision and execution across a company. Use when the user mentions \"EOS\", \"V/TO\", \"quarterly rocks\", \"Level 10 meetings\", \"accountability chart\", \"IDS proce…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/traction-eos",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Traction Eos\ndescription: Implement the Entrepreneurial Operating System (EOS) to align vision and execution across a company. Use when the user mentions \"EOS\", \"V/TO\", \"quarterly rocks\", \"Level 10 meetings\", \"accountability chart\", \"IDS process\", \"Entrepreneurial Operating System\", or \"business operating system\". Also…\n---\n\n# Traction Eos\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nImplement the Entrepreneurial Operating System (EOS) to align vision and execution across a company. Use when the user mentions \"EOS\", \"V/TO\", \"quarterly rocks\", \"Level 10 meetings\", \"accountability chart\", \"IDS process\", \"Entrepreneurial Operating System\", or \"business operating system\". Also…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/traction-eos\n"
+  },
+  {
+    "slug": "books-ux-heuristics",
+    "name": "Ux Heuristics",
+    "category": "business",
+    "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", \"navigation problems\", \"Nie…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/ux-heuristics",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Ux Heuristics\ndescription: Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", \"navigation problems\", \"Nielsen heuristics\", \"cognitive walkthrough\", or \"usability testing\". Also trigger…\n---\n\n# Ux Heuristics\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nEvaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", \"navigation problems\", \"Nielsen heuristics\", \"cognitive walkthrough\", or \"usability testing\". Also trigger…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/ux-heuristics\n"
+  },
+  {
+    "slug": "books-web-typography",
+    "name": "Web Typography",
+    "category": "business",
+    "description": "Select, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typography\", \"web font loading\", \"type hierarchy\", \"variable fonts\", \"FOU…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/web-typography",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Web Typography\ndescription: Select, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typography\", \"web font loading\", \"type hierarchy\", \"variable fonts\", \"FOUT/FOIT\", or \"typographic scale\". Also trigger when choosing between system…\n---\n\n# Web Typography\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nSelect, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typography\", \"web font loading\", \"type hierarchy\", \"variable fonts\", \"FOUT/FOIT\", or \"typographic scale\". Also trigger when choosing between system…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/web-typography\n"
+  },
+  {
+    "slug": "books-working-with-legacy-code",
+    "name": "Working With Legacy Code",
+    "category": "business",
+    "description": "Safely change and test untested codebases using Michael C. Feathers'' \"Working Effectively with Legacy Code\". Use when the user mentions \"legacy code\", \"no tests\", \"untested codebase\", \"how do I test this\", \"seams\", \"…",
+    "author": "wondelai",
+    "source_url": "https://github.com/wondelai/skills/tree/main/working-with-legacy-code",
+    "tags": [
+      "product",
+      "strategy",
+      "design",
+      "methodology"
+    ],
+    "skill_content": "---\nname: Working With Legacy Code\ndescription: Safely change and test untested codebases using Michael C. Feathers'' \"Working Effectively with Legacy Code\". Use when the user mentions \"legacy code\", \"no tests\", \"untested codebase\", \"how do I test this\", \"seams\", \"characterization tests\", \"sprout method\", \"afraid to change this code\",…\n---\n\n# Working With Legacy Code\n\nPart of the **Product & Design Playbooks** pack by wondelai (`wondelai/skills`).\n\nSafely change and test untested codebases using Michael C. Feathers'' \"Working Effectively with Legacy Code\". Use when the user mentions \"legacy code\", \"no tests\", \"untested codebase\", \"how do I test this\", \"seams\", \"characterization tests\", \"sprout method\", \"afraid to change this code\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/wondelai/skills/tree/main/working-with-legacy-code\n"
+  }
+]
