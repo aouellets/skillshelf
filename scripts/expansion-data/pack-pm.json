@@ -1,0 +1,1022 @@
+[
+  {
+    "slug": "pm-intended-vs-implemented",
+    "name": "Intended Vs Implemented",
+    "category": "business",
+    "description": "The method for finding the gap between what a system is supposed to do and what the code actually does — the class of bug generic scanners miss because they have no model of intent. Defines what counts as documented i…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-ai-shipping/skills/intended-vs-implemented",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Intended Vs Implemented\ndescription: The method for finding the gap between what a system is supposed to do and what the code actually does — the class of bug generic scanners miss because they have no model of intent. Defines what counts as documented intent, what counts as implementation evidence, which mismatches matter, and how…\n---\n\n# Intended Vs Implemented\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nThe method for finding the gap between what a system is supposed to do and what the code actually does — the class of bug generic scanners miss because they have no model of intent. Defines what counts as documented intent, what counts as implementation evidence, which mismatches matter, and how…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-ai-shipping/skills/intended-vs-implemented\n"
+  },
+  {
+    "slug": "pm-shipping-artifacts",
+    "name": "Shipping Artifacts",
+    "category": "business",
+    "description": "The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. A small core every app needs — architecture, user/permission flows, permissions, variables/secrets, and a test-coverage…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-ai-shipping/skills/shipping-artifacts",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Shipping Artifacts\ndescription: The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. A small core every app needs — architecture, user/permission flows, permissions, variables/secrets, and a test-coverage map — plus conditional docs added only when they apply: emails, scheduled…\n---\n\n# Shipping Artifacts\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nThe durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. A small core every app needs — architecture, user/permission flows, permissions, variables/secrets, and a test-coverage map — plus conditional docs added only when they apply: emails, scheduled…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-ai-shipping/skills/shipping-artifacts\n"
+  },
+  {
+    "slug": "pm-ab-test-analysis",
+    "name": "Ab Test Analysis",
+    "category": "business",
+    "description": "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significan…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Ab Test Analysis\ndescription: Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.\n---\n\n# Ab Test Analysis\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nAnalyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis\n"
+  },
+  {
+    "slug": "pm-cohort-analysis",
+    "name": "Cohort Analysis",
+    "category": "business",
+    "description": "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Cohort Analysis\ndescription: Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.\n---\n\n# Cohort Analysis\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPerform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis\n"
+  },
+  {
+    "slug": "pm-sql-queries",
+    "name": "Sql Queries",
+    "category": "business",
+    "description": "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data re…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/sql-queries",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Sql Queries\ndescription: Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.\n---\n\n# Sql Queries\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/sql-queries\n"
+  },
+  {
+    "slug": "pm-brainstorm-okrs",
+    "name": "Brainstorm Okrs",
+    "category": "business",
+    "description": "Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or lear…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Brainstorm Okrs\ndescription: Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.\n---\n\n# Brainstorm Okrs\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs\n"
+  },
+  {
+    "slug": "pm-create-prd",
+    "name": "Create Prd",
+    "category": "business",
+    "description": "Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product r…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Create Prd\ndescription: Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.\n---\n\n# Create Prd\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd\n"
+  },
+  {
+    "slug": "pm-dummy-dataset",
+    "name": "Dummy Dataset",
+    "category": "business",
+    "description": "Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Dummy Dataset\ndescription: Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.\n---\n\n# Dummy Dataset\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset\n"
+  },
+  {
+    "slug": "pm-job-stories",
+    "name": "Job Stories",
+    "category": "business",
+    "description": "Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/job-stories",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Job Stories\ndescription: Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations.\n---\n\n# Job Stories\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/job-stories\n"
+  },
+  {
+    "slug": "pm-outcome-roadmap",
+    "name": "Outcome Roadmap",
+    "category": "business",
+    "description": "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmap…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/outcome-roadmap",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Outcome Roadmap\ndescription: Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.\n---\n\n# Outcome Roadmap\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nTransform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/outcome-roadmap\n"
+  },
+  {
+    "slug": "pm-pre-mortem",
+    "name": "Pre Mortem",
+    "category": "business",
+    "description": "Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/pre-mortem",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Pre Mortem\ndescription: Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or…\n---\n\n# Pre Mortem\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nRun a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/pre-mortem\n"
+  },
+  {
+    "slug": "pm-prioritization-frameworks",
+    "name": "Prioritization Frameworks",
+    "category": "business",
+    "description": "Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing framework…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/prioritization-frameworks",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Prioritization Frameworks\ndescription: Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.\n---\n\n# Prioritization Frameworks\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nReference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/prioritization-frameworks\n"
+  },
+  {
+    "slug": "pm-release-notes",
+    "name": "Release Notes",
+    "category": "business",
+    "description": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, a…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/release-notes",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Release Notes\ndescription: Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.\n---\n\n# Release Notes\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/release-notes\n"
+  },
+  {
+    "slug": "pm-retro",
+    "name": "Retro",
+    "category": "business",
+    "description": "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/retro",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Retro\ndescription: Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros.\n---\n\n# Retro\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nFacilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/retro\n"
+  },
+  {
+    "slug": "pm-sprint-plan",
+    "name": "Sprint Plan",
+    "category": "business",
+    "description": "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope agai…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/sprint-plan",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Sprint Plan\ndescription: Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.\n---\n\n# Sprint Plan\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPlan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/sprint-plan\n"
+  },
+  {
+    "slug": "pm-stakeholder-map",
+    "name": "Stakeholder Map",
+    "category": "business",
+    "description": "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/stakeholder-map",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Stakeholder Map\ndescription: Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.\n---\n\n# Stakeholder Map\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBuild a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/stakeholder-map\n"
+  },
+  {
+    "slug": "pm-strategy-red-team",
+    "name": "Strategy Red Team",
+    "category": "business",
+    "description": "Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the ch…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/strategy-red-team",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Strategy Red Team\ndescription: Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the cheapest test and kill criteria for each. Use when stress-testing a plan,…\n---\n\n# Strategy Red Team\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nRed-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the cheapest test and kill criteria for each. Use when stress-testing a plan,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/strategy-red-team\n"
+  },
+  {
+    "slug": "pm-summarize-meeting",
+    "name": "Summarize Meeting",
+    "category": "business",
+    "description": "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting min…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/summarize-meeting",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Summarize Meeting\ndescription: Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.\n---\n\n# Summarize Meeting\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nSummarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/summarize-meeting\n"
+  },
+  {
+    "slug": "pm-test-scenarios",
+    "name": "Test Scenarios",
+    "category": "business",
+    "description": "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining a…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/test-scenarios",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Test Scenarios\ndescription: Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.\n---\n\n# Test Scenarios\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/test-scenarios\n"
+  },
+  {
+    "slug": "pm-user-stories",
+    "name": "User Stories",
+    "category": "business",
+    "description": "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backl…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/user-stories",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: User Stories\ndescription: Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.\n---\n\n# User Stories\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/user-stories\n"
+  },
+  {
+    "slug": "pm-wwas",
+    "name": "Wwas",
+    "category": "business",
+    "description": "Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/wwas",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Wwas\ndescription: Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format.\n---\n\n# Wwas\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/wwas\n"
+  },
+  {
+    "slug": "pm-beachhead-segment",
+    "name": "Beachhead Segment",
+    "category": "business",
+    "description": "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/beachhead-segment",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Beachhead Segment\ndescription: Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.\n---\n\n# Beachhead Segment\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/beachhead-segment\n"
+  },
+  {
+    "slug": "pm-competitive-battlecard",
+    "name": "Competitive Battlecard",
+    "category": "business",
+    "description": "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating co…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/competitive-battlecard",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Competitive Battlecard\ndescription: Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?\n---\n\n# Competitive Battlecard\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/competitive-battlecard\n"
+  },
+  {
+    "slug": "pm-growth-loops",
+    "name": "Growth Loops",
+    "category": "business",
+    "description": "Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or un…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/growth-loops",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Growth Loops\ndescription: Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.\n---\n\n# Growth Loops\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/growth-loops\n"
+  },
+  {
+    "slug": "pm-gtm-motions",
+    "name": "Gtm Motions",
+    "category": "business",
+    "description": "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy,…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Gtm Motions\ndescription: Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.\n---\n\n# Gtm Motions\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions\n"
+  },
+  {
+    "slug": "pm-gtm-strategy",
+    "name": "Gtm Strategy",
+    "category": "business",
+    "description": "Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a ne…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-strategy",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Gtm Strategy\ndescription: Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market.\n---\n\n# Gtm Strategy\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-strategy\n"
+  },
+  {
+    "slug": "pm-ideal-customer-profile",
+    "name": "Ideal Customer Profile",
+    "category": "business",
+    "description": "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/ideal-customer-profile",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Ideal Customer Profile\ndescription: Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.\n---\n\n# Ideal Customer Profile\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/ideal-customer-profile\n"
+  },
+  {
+    "slug": "pm-competitor-analysis",
+    "name": "Competitor Analysis",
+    "category": "business",
+    "description": "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/competitor-analysis",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Competitor Analysis\ndescription: Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.\n---\n\n# Competitor Analysis\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nAnalyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/competitor-analysis\n"
+  },
+  {
+    "slug": "pm-customer-journey-map",
+    "name": "Customer Journey Map",
+    "category": "business",
+    "description": "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Customer Journey Map\ndescription: Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.\n---\n\n# Customer Journey Map\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map\n"
+  },
+  {
+    "slug": "pm-market-segments",
+    "name": "Market Segments",
+    "category": "business",
+    "description": "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Market Segments\ndescription: Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.\n---\n\n# Market Segments\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments\n"
+  },
+  {
+    "slug": "pm-market-sizing",
+    "name": "Market Sizing",
+    "category": "business",
+    "description": "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Market Sizing\ndescription: Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.\n---\n\n# Market Sizing\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nEstimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing\n"
+  },
+  {
+    "slug": "pm-sentiment-analysis",
+    "name": "Sentiment Analysis",
+    "category": "business",
+    "description": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifyi…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/sentiment-analysis",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Sentiment Analysis\ndescription: Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.\n---\n\n# Sentiment Analysis\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nAnalyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/sentiment-analysis\n"
+  },
+  {
+    "slug": "pm-user-personas",
+    "name": "User Personas",
+    "category": "business",
+    "description": "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-personas",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: User Personas\ndescription: Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.\n---\n\n# User Personas\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-personas\n"
+  },
+  {
+    "slug": "pm-user-segmentation",
+    "name": "User Segmentation",
+    "category": "business",
+    "description": "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: User Segmentation\ndescription: Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.\n---\n\n# User Segmentation\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nSegment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation\n"
+  },
+  {
+    "slug": "pm-marketing-ideas",
+    "name": "Marketing Ideas",
+    "category": "business",
+    "description": "Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/marketing-ideas",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Marketing Ideas\ndescription: Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics.\n---\n\n# Marketing Ideas\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/marketing-ideas\n"
+  },
+  {
+    "slug": "pm-north-star-metric",
+    "name": "North Star Metric",
+    "category": "business",
+    "description": "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North S…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: North Star Metric\ndescription: Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework,…\n---\n\n# North Star Metric\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDefine a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric\n"
+  },
+  {
+    "slug": "pm-positioning-ideas",
+    "name": "Positioning Ideas",
+    "category": "business",
+    "description": "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from compe…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/positioning-ideas",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Positioning Ideas\ndescription: Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.\n---\n\n# Positioning Ideas\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/positioning-ideas\n"
+  },
+  {
+    "slug": "pm-product-name",
+    "name": "Product Name",
+    "category": "business",
+    "description": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/product-name",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Product Name\ndescription: Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.\n---\n\n# Product Name\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/product-name\n"
+  },
+  {
+    "slug": "pm-value-prop-statements",
+    "name": "Value Prop Statements",
+    "category": "business",
+    "description": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Value Prop Statements\ndescription: Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.\n---\n\n# Value Prop Statements\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements\n"
+  },
+  {
+    "slug": "pm-analyze-feature-requests",
+    "name": "Analyze Feature Requests",
+    "category": "business",
+    "description": "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/analyze-feature-requests",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Analyze Feature Requests\ndescription: Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.\n---\n\n# Analyze Feature Requests\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nAnalyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/analyze-feature-requests\n"
+  },
+  {
+    "slug": "pm-brainstorm-experiments-existing",
+    "name": "Brainstorm Experiments Existing",
+    "category": "business",
+    "description": "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning prod…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-existing",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Brainstorm Experiments Existing\ndescription: Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.\n---\n\n# Brainstorm Experiments Existing\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDesign experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-existing\n"
+  },
+  {
+    "slug": "pm-brainstorm-experiments-new",
+    "name": "Brainstorm Experiments New",
+    "category": "business",
+    "description": "Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-new",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Brainstorm Experiments New\ndescription: Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.\n---\n\n# Brainstorm Experiments New\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDesign lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-new\n"
+  },
+  {
+    "slug": "pm-brainstorm-ideas-existing",
+    "name": "Brainstorm Ideas Existing",
+    "category": "business",
+    "description": "Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunit…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-existing",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Brainstorm Ideas Existing\ndescription: Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio.\n---\n\n# Brainstorm Ideas Existing\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-existing\n"
+  },
+  {
+    "slug": "pm-brainstorm-ideas-new",
+    "name": "Brainstorm Ideas New",
+    "category": "business",
+    "description": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing init…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-new",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Brainstorm Ideas New\ndescription: Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.\n---\n\n# Brainstorm Ideas New\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-new\n"
+  },
+  {
+    "slug": "pm-identify-assumptions-existing",
+    "name": "Identify Assumptions Existing",
+    "category": "business",
+    "description": "Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-existing",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Identify Assumptions Existing\ndescription: Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.\n---\n\n# Identify Assumptions Existing\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-existing\n"
+  },
+  {
+    "slug": "pm-identify-assumptions-new",
+    "name": "Identify Assumptions New",
+    "category": "business",
+    "description": "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a n…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-new",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Identify Assumptions New\ndescription: Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.\n---\n\n# Identify Assumptions New\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-new\n"
+  },
+  {
+    "slug": "pm-interview-script",
+    "name": "Interview Script",
+    "category": "business",
+    "description": "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/interview-script",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Interview Script\ndescription: Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning…\n---\n\n# Interview Script\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/interview-script\n"
+  },
+  {
+    "slug": "pm-metrics-dashboard",
+    "name": "Metrics Dashboard",
+    "category": "business",
+    "description": "Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/metrics-dashboard",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Metrics Dashboard\ndescription: Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.\n---\n\n# Metrics Dashboard\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDefine and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/metrics-dashboard\n"
+  },
+  {
+    "slug": "pm-opportunity-solution-tree",
+    "name": "Opportunity Solution Tree",
+    "category": "business",
+    "description": "Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring d…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/opportunity-solution-tree",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Opportunity Solution Tree\ndescription: Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.\n---\n\n# Opportunity Solution Tree\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBuild an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/opportunity-solution-tree\n"
+  },
+  {
+    "slug": "pm-prioritize-assumptions",
+    "name": "Prioritize Assumptions",
+    "category": "business",
+    "description": "Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Prioritize Assumptions\ndescription: Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.\n---\n\n# Prioritize Assumptions\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPrioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions\n"
+  },
+  {
+    "slug": "pm-prioritize-features",
+    "name": "Prioritize Features",
+    "category": "business",
+    "description": "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-features",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Prioritize Features\ndescription: Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.\n---\n\n# Prioritize Features\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPrioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-features\n"
+  },
+  {
+    "slug": "pm-summarize-interview",
+    "name": "Summarize Interview",
+    "category": "business",
+    "description": "Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or cr…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/summarize-interview",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Summarize Interview\ndescription: Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries.\n---\n\n# Summarize Interview\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nSummarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/summarize-interview\n"
+  },
+  {
+    "slug": "pm-ansoff-matrix",
+    "name": "Ansoff Matrix",
+    "category": "business",
+    "description": "Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/ansoff-matrix",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Ansoff Matrix\ndescription: Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or evaluating strategic growth paths.\n---\n\n# Ansoff Matrix\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or evaluating strategic growth paths.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/ansoff-matrix\n"
+  },
+  {
+    "slug": "pm-business-model",
+    "name": "Business Model",
+    "category": "business",
+    "description": "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/business-model",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Business Model\ndescription: Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.\n---\n\n# Business Model\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/business-model\n"
+  },
+  {
+    "slug": "pm-lean-canvas",
+    "name": "Lean Canvas",
+    "category": "business",
+    "description": "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a ne…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/lean-canvas",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Lean Canvas\ndescription: Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.\n---\n\n# Lean Canvas\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/lean-canvas\n"
+  },
+  {
+    "slug": "pm-monetization-strategy",
+    "name": "Monetization Strategy",
+    "category": "business",
+    "description": "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/monetization-strategy",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Monetization Strategy\ndescription: Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.\n---\n\n# Monetization Strategy\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/monetization-strategy\n"
+  },
+  {
+    "slug": "pm-pestle-analysis",
+    "name": "Pestle Analysis",
+    "category": "business",
+    "description": "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affec…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pestle-analysis",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Pestle Analysis\ndescription: Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.\n---\n\n# Pestle Analysis\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPerform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pestle-analysis\n"
+  },
+  {
+    "slug": "pm-porters-five-forces",
+    "name": "Porters Five Forces",
+    "category": "business",
+    "description": "Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evalu…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/porters-five-forces",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Porters Five Forces\ndescription: Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.\n---\n\n# Porters Five Forces\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPerform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/porters-five-forces\n"
+  },
+  {
+    "slug": "pm-pricing-strategy",
+    "name": "Pricing Strategy",
+    "category": "business",
+    "description": "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pr…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pricing-strategy",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Pricing Strategy\ndescription: Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches.\n---\n\n# Pricing Strategy\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nAnalyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pricing-strategy\n"
+  },
+  {
+    "slug": "pm-product-strategy",
+    "name": "Product Strategy",
+    "category": "business",
+    "description": "Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a prod…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Product Strategy\ndescription: Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction.\n---\n\n# Product Strategy\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nCreate a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy\n"
+  },
+  {
+    "slug": "pm-product-vision",
+    "name": "Product Vision",
+    "category": "business",
+    "description": "Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around …",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-vision",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Product Vision\ndescription: Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.\n---\n\n# Product Vision\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nBrainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-vision\n"
+  },
+  {
+    "slug": "pm-startup-canvas",
+    "name": "Startup Canvas",
+    "category": "business",
+    "description": "Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product. An alternative to BMC and Lean Canvas that separates strategy from business model. Use when lau…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/startup-canvas",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Startup Canvas\ndescription: Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product. An alternative to BMC and Lean Canvas that separates strategy from business model. Use when launching a new product or evaluating a startup concept.\n---\n\n# Startup Canvas\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nGenerate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product. An alternative to BMC and Lean Canvas that separates strategy from business model. Use when launching a new product or evaluating a startup concept.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/startup-canvas\n"
+  },
+  {
+    "slug": "pm-swot-analysis",
+    "name": "Swot Analysis",
+    "category": "business",
+    "description": "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business posi…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Swot Analysis\ndescription: Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.\n---\n\n# Swot Analysis\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nPerform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis\n"
+  },
+  {
+    "slug": "pm-value-proposition",
+    "name": "Value Proposition",
+    "category": "business",
+    "description": "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why cu…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/value-proposition",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Value Proposition\ndescription: Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.\n---\n\n# Value Proposition\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDesign a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/value-proposition\n"
+  },
+  {
+    "slug": "pm-draft-nda",
+    "name": "Draft Nda",
+    "category": "business",
+    "description": "Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partners…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/draft-nda",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Draft Nda\ndescription: Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership.\n---\n\n# Draft Nda\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDraft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/draft-nda\n"
+  },
+  {
+    "slug": "pm-grammar-check",
+    "name": "Grammar Check",
+    "category": "business",
+    "description": "Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Grammar Check\ndescription: Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.\n---\n\n# Grammar Check\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nIdentify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check\n"
+  },
+  {
+    "slug": "pm-privacy-policy",
+    "name": "Privacy Policy",
+    "category": "business",
+    "description": "Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or p…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/privacy-policy",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Privacy Policy\ndescription: Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.\n---\n\n# Privacy Policy\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nDraft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/privacy-policy\n"
+  },
+  {
+    "slug": "pm-review-resume",
+    "name": "Review Resume",
+    "category": "business",
+    "description": "Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applicatio…",
+    "author": "phuryn",
+    "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/review-resume",
+    "tags": [
+      "product-management",
+      "strategy",
+      "go-to-market",
+      "discovery"
+    ],
+    "skill_content": "---\nname: Review Resume\ndescription: Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applications, or improving resume impact.\n---\n\n# Review Resume\n\nPart of the **Product Manager Marketplace** pack by phuryn (`phuryn/pm-skills`).\n\nComprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applications, or improving resume impact.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/review-resume\n"
+  }
+]

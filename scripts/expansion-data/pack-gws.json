@@ -1,0 +1,1427 @@
+[
+  {
+    "slug": "gws-gws-admin-reports",
+    "name": "Gws Admin Reports",
+    "category": "productivity",
+    "description": "Google Workspace Admin SDK: Audit logs and usage reports.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-admin-reports",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Admin Reports\ndescription: Google Workspace Admin SDK: Audit logs and usage reports.\n---\n\n# Gws Admin Reports\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workspace Admin SDK: Audit logs and usage reports.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-admin-reports\n"
+  },
+  {
+    "slug": "gws-gws-calendar-agenda",
+    "name": "Gws Calendar Agenda",
+    "category": "productivity",
+    "description": "Google Calendar: Show upcoming events across all calendars.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar-agenda",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Calendar Agenda\ndescription: Google Calendar: Show upcoming events across all calendars.\n---\n\n# Gws Calendar Agenda\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Calendar: Show upcoming events across all calendars.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar-agenda\n"
+  },
+  {
+    "slug": "gws-gws-calendar-insert",
+    "name": "Gws Calendar Insert",
+    "category": "productivity",
+    "description": "Google Calendar: Create a new event.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar-insert",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Calendar Insert\ndescription: Google Calendar: Create a new event.\n---\n\n# Gws Calendar Insert\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Calendar: Create a new event.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar-insert\n"
+  },
+  {
+    "slug": "gws-gws-calendar",
+    "name": "Gws Calendar",
+    "category": "productivity",
+    "description": "Google Calendar: Manage calendars and events.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Calendar\ndescription: Google Calendar: Manage calendars and events.\n---\n\n# Gws Calendar\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Calendar: Manage calendars and events.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar\n"
+  },
+  {
+    "slug": "gws-gws-chat-send",
+    "name": "Gws Chat Send",
+    "category": "productivity",
+    "description": "Google Chat: Send a message to a space.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-chat-send",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Chat Send\ndescription: Google Chat: Send a message to a space.\n---\n\n# Gws Chat Send\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Chat: Send a message to a space.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-chat-send\n"
+  },
+  {
+    "slug": "gws-gws-chat",
+    "name": "Gws Chat",
+    "category": "productivity",
+    "description": "Google Chat: Manage Chat spaces and messages.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-chat",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Chat\ndescription: Google Chat: Manage Chat spaces and messages.\n---\n\n# Gws Chat\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Chat: Manage Chat spaces and messages.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-chat\n"
+  },
+  {
+    "slug": "gws-gws-classroom",
+    "name": "Gws Classroom",
+    "category": "productivity",
+    "description": "Google Classroom: Manage classes, rosters, and coursework.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-classroom",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Classroom\ndescription: Google Classroom: Manage classes, rosters, and coursework.\n---\n\n# Gws Classroom\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Classroom: Manage classes, rosters, and coursework.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-classroom\n"
+  },
+  {
+    "slug": "gws-gws-docs-write",
+    "name": "Gws Docs Write",
+    "category": "productivity",
+    "description": "Google Docs: Append text to a document.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-docs-write",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Docs Write\ndescription: Google Docs: Append text to a document.\n---\n\n# Gws Docs Write\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Docs: Append text to a document.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-docs-write\n"
+  },
+  {
+    "slug": "gws-gws-docs",
+    "name": "Gws Docs",
+    "category": "productivity",
+    "description": "Read and write Google Docs.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-docs",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Docs\ndescription: Read and write Google Docs.\n---\n\n# Gws Docs\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRead and write Google Docs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-docs\n"
+  },
+  {
+    "slug": "gws-gws-drive-upload",
+    "name": "Gws Drive Upload",
+    "category": "productivity",
+    "description": "Google Drive: Upload a file with automatic metadata.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-drive-upload",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Drive Upload\ndescription: Google Drive: Upload a file with automatic metadata.\n---\n\n# Gws Drive Upload\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Drive: Upload a file with automatic metadata.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-drive-upload\n"
+  },
+  {
+    "slug": "gws-gws-drive",
+    "name": "Gws Drive",
+    "category": "productivity",
+    "description": "Google Drive: Manage files, folders, and shared drives.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-drive",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Drive\ndescription: Google Drive: Manage files, folders, and shared drives.\n---\n\n# Gws Drive\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Drive: Manage files, folders, and shared drives.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-drive\n"
+  },
+  {
+    "slug": "gws-gws-events-renew",
+    "name": "Gws Events Renew",
+    "category": "productivity",
+    "description": "Google Workspace Events: Renew/reactivate Workspace Events subscriptions.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-events-renew",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Events Renew\ndescription: Google Workspace Events: Renew/reactivate Workspace Events subscriptions.\n---\n\n# Gws Events Renew\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workspace Events: Renew/reactivate Workspace Events subscriptions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-events-renew\n"
+  },
+  {
+    "slug": "gws-gws-events-subscribe",
+    "name": "Gws Events Subscribe",
+    "category": "productivity",
+    "description": "Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-events-subscribe",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Events Subscribe\ndescription: Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.\n---\n\n# Gws Events Subscribe\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workspace Events: Subscribe to Workspace events and stream them as NDJSON.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-events-subscribe\n"
+  },
+  {
+    "slug": "gws-gws-events",
+    "name": "Gws Events",
+    "category": "productivity",
+    "description": "Subscribe to Google Workspace events.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-events",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Events\ndescription: Subscribe to Google Workspace events.\n---\n\n# Gws Events\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nSubscribe to Google Workspace events.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-events\n"
+  },
+  {
+    "slug": "gws-gws-forms",
+    "name": "Gws Forms",
+    "category": "productivity",
+    "description": "Read and write Google Forms.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-forms",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Forms\ndescription: Read and write Google Forms.\n---\n\n# Gws Forms\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRead and write Google Forms.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-forms\n"
+  },
+  {
+    "slug": "gws-gws-gmail-forward",
+    "name": "Gws Gmail Forward",
+    "category": "productivity",
+    "description": "Gmail: Forward a message to new recipients.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-forward",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Forward\ndescription: Gmail: Forward a message to new recipients.\n---\n\n# Gws Gmail Forward\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Forward a message to new recipients.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-forward\n"
+  },
+  {
+    "slug": "gws-gws-gmail-read",
+    "name": "Gws Gmail Read",
+    "category": "productivity",
+    "description": "Gmail: Read a message and extract its body or headers.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-read",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Read\ndescription: Gmail: Read a message and extract its body or headers.\n---\n\n# Gws Gmail Read\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Read a message and extract its body or headers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-read\n"
+  },
+  {
+    "slug": "gws-gws-gmail-reply-all",
+    "name": "Gws Gmail Reply All",
+    "category": "productivity",
+    "description": "Gmail: Reply-all to a message (handles threading automatically).",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-reply-all",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Reply All\ndescription: Gmail: Reply-all to a message (handles threading automatically).\n---\n\n# Gws Gmail Reply All\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Reply-all to a message (handles threading automatically).\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-reply-all\n"
+  },
+  {
+    "slug": "gws-gws-gmail-reply",
+    "name": "Gws Gmail Reply",
+    "category": "productivity",
+    "description": "Gmail: Reply to a message (handles threading automatically).",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-reply",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Reply\ndescription: Gmail: Reply to a message (handles threading automatically).\n---\n\n# Gws Gmail Reply\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Reply to a message (handles threading automatically).\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-reply\n"
+  },
+  {
+    "slug": "gws-gws-gmail-send",
+    "name": "Gws Gmail Send",
+    "category": "productivity",
+    "description": "Gmail: Send an email.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-send",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Send\ndescription: Gmail: Send an email.\n---\n\n# Gws Gmail Send\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Send an email.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-send\n"
+  },
+  {
+    "slug": "gws-gws-gmail-triage",
+    "name": "Gws Gmail Triage",
+    "category": "productivity",
+    "description": "Gmail: Show unread inbox summary (sender, subject, date).",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-triage",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Triage\ndescription: Gmail: Show unread inbox summary (sender, subject, date).\n---\n\n# Gws Gmail Triage\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Show unread inbox summary (sender, subject, date).\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-triage\n"
+  },
+  {
+    "slug": "gws-gws-gmail-watch",
+    "name": "Gws Gmail Watch",
+    "category": "productivity",
+    "description": "Gmail: Watch for new emails and stream them as NDJSON.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-watch",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail Watch\ndescription: Gmail: Watch for new emails and stream them as NDJSON.\n---\n\n# Gws Gmail Watch\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Watch for new emails and stream them as NDJSON.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail-watch\n"
+  },
+  {
+    "slug": "gws-gws-gmail",
+    "name": "Gws Gmail",
+    "category": "productivity",
+    "description": "Gmail: Send, read, and manage email.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Gmail\ndescription: Gmail: Send, read, and manage email.\n---\n\n# Gws Gmail\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGmail: Send, read, and manage email.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail\n"
+  },
+  {
+    "slug": "gws-gws-keep",
+    "name": "Gws Keep",
+    "category": "productivity",
+    "description": "Manage Google Keep notes.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-keep",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Keep\ndescription: Manage Google Keep notes.\n---\n\n# Gws Keep\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nManage Google Keep notes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-keep\n"
+  },
+  {
+    "slug": "gws-gws-meet",
+    "name": "Gws Meet",
+    "category": "productivity",
+    "description": "Manage Google Meet conferences.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-meet",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Meet\ndescription: Manage Google Meet conferences.\n---\n\n# Gws Meet\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nManage Google Meet conferences.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-meet\n"
+  },
+  {
+    "slug": "gws-gws-modelarmor-create-template",
+    "name": "Gws Modelarmor Create Template",
+    "category": "productivity",
+    "description": "Google Model Armor: Create a new Model Armor template.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor-create-template",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Modelarmor Create Template\ndescription: Google Model Armor: Create a new Model Armor template.\n---\n\n# Gws Modelarmor Create Template\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Model Armor: Create a new Model Armor template.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor-create-template\n"
+  },
+  {
+    "slug": "gws-gws-modelarmor-sanitize-prompt",
+    "name": "Gws Modelarmor Sanitize Prompt",
+    "category": "productivity",
+    "description": "Google Model Armor: Sanitize a user prompt through a Model Armor template.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor-sanitize-prompt",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Modelarmor Sanitize Prompt\ndescription: Google Model Armor: Sanitize a user prompt through a Model Armor template.\n---\n\n# Gws Modelarmor Sanitize Prompt\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Model Armor: Sanitize a user prompt through a Model Armor template.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor-sanitize-prompt\n"
+  },
+  {
+    "slug": "gws-gws-modelarmor-sanitize-response",
+    "name": "Gws Modelarmor Sanitize Response",
+    "category": "productivity",
+    "description": "Google Model Armor: Sanitize a model response through a Model Armor template.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor-sanitize-response",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Modelarmor Sanitize Response\ndescription: Google Model Armor: Sanitize a model response through a Model Armor template.\n---\n\n# Gws Modelarmor Sanitize Response\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Model Armor: Sanitize a model response through a Model Armor template.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor-sanitize-response\n"
+  },
+  {
+    "slug": "gws-gws-modelarmor",
+    "name": "Gws Modelarmor",
+    "category": "productivity",
+    "description": "Google Model Armor: Filter user-generated content for safety.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Modelarmor\ndescription: Google Model Armor: Filter user-generated content for safety.\n---\n\n# Gws Modelarmor\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Model Armor: Filter user-generated content for safety.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor\n"
+  },
+  {
+    "slug": "gws-gws-people",
+    "name": "Gws People",
+    "category": "productivity",
+    "description": "Google People: Manage contacts and profiles.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-people",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws People\ndescription: Google People: Manage contacts and profiles.\n---\n\n# Gws People\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle People: Manage contacts and profiles.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-people\n"
+  },
+  {
+    "slug": "gws-gws-script-push",
+    "name": "Gws Script Push",
+    "category": "productivity",
+    "description": "Google Apps Script: Upload local files to an Apps Script project.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-script-push",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Script Push\ndescription: Google Apps Script: Upload local files to an Apps Script project.\n---\n\n# Gws Script Push\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Apps Script: Upload local files to an Apps Script project.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-script-push\n"
+  },
+  {
+    "slug": "gws-gws-script",
+    "name": "Gws Script",
+    "category": "productivity",
+    "description": "Manage Google Apps Script projects.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-script",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Script\ndescription: Manage Google Apps Script projects.\n---\n\n# Gws Script\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nManage Google Apps Script projects.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-script\n"
+  },
+  {
+    "slug": "gws-gws-shared",
+    "name": "Gws Shared",
+    "category": "productivity",
+    "description": "gws CLI: Shared patterns for authentication, global flags, and output formatting.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-shared",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Shared\ndescription: gws CLI: Shared patterns for authentication, global flags, and output formatting.\n---\n\n# Gws Shared\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\ngws CLI: Shared patterns for authentication, global flags, and output formatting.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-shared\n"
+  },
+  {
+    "slug": "gws-gws-sheets-append",
+    "name": "Gws Sheets Append",
+    "category": "productivity",
+    "description": "Google Sheets: Append a row to a spreadsheet.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets-append",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Sheets Append\ndescription: Google Sheets: Append a row to a spreadsheet.\n---\n\n# Gws Sheets Append\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Sheets: Append a row to a spreadsheet.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets-append\n"
+  },
+  {
+    "slug": "gws-gws-sheets-read",
+    "name": "Gws Sheets Read",
+    "category": "productivity",
+    "description": "Google Sheets: Read values from a spreadsheet.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets-read",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Sheets Read\ndescription: Google Sheets: Read values from a spreadsheet.\n---\n\n# Gws Sheets Read\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Sheets: Read values from a spreadsheet.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets-read\n"
+  },
+  {
+    "slug": "gws-gws-sheets",
+    "name": "Gws Sheets",
+    "category": "productivity",
+    "description": "Google Sheets: Read and write spreadsheets.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Sheets\ndescription: Google Sheets: Read and write spreadsheets.\n---\n\n# Gws Sheets\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Sheets: Read and write spreadsheets.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets\n"
+  },
+  {
+    "slug": "gws-gws-slides",
+    "name": "Gws Slides",
+    "category": "productivity",
+    "description": "Google Slides: Read and write presentations.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-slides",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Slides\ndescription: Google Slides: Read and write presentations.\n---\n\n# Gws Slides\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Slides: Read and write presentations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-slides\n"
+  },
+  {
+    "slug": "gws-gws-tasks",
+    "name": "Gws Tasks",
+    "category": "productivity",
+    "description": "Google Tasks: Manage task lists and tasks.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-tasks",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Tasks\ndescription: Google Tasks: Manage task lists and tasks.\n---\n\n# Gws Tasks\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Tasks: Manage task lists and tasks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-tasks\n"
+  },
+  {
+    "slug": "gws-gws-workflow-email-to-task",
+    "name": "Gws Workflow Email To Task",
+    "category": "productivity",
+    "description": "Google Workflow: Convert a Gmail message into a Google Tasks entry.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-email-to-task",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Workflow Email To Task\ndescription: Google Workflow: Convert a Gmail message into a Google Tasks entry.\n---\n\n# Gws Workflow Email To Task\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workflow: Convert a Gmail message into a Google Tasks entry.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-email-to-task\n"
+  },
+  {
+    "slug": "gws-gws-workflow-file-announce",
+    "name": "Gws Workflow File Announce",
+    "category": "productivity",
+    "description": "Google Workflow: Announce a Drive file in a Chat space.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-file-announce",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Workflow File Announce\ndescription: Google Workflow: Announce a Drive file in a Chat space.\n---\n\n# Gws Workflow File Announce\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workflow: Announce a Drive file in a Chat space.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-file-announce\n"
+  },
+  {
+    "slug": "gws-gws-workflow-meeting-prep",
+    "name": "Gws Workflow Meeting Prep",
+    "category": "productivity",
+    "description": "Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-meeting-prep",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Workflow Meeting Prep\ndescription: Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs.\n---\n\n# Gws Workflow Meeting Prep\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workflow: Prepare for your next meeting: agenda, attendees, and linked docs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-meeting-prep\n"
+  },
+  {
+    "slug": "gws-gws-workflow-standup-report",
+    "name": "Gws Workflow Standup Report",
+    "category": "productivity",
+    "description": "Google Workflow: Today's meetings + open tasks as a standup summary.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-standup-report",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Workflow Standup Report\ndescription: Google Workflow: Today's meetings + open tasks as a standup summary.\n---\n\n# Gws Workflow Standup Report\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workflow: Today's meetings + open tasks as a standup summary.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-standup-report\n"
+  },
+  {
+    "slug": "gws-gws-workflow-weekly-digest",
+    "name": "Gws Workflow Weekly Digest",
+    "category": "productivity",
+    "description": "Google Workflow: Weekly summary: this week's meetings + unread email count.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-weekly-digest",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Workflow Weekly Digest\ndescription: Google Workflow: Weekly summary: this week's meetings + unread email count.\n---\n\n# Gws Workflow Weekly Digest\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workflow: Weekly summary: this week's meetings + unread email count.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow-weekly-digest\n"
+  },
+  {
+    "slug": "gws-gws-workflow",
+    "name": "Gws Workflow",
+    "category": "productivity",
+    "description": "Google Workflow: Cross-service productivity workflows.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Gws Workflow\ndescription: Google Workflow: Cross-service productivity workflows.\n---\n\n# Gws Workflow\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nGoogle Workflow: Cross-service productivity workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow\n"
+  },
+  {
+    "slug": "gws-persona-content-creator",
+    "name": "Persona Content Creator",
+    "category": "productivity",
+    "description": "Create, organize, and distribute content across Workspace.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-content-creator",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Content Creator\ndescription: Create, organize, and distribute content across Workspace.\n---\n\n# Persona Content Creator\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate, organize, and distribute content across Workspace.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-content-creator\n"
+  },
+  {
+    "slug": "gws-persona-customer-support",
+    "name": "Persona Customer Support",
+    "category": "productivity",
+    "description": "Manage customer support — track tickets, respond, escalate issues.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-customer-support",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Customer Support\ndescription: Manage customer support — track tickets, respond, escalate issues.\n---\n\n# Persona Customer Support\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nManage customer support — track tickets, respond, escalate issues.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-customer-support\n"
+  },
+  {
+    "slug": "gws-persona-event-coordinator",
+    "name": "Persona Event Coordinator",
+    "category": "productivity",
+    "description": "Plan and manage events — scheduling, invitations, and logistics.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-event-coordinator",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Event Coordinator\ndescription: Plan and manage events — scheduling, invitations, and logistics.\n---\n\n# Persona Event Coordinator\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nPlan and manage events — scheduling, invitations, and logistics.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-event-coordinator\n"
+  },
+  {
+    "slug": "gws-persona-exec-assistant",
+    "name": "Persona Exec Assistant",
+    "category": "productivity",
+    "description": "Manage an executive's schedule, inbox, and communications.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-exec-assistant",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Exec Assistant\ndescription: Manage an executive's schedule, inbox, and communications.\n---\n\n# Persona Exec Assistant\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nManage an executive's schedule, inbox, and communications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-exec-assistant\n"
+  },
+  {
+    "slug": "gws-persona-hr-coordinator",
+    "name": "Persona Hr Coordinator",
+    "category": "productivity",
+    "description": "Handle HR workflows — onboarding, announcements, and employee comms.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-hr-coordinator",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Hr Coordinator\ndescription: Handle HR workflows — onboarding, announcements, and employee comms.\n---\n\n# Persona Hr Coordinator\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nHandle HR workflows — onboarding, announcements, and employee comms.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-hr-coordinator\n"
+  },
+  {
+    "slug": "gws-persona-it-admin",
+    "name": "Persona It Admin",
+    "category": "productivity",
+    "description": "Administer IT — monitor security and configure Workspace.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-it-admin",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona It Admin\ndescription: Administer IT — monitor security and configure Workspace.\n---\n\n# Persona It Admin\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nAdminister IT — monitor security and configure Workspace.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-it-admin\n"
+  },
+  {
+    "slug": "gws-persona-project-manager",
+    "name": "Persona Project Manager",
+    "category": "productivity",
+    "description": "Coordinate projects — track tasks, schedule meetings, and share docs.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-project-manager",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Project Manager\ndescription: Coordinate projects — track tasks, schedule meetings, and share docs.\n---\n\n# Persona Project Manager\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCoordinate projects — track tasks, schedule meetings, and share docs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-project-manager\n"
+  },
+  {
+    "slug": "gws-persona-researcher",
+    "name": "Persona Researcher",
+    "category": "productivity",
+    "description": "Organize research — manage references, notes, and collaboration.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-researcher",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Researcher\ndescription: Organize research — manage references, notes, and collaboration.\n---\n\n# Persona Researcher\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nOrganize research — manage references, notes, and collaboration.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-researcher\n"
+  },
+  {
+    "slug": "gws-persona-sales-ops",
+    "name": "Persona Sales Ops",
+    "category": "productivity",
+    "description": "Manage sales workflows — track deals, schedule calls, client comms.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-sales-ops",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Sales Ops\ndescription: Manage sales workflows — track deals, schedule calls, client comms.\n---\n\n# Persona Sales Ops\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nManage sales workflows — track deals, schedule calls, client comms.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-sales-ops\n"
+  },
+  {
+    "slug": "gws-persona-team-lead",
+    "name": "Persona Team Lead",
+    "category": "productivity",
+    "description": "Lead a team — run standups, coordinate tasks, and communicate.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/persona-team-lead",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Persona Team Lead\ndescription: Lead a team — run standups, coordinate tasks, and communicate.\n---\n\n# Persona Team Lead\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nLead a team — run standups, coordinate tasks, and communicate.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/persona-team-lead\n"
+  },
+  {
+    "slug": "gws-recipe-backup-sheet-as-csv",
+    "name": "Recipe Backup Sheet As Csv",
+    "category": "productivity",
+    "description": "Export a Google Sheets spreadsheet as a CSV file for local backup or processing.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-backup-sheet-as-csv",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Backup Sheet As Csv\ndescription: Export a Google Sheets spreadsheet as a CSV file for local backup or processing.\n---\n\n# Recipe Backup Sheet As Csv\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nExport a Google Sheets spreadsheet as a CSV file for local backup or processing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-backup-sheet-as-csv\n"
+  },
+  {
+    "slug": "gws-recipe-batch-invite-to-event",
+    "name": "Recipe Batch Invite To Event",
+    "category": "productivity",
+    "description": "Add a list of attendees to an existing Google Calendar event and send notifications.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-batch-invite-to-event",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Batch Invite To Event\ndescription: Add a list of attendees to an existing Google Calendar event and send notifications.\n---\n\n# Recipe Batch Invite To Event\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nAdd a list of attendees to an existing Google Calendar event and send notifications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-batch-invite-to-event\n"
+  },
+  {
+    "slug": "gws-recipe-block-focus-time",
+    "name": "Recipe Block Focus Time",
+    "category": "productivity",
+    "description": "Create recurring focus time blocks on Google Calendar to protect deep work hours.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-block-focus-time",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Block Focus Time\ndescription: Create recurring focus time blocks on Google Calendar to protect deep work hours.\n---\n\n# Recipe Block Focus Time\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate recurring focus time blocks on Google Calendar to protect deep work hours.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-block-focus-time\n"
+  },
+  {
+    "slug": "gws-recipe-bulk-download-folder",
+    "name": "Recipe Bulk Download Folder",
+    "category": "productivity",
+    "description": "List and download all files from a Google Drive folder.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-bulk-download-folder",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Bulk Download Folder\ndescription: List and download all files from a Google Drive folder.\n---\n\n# Recipe Bulk Download Folder\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nList and download all files from a Google Drive folder.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-bulk-download-folder\n"
+  },
+  {
+    "slug": "gws-recipe-collect-form-responses",
+    "name": "Recipe Collect Form Responses",
+    "category": "productivity",
+    "description": "Retrieve and review responses from a Google Form.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-collect-form-responses",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Collect Form Responses\ndescription: Retrieve and review responses from a Google Form.\n---\n\n# Recipe Collect Form Responses\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRetrieve and review responses from a Google Form.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-collect-form-responses\n"
+  },
+  {
+    "slug": "gws-recipe-compare-sheet-tabs",
+    "name": "Recipe Compare Sheet Tabs",
+    "category": "productivity",
+    "description": "Read data from two tabs in a Google Sheet to compare and identify differences.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-compare-sheet-tabs",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Compare Sheet Tabs\ndescription: Read data from two tabs in a Google Sheet to compare and identify differences.\n---\n\n# Recipe Compare Sheet Tabs\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRead data from two tabs in a Google Sheet to compare and identify differences.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-compare-sheet-tabs\n"
+  },
+  {
+    "slug": "gws-recipe-copy-sheet-for-new-month",
+    "name": "Recipe Copy Sheet For New Month",
+    "category": "productivity",
+    "description": "Duplicate a Google Sheets template tab for a new month of tracking.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-copy-sheet-for-new-month",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Copy Sheet For New Month\ndescription: Duplicate a Google Sheets template tab for a new month of tracking.\n---\n\n# Recipe Copy Sheet For New Month\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nDuplicate a Google Sheets template tab for a new month of tracking.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-copy-sheet-for-new-month\n"
+  },
+  {
+    "slug": "gws-recipe-create-classroom-course",
+    "name": "Recipe Create Classroom Course",
+    "category": "productivity",
+    "description": "Create a Google Classroom course and invite students.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-classroom-course",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Classroom Course\ndescription: Create a Google Classroom course and invite students.\n---\n\n# Recipe Create Classroom Course\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Google Classroom course and invite students.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-classroom-course\n"
+  },
+  {
+    "slug": "gws-recipe-create-doc-from-template",
+    "name": "Recipe Create Doc From Template",
+    "category": "productivity",
+    "description": "Copy a Google Docs template, fill in content, and share with collaborators.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-doc-from-template",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Doc From Template\ndescription: Copy a Google Docs template, fill in content, and share with collaborators.\n---\n\n# Recipe Create Doc From Template\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCopy a Google Docs template, fill in content, and share with collaborators.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-doc-from-template\n"
+  },
+  {
+    "slug": "gws-recipe-create-events-from-sheet",
+    "name": "Recipe Create Events From Sheet",
+    "category": "productivity",
+    "description": "Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-events-from-sheet",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Events From Sheet\ndescription: Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.\n---\n\n# Recipe Create Events From Sheet\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRead event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-events-from-sheet\n"
+  },
+  {
+    "slug": "gws-recipe-create-expense-tracker",
+    "name": "Recipe Create Expense Tracker",
+    "category": "productivity",
+    "description": "Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-expense-tracker",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Expense Tracker\ndescription: Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.\n---\n\n# Recipe Create Expense Tracker\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nSet up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-expense-tracker\n"
+  },
+  {
+    "slug": "gws-recipe-create-feedback-form",
+    "name": "Recipe Create Feedback Form",
+    "category": "productivity",
+    "description": "Create a Google Form for feedback and share it via Gmail.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-feedback-form",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Feedback Form\ndescription: Create a Google Form for feedback and share it via Gmail.\n---\n\n# Recipe Create Feedback Form\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Google Form for feedback and share it via Gmail.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-feedback-form\n"
+  },
+  {
+    "slug": "gws-recipe-create-gmail-filter",
+    "name": "Recipe Create Gmail Filter",
+    "category": "productivity",
+    "description": "Create a Gmail filter to automatically label, star, or categorize incoming messages.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-gmail-filter",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Gmail Filter\ndescription: Create a Gmail filter to automatically label, star, or categorize incoming messages.\n---\n\n# Recipe Create Gmail Filter\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Gmail filter to automatically label, star, or categorize incoming messages.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-gmail-filter\n"
+  },
+  {
+    "slug": "gws-recipe-create-meet-space",
+    "name": "Recipe Create Meet Space",
+    "category": "productivity",
+    "description": "Create a Google Meet meeting space and share the join link.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-meet-space",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Meet Space\ndescription: Create a Google Meet meeting space and share the join link.\n---\n\n# Recipe Create Meet Space\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Google Meet meeting space and share the join link.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-meet-space\n"
+  },
+  {
+    "slug": "gws-recipe-create-presentation",
+    "name": "Recipe Create Presentation",
+    "category": "productivity",
+    "description": "Create a new Google Slides presentation and add initial slides.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-presentation",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Presentation\ndescription: Create a new Google Slides presentation and add initial slides.\n---\n\n# Recipe Create Presentation\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a new Google Slides presentation and add initial slides.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-presentation\n"
+  },
+  {
+    "slug": "gws-recipe-create-shared-drive",
+    "name": "Recipe Create Shared Drive",
+    "category": "productivity",
+    "description": "Create a Google Shared Drive and add members with appropriate roles.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-shared-drive",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Shared Drive\ndescription: Create a Google Shared Drive and add members with appropriate roles.\n---\n\n# Recipe Create Shared Drive\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Google Shared Drive and add members with appropriate roles.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-shared-drive\n"
+  },
+  {
+    "slug": "gws-recipe-create-task-list",
+    "name": "Recipe Create Task List",
+    "category": "productivity",
+    "description": "Set up a new Google Tasks list with initial tasks.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-task-list",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Task List\ndescription: Set up a new Google Tasks list with initial tasks.\n---\n\n# Recipe Create Task List\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nSet up a new Google Tasks list with initial tasks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-task-list\n"
+  },
+  {
+    "slug": "gws-recipe-create-vacation-responder",
+    "name": "Recipe Create Vacation Responder",
+    "category": "productivity",
+    "description": "Enable a Gmail out-of-office auto-reply with a custom message and date range.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-vacation-responder",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Create Vacation Responder\ndescription: Enable a Gmail out-of-office auto-reply with a custom message and date range.\n---\n\n# Recipe Create Vacation Responder\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nEnable a Gmail out-of-office auto-reply with a custom message and date range.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-create-vacation-responder\n"
+  },
+  {
+    "slug": "gws-recipe-draft-email-from-doc",
+    "name": "Recipe Draft Email From Doc",
+    "category": "productivity",
+    "description": "Read content from a Google Doc and use it as the body of a Gmail message.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-draft-email-from-doc",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Draft Email From Doc\ndescription: Read content from a Google Doc and use it as the body of a Gmail message.\n---\n\n# Recipe Draft Email From Doc\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRead content from a Google Doc and use it as the body of a Gmail message.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-draft-email-from-doc\n"
+  },
+  {
+    "slug": "gws-recipe-email-drive-link",
+    "name": "Recipe Email Drive Link",
+    "category": "productivity",
+    "description": "Share a Google Drive file and email the link with a message to recipients.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-email-drive-link",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Email Drive Link\ndescription: Share a Google Drive file and email the link with a message to recipients.\n---\n\n# Recipe Email Drive Link\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nShare a Google Drive file and email the link with a message to recipients.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-email-drive-link\n"
+  },
+  {
+    "slug": "gws-recipe-find-free-time",
+    "name": "Recipe Find Free Time",
+    "category": "productivity",
+    "description": "Query Google Calendar free/busy status for multiple users to find a meeting slot.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-find-free-time",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Find Free Time\ndescription: Query Google Calendar free/busy status for multiple users to find a meeting slot.\n---\n\n# Recipe Find Free Time\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nQuery Google Calendar free/busy status for multiple users to find a meeting slot.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-find-free-time\n"
+  },
+  {
+    "slug": "gws-recipe-find-large-files",
+    "name": "Recipe Find Large Files",
+    "category": "productivity",
+    "description": "Identify large Google Drive files consuming storage quota.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-find-large-files",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Find Large Files\ndescription: Identify large Google Drive files consuming storage quota.\n---\n\n# Recipe Find Large Files\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nIdentify large Google Drive files consuming storage quota.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-find-large-files\n"
+  },
+  {
+    "slug": "gws-recipe-forward-labeled-emails",
+    "name": "Recipe Forward Labeled Emails",
+    "category": "productivity",
+    "description": "Find Gmail messages with a specific label and forward them to another address.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-forward-labeled-emails",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Forward Labeled Emails\ndescription: Find Gmail messages with a specific label and forward them to another address.\n---\n\n# Recipe Forward Labeled Emails\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nFind Gmail messages with a specific label and forward them to another address.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-forward-labeled-emails\n"
+  },
+  {
+    "slug": "gws-recipe-generate-report-from-sheet",
+    "name": "Recipe Generate Report From Sheet",
+    "category": "productivity",
+    "description": "Read data from a Google Sheet and create a formatted Google Docs report.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-generate-report-from-sheet",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Generate Report From Sheet\ndescription: Read data from a Google Sheet and create a formatted Google Docs report.\n---\n\n# Recipe Generate Report From Sheet\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nRead data from a Google Sheet and create a formatted Google Docs report.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-generate-report-from-sheet\n"
+  },
+  {
+    "slug": "gws-recipe-label-and-archive-emails",
+    "name": "Recipe Label And Archive Emails",
+    "category": "productivity",
+    "description": "Apply Gmail labels to matching messages and archive them to keep your inbox clean.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-label-and-archive-emails",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Label And Archive Emails\ndescription: Apply Gmail labels to matching messages and archive them to keep your inbox clean.\n---\n\n# Recipe Label And Archive Emails\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nApply Gmail labels to matching messages and archive them to keep your inbox clean.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-label-and-archive-emails\n"
+  },
+  {
+    "slug": "gws-recipe-log-deal-update",
+    "name": "Recipe Log Deal Update",
+    "category": "productivity",
+    "description": "Append a deal status update to a Google Sheets sales tracking spreadsheet.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-log-deal-update",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Log Deal Update\ndescription: Append a deal status update to a Google Sheets sales tracking spreadsheet.\n---\n\n# Recipe Log Deal Update\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nAppend a deal status update to a Google Sheets sales tracking spreadsheet.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-log-deal-update\n"
+  },
+  {
+    "slug": "gws-recipe-organize-drive-folder",
+    "name": "Recipe Organize Drive Folder",
+    "category": "productivity",
+    "description": "Create a Google Drive folder structure and move files into the right locations.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-organize-drive-folder",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Organize Drive Folder\ndescription: Create a Google Drive folder structure and move files into the right locations.\n---\n\n# Recipe Organize Drive Folder\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Google Drive folder structure and move files into the right locations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-organize-drive-folder\n"
+  },
+  {
+    "slug": "gws-recipe-plan-weekly-schedule",
+    "name": "Recipe Plan Weekly Schedule",
+    "category": "productivity",
+    "description": "Review your Google Calendar week, identify gaps, and add events to fill them.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-plan-weekly-schedule",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Plan Weekly Schedule\ndescription: Review your Google Calendar week, identify gaps, and add events to fill them.\n---\n\n# Recipe Plan Weekly Schedule\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nReview your Google Calendar week, identify gaps, and add events to fill them.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-plan-weekly-schedule\n"
+  },
+  {
+    "slug": "gws-recipe-post-mortem-setup",
+    "name": "Recipe Post Mortem Setup",
+    "category": "productivity",
+    "description": "Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-post-mortem-setup",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Post Mortem Setup\ndescription: Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat.\n---\n\n# Recipe Post Mortem Setup\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-post-mortem-setup\n"
+  },
+  {
+    "slug": "gws-recipe-reschedule-meeting",
+    "name": "Recipe Reschedule Meeting",
+    "category": "productivity",
+    "description": "Move a Google Calendar event to a new time and automatically notify all attendees.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-reschedule-meeting",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Reschedule Meeting\ndescription: Move a Google Calendar event to a new time and automatically notify all attendees.\n---\n\n# Recipe Reschedule Meeting\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nMove a Google Calendar event to a new time and automatically notify all attendees.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-reschedule-meeting\n"
+  },
+  {
+    "slug": "gws-recipe-review-meet-participants",
+    "name": "Recipe Review Meet Participants",
+    "category": "productivity",
+    "description": "Review who attended a Google Meet conference and for how long.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-review-meet-participants",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Review Meet Participants\ndescription: Review who attended a Google Meet conference and for how long.\n---\n\n# Recipe Review Meet Participants\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nReview who attended a Google Meet conference and for how long.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-review-meet-participants\n"
+  },
+  {
+    "slug": "gws-recipe-review-overdue-tasks",
+    "name": "Recipe Review Overdue Tasks",
+    "category": "productivity",
+    "description": "Find Google Tasks that are past due and need attention.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-review-overdue-tasks",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Review Overdue Tasks\ndescription: Find Google Tasks that are past due and need attention.\n---\n\n# Recipe Review Overdue Tasks\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nFind Google Tasks that are past due and need attention.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-review-overdue-tasks\n"
+  },
+  {
+    "slug": "gws-recipe-save-email-attachments",
+    "name": "Recipe Save Email Attachments",
+    "category": "productivity",
+    "description": "Find Gmail messages with attachments and save them to a Google Drive folder.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-save-email-attachments",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Save Email Attachments\ndescription: Find Gmail messages with attachments and save them to a Google Drive folder.\n---\n\n# Recipe Save Email Attachments\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nFind Gmail messages with attachments and save them to a Google Drive folder.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-save-email-attachments\n"
+  },
+  {
+    "slug": "gws-recipe-save-email-to-doc",
+    "name": "Recipe Save Email To Doc",
+    "category": "productivity",
+    "description": "Save a Gmail message body into a Google Doc for archival or reference.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-save-email-to-doc",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Save Email To Doc\ndescription: Save a Gmail message body into a Google Doc for archival or reference.\n---\n\n# Recipe Save Email To Doc\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nSave a Gmail message body into a Google Doc for archival or reference.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-save-email-to-doc\n"
+  },
+  {
+    "slug": "gws-recipe-schedule-recurring-event",
+    "name": "Recipe Schedule Recurring Event",
+    "category": "productivity",
+    "description": "Create a recurring Google Calendar event with attendees.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-schedule-recurring-event",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Schedule Recurring Event\ndescription: Create a recurring Google Calendar event with attendees.\n---\n\n# Recipe Schedule Recurring Event\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nCreate a recurring Google Calendar event with attendees.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-schedule-recurring-event\n"
+  },
+  {
+    "slug": "gws-recipe-send-team-announcement",
+    "name": "Recipe Send Team Announcement",
+    "category": "productivity",
+    "description": "Send a team announcement via both Gmail and a Google Chat space.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-send-team-announcement",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Send Team Announcement\ndescription: Send a team announcement via both Gmail and a Google Chat space.\n---\n\n# Recipe Send Team Announcement\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nSend a team announcement via both Gmail and a Google Chat space.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-send-team-announcement\n"
+  },
+  {
+    "slug": "gws-recipe-share-doc-and-notify",
+    "name": "Recipe Share Doc And Notify",
+    "category": "productivity",
+    "description": "Share a Google Docs document with edit access and email collaborators the link.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-share-doc-and-notify",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Share Doc And Notify\ndescription: Share a Google Docs document with edit access and email collaborators the link.\n---\n\n# Recipe Share Doc And Notify\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nShare a Google Docs document with edit access and email collaborators the link.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-share-doc-and-notify\n"
+  },
+  {
+    "slug": "gws-recipe-share-event-materials",
+    "name": "Recipe Share Event Materials",
+    "category": "productivity",
+    "description": "Share Google Drive files with all attendees of a Google Calendar event.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-share-event-materials",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Share Event Materials\ndescription: Share Google Drive files with all attendees of a Google Calendar event.\n---\n\n# Recipe Share Event Materials\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nShare Google Drive files with all attendees of a Google Calendar event.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-share-event-materials\n"
+  },
+  {
+    "slug": "gws-recipe-share-folder-with-team",
+    "name": "Recipe Share Folder With Team",
+    "category": "productivity",
+    "description": "Share a Google Drive folder and all its contents with a list of collaborators.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-share-folder-with-team",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Share Folder With Team\ndescription: Share a Google Drive folder and all its contents with a list of collaborators.\n---\n\n# Recipe Share Folder With Team\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nShare a Google Drive folder and all its contents with a list of collaborators.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-share-folder-with-team\n"
+  },
+  {
+    "slug": "gws-recipe-sync-contacts-to-sheet",
+    "name": "Recipe Sync Contacts To Sheet",
+    "category": "productivity",
+    "description": "Export Google Contacts directory to a Google Sheets spreadsheet.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-sync-contacts-to-sheet",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Sync Contacts To Sheet\ndescription: Export Google Contacts directory to a Google Sheets spreadsheet.\n---\n\n# Recipe Sync Contacts To Sheet\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nExport Google Contacts directory to a Google Sheets spreadsheet.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-sync-contacts-to-sheet\n"
+  },
+  {
+    "slug": "gws-recipe-watch-drive-changes",
+    "name": "Recipe Watch Drive Changes",
+    "category": "productivity",
+    "description": "Subscribe to change notifications on a Google Drive file or folder.",
+    "author": "Google",
+    "source_url": "https://github.com/googleworkspace/cli/tree/main/skills/recipe-watch-drive-changes",
+    "tags": [
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "productivity"
+    ],
+    "skill_content": "---\nname: Recipe Watch Drive Changes\ndescription: Subscribe to change notifications on a Google Drive file or folder.\n---\n\n# Recipe Watch Drive Changes\n\nPart of the **Google Workspace Skills** pack by Google (`googleworkspace/cli`).\n\nSubscribe to change notifications on a Google Drive file or folder.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/googleworkspace/cli/tree/main/skills/recipe-watch-drive-changes\n"
+  }
+]

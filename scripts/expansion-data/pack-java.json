@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "java-api-contract-review",
+    "name": "Api Contract Review",
+    "category": "coding",
+    "description": "Review REST API contracts for HTTP semantics, versioning, backward compatibility, and response consistency. Use when user asks \"review API\", \"check endpoints\", \"REST review\", or before releasing API changes.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/api-contract-review",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Api Contract Review\ndescription: Review REST API contracts for HTTP semantics, versioning, backward compatibility, and response consistency. Use when user asks \"review API\", \"check endpoints\", \"REST review\", or before releasing API changes.\n---\n\n# Api Contract Review\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nReview REST API contracts for HTTP semantics, versioning, backward compatibility, and response consistency. Use when user asks \"review API\", \"check endpoints\", \"REST review\", or before releasing API changes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/api-contract-review\n"
+  },
+  {
+    "slug": "java-architecture-review",
+    "name": "Architecture Review",
+    "category": "coding",
+    "description": "Analyze Java project architecture at macro level - package structure, module boundaries, dependency direction, and layering. Use when user asks \"review architecture\", \"check structure\", \"package organization\", or when…",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/architecture-review",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Architecture Review\ndescription: Analyze Java project architecture at macro level - package structure, module boundaries, dependency direction, and layering. Use when user asks \"review architecture\", \"check structure\", \"package organization\", or when evaluating if a codebase follows clean architecture principles.\n---\n\n# Architecture Review\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nAnalyze Java project architecture at macro level - package structure, module boundaries, dependency direction, and layering. Use when user asks \"review architecture\", \"check structure\", \"package organization\", or when evaluating if a codebase follows clean architecture principles.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/architecture-review\n"
+  },
+  {
+    "slug": "java-changelog-generator",
+    "name": "Changelog Generator",
+    "category": "coding",
+    "description": "Generate changelogs from git commits. Use when user says \"generate changelog\", \"update changelog\", \"what changed since last release\", or before preparing a new release.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/changelog-generator",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Changelog Generator\ndescription: Generate changelogs from git commits. Use when user says \"generate changelog\", \"update changelog\", \"what changed since last release\", or before preparing a new release.\n---\n\n# Changelog Generator\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nGenerate changelogs from git commits. Use when user says \"generate changelog\", \"update changelog\", \"what changed since last release\", or before preparing a new release.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/changelog-generator\n"
+  },
+  {
+    "slug": "java-clean-code",
+    "name": "Clean Code",
+    "category": "coding",
+    "description": "Clean Code principles (DRY, KISS, YAGNI), naming conventions, function design, and refactoring. Use when user says \"clean this code\", \"refactor\", \"improve readability\", or when reviewing code quality.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/clean-code",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Clean Code\ndescription: Clean Code principles (DRY, KISS, YAGNI), naming conventions, function design, and refactoring. Use when user says \"clean this code\", \"refactor\", \"improve readability\", or when reviewing code quality.\n---\n\n# Clean Code\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nClean Code principles (DRY, KISS, YAGNI), naming conventions, function design, and refactoring. Use when user says \"clean this code\", \"refactor\", \"improve readability\", or when reviewing code quality.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/clean-code\n"
+  },
+  {
+    "slug": "java-concurrency-review",
+    "name": "Concurrency Review",
+    "category": "coding",
+    "description": "Review Java concurrency code for thread safety, race conditions, deadlocks, and modern patterns (Virtual Threads, CompletableFuture, @Async). Use when user asks \"check thread safety\", \"concurrency review\", \"async code…",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/concurrency-review",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Concurrency Review\ndescription: Review Java concurrency code for thread safety, race conditions, deadlocks, and modern patterns (Virtual Threads, CompletableFuture, @Async). Use when user asks \"check thread safety\", \"concurrency review\", \"async code review\", or when reviewing multi-threaded code.\n---\n\n# Concurrency Review\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nReview Java concurrency code for thread safety, race conditions, deadlocks, and modern patterns (Virtual Threads, CompletableFuture, @Async). Use when user asks \"check thread safety\", \"concurrency review\", \"async code review\", or when reviewing multi-threaded code.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/concurrency-review\n"
+  },
+  {
+    "slug": "java-design-patterns",
+    "name": "Design Patterns",
+    "category": "coding",
+    "description": "Common design patterns with Java examples (Factory, Builder, Strategy, Observer, Decorator, etc.). Use when user asks \"implement pattern\", \"use factory\", \"strategy pattern\", or when designing extensible components.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/design-patterns",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Design Patterns\ndescription: Common design patterns with Java examples (Factory, Builder, Strategy, Observer, Decorator, etc.). Use when user asks \"implement pattern\", \"use factory\", \"strategy pattern\", or when designing extensible components.\n---\n\n# Design Patterns\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nCommon design patterns with Java examples (Factory, Builder, Strategy, Observer, Decorator, etc.). Use when user asks \"implement pattern\", \"use factory\", \"strategy pattern\", or when designing extensible components.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/design-patterns\n"
+  },
+  {
+    "slug": "java-git-commit",
+    "name": "Git Commit",
+    "category": "coding",
+    "description": "Generate conventional commit messages for Java projects. Use when user says \"commit\", \"create commit\", \"commit changes\", or after completing code changes that need to be committed.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/git-commit",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Git Commit\ndescription: Generate conventional commit messages for Java projects. Use when user says \"commit\", \"create commit\", \"commit changes\", or after completing code changes that need to be committed.\n---\n\n# Git Commit\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nGenerate conventional commit messages for Java projects. Use when user says \"commit\", \"create commit\", \"commit changes\", or after completing code changes that need to be committed.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/git-commit\n"
+  },
+  {
+    "slug": "java-issue-triage",
+    "name": "Issue Triage",
+    "category": "coding",
+    "description": "Triage and categorize GitHub issues with priority labels. Use when user says \"triage issues\", \"check issues\", \"review open issues\", or during regular maintenance of GitHub issue backlog.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/issue-triage",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Issue Triage\ndescription: Triage and categorize GitHub issues with priority labels. Use when user says \"triage issues\", \"check issues\", \"review open issues\", or during regular maintenance of GitHub issue backlog.\n---\n\n# Issue Triage\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nTriage and categorize GitHub issues with priority labels. Use when user says \"triage issues\", \"check issues\", \"review open issues\", or during regular maintenance of GitHub issue backlog.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/issue-triage\n"
+  },
+  {
+    "slug": "java-java-code-review",
+    "name": "Java Code Review",
+    "category": "coding",
+    "description": "Systematic code review for Java with null safety, exception handling, concurrency, and performance checks. Use when user says \"review code\", \"check this PR\", \"code review\", or before merging changes.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/java-code-review",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Java Code Review\ndescription: Systematic code review for Java with null safety, exception handling, concurrency, and performance checks. Use when user says \"review code\", \"check this PR\", \"code review\", or before merging changes.\n---\n\n# Java Code Review\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nSystematic code review for Java with null safety, exception handling, concurrency, and performance checks. Use when user says \"review code\", \"check this PR\", \"code review\", or before merging changes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/java-code-review\n"
+  },
+  {
+    "slug": "java-java-migration",
+    "name": "Java Migration",
+    "category": "coding",
+    "description": "Guide for upgrading Java projects between major versions (8→11→17→21→25). Use when user says \"upgrade Java\", \"migrate to Java 25\", \"update Java version\", or when modernizing legacy projects.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/java-migration",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Java Migration\ndescription: Guide for upgrading Java projects between major versions (8→11→17→21→25). Use when user says \"upgrade Java\", \"migrate to Java 25\", \"update Java version\", or when modernizing legacy projects.\n---\n\n# Java Migration\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nGuide for upgrading Java projects between major versions (8→11→17→21→25). Use when user says \"upgrade Java\", \"migrate to Java 25\", \"update Java version\", or when modernizing legacy projects.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/java-migration\n"
+  },
+  {
+    "slug": "java-jpa-patterns",
+    "name": "Jpa Patterns",
+    "category": "coding",
+    "description": "JPA/Hibernate patterns and common pitfalls (N+1, lazy loading, transactions, queries). Use when user has JPA performance issues, LazyInitializationException, or asks about entity relationships and fetching strategies.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/jpa-patterns",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Jpa Patterns\ndescription: JPA/Hibernate patterns and common pitfalls (N+1, lazy loading, transactions, queries). Use when user has JPA performance issues, LazyInitializationException, or asks about entity relationships and fetching strategies.\n---\n\n# Jpa Patterns\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nJPA/Hibernate patterns and common pitfalls (N+1, lazy loading, transactions, queries). Use when user has JPA performance issues, LazyInitializationException, or asks about entity relationships and fetching strategies.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/jpa-patterns\n"
+  },
+  {
+    "slug": "java-logging-patterns",
+    "name": "Logging Patterns",
+    "category": "coding",
+    "description": "Java logging best practices with SLF4J, structured logging (JSON), and MDC for request tracing. Includes AI-friendly log formats for Claude Code debugging. Use when user asks about logging, debugging application flow,…",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/logging-patterns",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Logging Patterns\ndescription: Java logging best practices with SLF4J, structured logging (JSON), and MDC for request tracing. Includes AI-friendly log formats for Claude Code debugging. Use when user asks about logging, debugging application flow, or analyzing logs.\n---\n\n# Logging Patterns\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nJava logging best practices with SLF4J, structured logging (JSON), and MDC for request tracing. Includes AI-friendly log formats for Claude Code debugging. Use when user asks about logging, debugging application flow, or analyzing logs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/logging-patterns\n"
+  },
+  {
+    "slug": "java-maven-dependency-audit",
+    "name": "Maven Dependency Audit",
+    "category": "coding",
+    "description": "Audit Maven dependencies for outdated versions, security vulnerabilities, and conflicts. Use when user says \"check dependencies\", \"audit dependencies\", \"outdated deps\", or before releases.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/maven-dependency-audit",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Maven Dependency Audit\ndescription: Audit Maven dependencies for outdated versions, security vulnerabilities, and conflicts. Use when user says \"check dependencies\", \"audit dependencies\", \"outdated deps\", or before releases.\n---\n\n# Maven Dependency Audit\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nAudit Maven dependencies for outdated versions, security vulnerabilities, and conflicts. Use when user says \"check dependencies\", \"audit dependencies\", \"outdated deps\", or before releases.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/maven-dependency-audit\n"
+  },
+  {
+    "slug": "java-performance-smell-detection",
+    "name": "Performance Smell Detection",
+    "category": "coding",
+    "description": "Detect potential code-level performance smells in Java - streams, collections, boxing, regex, object creation. Provides awareness, not absolutes - always measure before optimizing. For JPA/database performance, use jp…",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/performance-smell-detection",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Performance Smell Detection\ndescription: Detect potential code-level performance smells in Java - streams, collections, boxing, regex, object creation. Provides awareness, not absolutes - always measure before optimizing. For JPA/database performance, use jpa-patterns instead.\n---\n\n# Performance Smell Detection\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nDetect potential code-level performance smells in Java - streams, collections, boxing, regex, object creation. Provides awareness, not absolutes - always measure before optimizing. For JPA/database performance, use jpa-patterns instead.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/performance-smell-detection\n"
+  },
+  {
+    "slug": "java-security-audit",
+    "name": "Security Audit",
+    "category": "coding",
+    "description": "Java security checklist covering OWASP Top 10, input validation, injection prevention, and secure coding. Works with Spring, Quarkus, Jakarta EE, and plain Java. Use when reviewing code security, before releases, or w…",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/security-audit",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Security Audit\ndescription: Java security checklist covering OWASP Top 10, input validation, injection prevention, and secure coding. Works with Spring, Quarkus, Jakarta EE, and plain Java. Use when reviewing code security, before releases, or when user asks about vulnerabilities.\n---\n\n# Security Audit\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nJava security checklist covering OWASP Top 10, input validation, injection prevention, and secure coding. Works with Spring, Quarkus, Jakarta EE, and plain Java. Use when reviewing code security, before releases, or when user asks about vulnerabilities.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/security-audit\n"
+  },
+  {
+    "slug": "java-solid-principles",
+    "name": "Solid Principles",
+    "category": "coding",
+    "description": "SOLID principles checklist with Java examples. Use when reviewing classes, refactoring code, or when user asks about Single Responsibility, Open/Closed, Liskov, Interface Segregation, or Dependency Inversion.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/solid-principles",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Solid Principles\ndescription: SOLID principles checklist with Java examples. Use when reviewing classes, refactoring code, or when user asks about Single Responsibility, Open/Closed, Liskov, Interface Segregation, or Dependency Inversion.\n---\n\n# Solid Principles\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nSOLID principles checklist with Java examples. Use when reviewing classes, refactoring code, or when user asks about Single Responsibility, Open/Closed, Liskov, Interface Segregation, or Dependency Inversion.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/solid-principles\n"
+  },
+  {
+    "slug": "java-spring-boot-patterns",
+    "name": "Spring Boot Patterns",
+    "category": "coding",
+    "description": "Spring Boot best practices and patterns. Use when creating controllers, services, repositories, or when user asks about Spring Boot architecture, REST APIs, exception handling, or JPA patterns.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/spring-boot-patterns",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Spring Boot Patterns\ndescription: Spring Boot best practices and patterns. Use when creating controllers, services, repositories, or when user asks about Spring Boot architecture, REST APIs, exception handling, or JPA patterns.\n---\n\n# Spring Boot Patterns\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nSpring Boot best practices and patterns. Use when creating controllers, services, repositories, or when user asks about Spring Boot architecture, REST APIs, exception handling, or JPA patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/spring-boot-patterns\n"
+  },
+  {
+    "slug": "java-test-quality",
+    "name": "Test Quality",
+    "category": "coding",
+    "description": "Write high-quality JUnit 5 tests with AssertJ assertions. Use when user says \"add tests\", \"write tests\", \"improve test coverage\", or when reviewing/creating test classes for Java code.",
+    "author": "decebals",
+    "source_url": "https://github.com/decebals/claude-code-java/tree/main/.claude/skills/test-quality",
+    "tags": [
+      "java",
+      "code-review",
+      "jpa",
+      "performance"
+    ],
+    "skill_content": "---\nname: Test Quality\ndescription: Write high-quality JUnit 5 tests with AssertJ assertions. Use when user says \"add tests\", \"write tests\", \"improve test coverage\", or when reviewing/creating test classes for Java code.\n---\n\n# Test Quality\n\nPart of the **Java Engineering Skills** pack by decebals (`decebals/claude-code-java`).\n\nWrite high-quality JUnit 5 tests with AssertJ assertions. Use when user says \"add tests\", \"write tests\", \"improve test coverage\", or when reviewing/creating test classes for Java code.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/decebals/claude-code-java/tree/main/.claude/skills/test-quality\n"
+  }
+]

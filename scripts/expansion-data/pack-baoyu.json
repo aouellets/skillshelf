@@ -1,0 +1,317 @@
+[
+  {
+    "slug": "baoyu-baoyu-article-illustrator",
+    "name": "Baoyu Article Illustrator",
+    "category": "writing",
+    "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Article Illustrator\ndescription: Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".\n---\n\n# Baoyu Article Illustrator\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nAnalyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator\n"
+  },
+  {
+    "slug": "baoyu-baoyu-comic",
+    "name": "Baoyu Comic",
+    "category": "writing",
+    "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and batch-capable image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biogr…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-comic",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Comic\ndescription: Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and batch-capable image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".\n---\n\n# Baoyu Comic\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nKnowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and batch-capable image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-comic\n"
+  },
+  {
+    "slug": "baoyu-baoyu-compress-image",
+    "name": "Baoyu Compress Image",
+    "category": "writing",
+    "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Compress Image\ndescription: Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.\n---\n\n# Baoyu Compress Image\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nCompresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image\n"
+  },
+  {
+    "slug": "baoyu-baoyu-cover-image",
+    "name": "Baoyu Cover Image",
+    "category": "writing",
+    "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Cover Image\ndescription: Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".\n---\n\n# Baoyu Cover Image\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nGenerates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image\n"
+  },
+  {
+    "slug": "baoyu-baoyu-danger-gemini-web",
+    "name": "Baoyu Danger Gemini Web",
+    "category": "writing",
+    "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need ima…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-gemini-web",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Danger Gemini Web\ndescription: Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\",…\n---\n\n# Baoyu Danger Gemini Web\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nGenerates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-gemini-web\n"
+  },
+  {
+    "slug": "baoyu-baoyu-danger-x-to-markdown",
+    "name": "Baoyu Danger X To Markdown",
+    "category": "writing",
+    "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-x-to-markdown",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Danger X To Markdown\ndescription: Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.\n---\n\n# Baoyu Danger X To Markdown\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nConverts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-x-to-markdown\n"
+  },
+  {
+    "slug": "baoyu-baoyu-diagram",
+    "name": "Baoyu Diagram",
+    "category": "writing",
+    "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill w…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-diagram",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Diagram\ndescription: Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram,…\n---\n\n# Baoyu Diagram\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nCreate professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram,…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-diagram\n"
+  },
+  {
+    "slug": "baoyu-baoyu-electron-extract",
+    "name": "Baoyu Electron Extract",
+    "category": "writing",
+    "description": "Extracts resources and JavaScript from any installed Electron app (`.asar` bundle), restoring original sources from `.js.map` files when available or formatting minified code with Prettier otherwise. Use when user wan…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-electron-extract",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Electron Extract\ndescription: Extracts resources and JavaScript from any installed Electron app (`.asar` bundle), restoring original sources from `.js.map` files when available or formatting minified code with Prettier otherwise. Use when user wants to \"extract Electron app\", \"decompile Electron\", \"get the source code of…\n---\n\n# Baoyu Electron Extract\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nExtracts resources and JavaScript from any installed Electron app (`.asar` bundle), restoring original sources from `.js.map` files when available or formatting minified code with Prettier otherwise. Use when user wants to \"extract Electron app\", \"decompile Electron\", \"get the source code of…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-electron-extract\n"
+  },
+  {
+    "slug": "baoyu-baoyu-format-markdown",
+    "name": "Baoyu Format Markdown",
+    "category": "writing",
+    "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layou…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Format Markdown\ndescription: Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.\n---\n\n# Baoyu Format Markdown\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nFormats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown\n"
+  },
+  {
+    "slug": "baoyu-baoyu-image-gen",
+    "name": "Baoyu Image Gen",
+    "category": "writing",
+    "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream, Replicate and Agnes APIs. Supports text-to-image, reference images, aspect ratios, a…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Image Gen\ndescription: AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream, Replicate and Agnes APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch…\n---\n\n# Baoyu Image Gen\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nAI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream, Replicate and Agnes APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen\n"
+  },
+  {
+    "slug": "baoyu-baoyu-infographic",
+    "name": "Baoyu Infographic",
+    "category": "writing",
+    "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infogra…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Infographic\ndescription: Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".\n---\n\n# Baoyu Infographic\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nGenerate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic\n"
+  },
+  {
+    "slug": "baoyu-baoyu-markdown-to-html",
+    "name": "Baoyu Markdown To Html",
+    "category": "writing",
+    "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, Mermaid (rendered to PNG via headless Chrome), PlantUML, footnotes, alerts, infographics, and optional bottom citations…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Markdown To Html\ndescription: Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, Mermaid (rendered to PNG via headless Chrome), PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to…\n---\n\n# Baoyu Markdown To Html\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nConverts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, Mermaid (rendered to PNG via headless Chrome), PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html\n"
+  },
+  {
+    "slug": "baoyu-baoyu-post-to-wechat",
+    "name": "Baoyu Post To Wechat",
+    "category": "writing",
+    "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown a…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-wechat",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Post To Wechat\ndescription: Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom…\n---\n\n# Baoyu Post To Wechat\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nPosts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-wechat\n"
+  },
+  {
+    "slug": "baoyu-baoyu-post-to-weibo",
+    "name": "Baoyu Post To Weibo",
+    "category": "writing",
+    "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Wei…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-weibo",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Post To Weibo\ndescription: Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".\n---\n\n# Baoyu Post To Weibo\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nPosts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-weibo\n"
+  },
+  {
+    "slug": "baoyu-baoyu-post-to-x",
+    "name": "Baoyu Post To X",
+    "category": "writing",
+    "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). In Codex, honor explicit requests for the Codex Chrome plugin/@chrome by using the Chrome Exten…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-x",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Post To X\ndescription: Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). In Codex, honor explicit requests for the Codex Chrome plugin/@chrome by using the Chrome Extension workflow; otherwise use Chrome Computer Use when available and fall back…\n---\n\n# Baoyu Post To X\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nPosts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). In Codex, honor explicit requests for the Codex Chrome plugin/@chrome by using the Chrome Extension workflow; otherwise use Chrome Computer Use when available and fall back…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-x\n"
+  },
+  {
+    "slug": "baoyu-baoyu-slide-deck",
+    "name": "Baoyu Slide Deck",
+    "category": "writing",
+    "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-slide-deck",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Slide Deck\ndescription: Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".\n---\n\n# Baoyu Slide Deck\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nGenerates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-slide-deck\n"
+  },
+  {
+    "slug": "baoyu-baoyu-translate",
+    "name": "Baoyu Translate",
+    "category": "writing",
+    "description": "Baoyu Translate — part of the Baoyu Content Creator pack. Image, diagram, and publishing skills for content creators.",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Translate\ndescription: Baoyu Translate — part of the Baoyu Content Creator pack. Image, diagram, and publishing skills for content creators.\n---\n\n# Baoyu Translate\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nBaoyu Translate — part of the Baoyu Content Creator pack. Image, diagram, and publishing skills for content creators.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate\n"
+  },
+  {
+    "slug": "baoyu-baoyu-url-to-markdown",
+    "name": "Baoyu Url To Markdown",
+    "category": "writing",
+    "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles …",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Url To Markdown\ndescription: Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage…\n---\n\n# Baoyu Url To Markdown\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nFetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown\n"
+  },
+  {
+    "slug": "baoyu-baoyu-wechat-summary",
+    "name": "Baoyu Wechat Summary",
+    "category": "writing",
+    "description": "Summarizes WeChat group chat highlights into a structured digest using the local wx-cli binary (https://github.com/jackwener/wx-cli). Generates a normal digest by default; a roast (毒舌) version is opt-in. Maintains per…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-wechat-summary",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Wechat Summary\ndescription: Summarizes WeChat group chat highlights into a structured digest using the local wx-cli binary (https://github.com/jackwener/wx-cli). Generates a normal digest by default; a roast (毒舌) version is opt-in. Maintains per-group history (history.json + history-digests.jsonl), per-user profiles, and…\n---\n\n# Baoyu Wechat Summary\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nSummarizes WeChat group chat highlights into a structured digest using the local wx-cli binary (https://github.com/jackwener/wx-cli). Generates a normal digest by default; a roast (毒舌) version is opt-in. Maintains per-group history (history.json + history-digests.jsonl), per-user profiles, and…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-wechat-summary\n"
+  },
+  {
+    "slug": "baoyu-baoyu-xhs-images",
+    "name": "Baoyu Xhs Images",
+    "category": "writing",
+    "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\",…",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Xhs Images\ndescription: Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", baoyu-xhs-images, or…\n---\n\n# Baoyu Xhs Images\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nGenerates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", baoyu-xhs-images, or…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images\n"
+  },
+  {
+    "slug": "baoyu-baoyu-youtube-transcript",
+    "name": "Baoyu Youtube Transcript",
+    "category": "writing",
+    "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user …",
+    "author": "Baoyu",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-youtube-transcript",
+    "tags": [
+      "content",
+      "publishing",
+      "image-gen",
+      "infographic"
+    ],
+    "skill_content": "---\nname: Baoyu Youtube Transcript\ndescription: Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\",…\n---\n\n# Baoyu Youtube Transcript\n\nPart of the **Baoyu Content Creator** pack by Baoyu (`JimLiu/baoyu-skills`).\n\nDownloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-youtube-transcript\n"
+  }
+]

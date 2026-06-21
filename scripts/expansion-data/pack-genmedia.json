@@ -1,0 +1,1097 @@
+[
+  {
+    "slug": "genmedia-muapi-ad-creative",
+    "name": "Muapi Ad Creative",
+    "category": "design",
+    "description": "Generate a high-converting ad creative set — hero image, ad copy variations, and platform-optimized crops for Meta, Google Display, and LinkedIn.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ad-creative",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ad Creative\ndescription: Generate a high-converting ad creative set — hero image, ad copy variations, and platform-optimized crops for Meta, Google Display, and LinkedIn.\n---\n\n# Muapi Ad Creative\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a high-converting ad creative set — hero image, ad copy variations, and platform-optimized crops for Meta, Google Display, and LinkedIn.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ad-creative\n"
+  },
+  {
+    "slug": "genmedia-muapi-ai-clipping",
+    "name": "Muapi Ai Clipping",
+    "category": "design",
+    "description": "Turn a long video into N viral-ready short clips with a single managed API call. Wraps muapi.ai's `/ai-clipping` endpoint, which handles transcription, highlight ranking through a virality framework (hook / emotional …",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ai-clipping",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ai Clipping\ndescription: Turn a long video into N viral-ready short clips with a single managed API call. Wraps muapi.ai's `/ai-clipping` endpoint, which handles transcription, highlight ranking through a virality framework (hook / emotional peak / opinion bomb / revelation / conflict / quotable / story peak / practical…\n---\n\n# Muapi Ai Clipping\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a long video into N viral-ready short clips with a single managed API call. Wraps muapi.ai's `/ai-clipping` endpoint, which handles transcription, highlight ranking through a virality framework (hook / emotional peak / opinion bomb / revelation / conflict / quotable / story peak / practical…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ai-clipping\n"
+  },
+  {
+    "slug": "genmedia-muapi-cinema-director",
+    "name": "Muapi Cinema Director",
+    "category": "design",
+    "description": "Direct high-fidelity cinematic video with AI — translates creative intent into technical cinematographic directives for Veo3, Kling, and Luma video models via muapi.ai",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-cinema-director",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Cinema Director\ndescription: Direct high-fidelity cinematic video with AI — translates creative intent into technical cinematographic directives for Veo3, Kling, and Luma video models via muapi.ai\n---\n\n# Muapi Cinema Director\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nDirect high-fidelity cinematic video with AI — translates creative intent into technical cinematographic directives for Veo3, Kling, and Luma video models via muapi.ai\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-cinema-director\n"
+  },
+  {
+    "slug": "genmedia-muapi-instagram-post",
+    "name": "Muapi Instagram Post",
+    "category": "design",
+    "description": "Create a polished, on-brand Instagram post — square or portrait hero image with matching caption and hashtags.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-instagram-post",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Instagram Post\ndescription: Create a polished, on-brand Instagram post — square or portrait hero image with matching caption and hashtags.\n---\n\n# Muapi Instagram Post\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a polished, on-brand Instagram post — square or portrait hero image with matching caption and hashtags.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-instagram-post\n"
+  },
+  {
+    "slug": "genmedia-muapi-logo-creator",
+    "name": "Muapi Logo Creator",
+    "category": "design",
+    "description": "Engineer professional-grade brand logos using geometric primitives and negative space — generates minimalist, scalable vector-style marks via muapi.ai",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-logo-creator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Logo Creator\ndescription: Engineer professional-grade brand logos using geometric primitives and negative space — generates minimalist, scalable vector-style marks via muapi.ai\n---\n\n# Muapi Logo Creator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nEngineer professional-grade brand logos using geometric primitives and negative space — generates minimalist, scalable vector-style marks via muapi.ai\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-logo-creator\n"
+  },
+  {
+    "slug": "genmedia-muapi-nano-banana",
+    "name": "Muapi Nano Banana",
+    "category": "design",
+    "description": "Reasoning-driven image generation using structured creative briefs (Gemini 3 style) — generates high-fidelity images via muapi.ai with logic-based prompting",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-nano-banana",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Nano Banana\ndescription: Reasoning-driven image generation using structured creative briefs (Gemini 3 style) — generates high-fidelity images via muapi.ai with logic-based prompting\n---\n\n# Muapi Nano Banana\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nReasoning-driven image generation using structured creative briefs (Gemini 3 style) — generates high-fidelity images via muapi.ai with logic-based prompting\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-nano-banana\n"
+  },
+  {
+    "slug": "genmedia-muapi-product-video-ad-maker",
+    "name": "Muapi Product Video Ad Maker",
+    "category": "design",
+    "description": "Create a high-end cinematic product video advertisement starting from a simple product photo.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-product-video-ad-maker",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Product Video Ad Maker\ndescription: Create a high-end cinematic product video advertisement starting from a simple product photo.\n---\n\n# Muapi Product Video Ad Maker\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a high-end cinematic product video advertisement starting from a simple product photo.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-product-video-ad-maker\n"
+  },
+  {
+    "slug": "genmedia-muapi-seedance-2",
+    "name": "Muapi Seedance 2",
+    "category": "design",
+    "description": "Expert Cinema Director skill for Seedance 2.0 (ByteDance) — high-fidelity video generation across Chinese, Global, and VIP tiers. Supports text-to-video, image-to-video, first-last-frame, omni reference, character tra…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-seedance-2",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Seedance 2\ndescription: Expert Cinema Director skill for Seedance 2.0 (ByteDance) — high-fidelity video generation across Chinese, Global, and VIP tiers. Supports text-to-video, image-to-video, first-last-frame, omni reference, character training, omni-reference training, video editing, and watermark removal.\n---\n\n# Muapi Seedance 2\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nExpert Cinema Director skill for Seedance 2.0 (ByteDance) — high-fidelity video generation across Chinese, Global, and VIP tiers. Supports text-to-video, image-to-video, first-last-frame, omni reference, character training, omni-reference training, video editing, and watermark removal.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-seedance-2\n"
+  },
+  {
+    "slug": "genmedia-muapi-social-media-video",
+    "name": "Muapi Social Media Video",
+    "category": "design",
+    "description": "Brand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available …",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-social-media-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Social Media Video\ndescription: Brand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available image model, and produce platform-ready video.\n---\n\n# Muapi Social Media Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nBrand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available image model, and produce platform-ready video.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-social-media-video\n"
+  },
+  {
+    "slug": "genmedia-muapi-ugc-video-factory",
+    "name": "Muapi Ugc Video Factory",
+    "category": "design",
+    "description": "Turn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP im…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ugc-video-factory",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ugc Video Factory\ndescription: Turn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP image-to-video.\n---\n\n# Muapi Ugc Video Factory\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP image-to-video.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ugc-video-factory\n"
+  },
+  {
+    "slug": "genmedia-muapi-ui-design",
+    "name": "Muapi Ui Design",
+    "category": "design",
+    "description": "Generate high-fidelity UI/UX mockups for mobile and web apps using Atomic Design principles — creates wireframes and design systems via muapi.ai",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ui-design",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ui Design\ndescription: Generate high-fidelity UI/UX mockups for mobile and web apps using Atomic Design principles — creates wireframes and design systems via muapi.ai\n---\n\n# Muapi Ui Design\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate high-fidelity UI/UX mockups for mobile and web apps using Atomic Design principles — creates wireframes and design systems via muapi.ai\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-ui-design\n"
+  },
+  {
+    "slug": "genmedia-muapi-youtube-shorts",
+    "name": "Muapi Youtube Shorts",
+    "category": "design",
+    "description": "Auto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from a long-form video. Thin platform-aware wrapper around the AI Clipping skill — picks sensible defaults for short-form social platforms (9:16, 30–60…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-youtube-shorts",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Youtube Shorts\ndescription: Auto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from a long-form video. Thin platform-aware wrapper around the AI Clipping skill — picks sensible defaults for short-form social platforms (9:16, 30–60s sweet spot) and delegates the actual highlight extraction + crop to…\n---\n\n# Muapi Youtube Shorts\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nAuto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from a long-form video. Thin platform-aware wrapper around the AI Clipping skill — picks sensible defaults for short-form social platforms (9:16, 30–60s sweet spot) and delegates the actual highlight extraction + crop to…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-youtube-shorts\n"
+  },
+  {
+    "slug": "genmedia-muapi-youtube-thumbnail",
+    "name": "Muapi Youtube Thumbnail",
+    "category": "design",
+    "description": "Design a high-CTR YouTube thumbnail — striking imagery, bold text placement, and emotional face/subject if needed.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-youtube-thumbnail",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Youtube Thumbnail\ndescription: Design a high-CTR YouTube thumbnail — striking imagery, bold text placement, and emotional face/subject if needed.\n---\n\n# Muapi Youtube Thumbnail\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nDesign a high-CTR YouTube thumbnail — striking imagery, bold text placement, and emotional face/subject if needed.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/.opencode/skills/muapi-youtube-thumbnail\n"
+  },
+  {
+    "slug": "genmedia-edit",
+    "name": "Muapi Media Editing",
+    "category": "design",
+    "description": "Edit and enhance images and videos with AI via muapi.ai — prompt-based editing, upscaling, background removal, face swap, lipsync, video effects, and more",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/core/edit",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Media Editing\ndescription: Edit and enhance images and videos with AI via muapi.ai — prompt-based editing, upscaling, background removal, face swap, lipsync, video effects, and more\n---\n\n# Muapi Media Editing\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nEdit and enhance images and videos with AI via muapi.ai — prompt-based editing, upscaling, background removal, face swap, lipsync, video effects, and more\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/core/edit\n"
+  },
+  {
+    "slug": "genmedia-media",
+    "name": "Muapi Media Generation",
+    "category": "design",
+    "description": "Generate AI images, videos, music, and audio from the terminal via muapi.ai — supports 100+ models including Flux, Midjourney v7, Kling 3.0, Veo3, and Suno V5",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/core/media",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Media Generation\ndescription: Generate AI images, videos, music, and audio from the terminal via muapi.ai — supports 100+ models including Flux, Midjourney v7, Kling 3.0, Veo3, and Suno V5\n---\n\n# Muapi Media Generation\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate AI images, videos, music, and audio from the terminal via muapi.ai — supports 100+ models including Flux, Midjourney v7, Kling 3.0, Veo3, and Suno V5\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/core/media\n"
+  },
+  {
+    "slug": "genmedia-platform",
+    "name": "Muapi Platform",
+    "category": "design",
+    "description": "Setup and utility scripts for muapi.ai — configure API keys, test connectivity, and poll for async generation results",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/core/platform",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Platform\ndescription: Setup and utility scripts for muapi.ai — configure API keys, test connectivity, and poll for async generation results\n---\n\n# Muapi Platform\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nSetup and utility scripts for muapi.ai — configure API keys, test connectivity, and poll for async generation results\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/core/platform\n"
+  },
+  {
+    "slug": "genmedia-ai-clipping",
+    "name": "Muapi Ai Clipping",
+    "category": "design",
+    "description": "Turn a long video into N viral-ready short clips with a single managed API call. Wraps muapi.ai's `/ai-clipping` endpoint, which handles transcription, highlight ranking through a virality framework (hook / emotional …",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/edit/ai-clipping",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ai Clipping\ndescription: Turn a long video into N viral-ready short clips with a single managed API call. Wraps muapi.ai's `/ai-clipping` endpoint, which handles transcription, highlight ranking through a virality framework (hook / emotional peak / opinion bomb / revelation / conflict / quotable / story peak / practical…\n---\n\n# Muapi Ai Clipping\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a long video into N viral-ready short clips with a single managed API call. Wraps muapi.ai's `/ai-clipping` endpoint, which handles transcription, highlight ranking through a virality framework (hook / emotional peak / opinion bomb / revelation / conflict / quotable / story peak / practical…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/edit/ai-clipping\n"
+  },
+  {
+    "slug": "genmedia-3d-logo-animation",
+    "name": "Muapi 3d Logo Animation",
+    "category": "design",
+    "description": "Transform a 2D logo into a premium 3D version and animate it with professional cinematic effects.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/3d-logo-animation",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi 3d Logo Animation\ndescription: Transform a 2D logo into a premium 3D version and animate it with professional cinematic effects.\n---\n\n# Muapi 3d Logo Animation\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTransform a 2D logo into a premium 3D version and animate it with professional cinematic effects.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/3d-logo-animation\n"
+  },
+  {
+    "slug": "genmedia-ai-fight-scene",
+    "name": "Muapi Ai Fight Scene",
+    "category": "design",
+    "description": "Generate a high-cut-density action / fight scene by first composing a 16-cell storyboard image, then driving Seedance 2.0 image-to-video off that storyboard. Stacks GPT-Image-2 (character sheet + storyboard), Nano-Ban…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/ai-fight-scene",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ai Fight Scene\ndescription: Generate a high-cut-density action / fight scene by first composing a 16-cell storyboard image, then driving Seedance 2.0 image-to-video off that storyboard. Stacks GPT-Image-2 (character sheet + storyboard), Nano-Banana-2 (environment concept), and Seedance 2.0 i2v.\n---\n\n# Muapi Ai Fight Scene\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a high-cut-density action / fight scene by first composing a 16-cell storyboard image, then driving Seedance 2.0 image-to-video off that storyboard. Stacks GPT-Image-2 (character sheet + storyboard), Nano-Banana-2 (environment concept), and Seedance 2.0 i2v.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/ai-fight-scene\n"
+  },
+  {
+    "slug": "genmedia-animal-video-generator",
+    "name": "Muapi Animal Video Generator",
+    "category": "design",
+    "description": "Create a hilarious and ultra-realistic video of an anthropomorphic animal acting like a human vlogger in a real-world setting.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/animal-video-generator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Animal Video Generator\ndescription: Create a hilarious and ultra-realistic video of an anthropomorphic animal acting like a human vlogger in a real-world setting.\n---\n\n# Muapi Animal Video Generator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a hilarious and ultra-realistic video of an anthropomorphic animal acting like a human vlogger in a real-world setting.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/animal-video-generator\n"
+  },
+  {
+    "slug": "genmedia-award-ceremony-video",
+    "name": "Muapi Award Ceremony Video",
+    "category": "design",
+    "description": "Generate a 15-second cinematic awards-ceremony video — a host announces a winner from the stage, a spotlight finds them in the crowd, they walk up to the podium, receive the award, and the LED display reveals their na…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/award-ceremony-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Award Ceremony Video\ndescription: Generate a 15-second cinematic awards-ceremony video — a host announces a winner from the stage, a spotlight finds them in the crowd, they walk up to the podium, receive the award, and the LED display reveals their name and \"THE BEST ACTOR\".\n---\n\n# Muapi Award Ceremony Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a 15-second cinematic awards-ceremony video — a host announces a winner from the stage, a spotlight finds them in the crowd, they walk up to the podium, receive the award, and the LED display reveals their name and \"THE BEST ACTOR\".\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/award-ceremony-video\n"
+  },
+  {
+    "slug": "genmedia-cartoon-dance-animation",
+    "name": "Muapi Cartoon Dance Animation",
+    "category": "design",
+    "description": "Convert a photo of a person into a Pixar-style 3D cartoon character, then animate it using a reference dance or motion video.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/cartoon-dance-animation",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Cartoon Dance Animation\ndescription: Convert a photo of a person into a Pixar-style 3D cartoon character, then animate it using a reference dance or motion video.\n---\n\n# Muapi Cartoon Dance Animation\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nConvert a photo of a person into a Pixar-style 3D cartoon character, then animate it using a reference dance or motion video.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/cartoon-dance-animation\n"
+  },
+  {
+    "slug": "genmedia-character-story-video",
+    "name": "Muapi Character Story Video",
+    "category": "design",
+    "description": "Create a multi-part animated story video by first establishing a consistent character and then generating sequential scenes and animating them.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/character-story-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Character Story Video\ndescription: Create a multi-part animated story video by first establishing a consistent character and then generating sequential scenes and animating them.\n---\n\n# Muapi Character Story Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a multi-part animated story video by first establishing a consistent character and then generating sequential scenes and animating them.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/character-story-video\n"
+  },
+  {
+    "slug": "genmedia-cinema-director",
+    "name": "Muapi Cinema Director",
+    "category": "design",
+    "description": "Direct high-fidelity cinematic video with AI — translates creative intent into technical cinematographic directives for Veo3, Kling, and Luma video models via muapi.ai",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/cinema-director",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Cinema Director\ndescription: Direct high-fidelity cinematic video with AI — translates creative intent into technical cinematographic directives for Veo3, Kling, and Luma video models via muapi.ai\n---\n\n# Muapi Cinema Director\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nDirect high-fidelity cinematic video with AI — translates creative intent into technical cinematographic directives for Veo3, Kling, and Luma video models via muapi.ai\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/cinema-director\n"
+  },
+  {
+    "slug": "genmedia-drone-style-video",
+    "name": "Muapi Drone Style Video",
+    "category": "design",
+    "description": "Generate aerial drone-perspective footage — sweeping bird's-eye views, orbit shots, and flyover sequences for landscapes, architecture, and events.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/drone-style-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Drone Style Video\ndescription: Generate aerial drone-perspective footage — sweeping bird's-eye views, orbit shots, and flyover sequences for landscapes, architecture, and events.\n---\n\n# Muapi Drone Style Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate aerial drone-perspective footage — sweeping bird's-eye views, orbit shots, and flyover sequences for landscapes, architecture, and events.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/drone-style-video\n"
+  },
+  {
+    "slug": "genmedia-freeze-effect-video",
+    "name": "Muapi Freeze Effect Video",
+    "category": "design",
+    "description": "Generate a cinematic \"freeze effect\" video where time stops mid-scene, the subject walks through the frozen world, then time resumes with a snap.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/freeze-effect-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Freeze Effect Video\ndescription: Generate a cinematic \"freeze effect\" video where time stops mid-scene, the subject walks through the frozen world, then time resumes with a snap.\n---\n\n# Muapi Freeze Effect Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a cinematic \"freeze effect\" video where time stops mid-scene, the subject walks through the frozen world, then time resumes with a snap.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/freeze-effect-video\n"
+  },
+  {
+    "slug": "genmedia-giant-product-showcase",
+    "name": "Muapi Giant Product Showcase",
+    "category": "design",
+    "description": "Create a dramatic \"Giant Product\" visual where a regular item is showcased as a massive, building-sized object next to a person, then optionally animate the scene.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/giant-product-showcase",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Giant Product Showcase\ndescription: Create a dramatic \"Giant Product\" visual where a regular item is showcased as a massive, building-sized object next to a person, then optionally animate the scene.\n---\n\n# Muapi Giant Product Showcase\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a dramatic \"Giant Product\" visual where a regular item is showcased as a massive, building-sized object next to a person, then optionally animate the scene.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/giant-product-showcase\n"
+  },
+  {
+    "slug": "genmedia-jewelry-product-video",
+    "name": "Muapi Jewelry Product Video",
+    "category": "design",
+    "description": "Create a luxury jewelry advertisement with high-end commercial cinematography and detailed macro animation.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/jewelry-product-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Jewelry Product Video\ndescription: Create a luxury jewelry advertisement with high-end commercial cinematography and detailed macro animation.\n---\n\n# Muapi Jewelry Product Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a luxury jewelry advertisement with high-end commercial cinematography and detailed macro animation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/jewelry-product-video\n"
+  },
+  {
+    "slug": "genmedia-music-video",
+    "name": "Muapi Music Video",
+    "category": "design",
+    "description": "Build a short music video from a song theme — N keyframes, animate each, generate matching music.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/music-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Music Video\ndescription: Build a short music video from a song theme — N keyframes, animate each, generate matching music.\n---\n\n# Muapi Music Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nBuild a short music video from a song theme — N keyframes, animate each, generate matching music.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/music-video\n"
+  },
+  {
+    "slug": "genmedia-one-shot-video",
+    "name": "Muapi One Shot Video",
+    "category": "design",
+    "description": "Generate a single continuous cinematic shot video — no cuts, one seamless flowing scene with dramatic lighting and motion.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/one-shot-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi One Shot Video\ndescription: Generate a single continuous cinematic shot video — no cuts, one seamless flowing scene with dramatic lighting and motion.\n---\n\n# Muapi One Shot Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a single continuous cinematic shot video — no cuts, one seamless flowing scene with dramatic lighting and motion.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/one-shot-video\n"
+  },
+  {
+    "slug": "genmedia-product-ad-cinematic",
+    "name": "Muapi Product Ad Cinematic",
+    "category": "design",
+    "description": "Cinematic 5–10s product ad from a product photo + brand brief.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/product-ad-cinematic",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Product Ad Cinematic\ndescription: Cinematic 5–10s product ad from a product photo + brand brief.\n---\n\n# Muapi Product Ad Cinematic\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCinematic 5–10s product ad from a product photo + brand brief.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/product-ad-cinematic\n"
+  },
+  {
+    "slug": "genmedia-product-showcase-video",
+    "name": "Muapi Product Showcase Video",
+    "category": "design",
+    "description": "Create a dynamic product showcase with explosive ingredient arrangements, followed by a realistic motion animation.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/product-showcase-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Product Showcase Video\ndescription: Create a dynamic product showcase with explosive ingredient arrangements, followed by a realistic motion animation.\n---\n\n# Muapi Product Showcase Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a dynamic product showcase with explosive ingredient arrangements, followed by a realistic motion animation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/product-showcase-video\n"
+  },
+  {
+    "slug": "genmedia-product-video-ad-maker",
+    "name": "Muapi Product Video Ad Maker",
+    "category": "design",
+    "description": "Create a high-end cinematic product video advertisement starting from a simple product photo.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/product-video-ad-maker",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Product Video Ad Maker\ndescription: Create a high-end cinematic product video advertisement starting from a simple product photo.\n---\n\n# Muapi Product Video Ad Maker\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a high-end cinematic product video advertisement starting from a simple product photo.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/product-video-ad-maker\n"
+  },
+  {
+    "slug": "genmedia-seedance-2",
+    "name": "Muapi Seedance 2",
+    "category": "design",
+    "description": "Expert Cinema Director skill for Seedance 2.0 (ByteDance) — high-fidelity video generation across Chinese, Global, and VIP tiers. Supports text-to-video, image-to-video, first-last-frame, omni reference, character tra…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/seedance-2",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Seedance 2\ndescription: Expert Cinema Director skill for Seedance 2.0 (ByteDance) — high-fidelity video generation across Chinese, Global, and VIP tiers. Supports text-to-video, image-to-video, first-last-frame, omni reference, character training, omni-reference training, video editing, and watermark removal.\n---\n\n# Muapi Seedance 2\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nExpert Cinema Director skill for Seedance 2.0 (ByteDance) — high-fidelity video generation across Chinese, Global, and VIP tiers. Supports text-to-video, image-to-video, first-last-frame, omni reference, character training, omni-reference training, video editing, and watermark removal.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/seedance-2\n"
+  },
+  {
+    "slug": "genmedia-storyboard-to-cooking-video",
+    "name": "Muapi Storyboard To Cooking Video",
+    "category": "design",
+    "description": "Turn a single photo of a person into a 15-second cinematic pasta-making (or other cuisine) tutorial video. First builds a composite reference sheet (character + kitchen + 9-step action board), then animates the full c…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/storyboard-to-cooking-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Storyboard To Cooking Video\ndescription: Turn a single photo of a person into a 15-second cinematic pasta-making (or other cuisine) tutorial video. First builds a composite reference sheet (character + kitchen + 9-step action board), then animates the full cooking sequence with audio in a single continuous shot.\n---\n\n# Muapi Storyboard To Cooking Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a single photo of a person into a 15-second cinematic pasta-making (or other cuisine) tutorial video. First builds a composite reference sheet (character + kitchen + 9-step action board), then animates the full cooking sequence with audio in a single continuous shot.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/storyboard-to-cooking-video\n"
+  },
+  {
+    "slug": "genmedia-talking-baby-video",
+    "name": "Muapi Talking Baby Video",
+    "category": "design",
+    "description": "Create a viral-style video of a talking baby with custom costumes and scripts.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/talking-baby-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Talking Baby Video\ndescription: Create a viral-style video of a talking baby with custom costumes and scripts.\n---\n\n# Muapi Talking Baby Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a viral-style video of a talking baby with custom costumes and scripts.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/talking-baby-video\n"
+  },
+  {
+    "slug": "genmedia-ugc-lifestyle-try-on",
+    "name": "Muapi Ugc Lifestyle Try On",
+    "category": "design",
+    "description": "Generate UGC-style (User Generated Content) lifestyle photos of a person wearing or using your product — authentic, relatable, social-media-native imagery.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/ugc-lifestyle-try-on",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ugc Lifestyle Try On\ndescription: Generate UGC-style (User Generated Content) lifestyle photos of a person wearing or using your product — authentic, relatable, social-media-native imagery.\n---\n\n# Muapi Ugc Lifestyle Try On\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate UGC-style (User Generated Content) lifestyle photos of a person wearing or using your product — authentic, relatable, social-media-native imagery.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/ugc-lifestyle-try-on\n"
+  },
+  {
+    "slug": "genmedia-ugc-video-factory",
+    "name": "Muapi Ugc Video Factory",
+    "category": "design",
+    "description": "Turn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP im…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/ugc-video-factory",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ugc Video Factory\ndescription: Turn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP image-to-video.\n---\n\n# Muapi Ugc Video Factory\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP image-to-video.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/motion/ugc-video-factory\n"
+  },
+  {
+    "slug": "genmedia-instagram-post",
+    "name": "Muapi Instagram Post",
+    "category": "design",
+    "description": "Create a polished, on-brand Instagram post — square or portrait hero image with matching caption and hashtags.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/instagram-post",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Instagram Post\ndescription: Create a polished, on-brand Instagram post — square or portrait hero image with matching caption and hashtags.\n---\n\n# Muapi Instagram Post\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a polished, on-brand Instagram post — square or portrait hero image with matching caption and hashtags.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/instagram-post\n"
+  },
+  {
+    "slug": "genmedia-product-campaign",
+    "name": "Muapi Product Campaign",
+    "category": "design",
+    "description": "Generate a full multi-channel product campaign — hero visuals, social media assets, short ad video, and platform-specific crops for an end-to-end launch campaign.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/product-campaign",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Product Campaign\ndescription: Generate a full multi-channel product campaign — hero visuals, social media assets, short ad video, and platform-specific crops for an end-to-end launch campaign.\n---\n\n# Muapi Product Campaign\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a full multi-channel product campaign — hero visuals, social media assets, short ad video, and platform-specific crops for an end-to-end launch campaign.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/product-campaign\n"
+  },
+  {
+    "slug": "genmedia-rednote-cover",
+    "name": "Muapi Rednote Cover",
+    "category": "design",
+    "description": "Create a Xiaohongshu (RedNote/小红书) style cover image — vibrant, lifestyle-focused, with aesthetic typography overlay suitable for the Chinese social platform.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/rednote-cover",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Rednote Cover\ndescription: Create a Xiaohongshu (RedNote/小红书) style cover image — vibrant, lifestyle-focused, with aesthetic typography overlay suitable for the Chinese social platform.\n---\n\n# Muapi Rednote Cover\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a Xiaohongshu (RedNote/小红书) style cover image — vibrant, lifestyle-focused, with aesthetic typography overlay suitable for the Chinese social platform.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/rednote-cover\n"
+  },
+  {
+    "slug": "genmedia-social-media-video",
+    "name": "Muapi Social Media Video",
+    "category": "design",
+    "description": "Brand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available …",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/social-media-video",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Social Media Video\ndescription: Brand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available image model, and produce platform-ready video.\n---\n\n# Muapi Social Media Video\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nBrand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available image model, and produce platform-ready video.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/social-media-video\n"
+  },
+  {
+    "slug": "genmedia-social-pack",
+    "name": "Muapi Social Pack",
+    "category": "design",
+    "description": "Re-render a hero image into Instagram, TikTok, YouTube-shorts and Twitter/X aspect ratios.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/social-pack",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Social Pack\ndescription: Re-render a hero image into Instagram, TikTok, YouTube-shorts and Twitter/X aspect ratios.\n---\n\n# Muapi Social Pack\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nRe-render a hero image into Instagram, TikTok, YouTube-shorts and Twitter/X aspect ratios.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/social-pack\n"
+  },
+  {
+    "slug": "genmedia-ugc-ads-workflow",
+    "name": "Muapi Ugc Ads Workflow",
+    "category": "design",
+    "description": "Create a User-Generated Content (UGC) video ad by combining a human selfie and a product image, then generating a video script and an animated ad.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/ugc-ads-workflow",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ugc Ads Workflow\ndescription: Create a User-Generated Content (UGC) video ad by combining a human selfie and a product image, then generating a video script and an animated ad.\n---\n\n# Muapi Ugc Ads Workflow\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a User-Generated Content (UGC) video ad by combining a human selfie and a product image, then generating a video script and an animated ad.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/ugc-ads-workflow\n"
+  },
+  {
+    "slug": "genmedia-youtube-shorts",
+    "name": "Muapi Youtube Shorts",
+    "category": "design",
+    "description": "Auto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from a long-form video. Thin platform-aware wrapper around the AI Clipping skill — picks sensible defaults for short-form social platforms (9:16, 30–60…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/youtube-shorts",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Youtube Shorts\ndescription: Auto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from a long-form video. Thin platform-aware wrapper around the AI Clipping skill — picks sensible defaults for short-form social platforms (9:16, 30–60s sweet spot) and delegates the actual highlight extraction + crop to…\n---\n\n# Muapi Youtube Shorts\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nAuto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from a long-form video. Thin platform-aware wrapper around the AI Clipping skill — picks sensible defaults for short-form social platforms (9:16, 30–60s sweet spot) and delegates the actual highlight extraction + crop to…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/social/youtube-shorts\n"
+  },
+  {
+    "slug": "genmedia-action-figure-generator",
+    "name": "Muapi Action Figure Generator",
+    "category": "design",
+    "description": "Convert a photo of a person into a custom 3D action figure, complete with collectible toy packaging.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/action-figure-generator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Action Figure Generator\ndescription: Convert a photo of a person into a custom 3D action figure, complete with collectible toy packaging.\n---\n\n# Muapi Action Figure Generator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nConvert a photo of a person into a custom 3D action figure, complete with collectible toy packaging.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/action-figure-generator\n"
+  },
+  {
+    "slug": "genmedia-ad-creative",
+    "name": "Muapi Ad Creative",
+    "category": "design",
+    "description": "Generate a high-converting ad creative set — hero image, ad copy variations, and platform-optimized crops for Meta, Google Display, and LinkedIn.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/ad-creative",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ad Creative\ndescription: Generate a high-converting ad creative set — hero image, ad copy variations, and platform-optimized crops for Meta, Google Display, and LinkedIn.\n---\n\n# Muapi Ad Creative\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a high-converting ad creative set — hero image, ad copy variations, and platform-optimized crops for Meta, Google Display, and LinkedIn.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/ad-creative\n"
+  },
+  {
+    "slug": "genmedia-amazon-product-listing",
+    "name": "Muapi Amazon Product Listing",
+    "category": "design",
+    "description": "Generate a complete Amazon product listing image set — hero image, lifestyle shot, infographic with features, and comparison/detail closeups optimized for Amazon standards.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/amazon-product-listing",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Amazon Product Listing\ndescription: Generate a complete Amazon product listing image set — hero image, lifestyle shot, infographic with features, and comparison/detail closeups optimized for Amazon standards.\n---\n\n# Muapi Amazon Product Listing\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a complete Amazon product listing image set — hero image, lifestyle shot, infographic with features, and comparison/detail closeups optimized for Amazon standards.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/amazon-product-listing\n"
+  },
+  {
+    "slug": "genmedia-blog-header",
+    "name": "Muapi Blog Header",
+    "category": "design",
+    "description": "Create a professional, eye-catching blog post header image sized for web (1200×628) with optional title composition guidance.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/blog-header",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Blog Header\ndescription: Create a professional, eye-catching blog post header image sized for web (1200×628) with optional title composition guidance.\n---\n\n# Muapi Blog Header\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a professional, eye-catching blog post header image sized for web (1200×628) with optional title composition guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/blog-header\n"
+  },
+  {
+    "slug": "genmedia-brand-kit",
+    "name": "Muapi Brand Kit",
+    "category": "design",
+    "description": "Generate a cohesive brand visual kit — logo concept, color palette moodboard, and typography pairing suggestions.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/brand-kit",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Brand Kit\ndescription: Generate a cohesive brand visual kit — logo concept, color palette moodboard, and typography pairing suggestions.\n---\n\n# Muapi Brand Kit\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a cohesive brand visual kit — logo concept, color palette moodboard, and typography pairing suggestions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/brand-kit\n"
+  },
+  {
+    "slug": "genmedia-brochures",
+    "name": "Muapi Brochures",
+    "category": "design",
+    "description": "Generate a professional multi-page brochure design — cover, inner spread, and back cover — for business, real estate, events, or product launches.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/brochures",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Brochures\ndescription: Generate a professional multi-page brochure design — cover, inner spread, and back cover — for business, real estate, events, or product launches.\n---\n\n# Muapi Brochures\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a professional multi-page brochure design — cover, inner spread, and back cover — for business, real estate, events, or product launches.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/brochures\n"
+  },
+  {
+    "slug": "genmedia-chibi-collage-effect",
+    "name": "Muapi Chibi Collage Effect",
+    "category": "design",
+    "description": "Turn a real lifestyle photo into a polished \"chibi clone sticker diary\" image — the original person stays photorealistic, surrounded by 5–8 kawaii chibi mini-clones, scrapbook doodles, and handwritten-style captions t…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/chibi-collage-effect",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Chibi Collage Effect\ndescription: Turn a real lifestyle photo into a polished \"chibi clone sticker diary\" image — the original person stays photorealistic, surrounded by 5–8 kawaii chibi mini-clones, scrapbook doodles, and handwritten-style captions that match the scene.\n---\n\n# Muapi Chibi Collage Effect\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a real lifestyle photo into a polished \"chibi clone sticker diary\" image — the original person stays photorealistic, surrounded by 5–8 kawaii chibi mini-clones, scrapbook doodles, and handwritten-style captions that match the scene.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/chibi-collage-effect\n"
+  },
+  {
+    "slug": "genmedia-color-analysis-board",
+    "name": "Muapi Color Analysis Board",
+    "category": "design",
+    "description": "Turn a portrait photo into a high-end editorial \"Color Analysis Board\" in a luxury fashion-magazine style (Dior / Ralph Lauren aesthetic) — best colors, undertone, makeup guide, capsule wardrobe, hair & jewelry recomm…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/color-analysis-board",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Color Analysis Board\ndescription: Turn a portrait photo into a high-end editorial \"Color Analysis Board\" in a luxury fashion-magazine style (Dior / Ralph Lauren aesthetic) — best colors, undertone, makeup guide, capsule wardrobe, hair & jewelry recommendations, all laid out on a clean beige/ivory grid.\n---\n\n# Muapi Color Analysis Board\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nTurn a portrait photo into a high-end editorial \"Color Analysis Board\" in a luxury fashion-magazine style (Dior / Ralph Lauren aesthetic) — best colors, undertone, makeup guide, capsule wardrobe, hair & jewelry recommendations, all laid out on a clean beige/ivory grid.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/color-analysis-board\n"
+  },
+  {
+    "slug": "genmedia-couple-grid-creator",
+    "name": "Muapi Couple Grid Creator",
+    "category": "design",
+    "description": "Create a stylized 6-box grid featuring a couple in various romantic poses and outfits, with each pose framed inside a unique cardboard box packaging.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/couple-grid-creator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Couple Grid Creator\ndescription: Create a stylized 6-box grid featuring a couple in various romantic poses and outfits, with each pose framed inside a unique cardboard box packaging.\n---\n\n# Muapi Couple Grid Creator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a stylized 6-box grid featuring a couple in various romantic poses and outfits, with each pose framed inside a unique cardboard box packaging.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/couple-grid-creator\n"
+  },
+  {
+    "slug": "genmedia-design-guide",
+    "name": "Muapi Design Guide",
+    "category": "design",
+    "description": "Create a comprehensive brand design guide — color palette, typography pairings, UI component previews, and visual identity rules with example mockups.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/design-guide",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Design Guide\ndescription: Create a comprehensive brand design guide — color palette, typography pairings, UI component previews, and visual identity rules with example mockups.\n---\n\n# Muapi Design Guide\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate a comprehensive brand design guide — color palette, typography pairings, UI component previews, and visual identity rules with example mockups.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/design-guide\n"
+  },
+  {
+    "slug": "genmedia-fashion-try-on",
+    "name": "Muapi Fashion Try On",
+    "category": "design",
+    "description": "Virtually try on different outfits by combining a person's photo and a clothing item, then optionally generate a professional fashion model video.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/fashion-try-on",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Fashion Try On\ndescription: Virtually try on different outfits by combining a person's photo and a clothing item, then optionally generate a professional fashion model video.\n---\n\n# Muapi Fashion Try On\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nVirtually try on different outfits by combining a person's photo and a clothing item, then optionally generate a professional fashion model video.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/fashion-try-on\n"
+  },
+  {
+    "slug": "genmedia-floor-plan-rendering",
+    "name": "Muapi Floor Plan Rendering",
+    "category": "design",
+    "description": "Design a 2D floor plan and convert it into a realistic, high-quality 3D architectural rendering.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/floor-plan-rendering",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Floor Plan Rendering\ndescription: Design a 2D floor plan and convert it into a realistic, high-quality 3D architectural rendering.\n---\n\n# Muapi Floor Plan Rendering\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nDesign a 2D floor plan and convert it into a realistic, high-quality 3D architectural rendering.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/floor-plan-rendering\n"
+  },
+  {
+    "slug": "genmedia-interior-design-visualizer",
+    "name": "Muapi Interior Design Visualizer",
+    "category": "design",
+    "description": "Visualize interior design by generating an empty room and filling it with stylish furniture and decor, or by redesigning an existing room.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/interior-design-visualizer",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Interior Design Visualizer\ndescription: Visualize interior design by generating an empty room and filling it with stylish furniture and decor, or by redesigning an existing room.\n---\n\n# Muapi Interior Design Visualizer\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nVisualize interior design by generating an empty room and filling it with stylish furniture and decor, or by redesigning an existing room.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/interior-design-visualizer\n"
+  },
+  {
+    "slug": "genmedia-interior-design",
+    "name": "Muapi Interior Design",
+    "category": "design",
+    "description": "Create professional interior design visualizations — redesign existing rooms, generate new room concepts, or visualize specific furniture styles in a space.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/interior-design",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Interior Design\ndescription: Create professional interior design visualizations — redesign existing rooms, generate new room concepts, or visualize specific furniture styles in a space.\n---\n\n# Muapi Interior Design\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nCreate professional interior design visualizations — redesign existing rooms, generate new room concepts, or visualize specific furniture styles in a space.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/interior-design\n"
+  },
+  {
+    "slug": "genmedia-keyboard-art-maker",
+    "name": "Muapi Keyboard Art Maker",
+    "category": "design",
+    "description": "Generate artistic top-down photos of keyboard keycaps arranged to spell out custom text messages.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/keyboard-art-maker",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Keyboard Art Maker\ndescription: Generate artistic top-down photos of keyboard keycaps arranged to spell out custom text messages.\n---\n\n# Muapi Keyboard Art Maker\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate artistic top-down photos of keyboard keycaps arranged to spell out custom text messages.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/keyboard-art-maker\n"
+  },
+  {
+    "slug": "genmedia-logo-branding",
+    "name": "Muapi Logo Branding",
+    "category": "design",
+    "description": "Design a professional logo with full branding package — primary logo, variations (dark/light/icon-only), color palette, and real-world application mockups.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/logo-branding",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Logo Branding\ndescription: Design a professional logo with full branding package — primary logo, variations (dark/light/icon-only), color palette, and real-world application mockups.\n---\n\n# Muapi Logo Branding\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nDesign a professional logo with full branding package — primary logo, variations (dark/light/icon-only), color palette, and real-world application mockups.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/logo-branding\n"
+  },
+  {
+    "slug": "genmedia-logo-creator",
+    "name": "Muapi Logo Creator",
+    "category": "design",
+    "description": "Engineer professional-grade brand logos using geometric primitives and negative space — generates minimalist, scalable vector-style marks via muapi.ai",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/logo-creator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Logo Creator\ndescription: Engineer professional-grade brand logos using geometric primitives and negative space — generates minimalist, scalable vector-style marks via muapi.ai\n---\n\n# Muapi Logo Creator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nEngineer professional-grade brand logos using geometric primitives and negative space — generates minimalist, scalable vector-style marks via muapi.ai\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/logo-creator\n"
+  },
+  {
+    "slug": "genmedia-logo-generator",
+    "name": "Muapi Logo Generator",
+    "category": "design",
+    "description": "Quickly generate a single polished logo for any brand — fast, focused, single output with clean vector aesthetic and accurate brand name text.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/logo-generator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Logo Generator\ndescription: Quickly generate a single polished logo for any brand — fast, focused, single output with clean vector aesthetic and accurate brand name text.\n---\n\n# Muapi Logo Generator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nQuickly generate a single polished logo for any brand — fast, focused, single output with clean vector aesthetic and accurate brand name text.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/logo-generator\n"
+  },
+  {
+    "slug": "genmedia-multi-angle-reshoot",
+    "name": "Muapi Multi Angle Reshoot",
+    "category": "design",
+    "description": "Re-render a subject or scene from multiple dramatic camera angles, such as fish-eye, bird's-eye, low-angle, and macro, while maintaining consistent identity and detail.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/multi-angle-reshoot",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Multi Angle Reshoot\ndescription: Re-render a subject or scene from multiple dramatic camera angles, such as fish-eye, bird's-eye, low-angle, and macro, while maintaining consistent identity and detail.\n---\n\n# Muapi Multi Angle Reshoot\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nRe-render a subject or scene from multiple dramatic camera angles, such as fish-eye, bird's-eye, low-angle, and macro, while maintaining consistent identity and detail.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/multi-angle-reshoot\n"
+  },
+  {
+    "slug": "genmedia-multi-angle-shots",
+    "name": "Muapi Multi Angle Shots",
+    "category": "design",
+    "description": "Generate a complete set of multi-angle product shots — front, side, back, top-down, and 45-degree perspective — for comprehensive product visualization.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/multi-angle-shots",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Multi Angle Shots\ndescription: Generate a complete set of multi-angle product shots — front, side, back, top-down, and 45-degree perspective — for comprehensive product visualization.\n---\n\n# Muapi Multi Angle Shots\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a complete set of multi-angle product shots — front, side, back, top-down, and 45-degree perspective — for comprehensive product visualization.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/multi-angle-shots\n"
+  },
+  {
+    "slug": "genmedia-nano-banana",
+    "name": "Muapi Nano Banana",
+    "category": "design",
+    "description": "Reasoning-driven image generation using structured creative briefs (Gemini 3 style) — generates high-fidelity images via muapi.ai with logic-based prompting",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/nano-banana",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Nano Banana\ndescription: Reasoning-driven image generation using structured creative briefs (Gemini 3 style) — generates high-fidelity images via muapi.ai with logic-based prompting\n---\n\n# Muapi Nano Banana\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nReasoning-driven image generation using structured creative briefs (Gemini 3 style) — generates high-fidelity images via muapi.ai with logic-based prompting\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/nano-banana\n"
+  },
+  {
+    "slug": "genmedia-photo-pack-generator",
+    "name": "Muapi Photo Pack Generator",
+    "category": "design",
+    "description": "Generate a pack of professional or aesthetic photos from a single reference image while preserving the exact identity of the person.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/photo-pack-generator",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Photo Pack Generator\ndescription: Generate a pack of professional or aesthetic photos from a single reference image while preserving the exact identity of the person.\n---\n\n# Muapi Photo Pack Generator\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a pack of professional or aesthetic photos from a single reference image while preserving the exact identity of the person.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/photo-pack-generator\n"
+  },
+  {
+    "slug": "genmedia-selfie-with-celebrities",
+    "name": "Muapi Selfie With Celebrities",
+    "category": "design",
+    "description": "Generate a realistic behind-the-scenes selfie of the user with a celebrity or main actor from a specific movie, followed by an option to generate a cinematic long-take video connecting multiple selfies.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/selfie-with-celebrities",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Selfie With Celebrities\ndescription: Generate a realistic behind-the-scenes selfie of the user with a celebrity or main actor from a specific movie, followed by an option to generate a cinematic long-take video connecting multiple selfies.\n---\n\n# Muapi Selfie With Celebrities\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate a realistic behind-the-scenes selfie of the user with a celebrity or main actor from a specific movie, followed by an option to generate a cinematic long-take video connecting multiple selfies.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/selfie-with-celebrities\n"
+  },
+  {
+    "slug": "genmedia-storyboard",
+    "name": "Muapi Storyboard",
+    "category": "design",
+    "description": "Generate N keyframes for a short story or scene sequence (image only, no video).",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/storyboard",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Storyboard\ndescription: Generate N keyframes for a short story or scene sequence (image only, no video).\n---\n\n# Muapi Storyboard\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate N keyframes for a short story or scene sequence (image only, no video).\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/storyboard\n"
+  },
+  {
+    "slug": "genmedia-ui-design",
+    "name": "Muapi Ui Design",
+    "category": "design",
+    "description": "Generate high-fidelity UI/UX mockups for mobile and web apps using Atomic Design principles — creates wireframes and design systems via muapi.ai",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/ui-design",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Ui Design\ndescription: Generate high-fidelity UI/UX mockups for mobile and web apps using Atomic Design principles — creates wireframes and design systems via muapi.ai\n---\n\n# Muapi Ui Design\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nGenerate high-fidelity UI/UX mockups for mobile and web apps using Atomic Design principles — creates wireframes and design systems via muapi.ai\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/ui-design\n"
+  },
+  {
+    "slug": "genmedia-url-to-design",
+    "name": "Muapi Url To Design",
+    "category": "design",
+    "description": "Analyze a website URL and generate a redesigned, improved UI — recreate the visual design with modern aesthetics, better hierarchy, and fresh brand direction.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/url-to-design",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Url To Design\ndescription: Analyze a website URL and generate a redesigned, improved UI — recreate the visual design with modern aesthetics, better hierarchy, and fresh brand direction.\n---\n\n# Muapi Url To Design\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nAnalyze a website URL and generate a redesigned, improved UI — recreate the visual design with modern aesthetics, better hierarchy, and fresh brand direction.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/url-to-design\n"
+  },
+  {
+    "slug": "genmedia-youtube-thumbnail",
+    "name": "Muapi Youtube Thumbnail",
+    "category": "design",
+    "description": "Design a high-CTR YouTube thumbnail — striking imagery, bold text placement, and emotional face/subject if needed.",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/youtube-thumbnail",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Youtube Thumbnail\ndescription: Design a high-CTR YouTube thumbnail — striking imagery, bold text placement, and emotional face/subject if needed.\n---\n\n# Muapi Youtube Thumbnail\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nDesign a high-CTR YouTube thumbnail — striking imagery, bold text placement, and emotional face/subject if needed.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/visual/youtube-thumbnail\n"
+  },
+  {
+    "slug": "genmedia-workflow",
+    "name": "Muapi Workflow",
+    "category": "design",
+    "description": "Build, run, and visualize multi-step AI generation workflows. The AI architect translates natural language descriptions into connected node graphs — chain image generation, video creation, enhancement, and editing int…",
+    "author": "SamurAIGPT",
+    "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/workflow",
+    "tags": [
+      "video",
+      "image-gen",
+      "media",
+      "social"
+    ],
+    "skill_content": "---\nname: Muapi Workflow\ndescription: Build, run, and visualize multi-step AI generation workflows. The AI architect translates natural language descriptions into connected node graphs — chain image generation, video creation, enhancement, and editing into automated pipelines.\n---\n\n# Muapi Workflow\n\nPart of the **Generative Media Studio** pack by SamurAIGPT (`SamurAIGPT/Generative-Media-Skills`).\n\nBuild, run, and visualize multi-step AI generation workflows. The AI architect translates natural language descriptions into connected node graphs — chain image generation, video creation, enhancement, and editing into automated pipelines.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/SamurAIGPT/Generative-Media-Skills/tree/main/library/workflow\n"
+  }
+]

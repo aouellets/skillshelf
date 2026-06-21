@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "notfair-gemini",
+    "name": "Gemini",
+    "category": "business",
+    "description": "Gemini — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/gemini",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Gemini\ndescription: Gemini — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Gemini\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nGemini — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/gemini\n"
+  },
+  {
+    "slug": "notfair-audit",
+    "name": "Google Ads Audit",
+    "category": "business",
+    "description": "Google Ads account audit and business context setup. Run this first — it gathers business information, analyzes account health, and saves context that all other ads skills reuse. Trigger on \"audit my ads\", \"ads audit\"…",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/google-ads/audit",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Google Ads Audit\ndescription: Google Ads account audit and business context setup. Run this first — it gathers business information, analyzes account health, and saves context that all other ads skills reuse. Trigger on \"audit my ads\", \"ads audit\", \"set up my ads\", \"onboard\", \"account overview\", \"how's my account\", \"ads…\n---\n\n# Google Ads Audit\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nGoogle Ads account audit and business context setup. Run this first — it gathers business information, analyzes account health, and saves context that all other ads skills reuse. Trigger on \"audit my ads\", \"ads audit\", \"set up my ads\", \"onboard\", \"account overview\", \"how's my account\", \"ads…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/google-ads/audit\n"
+  },
+  {
+    "slug": "notfair-copy",
+    "name": "Google Ads Copy",
+    "category": "business",
+    "description": "Generate and A/B test Google Ads copy. Use when asked to write ad copy, headlines, descriptions, create ad variants, test ad messaging, improve CTR, or generate RSA (Responsive Search Ad) components. Trigger on \"ad co…",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/google-ads/copy",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Google Ads Copy\ndescription: Generate and A/B test Google Ads copy. Use when asked to write ad copy, headlines, descriptions, create ad variants, test ad messaging, improve CTR, or generate RSA (Responsive Search Ad) components. Trigger on \"ad copy\", \"write ads\", \"headlines\", \"descriptions\", \"RSA\", \"responsive search ad\",…\n---\n\n# Google Ads Copy\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nGenerate and A/B test Google Ads copy. Use when asked to write ad copy, headlines, descriptions, create ad variants, test ad messaging, improve CTR, or generate RSA (Responsive Search Ad) components. Trigger on \"ad copy\", \"write ads\", \"headlines\", \"descriptions\", \"RSA\", \"responsive search ad\",…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/google-ads/copy\n"
+  },
+  {
+    "slug": "notfair-landing",
+    "name": "Google Ads Landing",
+    "category": "business",
+    "description": "Score and diagnose Google Ads landing pages. Use when asked to audit a landing page, check landing page quality, diagnose high-CTR but low-conversion-rate ad groups, improve Quality Score's Landing Page Experience com…",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/google-ads/landing",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Google Ads Landing\ndescription: Score and diagnose Google Ads landing pages. Use when asked to audit a landing page, check landing page quality, diagnose high-CTR but low-conversion-rate ad groups, improve Quality Score's Landing Page Experience component, or compare an ad group's messaging against its landing page. Trigger on…\n---\n\n# Google Ads Landing\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nScore and diagnose Google Ads landing pages. Use when asked to audit a landing page, check landing page quality, diagnose high-CTR but low-conversion-rate ad groups, improve Quality Score's Landing Page Experience component, or compare an ad group's messaging against its landing page. Trigger on…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/google-ads/landing\n"
+  },
+  {
+    "slug": "notfair-manage",
+    "name": "Google Ads",
+    "category": "business",
+    "description": "Manage Google Ads — performance, keywords, bids, budgets, negatives, campaigns, ads, search terms, QS, location targeting, bulk operations, experiments, asset management, portfolio bidding, offline conversions. Use fo…",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/google-ads/manage",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Google Ads\ndescription: Manage Google Ads — performance, keywords, bids, budgets, negatives, campaigns, ads, search terms, QS, location targeting, bulk operations, experiments, asset management, portfolio bidding, offline conversions. Use for any mention of Google Ads, CPA, ROAS, ad spend, or campaign settings.\n---\n\n# Google Ads\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nManage Google Ads — performance, keywords, bids, budgets, negatives, campaigns, ads, search terms, QS, location targeting, bulk operations, experiments, asset management, portfolio bidding, offline conversions. Use for any mention of Google Ads, CPA, ROAS, ad spend, or campaign settings.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/google-ads/manage\n"
+  },
+  {
+    "slug": "notfair-audit-2",
+    "name": "Meta Ads Audit",
+    "category": "business",
+    "description": "Meta Ads (Facebook + Instagram) account audit and business context setup. Run this first — it gathers business information, analyzes account health, and saves context that all other Meta ads skills reuse. Trigger on \"…",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/meta-ads/audit",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Meta Ads Audit\ndescription: Meta Ads (Facebook + Instagram) account audit and business context setup. Run this first — it gathers business information, analyzes account health, and saves context that all other Meta ads skills reuse. Trigger on \"audit my Meta ads\", \"audit my Facebook ads\", \"Meta ads audit\", \"set up my Meta…\n---\n\n# Meta Ads Audit\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nMeta Ads (Facebook + Instagram) account audit and business context setup. Run this first — it gathers business information, analyzes account health, and saves context that all other Meta ads skills reuse. Trigger on \"audit my Meta ads\", \"audit my Facebook ads\", \"Meta ads audit\", \"set up my Meta…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/meta-ads/audit\n"
+  },
+  {
+    "slug": "notfair-manage-2",
+    "name": "Meta Ads",
+    "category": "business",
+    "description": "Manage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative fatigue, budgets, ad sets, campaigns, ads. Use for any mention of Meta Ads, Facebook Ads, Instagra…",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/meta-ads/manage",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Meta Ads\ndescription: Manage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative fatigue, budgets, ad sets, campaigns, ads. Use for any mention of Meta Ads, Facebook Ads, Instagram Ads, ROAS, CPM, ad spend, or campaign settings on Meta.\n---\n\n# Meta Ads\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nManage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative fatigue, budgets, ad sets, campaigns, ads. Use for any mention of Meta Ads, Facebook Ads, Instagram Ads, ROAS, CPM, ad spend, or campaign settings on Meta.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/meta-ads/manage\n"
+  },
+  {
+    "slug": "notfair-notfair-upgrade-skill",
+    "name": "Upgrade",
+    "category": "business",
+    "description": "Upgrade — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/notfair-upgrade-skill",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Upgrade\ndescription: Upgrade — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Upgrade\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nUpgrade — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/notfair-upgrade-skill\n"
+  },
+  {
+    "slug": "notfair-broken-link-checker",
+    "name": "Broken Link Checker",
+    "category": "business",
+    "description": "Broken Link Checker — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/broken-link-checker",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Broken Link Checker\ndescription: Broken Link Checker — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Broken Link Checker\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nBroken Link Checker — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/broken-link-checker\n"
+  },
+  {
+    "slug": "notfair-content-planner",
+    "name": "Content Planner",
+    "category": "business",
+    "description": "Content Planner — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/content-planner",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Content Planner\ndescription: Content Planner — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Content Planner\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nContent Planner — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/content-planner\n"
+  },
+  {
+    "slug": "notfair-content-writer",
+    "name": "Content Writer",
+    "category": "business",
+    "description": "Content Writer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/content-writer",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Content Writer\ndescription: Content Writer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Content Writer\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nContent Writer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/content-writer\n"
+  },
+  {
+    "slug": "notfair-geo-optimizer",
+    "name": "Geo Optimizer",
+    "category": "business",
+    "description": "Geo Optimizer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/geo-optimizer",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Geo Optimizer\ndescription: Geo Optimizer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Geo Optimizer\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nGeo Optimizer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/geo-optimizer\n"
+  },
+  {
+    "slug": "notfair-keyword-research",
+    "name": "Keyword Research",
+    "category": "business",
+    "description": "Keyword Research — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/keyword-research",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Keyword Research\ndescription: Keyword Research — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Keyword Research\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nKeyword Research — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/keyword-research\n"
+  },
+  {
+    "slug": "notfair-meta-tags-optimizer",
+    "name": "Meta Tags Optimizer",
+    "category": "business",
+    "description": "Meta Tags Optimizer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/meta-tags-optimizer",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Meta Tags Optimizer\ndescription: Meta Tags Optimizer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Meta Tags Optimizer\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nMeta Tags Optimizer — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/meta-tags-optimizer\n"
+  },
+  {
+    "slug": "notfair-schema-markup-generator",
+    "name": "Schema Markup Generator",
+    "category": "business",
+    "description": "Schema Markup Generator — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/schema-markup-generator",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Schema Markup Generator\ndescription: Schema Markup Generator — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Schema Markup Generator\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nSchema Markup Generator — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/schema-markup-generator\n"
+  },
+  {
+    "slug": "notfair-seo-analysis",
+    "name": "Seo Analysis",
+    "category": "business",
+    "description": "Seo Analysis — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/seo-analysis",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Seo Analysis\ndescription: Seo Analysis — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Seo Analysis\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nSeo Analysis — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/seo-analysis\n"
+  },
+  {
+    "slug": "notfair-seo-page",
+    "name": "Seo Page",
+    "category": "business",
+    "description": "Seo Page — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/seo-page",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Seo Page\ndescription: Seo Page — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Seo Page\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nSeo Page — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/seo-page\n"
+  },
+  {
+    "slug": "notfair-setup-cms",
+    "name": "Setup Cms",
+    "category": "business",
+    "description": "Setup Cms — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.",
+    "author": "NotFair",
+    "source_url": "https://github.com/nowork-studio/NotFair/tree/main/seo/setup-cms",
+    "tags": [
+      "seo",
+      "google-ads",
+      "meta-ads",
+      "marketing"
+    ],
+    "skill_content": "---\nname: Setup Cms\ndescription: Setup Cms — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n---\n\n# Setup Cms\n\nPart of the **SEO & Paid Ads Toolkit** pack by NotFair (`nowork-studio/NotFair`).\n\nSetup Cms — part of the SEO & Paid Ads Toolkit pack. Open-source SEO, GEO, Google Ads, and Meta Ads skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/nowork-studio/NotFair/tree/main/seo/setup-cms\n"
+  }
+]

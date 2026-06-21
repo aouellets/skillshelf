@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "clawsec-claw-release",
+    "name": "Claw Release",
+    "category": "coding",
+    "description": "Release automation for Claw skills and website. Guides through version bumping, tagging, and release verification.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/claw-release",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Claw Release\ndescription: Release automation for Claw skills and website. Guides through version bumping, tagging, and release verification.\n---\n\n# Claw Release\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nRelease automation for Claw skills and website. Guides through version bumping, tagging, and release verification.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/claw-release\n"
+  },
+  {
+    "slug": "clawsec-clawsec-clawhub-checker",
+    "name": "Clawsec Clawhub Checker",
+    "category": "coding",
+    "description": "ClawHub reputation checker for clawsec-suite. Adds a standalone reputation gate before guarded skill installation.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-clawhub-checker",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Clawsec Clawhub Checker\ndescription: ClawHub reputation checker for clawsec-suite. Adds a standalone reputation gate before guarded skill installation.\n---\n\n# Clawsec Clawhub Checker\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nClawHub reputation checker for clawsec-suite. Adds a standalone reputation gate before guarded skill installation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-clawhub-checker\n"
+  },
+  {
+    "slug": "clawsec-clawsec-feed",
+    "name": "Clawsec Feed",
+    "category": "coding",
+    "description": "Security advisory feed package for OpenClaw-related threats and vulnerabilities. The upstream feed is updated daily; local automation is handled by clawsec-suite or the operator.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-feed",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Clawsec Feed\ndescription: Security advisory feed package for OpenClaw-related threats and vulnerabilities. The upstream feed is updated daily; local automation is handled by clawsec-suite or the operator.\n---\n\n# Clawsec Feed\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nSecurity advisory feed package for OpenClaw-related threats and vulnerabilities. The upstream feed is updated daily; local automation is handled by clawsec-suite or the operator.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-feed\n"
+  },
+  {
+    "slug": "clawsec-clawsec-nanoclaw",
+    "name": "Clawsec Nanoclaw",
+    "category": "coding",
+    "description": "Use when checking for security vulnerabilities in NanoClaw skills, before installing new skills, or when asked about security advisories affecting the bot",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-nanoclaw",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Clawsec Nanoclaw\ndescription: Use when checking for security vulnerabilities in NanoClaw skills, before installing new skills, or when asked about security advisories affecting the bot\n---\n\n# Clawsec Nanoclaw\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nUse when checking for security vulnerabilities in NanoClaw skills, before installing new skills, or when asked about security advisories affecting the bot\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-nanoclaw\n"
+  },
+  {
+    "slug": "clawsec-clawsec-scanner",
+    "name": "Clawsec Scanner",
+    "category": "coding",
+    "description": "Automated vulnerability scanner for agent platforms. Performs dependency scanning (npm audit, pip-audit), multi-database CVE lookup (OSV, NVD, GitHub Advisory), SAST analysis (Semgrep, Bandit), and agent-specific stat…",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-scanner",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Clawsec Scanner\ndescription: Automated vulnerability scanner for agent platforms. Performs dependency scanning (npm audit, pip-audit), multi-database CVE lookup (OSV, NVD, GitHub Advisory), SAST analysis (Semgrep, Bandit), and agent-specific static hook inspection for OpenClaw hooks.\n---\n\n# Clawsec Scanner\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nAutomated vulnerability scanner for agent platforms. Performs dependency scanning (npm audit, pip-audit), multi-database CVE lookup (OSV, NVD, GitHub Advisory), SAST analysis (Semgrep, Bandit), and agent-specific static hook inspection for OpenClaw hooks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-scanner\n"
+  },
+  {
+    "slug": "clawsec-clawsec-suite",
+    "name": "Clawsec Suite",
+    "category": "coding",
+    "description": "ClawSec suite manager with embedded advisory-feed monitoring, cryptographic signature verification, approval-gated malicious-skill response, and guided setup for additional security skills.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-suite",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Clawsec Suite\ndescription: ClawSec suite manager with embedded advisory-feed monitoring, cryptographic signature verification, approval-gated malicious-skill response, and guided setup for additional security skills.\n---\n\n# Clawsec Suite\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nClawSec suite manager with embedded advisory-feed monitoring, cryptographic signature verification, approval-gated malicious-skill response, and guided setup for additional security skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/clawsec-suite\n"
+  },
+  {
+    "slug": "clawsec-clawtributor",
+    "name": "Clawtributor",
+    "category": "coding",
+    "description": "Harness-neutral community incident reporting for AI agents. Contribute to collective security by reporting threats.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/clawtributor",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Clawtributor\ndescription: Harness-neutral community incident reporting for AI agents. Contribute to collective security by reporting threats.\n---\n\n# Clawtributor\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nHarness-neutral community incident reporting for AI agents. Contribute to collective security by reporting threats.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/clawtributor\n"
+  },
+  {
+    "slug": "clawsec-hermes-attestation-guardian",
+    "name": "Hermes Attestation Guardian",
+    "category": "coding",
+    "description": "Hermes-only runtime security attestation and drift detection skill for operator-managed Hermes infrastructure.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/hermes-attestation-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Hermes Attestation Guardian\ndescription: Hermes-only runtime security attestation and drift detection skill for operator-managed Hermes infrastructure.\n---\n\n# Hermes Attestation Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nHermes-only runtime security attestation and drift detection skill for operator-managed Hermes infrastructure.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/hermes-attestation-guardian\n"
+  },
+  {
+    "slug": "clawsec-hermes-traffic-guardian",
+    "name": "Hermes Traffic Guardian",
+    "category": "coding",
+    "description": "Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/hermes-traffic-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Hermes Traffic Guardian\ndescription: Hermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture.\n---\n\n# Hermes Traffic Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nHermes runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/hermes-traffic-guardian\n"
+  },
+  {
+    "slug": "clawsec-nanoclaw-traffic-guardian",
+    "name": "Nanoclaw Traffic Guardian",
+    "category": "coding",
+    "description": "NanoClaw runtime traffic monitoring baseline for host-side proxy inspection with container-safe MCP and IPC status surfaces.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/nanoclaw-traffic-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Nanoclaw Traffic Guardian\ndescription: NanoClaw runtime traffic monitoring baseline for host-side proxy inspection with container-safe MCP and IPC status surfaces.\n---\n\n# Nanoclaw Traffic Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nNanoClaw runtime traffic monitoring baseline for host-side proxy inspection with container-safe MCP and IPC status surfaces.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/nanoclaw-traffic-guardian\n"
+  },
+  {
+    "slug": "clawsec-openclaw-audit-watchdog",
+    "name": "Openclaw Audit Watchdog",
+    "category": "coding",
+    "description": "Automated daily security audits for OpenClaw agents with DM delivery and optional email reporting. Runs deep audits, creates or updates a recurring cron job, and sends formatted reports to configured recipients.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/openclaw-audit-watchdog",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Openclaw Audit Watchdog\ndescription: Automated daily security audits for OpenClaw agents with DM delivery and optional email reporting. Runs deep audits, creates or updates a recurring cron job, and sends formatted reports to configured recipients.\n---\n\n# Openclaw Audit Watchdog\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nAutomated daily security audits for OpenClaw agents with DM delivery and optional email reporting. Runs deep audits, creates or updates a recurring cron job, and sends formatted reports to configured recipients.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/openclaw-audit-watchdog\n"
+  },
+  {
+    "slug": "clawsec-openclaw-traffic-guardian",
+    "name": "Openclaw Traffic Guardian",
+    "category": "coding",
+    "description": "OpenClaw runtime traffic monitoring baseline for opt-in HTTP/HTTPS proxy inspection, egress detection, inbound injection detection, and social-account policy review.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/openclaw-traffic-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Openclaw Traffic Guardian\ndescription: OpenClaw runtime traffic monitoring baseline for opt-in HTTP/HTTPS proxy inspection, egress detection, inbound injection detection, and social-account policy review.\n---\n\n# Openclaw Traffic Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nOpenClaw runtime traffic monitoring baseline for opt-in HTTP/HTTPS proxy inspection, egress detection, inbound injection detection, and social-account policy review.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/openclaw-traffic-guardian\n"
+  },
+  {
+    "slug": "clawsec-picoclaw-security-guardian",
+    "name": "Picoclaw Security Guardian",
+    "category": "coding",
+    "description": "Picoclaw security posture skill with advisory awareness, configuration drift detection, and supply-chain verification guidance.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/picoclaw-security-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Picoclaw Security Guardian\ndescription: Picoclaw security posture skill with advisory awareness, configuration drift detection, and supply-chain verification guidance.\n---\n\n# Picoclaw Security Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nPicoclaw security posture skill with advisory awareness, configuration drift detection, and supply-chain verification guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/picoclaw-security-guardian\n"
+  },
+  {
+    "slug": "clawsec-picoclaw-self-pen-testing",
+    "name": "Picoclaw Self Pen Testing",
+    "category": "coding",
+    "description": "Picoclaw-only local posture-review skill focused on read-only findings and safe operator remediation guidance.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/picoclaw-self-pen-testing",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Picoclaw Self Pen Testing\ndescription: Picoclaw-only local posture-review skill focused on read-only findings and safe operator remediation guidance.\n---\n\n# Picoclaw Self Pen Testing\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nPicoclaw-only local posture-review skill focused on read-only findings and safe operator remediation guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/picoclaw-self-pen-testing\n"
+  },
+  {
+    "slug": "clawsec-picoclaw-traffic-guardian",
+    "name": "Picoclaw Traffic Guardian",
+    "category": "coding",
+    "description": "Picoclaw runtime traffic monitoring baseline for lightweight AI gateway proxy inspection, egress detection, and posture integration.",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/picoclaw-traffic-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Picoclaw Traffic Guardian\ndescription: Picoclaw runtime traffic monitoring baseline for lightweight AI gateway proxy inspection, egress detection, and posture integration.\n---\n\n# Picoclaw Traffic Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nPicoclaw runtime traffic monitoring baseline for lightweight AI gateway proxy inspection, egress detection, and posture integration.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/picoclaw-traffic-guardian\n"
+  },
+  {
+    "slug": "clawsec-soul-guardian",
+    "name": "Soul Guardian",
+    "category": "coding",
+    "description": "Drift detection + baseline integrity guard for agent workspace files with automatic alerting support",
+    "author": "Prompt Security",
+    "source_url": "https://github.com/prompt-security/clawsec/tree/main/skills/soul-guardian",
+    "tags": [
+      "security",
+      "defensive",
+      "audit",
+      "scanning"
+    ],
+    "skill_content": "---\nname: Soul Guardian\ndescription: Drift detection + baseline integrity guard for agent workspace files with automatic alerting support\n---\n\n# Soul Guardian\n\nPart of the **ClawSec Security Suite** pack by Prompt Security (`prompt-security/clawsec`).\n\nDrift detection + baseline integrity guard for agent workspace files with automatic alerting support\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/prompt-security/clawsec/tree/main/skills/soul-guardian\n"
+  }
+]

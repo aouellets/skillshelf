@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "azure-agent-framework-azure-ai-py",
+    "name": "Agent Framework Azure Ai Py",
+    "category": "coding",
+    "description": "Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai). Use when creating persistent agents with AzureAIAgentsProvider, using hosted tools (code interpreter, file searc…",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Agent Framework Azure Ai Py\ndescription: Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai). Use when creating persistent agents with AzureAIAgentsProvider, using hosted tools (code interpreter, file search, web search), integrating MCP servers, managing conversation threads, or…\n---\n\n# Agent Framework Azure Ai Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nBuild Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai). Use when creating persistent agents with AzureAIAgentsProvider, using hosted tools (code interpreter, file search, web search), integrating MCP servers, managing conversation threads, or…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-contentsafety-py",
+    "name": "Azure Ai Contentsafety Py",
+    "category": "coding",
+    "description": "Azure Ai Contentsafety Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Contentsafety Py\ndescription: Azure Ai Contentsafety Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Contentsafety Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Contentsafety Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-contentunderstanding-py",
+    "name": "Azure Ai Contentunderstanding Py",
+    "category": "coding",
+    "description": "Azure Ai Contentunderstanding Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-contentunderstanding-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Contentunderstanding Py\ndescription: Azure Ai Contentunderstanding Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Contentunderstanding Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Contentunderstanding Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-contentunderstanding-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-language-conversations-py",
+    "name": "Azure Ai Language Conversations Py",
+    "category": "coding",
+    "description": "Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP fe…",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Language Conversations Py\ndescription: Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.\n---\n\n# Azure Ai Language Conversations Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nImplement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-ml-py",
+    "name": "Azure Ai Ml Py",
+    "category": "coding",
+    "description": "Azure Ai Ml Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-ml-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Ml Py\ndescription: Azure Ai Ml Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Ml Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Ml Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-ml-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-projects-py",
+    "name": "Azure Ai Projects Py",
+    "category": "coding",
+    "description": "Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition, running evaluations, managing conn…",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-projects-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Projects Py\ndescription: Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition, running evaluations, managing connections/deployments/datasets/indexes, or using OpenAI-compatible clients. This…\n---\n\n# Azure Ai Projects Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nBuild AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition, running evaluations, managing connections/deployments/datasets/indexes, or using OpenAI-compatible clients. This…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-projects-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-textanalytics-py",
+    "name": "Azure Ai Textanalytics Py",
+    "category": "coding",
+    "description": "Azure Ai Textanalytics Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-textanalytics-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Textanalytics Py\ndescription: Azure Ai Textanalytics Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Textanalytics Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Textanalytics Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-textanalytics-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-transcription-py",
+    "name": "Azure Ai Transcription Py",
+    "category": "coding",
+    "description": "Azure Ai Transcription Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-transcription-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Transcription Py\ndescription: Azure Ai Transcription Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Transcription Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Transcription Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-transcription-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-translation-document-py",
+    "name": "Azure Ai Translation Document Py",
+    "category": "coding",
+    "description": "Azure Ai Translation Document Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Translation Document Py\ndescription: Azure Ai Translation Document Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Translation Document Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Translation Document Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-translation-text-py",
+    "name": "Azure Ai Translation Text Py",
+    "category": "coding",
+    "description": "Azure Ai Translation Text Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-translation-text-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Translation Text Py\ndescription: Azure Ai Translation Text Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Translation Text Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Translation Text Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-translation-text-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-vision-imageanalysis-py",
+    "name": "Azure Ai Vision Imageanalysis Py",
+    "category": "coding",
+    "description": "Azure Ai Vision Imageanalysis Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-vision-imageanalysis-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Vision Imageanalysis Py\ndescription: Azure Ai Vision Imageanalysis Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Ai Vision Imageanalysis Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Ai Vision Imageanalysis Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-vision-imageanalysis-py\n"
+  },
+  {
+    "slug": "azure-azure-ai-voicelive-py",
+    "name": "Azure Ai Voicelive Py",
+    "category": "coding",
+    "description": "Build real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive). Use this skill when creating Python applications that need real-time bidirectional audio communication with Azure AI, including…",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Ai Voicelive Py\ndescription: Build real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive). Use this skill when creating Python applications that need real-time bidirectional audio communication with Azure AI, including voice assistants, voice-enabled chatbots, real-time speech-to-speech…\n---\n\n# Azure Ai Voicelive Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nBuild real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive). Use this skill when creating Python applications that need real-time bidirectional audio communication with Azure AI, including voice assistants, voice-enabled chatbots, real-time speech-to-speech…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py\n"
+  },
+  {
+    "slug": "azure-azure-appconfiguration-py",
+    "name": "Azure Appconfiguration Py",
+    "category": "coding",
+    "description": "Azure Appconfiguration Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-appconfiguration-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Appconfiguration Py\ndescription: Azure Appconfiguration Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Appconfiguration Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Appconfiguration Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-appconfiguration-py\n"
+  },
+  {
+    "slug": "azure-azure-containerregistry-py",
+    "name": "Azure Containerregistry Py",
+    "category": "coding",
+    "description": "Azure Containerregistry Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-containerregistry-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Containerregistry Py\ndescription: Azure Containerregistry Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Containerregistry Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Containerregistry Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-containerregistry-py\n"
+  },
+  {
+    "slug": "azure-azure-cosmos-db-py",
+    "name": "Azure Cosmos Db Py",
+    "category": "coding",
+    "description": "Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential + emulator), service layer classes with …",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-cosmos-db-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Cosmos Db Py\ndescription: Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential + emulator), service layer classes with CRUD operations, partition key strategies, parameterized queries, or TDD…\n---\n\n# Azure Cosmos Db Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nBuild Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns. Use when implementing database client setup with dual auth (DefaultAzureCredential + emulator), service layer classes with CRUD operations, partition key strategies, parameterized queries, or TDD…\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-cosmos-db-py\n"
+  },
+  {
+    "slug": "azure-azure-cosmos-py",
+    "name": "Azure Cosmos Py",
+    "category": "coding",
+    "description": "Azure Cosmos Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-cosmos-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Cosmos Py\ndescription: Azure Cosmos Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Cosmos Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Cosmos Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-cosmos-py\n"
+  },
+  {
+    "slug": "azure-azure-data-tables-py",
+    "name": "Azure Data Tables Py",
+    "category": "coding",
+    "description": "Azure Data Tables Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-data-tables-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Data Tables Py\ndescription: Azure Data Tables Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Data Tables Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Data Tables Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-data-tables-py\n"
+  },
+  {
+    "slug": "azure-azure-eventgrid-py",
+    "name": "Azure Eventgrid Py",
+    "category": "coding",
+    "description": "Azure Eventgrid Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-eventgrid-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Eventgrid Py\ndescription: Azure Eventgrid Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Eventgrid Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Eventgrid Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-eventgrid-py\n"
+  },
+  {
+    "slug": "azure-azure-eventhub-py",
+    "name": "Azure Eventhub Py",
+    "category": "coding",
+    "description": "Azure Eventhub Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-eventhub-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Eventhub Py\ndescription: Azure Eventhub Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Eventhub Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Eventhub Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-eventhub-py\n"
+  },
+  {
+    "slug": "azure-azure-identity-py",
+    "name": "Azure Identity Py",
+    "category": "coding",
+    "description": "Azure Identity Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-identity-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Identity Py\ndescription: Azure Identity Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Identity Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Identity Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-identity-py\n"
+  },
+  {
+    "slug": "azure-azure-keyvault-py",
+    "name": "Azure Keyvault Py",
+    "category": "coding",
+    "description": "Azure Keyvault Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-keyvault-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Keyvault Py\ndescription: Azure Keyvault Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Keyvault Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Keyvault Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-keyvault-py\n"
+  },
+  {
+    "slug": "azure-azure-messaging-webpubsubservice-py",
+    "name": "Azure Messaging Webpubsubservice Py",
+    "category": "coding",
+    "description": "Azure Messaging Webpubsubservice Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Messaging Webpubsubservice Py\ndescription: Azure Messaging Webpubsubservice Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Messaging Webpubsubservice Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Messaging Webpubsubservice Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py\n"
+  },
+  {
+    "slug": "azure-azure-mgmt-apicenter-py",
+    "name": "Azure Mgmt Apicenter Py",
+    "category": "coding",
+    "description": "Azure Mgmt Apicenter Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Mgmt Apicenter Py\ndescription: Azure Mgmt Apicenter Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Mgmt Apicenter Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Mgmt Apicenter Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py\n"
+  },
+  {
+    "slug": "azure-azure-mgmt-apimanagement-py",
+    "name": "Azure Mgmt Apimanagement Py",
+    "category": "coding",
+    "description": "Azure Mgmt Apimanagement Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-apimanagement-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Mgmt Apimanagement Py\ndescription: Azure Mgmt Apimanagement Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Mgmt Apimanagement Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Mgmt Apimanagement Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-apimanagement-py\n"
+  },
+  {
+    "slug": "azure-azure-mgmt-botservice-py",
+    "name": "Azure Mgmt Botservice Py",
+    "category": "coding",
+    "description": "Azure Mgmt Botservice Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Mgmt Botservice Py\ndescription: Azure Mgmt Botservice Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Mgmt Botservice Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Mgmt Botservice Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py\n"
+  },
+  {
+    "slug": "azure-azure-mgmt-fabric-py",
+    "name": "Azure Mgmt Fabric Py",
+    "category": "coding",
+    "description": "Azure Mgmt Fabric Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Mgmt Fabric Py\ndescription: Azure Mgmt Fabric Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Mgmt Fabric Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Mgmt Fabric Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py\n"
+  },
+  {
+    "slug": "azure-azure-monitor-ingestion-py",
+    "name": "Azure Monitor Ingestion Py",
+    "category": "coding",
+    "description": "Azure Monitor Ingestion Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Monitor Ingestion Py\ndescription: Azure Monitor Ingestion Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Monitor Ingestion Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Monitor Ingestion Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py\n"
+  },
+  {
+    "slug": "azure-azure-monitor-opentelemetry-exporter-py",
+    "name": "Azure Monitor Opentelemetry Exporter Py",
+    "category": "coding",
+    "description": "Azure Monitor Opentelemetry Exporter Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Monitor Opentelemetry Exporter Py\ndescription: Azure Monitor Opentelemetry Exporter Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Monitor Opentelemetry Exporter Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Monitor Opentelemetry Exporter Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py\n"
+  },
+  {
+    "slug": "azure-azure-monitor-opentelemetry-py",
+    "name": "Azure Monitor Opentelemetry Py",
+    "category": "coding",
+    "description": "Azure Monitor Opentelemetry Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Monitor Opentelemetry Py\ndescription: Azure Monitor Opentelemetry Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Monitor Opentelemetry Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Monitor Opentelemetry Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-py\n"
+  },
+  {
+    "slug": "azure-azure-monitor-query-py",
+    "name": "Azure Monitor Query Py",
+    "category": "coding",
+    "description": "Azure Monitor Query Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-query-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Monitor Query Py\ndescription: Azure Monitor Query Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Monitor Query Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Monitor Query Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-monitor-query-py\n"
+  },
+  {
+    "slug": "azure-azure-search-documents-py",
+    "name": "Azure Search Documents Py",
+    "category": "coding",
+    "description": "Azure Search Documents Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-search-documents-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Search Documents Py\ndescription: Azure Search Documents Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Search Documents Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Search Documents Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-search-documents-py\n"
+  },
+  {
+    "slug": "azure-azure-servicebus-py",
+    "name": "Azure Servicebus Py",
+    "category": "coding",
+    "description": "Azure Servicebus Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-servicebus-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Servicebus Py\ndescription: Azure Servicebus Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Servicebus Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Servicebus Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-servicebus-py\n"
+  },
+  {
+    "slug": "azure-azure-speech-to-text-rest-py",
+    "name": "Azure Speech To Text Rest Py",
+    "category": "coding",
+    "description": "Azure Speech To Text Rest Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-speech-to-text-rest-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Speech To Text Rest Py\ndescription: Azure Speech To Text Rest Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Speech To Text Rest Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Speech To Text Rest Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-speech-to-text-rest-py\n"
+  },
+  {
+    "slug": "azure-azure-storage-blob-py",
+    "name": "Azure Storage Blob Py",
+    "category": "coding",
+    "description": "Azure Storage Blob Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-blob-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Storage Blob Py\ndescription: Azure Storage Blob Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Storage Blob Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Storage Blob Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-blob-py\n"
+  },
+  {
+    "slug": "azure-azure-storage-file-datalake-py",
+    "name": "Azure Storage File Datalake Py",
+    "category": "coding",
+    "description": "Azure Storage File Datalake Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Storage File Datalake Py\ndescription: Azure Storage File Datalake Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Storage File Datalake Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Storage File Datalake Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py\n"
+  },
+  {
+    "slug": "azure-azure-storage-file-share-py",
+    "name": "Azure Storage File Share Py",
+    "category": "coding",
+    "description": "Azure Storage File Share Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-file-share-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Storage File Share Py\ndescription: Azure Storage File Share Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Storage File Share Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Storage File Share Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-file-share-py\n"
+  },
+  {
+    "slug": "azure-azure-storage-queue-py",
+    "name": "Azure Storage Queue Py",
+    "category": "coding",
+    "description": "Azure Storage Queue Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-queue-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Azure Storage Queue Py\ndescription: Azure Storage Queue Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# Azure Storage Queue Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nAzure Storage Queue Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-storage-queue-py\n"
+  },
+  {
+    "slug": "azure-fastapi-router-py",
+    "name": "Fastapi Router Py",
+    "category": "coding",
+    "description": "Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models. Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated en…",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/fastapi-router-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Fastapi Router Py\ndescription: Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models. Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated endpoints in FastAPI applications.\n---\n\n# Fastapi Router Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nCreate FastAPI routers with CRUD operations, authentication dependencies, and proper response models. Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated endpoints in FastAPI applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/fastapi-router-py\n"
+  },
+  {
+    "slug": "azure-m365-agents-py",
+    "name": "M365 Agents Py",
+    "category": "coding",
+    "description": "M365 Agents Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/m365-agents-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: M365 Agents Py\ndescription: M365 Agents Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n---\n\n# M365 Agents Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nM365 Agents Py — part of the Azure SDK Skills (Python) pack. Microsoft's official Azure SDK skills for grounding coding agents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/m365-agents-py\n"
+  },
+  {
+    "slug": "azure-pydantic-models-py",
+    "name": "Pydantic Models Py",
+    "category": "coding",
+    "description": "Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation in Python applicatio…",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/pydantic-models-py",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "sdk"
+    ],
+    "skill_content": "---\nname: Pydantic Models Py\ndescription: Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation in Python applications using Pydantic v2.\n---\n\n# Pydantic Models Py\n\nPart of the **Azure SDK Skills (Python)** pack by Microsoft (`microsoft/skills`).\n\nCreate Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation in Python applications using Pydantic v2.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/pydantic-models-py\n"
+  }
+]
