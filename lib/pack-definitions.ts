@@ -824,5 +824,21 @@ export const PACK_DEFINITIONS: PackDefinition[] = [
       "remotion-setup", "remotion-compose", "remotion-render",
     ],
   },
+  {
+    slug: "resume-toolkit",
+    name: "Resume Toolkit",
+    tagline: "Write a resume from scratch or critique the one you have — ATS-optimized, seniority-aware, delivered as .docx.",
+    description: "A two-skill loop for getting a resume right. Resume Writer runs a short elicitation, then drafts a complete ATS-optimized resume — tailored summary, STAR-format action-verb bullets quantified wherever possible, clean standard sections — and exports a .docx. Resume Reviewer critiques an existing resume against a scored rubric (impact, ATS readiness, clarity, format/length), returns a prioritized fix list, rewrites the weakest bullets, and runs a keyword gap analysis against a target job description — also as a .docx. The two hand off to each other: review, then rebuild clean. Both are seniority-aware (IC vs manager vs executive), carry a strong action-verb library, follow ATS best practices throughout, and give honest, direct feedback.",
+    author: "Skill Me",
+    category: "personal",
+    tags: ["resume", "career", "job-search", "ats"],
+    featured: true,
+    verified: true,
+    free: true,
+    install_count: 0,
+    skill_slugs: [
+      "resume-writer", "resume-reviewer",
+    ],
+  },
 
 ]
