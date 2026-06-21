@@ -1,0 +1,129 @@
+[
+  {
+    "slug": "office-audit-xls",
+    "name": "Audit Xls",
+    "category": "data",
+    "description": "Audits spreadsheet formulas, errors, links, consistency, and model integrity.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/audit-xls",
+    "tags": [
+      "audit",
+      "spreadsheet-workflows",
+      "xls"
+    ],
+    "skill_content": "---\nname: Audit Xls\ndescription: Audits spreadsheet formulas, errors, links, consistency, and model integrity.\n---\n\n# Audit Xls\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nAudits spreadsheet formulas, errors, links, consistency, and model integrity.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/audit-xls\n"
+  },
+  {
+    "slug": "office-clean-data-xls",
+    "name": "Clean Data Xls",
+    "category": "data",
+    "description": "Cleans and standardizes messy spreadsheet data while preserving workbook structure.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/clean-data-xls",
+    "tags": [
+      "clean",
+      "data",
+      "spreadsheet-workflows",
+      "xls"
+    ],
+    "skill_content": "---\nname: Clean Data Xls\ndescription: Cleans and standardizes messy spreadsheet data while preserving workbook structure.\n---\n\n# Clean Data Xls\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nCleans and standardizes messy spreadsheet data while preserving workbook structure.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/clean-data-xls\n"
+  },
+  {
+    "slug": "office-3-statement-model",
+    "name": "3 Statement Model",
+    "category": "business",
+    "description": "Builds linked income statement, balance sheet, and cash-flow statement models in Excel.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/3-statement-model",
+    "tags": [
+      "finance-and-investing",
+      "model",
+      "statement"
+    ],
+    "skill_content": "---\nname: 3 Statement Model\ndescription: Builds linked income statement, balance sheet, and cash-flow statement models in Excel.\n---\n\n# 3 Statement Model\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nBuilds linked income statement, balance sheet, and cash-flow statement models in Excel.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/3-statement-model\n"
+  },
+  {
+    "slug": "office-dcf-model",
+    "name": "Dcf Model",
+    "category": "business",
+    "description": "Builds a discounted cash-flow valuation with operating assumptions, WACC, terminal value, and sensitivity analysis.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/dcf-model",
+    "tags": [
+      "dcf",
+      "finance-and-investing",
+      "model"
+    ],
+    "skill_content": "---\nname: Dcf Model\ndescription: Builds a discounted cash-flow valuation with operating assumptions, WACC, terminal value, and sensitivity analysis.\n---\n\n# Dcf Model\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nBuilds a discounted cash-flow valuation with operating assumptions, WACC, terminal value, and sensitivity analysis.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/dcf-model\n"
+  },
+  {
+    "slug": "office-lbo-model",
+    "name": "Lbo Model",
+    "category": "business",
+    "description": "Builds a leveraged-buyout model with sources and uses, debt schedules, cash flows, and sponsor returns.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/lbo-model",
+    "tags": [
+      "finance-and-investing",
+      "lbo",
+      "model"
+    ],
+    "skill_content": "---\nname: Lbo Model\ndescription: Builds a leveraged-buyout model with sources and uses, debt schedules, cash flows, and sponsor returns.\n---\n\n# Lbo Model\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nBuilds a leveraged-buyout model with sources and uses, debt schedules, cash flows, and sponsor returns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/lbo-model\n"
+  },
+  {
+    "slug": "office-comps-analysis",
+    "name": "Comps Analysis",
+    "category": "business",
+    "description": "Creates a comparable-company valuation analysis with peer selection, trading metrics, multiples, and implied valuation.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/comps-analysis",
+    "tags": [
+      "analysis",
+      "comps",
+      "finance-and-investing"
+    ],
+    "skill_content": "---\nname: Comps Analysis\ndescription: Creates a comparable-company valuation analysis with peer selection, trading metrics, multiples, and implied valuation.\n---\n\n# Comps Analysis\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nCreates a comparable-company valuation analysis with peer selection, trading metrics, multiples, and implied valuation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-excel/comps-analysis\n"
+  },
+  {
+    "slug": "office-competitive-analysis",
+    "name": "Competitive Analysis",
+    "category": "design",
+    "description": "Builds a PowerPoint competitive-landscape deck with market map, positioning, evidence, and implications.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-powerpoint/competitive-analysis",
+    "tags": [
+      "analysis",
+      "competitive",
+      "presentation-creation"
+    ],
+    "skill_content": "---\nname: Competitive Analysis\ndescription: Builds a PowerPoint competitive-landscape deck with market map, positioning, evidence, and implications.\n---\n\n# Competitive Analysis\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nBuilds a PowerPoint competitive-landscape deck with market map, positioning, evidence, and implications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-powerpoint/competitive-analysis\n"
+  },
+  {
+    "slug": "office-deck-refresh",
+    "name": "Deck Refresh",
+    "category": "design",
+    "description": "Updates recurring presentation decks with new period data while preserving layout, logic, and narrative consistency.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-powerpoint/deck-refresh",
+    "tags": [
+      "deck",
+      "presentation-creation",
+      "refresh"
+    ],
+    "skill_content": "---\nname: Deck Refresh\ndescription: Updates recurring presentation decks with new period data while preserving layout, logic, and narrative consistency.\n---\n\n# Deck Refresh\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nUpdates recurring presentation decks with new period data while preserving layout, logic, and narrative consistency.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-powerpoint/deck-refresh\n"
+  },
+  {
+    "slug": "office-ib-check-deck",
+    "name": "Ib Check Deck",
+    "category": "design",
+    "description": "Audits presentation numbers, narrative alignment, cross-slide consistency, and formatting for client readiness.",
+    "author": "fivetaku",
+    "source_url": "https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-powerpoint/ib-check-deck",
+    "tags": [
+      "check",
+      "deck",
+      "presentation-creation"
+    ],
+    "skill_content": "---\nname: Ib Check Deck\ndescription: Audits presentation numbers, narrative alignment, cross-slide consistency, and formatting for client readiness.\n---\n\n# Ib Check Deck\n\nPart of the **Office Skills (Excel & PowerPoint)** pack by fivetaku (`fivetaku/claude-office-skills`).\n\nAudits presentation numbers, narrative alignment, cross-slide consistency, and formatting for client readiness.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/fivetaku/claude-office-skills/tree/039902691e7d0a735ef4e67ee007d7832da9fcab/claude-in-powerpoint/ib-check-deck\n"
+  }
+]
