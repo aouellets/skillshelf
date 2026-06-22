@@ -1,18 +1,21 @@
 /**
  * Branded placeholder art for methodology content (e.g. the CrossFit®
- * methodology pack/skills), mirroring `partner-art.ts`. Where `category-art.ts`
- * paints a generic category scene, this leads with the *methodology wordmark*
- * (CrossFit®) as the hero — descriptive use, NOT a partner/authored-by claim
- * (see `methodology.ts`). Used by `components/SkillThumbnail.tsx` when an item is
- * methodology-tagged and has no media.
+ * methodology pack/skills, the HYROX race-format pack), mirroring
+ * `partner-art.ts`. Where `category-art.ts` paints a generic category scene,
+ * this leads with the *methodology mark* as the hero — descriptive use, NOT a
+ * partner/authored-by claim (see `methodology.ts`). Used by
+ * `components/SkillThumbnail.tsx` when an item is methodology-tagged and has no
+ * media.
  *
- * Text wordmark (no pictorial logo asset) so it stays clearly nominative.
+ * For CrossFit the hero is a text wordmark (nominative). For HYROX, where we
+ * hold an affiliate license to display the mark, the hero is the actual HYROX
+ * wordmark vector.
  */
 import { getMethodology } from './methodology'
 
 const VOID = '#080a0a'
-const ACCENT = '#ee4628'
-const TINT = '#2a1109'
+const DEFAULT_ACCENT = '#ee4628'
+const DEFAULT_TINT = '#2a1109'
 
 export function hasMethodologyArt(tags?: string[] | null): boolean {
   return getMethodology(tags) !== null
@@ -28,7 +31,7 @@ function hashSeed(s: string): number {
 }
 
 /**
- * Self-contained branded SVG leading with the methodology wordmark. 16:9 viewBox
+ * Self-contained branded SVG leading with the methodology mark. 16:9 viewBox
  * that fills its container (slice), matching the other thumbnail art. Returns ''
  * when the item carries no methodology (callers fall back to category art).
  */
@@ -36,12 +39,27 @@ export function methodologyThumbnailSvg(tags?: string[] | null, seed?: string): 
   const m = getMethodology(tags)
   if (!m) return ''
 
-  // "CrossFit®" → split the registered symbol out so it renders as a superscript.
-  const mark = m.label.replace(/®/g, '')
-  const hasReg = m.label.includes('®')
+  const ACCENT = m.accent ?? DEFAULT_ACCENT
+  const TINT = m.tint ?? DEFAULT_TINT
   const uid = `m${hashSeed(`${m.label}${seed ?? ''}`).toString(36)}`
   const cx = 160
   const cy = 80
+
+  // Hero: a licensed vector wordmark (HYROX) if present, else the text label.
+  let hero: string
+  if (m.markPath) {
+    const [, , vw, vh] = (m.markViewBox ?? '0 0 520 72').split(/\s+/).map(Number)
+    const targetW = 196
+    const scale = targetW / vw
+    const w = vw * scale
+    const h = vh * scale
+    hero = `<g transform="translate(${cx - w / 2} ${cy - h / 2}) scale(${scale})"><path d="${m.markPath}" fill="${ACCENT}"/></g>`
+  } else {
+    // "CrossFit®" → split the registered symbol out so it renders as a superscript.
+    const mark = m.label.replace(/®/g, '')
+    const hasReg = m.label.includes('®')
+    hero = `<text x="${cx}" y="${cy + 10}" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="800" font-size="40" letter-spacing="-0.5" fill="${ACCENT}">${mark}${hasReg ? `<tspan font-size="16" dy="-14">®</tspan>` : ''}</text>`
+  }
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Applies the ${m.label} methodology">
   <defs>
@@ -79,8 +97,8 @@ export function methodologyThumbnailSvg(tags?: string[] | null, seed?: string): 
     </circle>
   </g>
 
-  <!-- hero wordmark -->
-  <text x="${cx}" y="${cy + 10}" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="800" font-size="40" letter-spacing="-0.5" fill="${ACCENT}">${mark}${hasReg ? `<tspan font-size="16" dy="-14">®</tspan>` : ''}</text>
+  <!-- hero mark -->
+  ${hero}
 
   <rect width="320" height="180" fill="url(#mscrim-${uid})"/>
   <text x="160" y="140" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="3" fill="${ACCENT}" opacity="0.78">METHODOLOGY</text>
