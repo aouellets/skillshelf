@@ -11,6 +11,7 @@
  * Used by `components/SkillThumbnail.tsx` for partner authors with no media.
  */
 import { getPartner } from './partners'
+import { MULTICOLOR_MARKS } from './partner-logos'
 import { isCategoryArtKey, CATEGORY_ART } from './category-art'
 
 const VOID = '#080a0a'
@@ -42,20 +43,15 @@ const OPTICAL_NUDGE: Record<string, { x?: number; y?: number }> = {
 }
 
 /**
- * The hero brand mark, centered in a 24-unit box scaled into the art. Microsoft
- * is special-cased into its four real brand colors; every other mark renders in
- * its single brand color.
+ * The hero brand mark, centered in a 24-unit box scaled into the art. Genuinely
+ * multi-color brands (Google, Microsoft) render their real stacked color layers;
+ * every other mark renders in its single brand color.
  */
-function logoMarkup(author: string, viewBox: string, path: string, color: string): string {
-  if (author === 'Microsoft') {
-    return (
-      '<rect x="1" y="1" width="10" height="10" fill="#f25022"/>' +
-      '<rect x="13" y="1" width="10" height="10" fill="#7fba00"/>' +
-      '<rect x="1" y="13" width="10" height="10" fill="#00a4ef"/>' +
-      '<rect x="13" y="13" width="10" height="10" fill="#ffb900"/>'
-    )
+function logoMarkup(logoKey: string, path: string, color: string): string {
+  const multi = MULTICOLOR_MARKS[logoKey]
+  if (multi) {
+    return multi.layers.map((l) => `<path d="${l.d}" fill="${l.fill}"/>`).join('')
   }
-  void viewBox
   return `<path d="${path}" fill="${color}"/>`
 }
 
@@ -69,7 +65,7 @@ export function partnerThumbnailSvg(author: string | undefined, category?: strin
   const partner = getPartner(author)
   if (!partner) return ''
 
-  const { color, tint, mark, label: brand, logoColor } = partner
+  const { color, tint, mark, label: brand, logoColor, logo: logoKey } = partner
   const catKey = isCategoryArtKey(category) ? category : 'mixed'
   const catLabel = CATEGORY_ART[catKey].label.toUpperCase()
 
@@ -79,7 +75,7 @@ export function partnerThumbnailSvg(author: string | undefined, category?: strin
   const logoSize = 58
   const half = logoSize / 2
   // Mark in its own brand color; the glow/rings stay the accent `color`.
-  const logo = logoMarkup(author!, mark.viewBox, mark.path, logoColor)
+  const logo = logoMarkup(logoKey, mark.path, logoColor)
 
   // Optical nudge, converted from viewBox units to art units via the mark scale.
   const vb = mark.viewBox.split(/\s+/).map(Number)

@@ -45,3 +45,33 @@ export const BRAND_MARKS: Record<string, BrandMark> = {
   "hashicorp": { "viewBox": "0 0 24 24", "path": "M10.114 4.094 4.215 7.5v13.09L.666 18.542V5.45L10.114 0v4.094zm3.772 13.37 3.549-2.049V2.05L13.885 0v10.426h-3.77v-3.89L6.562 8.585v13.357l3.551 2.054V13.599h3.772v3.865zM19.783 3.41V16.5l-5.897 3.405V24l9.448-5.45V5.458l-3.551-2.05z" },
   "apify": { "viewBox": "0 0 24 24", "path": "M12 1.5 20.59 6.75 V17.25 L12 22.5 L3.41 17.25 V6.75 Z M12 4.32 5.82 8.1 V15.9 L12 19.68 L18.18 15.9 V8.1 Z" }
 }
+
+/**
+ * Brands whose authentic logo is genuinely multi-color, rendered as stacked
+ * colored layers instead of a single-color mark (see `partner.logoColor`).
+ * Used by <PartnerMark> and the branded hero art so Google and Microsoft read
+ * as their real selves while every other brand stays a single brand color.
+ */
+export interface ColorLayer { d: string; fill: string }
+export const MULTICOLOR_MARKS: Record<string, { viewBox: string; layers: ColorLayer[] }> = {
+  // The canonical four-color Google "G".
+  google: {
+    viewBox: '0 0 24 24',
+    layers: [
+      { d: 'M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z', fill: '#4285f4' },
+      { d: 'M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z', fill: '#34a853' },
+      { d: 'M5.84 14.1c-.22-.66-.35-1.36-.35-2.1s.13-1.44.35-2.1V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.83z', fill: '#fbbc05' },
+      { d: 'M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z', fill: '#ea4335' },
+    ],
+  },
+  // Microsoft's four real tile colors.
+  microsoft: {
+    viewBox: '0 0 24 24',
+    layers: [
+      { d: 'M1 1h10v10H1z', fill: '#f25022' },
+      { d: 'M13 1h10v10H13z', fill: '#7fba00' },
+      { d: 'M1 13h10v10H1z', fill: '#00a4ef' },
+      { d: 'M13 13h10v10H13z', fill: '#ffb900' },
+    ],
+  },
+}
