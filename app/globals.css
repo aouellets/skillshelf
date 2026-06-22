@@ -312,15 +312,26 @@
   pointer-events: none;
   background:
     /* bright hot core behind the visual — high luminance reads as glow, not stain */
-    radial-gradient(28% 32% at 70% 30%, rgba(255, 190, 150, 0.62), transparent 55%),
-    /* hotter mid behind the showcase */
-    radial-gradient(38% 44% at 66% 34%, rgba(255, 112, 74, 0.48), transparent 60%),
-    /* broad warm wash for spread */
-    radial-gradient(60% 64% at 58% 22%, rgba(255, 86, 52, 0.24), transparent 64%),
-    /* soft counter-light, upper-left, so it isn't one-sided */
-    radial-gradient(48% 54% at 9% 18%, rgba(255, 128, 84, 0.16), transparent 66%);
+    radial-gradient(30% 36% at 70% 28%, rgba(255, 190, 150, 0.6), transparent 56%),
+    /* hotter mid behind the visual */
+    radial-gradient(40% 46% at 67% 32%, rgba(255, 112, 74, 0.46), transparent 60%),
+    /* broad warm wash for spread. Every layer is fully transparent before the
+       left/right edges, so the overflow-x:clip container can't slice it into a
+       hard vertical seam on wide screens. Left-side ambience comes from the
+       page-wide .aura-field, which is full-bleed and never clipped. */
+    radial-gradient(54% 60% at 64% 20%, rgba(255, 86, 52, 0.22), transparent 64%);
   animation: auroraDrift 22s var(--ease-standard, ease-in-out) infinite alternate;
   filter: blur(28px);
+}
+
+/* CTA variant — the closing band is centered, so its glow is symmetric about
+   the middle (the hero's is biased right, behind the product visual). Same
+   fade-before-edges discipline keeps it clear of the clip seam. */
+.aurora-cta {
+  background:
+    radial-gradient(34% 40% at 50% 20%, rgba(255, 184, 144, 0.5), transparent 58%),
+    radial-gradient(46% 54% at 50% 16%, rgba(255, 100, 64, 0.28), transparent 62%),
+    radial-gradient(64% 70% at 50% 10%, rgba(255, 84, 50, 0.16), transparent 66%);
 }
 
 /* Slow, barely-perceptible breathing so the ember feels alive, not painted on.

@@ -496,7 +496,7 @@ export default async function HomePage() {
 
       {/* FINAL CTA — centered closing band. */}
       <section className="relative py-14 text-center sm:py-28">
-        <div className="aurora" aria-hidden />
+        <div className="aurora aurora-cta" aria-hidden />
         <Reveal>
           <h2 className="mx-auto max-w-2xl font-display text-4xl font-semibold leading-[1.05] tracking-tight text-shelf-text-primary sm:text-5xl">
             Your next conversation just got an upgrade.
