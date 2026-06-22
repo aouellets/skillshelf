@@ -290,23 +290,44 @@
   }
 }
 
-/* === Ambient warm field behind the hero — a faint ember, not a neon smear.
-   Vermilion is a hot, saturated accent; kept at low opacity over the void it
-   reads as warmth rather than a brown bruise (focal hierarchy, not glow soup). */
+/* === Ambient warm field behind the hero — a sculpted ember, not a neon smear.
+   Three stacked, fully-contained radials give the glow dimension: a broad warm
+   wash, a hotter core behind the showcase, and a deep-ember counter on the left
+   for balance. A slow drift keeps it alive (the global reduced-motion net stops
+   it). Vermilion is hot, so every layer stays low-alpha and fades inside the
+   box — warmth and depth, never a brown bruise or a clipped edge. */
 .aurora {
   position: absolute;
   /* No horizontal bleed (inset L/R = 0): the parent hero container is
      overflow-x:clip, so a -10% bleed got sliced into a hard edge. Keep the
      glow inside the box and let it fade to transparent well before the right
      edge, so it reads as ambient warmth, not a clipped smear. */
-  inset: -24% 0 auto 0;
-  height: 580px;
+  inset: -26% 0 auto 0;
+  height: 640px;
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(46% 58% at 64% 4%, rgba(238, 70, 40, 0.1), transparent 60%),
-    radial-gradient(38% 46% at 16% 0%, rgba(238, 70, 40, 0.03), transparent 62%);
-  filter: blur(14px);
+    /* hotter core behind the showcase */
+    radial-gradient(30% 40% at 66% 0%, rgba(238, 70, 40, 0.12), transparent 52%),
+    /* broad warm wash */
+    radial-gradient(52% 62% at 64% 2%, rgba(238, 70, 40, 0.11), transparent 60%),
+    /* deep-ember counter, lower-left, for balance */
+    radial-gradient(42% 50% at 14% 8%, rgba(194, 58, 32, 0.05), transparent 64%);
+  animation: auroraDrift 22s var(--ease-standard, ease-in-out) infinite alternate;
+  filter: blur(16px);
+}
+
+/* Slow, barely-perceptible breathing so the ember feels alive, not painted on.
+   Small translate + scale + opacity swing; the reduced-motion net collapses it. */
+@keyframes auroraDrift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.82;
+  }
+  to {
+    transform: translate3d(-1.5%, 1.8%, 0) scale(1.05);
+    opacity: 1;
+  }
 }
 
 /* Subtle dotted grid texture for section backdrops */
