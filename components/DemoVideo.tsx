@@ -11,6 +11,10 @@ interface DemoVideoProps {
   /** 'inview' autoplays a muted loop when scrolled into view (hero/main demo);
    *  'hover' stays on the poster and previews on hover (gallery thumbnails). */
   playMode?: 'inview' | 'hover'
+  /** Above-the-fold hero use: on desktop, attach the source immediately and use
+   *  the native muted-autoplay attribute (reliable in Safari, which won't always
+   *  honor a JS play()). Mobile keeps the lazy poster + tap-to-play to save data. */
+  eager?: boolean
   rounded?: boolean
   /** When false, clicks don't toggle sound/controls (e.g. the tile is wrapped in
    *  a link that should navigate instead). Defaults to true. */
@@ -30,12 +34,24 @@ export function DemoVideo({
   height,
   className = '',
   playMode = 'inview',
+  eager = false,
   rounded = true,
   interactive = true,
 }: DemoVideoProps) {
   const ref = useRef<HTMLVideoElement>(null)
   const [active, setActive] = useState(false) // user clicked → sound + controls
   const [near, setNear] = useState(false) // near viewport → attach src
+  const [eagerDesktop, setEagerDesktop] = useState(false) // desktop hero → native autoplay
+
+  // Desktop hero: attach the source up front and let the browser autoplay via the
+  // native `autoplay` attribute. Gated to >=lg so phones keep the lazy poster.
+  useEffect(() => {
+    if (!eager || typeof window === 'undefined') return
+    if (window.matchMedia('(min-width: 1024px)').matches) {
+      setEagerDesktop(true)
+      setNear(true)
+    }
+  }, [eager])
 
   // Attach the source only when near the viewport.
   useEffect(() => {
@@ -86,7 +102,8 @@ export function DemoVideo({
       muted
       loop
       playsInline
-      preload="none"
+      autoPlay={eagerDesktop}
+      preload={eagerDesktop ? 'metadata' : 'none'}
       onClick={interactive && !active ? handleClick : undefined}
       onMouseEnter={playMode === 'hover' && !active ? () => ref.current?.play().catch(() => {}) : undefined}
       onMouseLeave={playMode === 'hover' && !active ? () => ref.current?.pause() : undefined}

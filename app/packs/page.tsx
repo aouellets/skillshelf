@@ -89,7 +89,7 @@ export default async function PacksPage() {
               </p>
             </div>
           </div>
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
             {officialPacks.map((pack, i) => (
               <Reveal key={pack.id} index={i} className="h-full">
                 <PackCard pack={pack} />
@@ -116,7 +116,7 @@ export default async function PacksPage() {
               All packs
             </h2>
           )}
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
             {restPacks.map((pack, i) => (
               <Reveal key={pack.id} index={i} className="h-full">
                 <PackCard pack={pack} />

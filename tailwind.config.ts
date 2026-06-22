@@ -51,7 +51,11 @@ const config: Config = {
         btn: 'var(--radius-sm)',
       },
       maxWidth: {
-        content: '88rem',
+        // Widened from 88rem so the layout fills large/ultrawide displays
+        // instead of stranding content in a narrow centered column. Inner text
+        // blocks keep their own max-w-* for line-length, so only the chrome,
+        // hero, and card grids spread into the extra width.
+        content: '104rem',
       },
       boxShadow: {
         card: 'var(--shadow-card)',

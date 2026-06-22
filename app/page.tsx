@@ -175,6 +175,7 @@ export default async function HomePage() {
         posterUrl={heroFilm.poster_url}
         width={heroFilm.width}
         height={heroFilm.height}
+        eager
         rounded={false}
       />
     </div>
@@ -192,7 +193,7 @@ export default async function HomePage() {
             → CTA, each on a fade-up offset by the stagger step. */}
         <div>
           <span className="eyebrow fade-up inline-block">The App Store for Claude</span>
-          <h1 className="fade-up mt-5 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-shelf-text-primary sm:text-7xl" style={{ animationDelay: '80ms' }}>
+          <h1 className="fade-up mt-5 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-shelf-text-primary sm:text-7xl 2xl:text-8xl" style={{ animationDelay: '80ms' }}>
             Install
             <br />
             intelligence.
@@ -305,7 +306,7 @@ export default async function HomePage() {
             Claude, whatever the day asks for.
           </p>
           <Reveal>
-            <Spotlight className="mt-8 grid grid-cols-1 gap-5 rounded-lg sm:grid-cols-2 lg:grid-cols-3">
+            <Spotlight className="mt-8 grid grid-cols-1 gap-5 rounded-lg sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {becomeAnything.map((skill) => (
                 <SkillCard key={skill.id} skill={skill} />
               ))}
@@ -369,7 +370,7 @@ export default async function HomePage() {
               View all packs →
             </Link>
           </Reveal>
-          <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {partnerShowcase.map((pack, i) => (
               <Reveal key={pack.id} index={i}>
                 <PackCard pack={pack} />
