@@ -4,12 +4,14 @@ import { useState, useRef } from 'react'
 import type { SkillCategory, PackCategory } from '@/lib/types'
 import { categoryThumbnailSvg } from '@/lib/category-art'
 import { partnerThumbnailSvg, hasPartnerArt } from '@/lib/partner-art'
+import { methodologyThumbnailSvg, hasMethodologyArt } from '@/lib/methodology-art'
 
 interface Props {
   skill: {
     name: string
     author?: string | null
     category?: SkillCategory | PackCategory
+    tags?: string[] | null
     thumbnail_url?: string
     thumbnail_gif?: string
     thumbnail_video?: string
@@ -61,6 +63,7 @@ export function SkillThumbnail({ skill, size = 'card' }: Props) {
       <SkillPlaceholder
         category={skill.category}
         author={skill.author}
+        tags={skill.tags}
         seed={skill.name}
         size={size}
       />
@@ -162,17 +165,22 @@ function ThumbSheen() {
 function SkillPlaceholder({
   category,
   author,
+  tags,
   seed,
   size,
 }: {
   category?: string
   author?: string | null
+  tags?: string[] | null
   seed?: string
   size: 'card' | 'detail'
 }) {
+  // Priority: real partner brand > methodology wordmark (CrossFit®) > category.
   const svg = hasPartnerArt(author)
     ? partnerThumbnailSvg(author!, category)
-    : categoryThumbnailSvg(category, { seed })
+    : hasMethodologyArt(tags)
+      ? methodologyThumbnailSvg(tags, seed)
+      : categoryThumbnailSvg(category, { seed })
   return (
     <div className={`relative w-full overflow-hidden ${ASPECT[size]}`}>
       <div className="absolute inset-0" dangerouslySetInnerHTML={{ __html: svg }} />

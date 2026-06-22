@@ -6,6 +6,7 @@ import { VerifiedMark } from './VerifiedMark'
 import { OfficialBadge } from './OfficialBadge'
 import { PartnerLogo } from './PartnerLogo'
 import { MethodologyBadge } from './MethodologyBadge'
+import { hasMethodology } from '@/lib/methodology'
 import { SkillThumbnail } from './SkillThumbnail'
 import { FavoriteButton } from './FavoriteButton'
 import { installLabel, isNewSkill } from '@/lib/categories'
@@ -37,9 +38,16 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
           </h3>
           {/* The compact 2-col mobile tile already carries the category via the
               thumbnail label; hide the redundant inline badge below sm to keep
-              the header clean. Reappears at sm+ (desktop unchanged). */}
+              the header clean. Reappears at sm+ (desktop unchanged).
+              Methodology content (e.g. CrossFit®) leads with the wordmark badge
+              instead of the generic category, the way a partner pack leads with
+              its brand. */}
           <span className="hidden sm:contents">
-            <CategoryBadge category={skill.category} />
+            {hasMethodology(skill.tags) ? (
+              <MethodologyBadge tags={skill.tags} />
+            ) : (
+              <CategoryBadge category={skill.category} />
+            )}
           </span>
         </div>
 
@@ -49,8 +57,7 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
 
         <div className="flex items-center justify-between border-t border-shelf-border pt-3 font-mono text-xs text-shelf-text-tertiary">
           <span>{installLabel(skill.install_count) ?? ''}</span>
-          <span className="ml-auto flex items-center gap-2.5">
-            <MethodologyBadge tags={skill.tags} />
+          <span className="ml-auto flex items-center gap-3">
             {skill.rating_count > 0 && (
               <span className="text-shelf-text-secondary">
                 <span className="text-accent">★</span> {skill.rating_avg.toFixed(1)}
