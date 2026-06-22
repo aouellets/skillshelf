@@ -276,3 +276,25 @@ export function fitSkillChips(
   // If something will be left over, repack holding back room for the more-pill.
   return all.length < total ? pack(MORE) : all
 }
+
+/** A short, app-icon-style monogram for a skill name: initials of the first two
+ *  words, else the two leading capitals (CodeGraph → CG), else the first two
+ *  letters. Always upper-cased. */
+export function monogram(name: string): string {
+  const words = clean(name).split(' ').filter(Boolean)
+  if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase()
+  const w = words[0] ?? '?'
+  const caps = w.match(/[A-Z]/g)
+  if (caps && caps.length >= 2) return (caps[0] + caps[1]).toUpperCase()
+  return w.slice(0, 2).toUpperCase()
+}
+
+/** Pick ink or paper for legible text on a solid color tile (luminance test). */
+export function readableOn(hex: string): string {
+  const m = hex.replace('#', '')
+  const r = parseInt(m.slice(0, 2), 16)
+  const g = parseInt(m.slice(2, 4), 16)
+  const b = parseInt(m.slice(4, 6), 16)
+  const L = (0.299 * r + 0.587 * g + 0.114 * b) / 255
+  return L > 0.62 ? OG.ink : OG.paper
+}
