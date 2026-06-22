@@ -277,14 +277,18 @@
    reads as warmth rather than a brown bruise (focal hierarchy, not glow soup). */
 .aurora {
   position: absolute;
-  inset: -20% -10% auto -10%;
-  height: 620px;
+  /* No horizontal bleed (inset L/R = 0): the parent hero container is
+     overflow-x:clip, so a -10% bleed got sliced into a hard edge. Keep the
+     glow inside the box and let it fade to transparent well before the right
+     edge, so it reads as ambient warmth, not a clipped smear. */
+  inset: -24% 0 auto 0;
+  height: 580px;
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(52% 52% at 72% 14%, rgba(238, 70, 40, 0.07), transparent 72%),
-    radial-gradient(44% 44% at 16% 0%, rgba(238, 70, 40, 0.025), transparent 72%);
-  filter: blur(12px);
+    radial-gradient(46% 58% at 64% 4%, rgba(238, 70, 40, 0.1), transparent 60%),
+    radial-gradient(38% 46% at 16% 0%, rgba(238, 70, 40, 0.03), transparent 62%);
+  filter: blur(14px);
 }
 
 /* Subtle dotted grid texture for section backdrops */
@@ -353,14 +357,20 @@
 }
 
 /* Word rotator — a vertical slot machine for a single word inside a headline.
-   The hidden sizer reserves the widest word's width so the line never reflows. */
+   The hidden sizer reserves the widest word's width so the line never reflows.
+   The window is a hair taller than the glyph and edge-masked, so the word
+   leaving/entering during the roll fades at the top/bottom instead of sitting
+   as a hard sliver of the previous word. The current word stays fully opaque in
+   the un-masked middle band. */
 .word-rotator {
   position: relative;
   display: inline-grid;
   overflow: hidden;
-  height: 1.08em;
+  height: 1.15em;
   vertical-align: bottom;
   color: var(--shelf-accent);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 17%, #000 83%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 17%, #000 83%, transparent 100%);
 }
 .word-rotator-sizer {
   visibility: hidden;
@@ -372,11 +382,15 @@
   inset: 0;
   display: flex;
   flex-direction: column;
-  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+  /* Snappier roll → the two-words-visible overlap window is brief. */
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .word-rotator-item {
-  height: 1.08em;
-  line-height: 1.08em;
+  height: 1.15em;
+  display: flex;
+  align-items: center;
+  line-height: 1;
   white-space: nowrap;
 }
 
