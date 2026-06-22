@@ -290,31 +290,33 @@
   }
 }
 
-/* === Ambient warm field behind the hero — a sculpted ember, not a neon smear.
-   Three stacked, fully-contained radials give the glow dimension: a broad warm
-   wash, a hotter core behind the showcase, and a deep-ember counter on the left
-   for balance. A slow drift keeps it alive (the global reduced-motion net stops
-   it). Vermilion is hot, so every layer stays low-alpha and fades inside the
-   box — warmth and depth, never a brown bruise or a clipped edge. */
+/* === Ambient warm field behind the hero — a luminous ember, not a neon smear.
+   Layered radials give the glow real dimension: a bright hot core, a broad warm
+   wash, and a soft counter-light on the left. The trick that keeps vermilion
+   from muddying to brown over the dark ink is LUMINANCE — the core is a near-
+   white-hot tint that reads as light, not a mid-tone orange stain. A slow drift
+   keeps it breathing (the global reduced-motion net stops it). */
 .aurora {
   position: absolute;
   /* No horizontal bleed (inset L/R = 0): the parent hero container is
      overflow-x:clip, so a -10% bleed got sliced into a hard edge. Keep the
      glow inside the box and let it fade to transparent well before the right
      edge, so it reads as ambient warmth, not a clipped smear. */
-  inset: -26% 0 auto 0;
-  height: 640px;
+  inset: -30% 0 auto 0;
+  height: 720px;
   z-index: -1;
   pointer-events: none;
   background:
-    /* hotter core behind the showcase */
-    radial-gradient(30% 40% at 66% 0%, rgba(238, 70, 40, 0.12), transparent 52%),
-    /* broad warm wash */
-    radial-gradient(52% 62% at 64% 2%, rgba(238, 70, 40, 0.11), transparent 60%),
-    /* deep-ember counter, lower-left, for balance */
-    radial-gradient(42% 50% at 14% 8%, rgba(194, 58, 32, 0.05), transparent 64%);
+    /* bright hot core behind the visual — luminance reads as glow, not stain */
+    radial-gradient(32% 42% at 67% -2%, rgba(255, 122, 84, 0.2), transparent 55%),
+    /* hotter mid behind the showcase */
+    radial-gradient(38% 48% at 64% 1%, rgba(238, 70, 40, 0.16), transparent 58%),
+    /* broad warm wash for spread */
+    radial-gradient(58% 68% at 60% 3%, rgba(238, 70, 40, 0.12), transparent 64%),
+    /* soft counter-light, upper-left, so it isn't one-sided */
+    radial-gradient(46% 54% at 13% 4%, rgba(255, 104, 64, 0.07), transparent 66%);
   animation: auroraDrift 22s var(--ease-standard, ease-in-out) infinite alternate;
-  filter: blur(16px);
+  filter: blur(20px);
 }
 
 /* Slow, barely-perceptible breathing so the ember feels alive, not painted on.
@@ -322,10 +324,42 @@
 @keyframes auroraDrift {
   from {
     transform: translate3d(0, 0, 0) scale(1);
-    opacity: 0.82;
+    opacity: 0.85;
   }
   to {
-    transform: translate3d(-1.5%, 1.8%, 0) scale(1.05);
+    transform: translate3d(-1.5%, 1.8%, 0) scale(1.06);
+    opacity: 1;
+  }
+}
+
+/* === Page-wide ambient aura — mounted once in the root layout so the warmth
+   carries across every page (browse, packs, detail), not just the landing hero.
+   Fixed to the viewport and pinned behind content (z-index:-1, above the body
+   ink but below everything in flow), so it stays as a soft, constant room-light
+   as you scroll. Low-alpha, top-anchored, fading downward; a very slow drift
+   keeps it from feeling painted on. */
+.aura-field {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    /* warm light spilling from the top-right */
+    radial-gradient(48% 38% at 82% -8%, rgba(255, 110, 72, 0.09), transparent 60%),
+    /* broad wash, top-center */
+    radial-gradient(60% 44% at 58% -6%, rgba(238, 70, 40, 0.06), transparent 64%),
+    /* faint counter-light, mid-left */
+    radial-gradient(44% 40% at 4% 18%, rgba(238, 70, 40, 0.04), transparent 66%);
+  animation: auraFieldDrift 36s var(--ease-standard, ease-in-out) infinite alternate;
+}
+
+@keyframes auraFieldDrift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.8;
+  }
+  to {
+    transform: translate3d(2%, 1%, 0) scale(1.08);
     opacity: 1;
   }
 }

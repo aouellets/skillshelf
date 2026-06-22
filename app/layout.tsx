@@ -175,6 +175,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${inter.variable} ${GeistMono.variable}`}
     >
       <body>
+        {/* Page-wide ambient aura — a soft, constant warm field behind every
+            page. Fixed + pinned behind content in globals.css (.aura-field). */}
+        <div className="aura-field" aria-hidden />
         <FavoritesProvider>
           <div className="flex min-h-dvh flex-col">
             <Header />
