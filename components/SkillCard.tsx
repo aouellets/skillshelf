@@ -5,6 +5,7 @@ import { CategoryBadge } from './CategoryBadge'
 import { VerifiedMark } from './VerifiedMark'
 import { OfficialBadge } from './OfficialBadge'
 import { PartnerLogo } from './PartnerLogo'
+import { MethodologyBadge } from './MethodologyBadge'
 import { SkillThumbnail } from './SkillThumbnail'
 import { FavoriteButton } from './FavoriteButton'
 import { installLabel, isNewSkill } from '@/lib/categories'
@@ -48,7 +49,8 @@ export function SkillCard({ skill }: { skill: SkillCardData }) {
 
         <div className="flex items-center justify-between border-t border-shelf-border pt-3 font-mono text-xs text-shelf-text-tertiary">
           <span>{installLabel(skill.install_count) ?? ''}</span>
-          <span className="ml-auto flex items-center gap-3">
+          <span className="ml-auto flex items-center gap-2.5">
+            <MethodologyBadge tags={skill.tags} />
             {skill.rating_count > 0 && (
               <span className="text-shelf-text-secondary">
                 <span className="text-accent">★</span> {skill.rating_avg.toFixed(1)}

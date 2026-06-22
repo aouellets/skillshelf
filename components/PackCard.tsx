@@ -3,6 +3,7 @@ import { SkillThumbnail } from './SkillThumbnail'
 import { VerifiedMark } from './VerifiedMark'
 import { OfficialBadge } from './OfficialBadge'
 import { PartnerLogo } from './PartnerLogo'
+import { MethodologyBadge } from './MethodologyBadge'
 import { installLabel } from '@/lib/categories'
 import { isOfficial } from '@/lib/skill-source'
 import { isPartner } from '@/lib/partners'
@@ -41,6 +42,7 @@ export function PackCard({ pack }: { pack: PackCardData }) {
           ) : (
             pack.verified && <VerifiedMark label={false} />
           )}
+          <MethodologyBadge tags={pack.tags} />
         </div>
 
         <h3 className="font-display text-base font-semibold leading-snug text-shelf-text-primary transition-colors group-hover:text-accent-hover">
