@@ -22,6 +22,8 @@ export interface Methodology {
   url: string
   /** Brand accent for the art hero/glow (defaults to the CrossFit orange). */
   accent?: string
+  /** Color for the hero wordmark/mark itself (defaults to `accent`). */
+  markColor?: string
   /** Dark brand tint for the top of the art backdrop. */
   tint?: string
   /**
@@ -39,6 +41,8 @@ const CROSSFIT: Methodology = {
   title:
     'Applies the CrossFit® methodology — by a licensed CrossFit affiliate. Independent; not endorsed, sponsored, or certified by CrossFit, LLC.',
   url: 'https://github.com/aouellets/crossfit-claude-skills',
+  // White wordmark on the vermilion glow (the glow/rings/label stay accent).
+  markColor: '#ffffff',
 }
 
 // HYROX official wordmark (520x72), used under the operator's HYROX affiliate

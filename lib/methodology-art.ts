@@ -41,6 +41,7 @@ export function methodologyThumbnailSvg(tags?: string[] | null, seed?: string): 
 
   const ACCENT = m.accent ?? DEFAULT_ACCENT
   const TINT = m.tint ?? DEFAULT_TINT
+  const MARK = m.markColor ?? ACCENT
   const uid = `m${hashSeed(`${m.label}${seed ?? ''}`).toString(36)}`
   const cx = 160
   const cy = 80
@@ -55,12 +56,12 @@ export function methodologyThumbnailSvg(tags?: string[] | null, seed?: string): 
     const scale = targetW / vw
     const w = vw * scale
     const h = vh * scale
-    hero = `<g transform="translate(${cx - w / 2} ${cy - h / 2}) scale(${scale})"><path d="${m.markPath}" fill="${ACCENT}"/></g>`
+    hero = `<g transform="translate(${cx - w / 2} ${cy - h / 2}) scale(${scale})"><path d="${m.markPath}" fill="${MARK}"/></g>`
   } else {
     // "CrossFit®" → split the registered symbol out so it renders as a superscript.
     const mark = m.label.replace(/®/g, '')
     const hasReg = m.label.includes('®')
-    hero = `<text x="${cx}" y="${cy + 10}" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="800" font-size="40" letter-spacing="-0.5" fill="${ACCENT}">${mark}${hasReg ? `<tspan font-size="16" dy="-14">®</tspan>` : ''}</text>`
+    hero = `<text x="${cx}" y="${cy + 10}" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-weight="800" font-size="40" letter-spacing="-0.5" fill="${MARK}">${mark}${hasReg ? `<tspan font-size="16" dy="-14">®</tspan>` : ''}</text>`
   }
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Applies the ${m.label} methodology">
