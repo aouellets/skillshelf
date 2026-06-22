@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { createSupabaseServerClient } from '@/lib/supabase/server'
 import { getServiceSupabase } from '@/lib/supabase'
 import { insertEvents, buildRow, type TelemetryRow } from '@/lib/telemetry/track'
+import { geoContext } from '@/lib/telemetry/geo'
 import {
   WEB_EMITTABLE_EVENTS,
   ANONYMOUS_ID_COOKIE,
@@ -56,16 +57,6 @@ const BatchSchema = z.object({
   events: z.array(RawEventSchema).min(1).max(MAX_BATCH),
 })
 
-/** Coarse, non-PII geo from Vercel edge headers. Country/region only — no IP. */
-function coarseGeo(req: NextRequest): Record<string, string> {
-  const country = req.headers.get('x-vercel-ip-country')
-  const region = req.headers.get('x-vercel-ip-country-region')
-  const geo: Record<string, string> = {}
-  if (country) geo.country = country
-  if (region) geo.region = region
-  return geo
-}
-
 export async function POST(req: NextRequest) {
   if (!getServiceSupabase()) {
     return Response.json({ error: 'Telemetry not configured.' }, { status: 503 })
@@ -100,8 +91,7 @@ export async function POST(req: NextRequest) {
   }
 
   const cookieAnon = req.cookies.get(ANONYMOUS_ID_COOKIE)?.value ?? null
-  const geo = coarseGeo(req)
-  const context = Object.keys(geo).length ? { geo } : {}
+  const context = geoContext(req.headers)
 
   const rows: TelemetryRow[] = parsed.data.events.map((e) => {
     // Re-parse to get the cleaned, typed properties for this event name.

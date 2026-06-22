@@ -70,7 +70,7 @@ export const browseSkills: Tool<BrowseArgs> = {
           result_count: skills.length,
         },
       },
-      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
     )
 
     if (skills.length === 0) {

@@ -41,7 +41,7 @@ export const browsePacks: Tool<BrowsePacksArgs> = {
           result_count: packs.length,
         },
       },
-      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
     )
 
     if (packs.length === 0) {

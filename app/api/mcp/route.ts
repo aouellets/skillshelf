@@ -1,5 +1,6 @@
 import { NextRequest } from 'next/server'
 import { createMCPServer } from '@/lib/mcp/server'
+import { geoContext } from '@/lib/telemetry/geo'
 import { verifyAccessToken } from '@/lib/mcp/oauth'
 import { SITE_URL } from '@/lib/site'
 
@@ -122,7 +123,7 @@ export async function POST(req: NextRequest) {
   const acceptsSse = (req.headers.get('accept') ?? '').includes('text/event-stream')
 
   try {
-    const server = createMCPServer(userToken)
+    const server = createMCPServer(userToken, geoContext(req.headers))
     const response = await server.handle(body as never)
 
     // Notifications produce no response body.

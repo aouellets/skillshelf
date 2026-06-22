@@ -130,6 +130,43 @@ export interface SearchTermRow {
   avg_results: number | null
 }
 
+/** Raw row from mv_user_directory (no PII — emails join in at read time). */
+export interface UserDirectoryMvRow {
+  actor_key: string
+  user_id: string | null
+  actor_kind: 'account' | 'mcp_anon' | 'web_anon'
+  user_token: string | null
+  anonymous_id: string | null
+  first_seen_at: string
+  last_seen_at: string
+  total_events: number
+  mcp_events: number
+  web_events: number
+  tool_invocations: number
+  installs: number
+  activations: number
+  sessions: number
+  last_country: string | null
+  last_region: string | null
+  last_city: string | null
+  last_source: string | null
+  signup_at: string | null
+  signup_method: string | null
+  signup_country: string | null
+  signup_region: string | null
+  signup_city: string | null
+}
+
+/** mv_user_directory row enriched with the account's auth.users identity. */
+export interface UserDirectoryRow extends UserDirectoryMvRow {
+  /** From auth.users — null for anonymous actors or if the lookup is unavailable. */
+  email: string | null
+  name: string | null
+  provider: string | null
+  account_created_at: string | null
+  last_sign_in_at: string | null
+}
+
 export interface TelemetryDashboardData {
   activeUsers: ActiveUsersDailyRow[]
   activation: ActivationRow[]
@@ -282,4 +319,81 @@ export async function loadTelemetryDashboard(): Promise<TelemetryDashboardData> 
     searchTerms,
     freshness,
   }
+}
+
+// --- User directory -----------------------------------------------------------
+
+interface AuthUserInfo {
+  email: string | null
+  name: string | null
+  provider: string | null
+  created_at: string | null
+  last_sign_in_at: string | null
+}
+
+/**
+ * Resolve account identities (email / display name) for the given user ids via
+ * the service-role Admin API. PII stays OUT of the telemetry tables — it is
+ * fetched live here and only for the admin dashboard. Paginates listUsers and
+ * never throws; an error or missing service key yields an empty map (the
+ * directory then shows accounts without emails rather than failing).
+ */
+async function fetchAuthUsers(ids: Set<string>): Promise<Map<string, AuthUserInfo>> {
+  const out = new Map<string, AuthUserInfo>()
+  const supabase = getServiceSupabase()
+  if (!supabase || ids.size === 0) return out
+
+  const perPage = 1000
+  for (let page = 1; page <= 20; page++) {
+    const { data, error } = await supabase.auth.admin.listUsers({ page, perPage })
+    if (error) {
+      console.error('[admin-telemetry] listUsers failed:', error.message)
+      break
+    }
+    const users = data?.users ?? []
+    for (const u of users) {
+      if (!ids.has(u.id)) continue
+      const meta = (u.user_metadata ?? {}) as Record<string, unknown>
+      const name =
+        (meta.full_name as string | undefined) ??
+        (meta.name as string | undefined) ??
+        (meta.user_name as string | undefined) ??
+        null
+      out.set(u.id, {
+        email: u.email ?? null,
+        name,
+        provider: (u.app_metadata?.provider as string | undefined) ?? null,
+        created_at: u.created_at ?? null,
+        last_sign_in_at: u.last_sign_in_at ?? null,
+      })
+    }
+    if (users.length < perPage) break
+  }
+  return out
+}
+
+/**
+ * The per-user directory: every resolved actor (accounts + anonymous MCP/web),
+ * newest-active first, enriched with account email/name from auth.users. Reads
+ * the mv_user_directory rollup; defensive (empty on any failure).
+ */
+export async function getUserDirectory(limit = 1000): Promise<UserDirectoryRow[]> {
+  const rows = await readMv<UserDirectoryMvRow>(
+    'mv_user_directory',
+    [{ column: 'last_seen_at', ascending: false }],
+    limit
+  )
+  const ids = new Set(rows.map((r) => r.user_id).filter((v): v is string => Boolean(v)))
+  const auth = await fetchAuthUsers(ids)
+  return rows.map((r) => {
+    const info = r.user_id ? auth.get(r.user_id) : undefined
+    return {
+      ...r,
+      email: info?.email ?? null,
+      name: info?.name ?? null,
+      provider: info?.provider ?? r.signup_method ?? null,
+      account_created_at: info?.created_at ?? null,
+      last_sign_in_at: info?.last_sign_in_at ?? null,
+    }
+  })
 }

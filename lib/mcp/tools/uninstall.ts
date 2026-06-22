@@ -57,7 +57,7 @@ export const uninstallSkill: Tool<UninstallArgs> = {
 
     void track(
       { name: 'skill_uninstalled', properties: { skill_id: args.skill_id } },
-      { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+      { source: 'mcp', userToken: auth.token, sessionId: auth.token, context: ctx.context }
     )
 
     return text('Removed from your library. It will no longer activate in new sessions.')

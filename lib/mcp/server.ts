@@ -100,8 +100,11 @@ function error(
 // unbounded amount of work.
 const MAX_BATCH_SIZE = 50
 
-export function createMCPServer(userToken: string | null) {
-  const ctx: ToolContext = { userToken }
+export function createMCPServer(
+  userToken: string | null,
+  context: Record<string, unknown> = {}
+) {
+  const ctx: ToolContext = { userToken, context }
 
   async function handleOne(
     req: JsonRpcRequest
@@ -123,7 +126,7 @@ export function createMCPServer(userToken: string | null) {
               ...(clientInfo?.name ? { client_name: clientInfo.name } : {}),
             },
           },
-          { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+          { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
         )
         return result(req.id, {
           protocolVersion: negotiated,
@@ -209,7 +212,7 @@ export function createMCPServer(userToken: string | null) {
                 ok: !toolResult.isError,
               },
             },
-            { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+            { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
           )
         }
 

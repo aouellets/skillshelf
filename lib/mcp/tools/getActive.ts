@@ -57,7 +57,7 @@ export const getActiveSkills: Tool = {
     // install). Batched, fire-and-forget; never blocks the start-of-conversation
     // call. The id is present for catalog skills; guard the (rare) null.
     if (loaded.length > 0) {
-      const opts = { source: 'mcp' as const, userToken: ctx.userToken, sessionId: ctx.userToken }
+      const opts = { source: 'mcp' as const, userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
       void insertEvents(
         loaded
           .filter((r) => r.skills!.id)

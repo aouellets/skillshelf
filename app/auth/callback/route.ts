@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import type { EmailOtpType, SupabaseClient } from '@supabase/supabase-js'
 import { createSupabaseServerClient } from '@/lib/supabase/server'
 import { track } from '@/lib/telemetry/track'
+import { geoContext } from '@/lib/telemetry/geo'
 
 export const dynamic = 'force-dynamic'
 
@@ -17,15 +18,23 @@ function safeNext(next: string | null): string {
  * runs (no fragile "is this their first sign-in" heuristic). Awaited because the
  * route redirects immediately — but it is bounded and never throws.
  */
-async function trackSignup(supabase: SupabaseClient): Promise<void> {
+async function trackSignup(supabase: SupabaseClient, req: NextRequest): Promise<void> {
   const {
     data: { user },
   } = await supabase.auth.getUser()
   if (!user) return
   const method = (user.app_metadata?.provider as string | undefined) ?? 'email'
+  // Stamp the signup with coarse geo so the admin directory can show "where they
+  // signed up from" — the request that completes the auth exchange originates
+  // from the new user, so its edge geo is theirs.
   await track(
     { name: 'user_signed_up', properties: { method } },
-    { source: 'web', userId: user.id, idempotencyKey: `signup:${user.id}` }
+    {
+      source: 'web',
+      userId: user.id,
+      idempotencyKey: `signup:${user.id}`,
+      context: geoContext(req.headers),
+    }
   )
 }
 
@@ -59,7 +68,7 @@ export async function GET(request: NextRequest) {
   if (code) {
     const { error } = await supabase.auth.exchangeCodeForSession(code)
     if (!error) {
-      await trackSignup(supabase)
+      await trackSignup(supabase, request)
       return NextResponse.redirect(`${origin}${next}`)
     }
     return NextResponse.redirect(`${origin}/login?error=exchange`)
@@ -68,7 +77,7 @@ export async function GET(request: NextRequest) {
   if (tokenHash && type) {
     const { error } = await supabase.auth.verifyOtp({ token_hash: tokenHash, type })
     if (!error) {
-      await trackSignup(supabase)
+      await trackSignup(supabase, request)
       return NextResponse.redirect(`${origin}${next}`)
     }
     return NextResponse.redirect(`${origin}/login?error=exchange`)

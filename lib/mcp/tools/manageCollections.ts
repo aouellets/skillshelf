@@ -60,7 +60,7 @@ export const manageCollections: Tool<CollectionArgs> = {
           name: 'collection_managed',
           properties: { action, ...(collectionId ? { collection_id: collectionId } : {}) },
         },
-        { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+        { source: 'mcp', userToken: auth.token, sessionId: auth.token, context: ctx.context }
       )
 
     // Mutating actions are rate-limited; listing is a cheap read.

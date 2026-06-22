@@ -103,7 +103,7 @@ export const recommendSkillsTool: Tool<RecommendArgs> = {
         name: 'skill_recommended',
         properties: { result_count: finalSkills.length, used_rerank: usedRerank, mode },
       },
-      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken }
+      { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
     )
 
     const lines = finalSkills.map((s, i) =>

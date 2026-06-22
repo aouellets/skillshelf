@@ -94,7 +94,7 @@ export const rateSkill: Tool<RateArgs> = {
 
     void track(
       { name: 'skill_rated', properties: { skill_id: skill.id, rating } },
-      { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+      { source: 'mcp', userToken: auth.token, sessionId: auth.token, context: ctx.context }
     )
 
     return text(`Thanks — you rated "${skill.name}" ${rating}/5.`)

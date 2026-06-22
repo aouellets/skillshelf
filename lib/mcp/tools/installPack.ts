@@ -97,7 +97,7 @@ export const installPack: Tool<InstallPackArgs> = {
 
     // Telemetry: one pack_installed plus a skill_installed (via pack) per skill,
     // batched into a single fire-and-forget insert. Never blocks the response.
-    const opts = { source: 'mcp' as const, userToken: auth.token, sessionId: auth.token }
+    const opts = { source: 'mcp' as const, userToken: auth.token, sessionId: auth.token, context: ctx.context }
     void insertEvents([
       buildRow(
         { name: 'pack_installed', properties: { pack_id: packData.id, skill_count: skillIds.length } },

@@ -81,7 +81,7 @@ export const installSkill: Tool<InstallArgs> = {
 
     void track(
       { name: 'skill_installed', properties: { skill_id: skill.id, via: 'single' } },
-      { source: 'mcp', userToken: auth.token, sessionId: auth.token }
+      { source: 'mcp', userToken: auth.token, sessionId: auth.token, context: ctx.context }
     )
 
     return text(

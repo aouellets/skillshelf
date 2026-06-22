@@ -7,6 +7,13 @@ export interface ToolContext {
    * reject a null token (use `requireToken`).
    */
   userToken: string | null
+  /**
+   * Coarse, non-PII request context (currently `{ geo: { country, region, city } }`)
+   * derived from the MCP HTTP route's edge headers. Spread into every `track()`
+   * call's `context` so MCP activity is located the same way web events are.
+   * Empty object when no geo could be resolved.
+   */
+  context: Record<string, unknown>
 }
 
 /**

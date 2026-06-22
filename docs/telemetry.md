@@ -21,7 +21,11 @@ as the primary path.)
    they need no client trust. Web client tracking is additive, for browsing only.
 3. **First-party, Supabase-native.** Events live in our Postgres under RLS.
 4. **Privacy by default.** No raw IP, no PII in `properties`/`context`. Coarse geo
-   (country/region) only, derived server-side from edge headers.
+   (country/region/**city**) only, derived server-side from edge headers via
+   `lib/telemetry/geo.ts` and attached on every path — web ingest, the signup
+   event, and the MCP route (threaded through `ToolContext.context`). Emails and
+   usernames are **never** written to telemetry; they live only in `auth.users`
+   and are joined in at read time for the admin directory (see below).
 5. **Idempotent, at-least-once.** Every event carries an `idempotency_key`;
    duplicates are dropped by a unique constraint.
 
@@ -155,6 +159,27 @@ refreshed by the same `refresh_telemetry_rollups()`.
   `distinct_searchers`, `avg_results`, `zero_result_rate` (a high zero-result
   rate is a direct catalog-gap signal).
 
+### User directory rollup (migration `0015`)
+
+- **`mv_user_directory`** — one row per resolved **actor**, powering the admin
+  `/admin/users` tab. An actor is `account` (resolved `auth.users` id — pre-auth
+  web events are folded in via `telemetry_identity`), `mcp_anon` (anonymous
+  connector token), or `web_anon` (first-party cookie only). Columns: identity
+  keys (`user_id`, `user_token`, `anonymous_id`), `first_seen_at`/`last_seen_at`,
+  event counts (`total_events`, `mcp_events`/`web_events`, `tool_invocations`,
+  `installs`, `activations`, `sessions`), **last-known geo**
+  (`last_country`/`last_region`/`last_city` from the most recent located event =
+  "active from"), and **signup origin** (`signup_at`, `signup_method`,
+  `signup_country`/`signup_region`/`signup_city` = "signed up from"). Same access
+  model and refreshed by the same `refresh_telemetry_rollups()`.
+
+  This is a deliberate, **admin-only** step from aggregate-only telemetry to
+  per-user visibility. It still stores **no PII**: emails / display names are
+  read live from `auth.users` via the service-role Admin API in
+  `getUserDirectory()` (`lib/telemetry/admin-queries.ts`) and joined onto the
+  rollup at request time — only behind the `getAdminEmail()` gate, never
+  persisted into telemetry tables.
+
 ### Why not Vercel Web Analytics as the metrics source
 
 `<Analytics/>` stays mounted for marketing pageviews, but the product metrics
@@ -174,7 +199,8 @@ Alternative: schedule the same RPC with `pg_cron`.
 ## Retention & deletion policy
 
 - **No PII / no raw IP** is ever stored. `context` holds app version, coarse geo
-  (country/region), and UA family only.
+  (country/region/city), and UA family only. Emails/usernames are read live from
+  `auth.users` for the admin directory, never written to telemetry.
 - **Account deletion / erasure:** `public.purge_telemetry_for_user(user_id)` hard-
   deletes every event attributed to the account — both `user_id` rows and MCP rows
   attributed by the `auth:<uuid>` token — plus the identity mapping. The
@@ -191,5 +217,7 @@ Alternative: schedule the same RPC with `pg_cron`.
   (`user_id = auth.uid()`). No client insert path — only the service-role ingest
   writes. No anon read.
 - `telemetry_identity`: service-role only.
-- Rollup MVs + helper views: revoked from anon/authenticated; admin reads via the
-  service-role client behind an `isAdmin()` check.
+- Rollup MVs + helper views (incl. `mv_user_directory`): revoked from
+  anon/authenticated; admin reads via the service-role client behind an
+  `isAdmin()` check. The auth.users email/name enrichment for `/admin/users`
+  uses the service-role Admin API and is likewise gated by `getAdminEmail()`.
