@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "mongodb-review-skill",
+    "name": "MongoDB Skill Reviewer",
+    "category": "coding",
+    "description": "Review an Agent Skill using MongoDB's structured scoring and report format.",
+    "author": "MongoDB",
+    "source_url": "https://github.com/mongodb/agent-skills/tree/9ea7387c7a1638604542c6efd52e5efc6a7fc393/tools/review-skill",
+    "tags": [
+      "mongodb",
+      "database",
+      "nosql",
+      "data",
+      "ai-agent-development"
+    ],
+    "skill_content": "---\nname: MongoDB Skill Reviewer\ndescription: Review an Agent Skill using MongoDB's structured scoring and report format.\n---\n\n# MongoDB Skill Reviewer\n\nPart of the **MongoDB Agent Skills** pack by MongoDB (`mongodb/agent-skills`).\n\nReview an Agent Skill using MongoDB's structured scoring and report format.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/mongodb/agent-skills/tree/9ea7387c7a1638604542c6efd52e5efc6a7fc393/tools/review-skill\n"
+  }
+]

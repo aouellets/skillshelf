@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "flutter-add-integration-test",
+    "name": "Flutter Integration Test",
+    "category": "coding",
+    "description": "Configure Flutter Driver interaction and convert exploratory MCP actions into permanent integration tests.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-add-integration-test",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "software-testing"
+    ],
+    "skill_content": "---\nname: Flutter Integration Test\ndescription: Configure Flutter Driver interaction and convert exploratory MCP actions into permanent integration tests.\n---\n\n# Flutter Integration Test\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nConfigure Flutter Driver interaction and convert exploratory MCP actions into permanent integration tests.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-add-integration-test\n"
+  },
+  {
+    "slug": "flutter-add-widget-preview",
+    "name": "Flutter Widget Preview",
+    "category": "coding",
+    "description": "Add interactive widget previews for new or changing UI components.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-add-widget-preview",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Flutter Widget Preview\ndescription: Add interactive widget previews for new or changing UI components.\n---\n\n# Flutter Widget Preview\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nAdd interactive widget previews for new or changing UI components.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-add-widget-preview\n"
+  },
+  {
+    "slug": "flutter-add-widget-test",
+    "name": "Flutter Widget Test",
+    "category": "coding",
+    "description": "Create WidgetTester tests for rendering and interaction behavior.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-add-widget-test",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "software-testing"
+    ],
+    "skill_content": "---\nname: Flutter Widget Test\ndescription: Create WidgetTester tests for rendering and interaction behavior.\n---\n\n# Flutter Widget Test\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nCreate WidgetTester tests for rendering and interaction behavior.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-add-widget-test\n"
+  },
+  {
+    "slug": "flutter-apply-architecture-best-practices",
+    "name": "Flutter Architecture Best Practices",
+    "category": "coding",
+    "description": "Structure or refactor Flutter applications using recommended UI, logic, and data layers.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-apply-architecture-best-practices",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "application-architecture"
+    ],
+    "skill_content": "---\nname: Flutter Architecture Best Practices\ndescription: Structure or refactor Flutter applications using recommended UI, logic, and data layers.\n---\n\n# Flutter Architecture Best Practices\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nStructure or refactor Flutter applications using recommended UI, logic, and data layers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-apply-architecture-best-practices\n"
+  },
+  {
+    "slug": "flutter-build-responsive-layout",
+    "name": "Flutter Responsive Layout",
+    "category": "coding",
+    "description": "Build adaptive mobile, tablet, desktop, and web layouts.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-build-responsive-layout",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Flutter Responsive Layout\ndescription: Build adaptive mobile, tablet, desktop, and web layouts.\n---\n\n# Flutter Responsive Layout\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nBuild adaptive mobile, tablet, desktop, and web layouts.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-build-responsive-layout\n"
+  },
+  {
+    "slug": "flutter-fix-layout-issues",
+    "name": "Fix Flutter Layout Issues",
+    "category": "coding",
+    "description": "Diagnose and fix overflow, unbounded constraints, and keyboard-related layout errors.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-fix-layout-issues",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "debugging"
+    ],
+    "skill_content": "---\nname: Fix Flutter Layout Issues\ndescription: Diagnose and fix overflow, unbounded constraints, and keyboard-related layout errors.\n---\n\n# Fix Flutter Layout Issues\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nDiagnose and fix overflow, unbounded constraints, and keyboard-related layout errors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-fix-layout-issues\n"
+  },
+  {
+    "slug": "flutter-implement-json-serialization",
+    "name": "Flutter JSON Serialization",
+    "category": "coding",
+    "description": "Implement model serialization using dart:convert and explicit mappings.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-implement-json-serialization",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Flutter JSON Serialization\ndescription: Implement model serialization using dart:convert and explicit mappings.\n---\n\n# Flutter JSON Serialization\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nImplement model serialization using dart:convert and explicit mappings.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-implement-json-serialization\n"
+  },
+  {
+    "slug": "flutter-setup-declarative-routing",
+    "name": "Flutter Declarative Routing",
+    "category": "coding",
+    "description": "Configure MaterialApp.router and URL-based navigation with packages such as go_router.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-setup-declarative-routing",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Flutter Declarative Routing\ndescription: Configure MaterialApp.router and URL-based navigation with packages such as go_router.\n---\n\n# Flutter Declarative Routing\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nConfigure MaterialApp.router and URL-based navigation with packages such as go_router.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-setup-declarative-routing\n"
+  },
+  {
+    "slug": "flutter-setup-localization",
+    "name": "Flutter Localization Setup",
+    "category": "coding",
+    "description": "Configure generated localization files, intl, and supported locales.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-setup-localization",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Flutter Localization Setup\ndescription: Configure generated localization files, intl, and supported locales.\n---\n\n# Flutter Localization Setup\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nConfigure generated localization files, intl, and supported locales.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-setup-localization\n"
+  },
+  {
+    "slug": "flutter-use-http-package",
+    "name": "Flutter HTTP Package",
+    "category": "coding",
+    "description": "Implement REST API requests using the http package.",
+    "author": "Flutter",
+    "source_url": "https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-use-http-package",
+    "tags": [
+      "flutter",
+      "mobile",
+      "dart",
+      "testing",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Flutter HTTP Package\ndescription: Implement REST API requests using the http package.\n---\n\n# Flutter HTTP Package\n\nPart of the **Flutter Agent Skills** pack by Flutter (`flutter/skills`).\n\nImplement REST API requests using the http package.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/flutter/skills/tree/0d624f342a8418f7560c8047943b98913070b6aa/skills/flutter-use-http-package\n"
+  }
+]

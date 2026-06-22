@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "dataverse-log-call-transcripts",
+    "name": "Log Call Transcripts",
+    "category": "business",
+    "description": "Process sales-call transcripts and record structured activities and insights in Dataverse.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/log-call-transcripts",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-operations"
+    ],
+    "skill_content": "---\nname: Log Call Transcripts\ndescription: Process sales-call transcripts and record structured activities and insights in Dataverse.\n---\n\n# Log Call Transcripts\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nProcess sales-call transcripts and record structured activities and insights in Dataverse.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/log-call-transcripts\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-account-briefing-generator",
+    "name": "Account Briefing Generator",
+    "category": "business",
+    "description": "Generate a meeting-ready account brief from CRM history, pipeline, contacts, and risks.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/account-briefing-generator",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-enablement"
+    ],
+    "skill_content": "---\nname: Account Briefing Generator\ndescription: Generate a meeting-ready account brief from CRM history, pipeline, contacts, and risks.\n---\n\n# Account Briefing Generator\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nGenerate a meeting-ready account brief from CRM history, pipeline, contacts, and risks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/account-briefing-generator\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-daily-briefing",
+    "name": "Dataverse Daily Briefing",
+    "category": "productivity",
+    "description": "Summarize priorities, meetings, opportunities, and follow-ups from Dataverse.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/daily-briefing",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "executive-productivity"
+    ],
+    "skill_content": "---\nname: Dataverse Daily Briefing\ndescription: Summarize priorities, meetings, opportunities, and follow-ups from Dataverse.\n---\n\n# Dataverse Daily Briefing\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nSummarize priorities, meetings, opportunities, and follow-ups from Dataverse.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/daily-briefing\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-draft-outreach",
+    "name": "Draft Outreach",
+    "category": "business",
+    "description": "Draft personalized sales outreach using account and opportunity context.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/draft-outreach",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-enablement"
+    ],
+    "skill_content": "---\nname: Draft Outreach\ndescription: Draft personalized sales outreach using account and opportunity context.\n---\n\n# Draft Outreach\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nDraft personalized sales outreach using account and opportunity context.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/draft-outreach\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-create-an-asset",
+    "name": "Create a Sales Asset",
+    "category": "business",
+    "description": "Generate a one-pager, proposal, or executive summary from Dataverse context.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/create-an-asset",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-enablement"
+    ],
+    "skill_content": "---\nname: Create a Sales Asset\ndescription: Generate a one-pager, proposal, or executive summary from Dataverse context.\n---\n\n# Create a Sales Asset\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nGenerate a one-pager, proposal, or executive summary from Dataverse context.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/create-an-asset\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-handoff-brief-generator",
+    "name": "Handoff Brief Generator",
+    "category": "business",
+    "description": "Prepare account handoff and coverage briefs for ownership transitions.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/handoff-brief-generator",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-operations"
+    ],
+    "skill_content": "---\nname: Handoff Brief Generator\ndescription: Prepare account handoff and coverage briefs for ownership transitions.\n---\n\n# Handoff Brief Generator\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nPrepare account handoff and coverage briefs for ownership transitions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/handoff-brief-generator\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-pipeline-health-analyzer",
+    "name": "Pipeline Health Analyzer",
+    "category": "business",
+    "description": "Assess stalled deals, pipeline coverage, stage health, and intervention priorities.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/pipeline-health-analyzer",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-analytics"
+    ],
+    "skill_content": "---\nname: Pipeline Health Analyzer\ndescription: Assess stalled deals, pipeline coverage, stage health, and intervention priorities.\n---\n\n# Pipeline Health Analyzer\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nAssess stalled deals, pipeline coverage, stage health, and intervention priorities.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/pipeline-health-analyzer\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-forecast",
+    "name": "Dataverse Sales Forecast",
+    "category": "business",
+    "description": "Produce a structured opportunity forecast and quota outlook from CRM data.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/forecast",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-analytics"
+    ],
+    "skill_content": "---\nname: Dataverse Sales Forecast\ndescription: Produce a structured opportunity forecast and quota outlook from CRM data.\n---\n\n# Dataverse Sales Forecast\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nProduce a structured opportunity forecast and quota outlook from CRM data.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/forecast\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-win-loss-pattern-analyzer",
+    "name": "Win/Loss Pattern Analyzer",
+    "category": "business",
+    "description": "Identify recurring win and loss patterns across opportunities and segments.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/win-loss-pattern-analyzer",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-analytics"
+    ],
+    "skill_content": "---\nname: Win/Loss Pattern Analyzer\ndescription: Identify recurring win and loss patterns across opportunities and segments.\n---\n\n# Win/Loss Pattern Analyzer\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nIdentify recurring win and loss patterns across opportunities and segments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/win-loss-pattern-analyzer\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-competitive-intelligence",
+    "name": "Dataverse Competitive Intelligence",
+    "category": "business",
+    "description": "Analyze competitor performance and patterns in CRM opportunity data.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/competitive-intelligence",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "competitive-intelligence"
+    ],
+    "skill_content": "---\nname: Dataverse Competitive Intelligence\ndescription: Analyze competitor performance and patterns in CRM opportunity data.\n---\n\n# Dataverse Competitive Intelligence\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nAnalyze competitor performance and patterns in CRM opportunity data.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/competitive-intelligence\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-cross-sell-target-identifier",
+    "name": "Cross-Sell Target Identifier",
+    "category": "business",
+    "description": "Find expansion and cross-sell opportunities from account-product relationships.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/cross-sell-target-identifier",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "revenue-operations"
+    ],
+    "skill_content": "---\nname: Cross-Sell Target Identifier\ndescription: Find expansion and cross-sell opportunities from account-product relationships.\n---\n\n# Cross-Sell Target Identifier\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nFind expansion and cross-sell opportunities from account-product relationships.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/cross-sell-target-identifier\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-next-best-action-engine",
+    "name": "Next Best Action Engine",
+    "category": "business",
+    "description": "Recommend prioritized actions for accounts and opportunities based on CRM signals.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/next-best-action-engine",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "revenue-operations"
+    ],
+    "skill_content": "---\nname: Next Best Action Engine\ndescription: Recommend prioritized actions for accounts and opportunities based on CRM signals.\n---\n\n# Next Best Action Engine\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nRecommend prioritized actions for accounts and opportunities based on CRM signals.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/next-best-action-engine\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-duplicate-detective",
+    "name": "Duplicate Detective",
+    "category": "data",
+    "description": "Identify likely duplicate Dataverse records and support data-quality remediation.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/duplicate-detective",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "data-quality"
+    ],
+    "skill_content": "---\nname: Duplicate Detective\ndescription: Identify likely duplicate Dataverse records and support data-quality remediation.\n---\n\n# Duplicate Detective\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nIdentify likely duplicate Dataverse records and support data-quality remediation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/duplicate-detective\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-account-risk-early-warning",
+    "name": "Account Risk Early Warning",
+    "category": "business",
+    "description": "Detect account churn and renewal risk using activity, pipeline, and relationship signals.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/account-risk-early-warning",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "customer-success"
+    ],
+    "skill_content": "---\nname: Account Risk Early Warning\ndescription: Detect account churn and renewal risk using activity, pipeline, and relationship signals.\n---\n\n# Account Risk Early Warning\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nDetect account churn and renewal risk using activity, pipeline, and relationship signals.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/account-risk-early-warning\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-lead-qualification-playbook",
+    "name": "Lead Qualification Playbook",
+    "category": "business",
+    "description": "Evaluate leads using a structured qualification framework and CRM evidence.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/lead-qualification-playbook",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "sales-operations"
+    ],
+    "skill_content": "---\nname: Lead Qualification Playbook\ndescription: Evaluate leads using a structured qualification framework and CRM evidence.\n---\n\n# Lead Qualification Playbook\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nEvaluate leads using a structured qualification framework and CRM evidence.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/lead-qualification-playbook\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "dataverse-expense-report-entry",
+    "name": "Expense Report Entry",
+    "category": "business",
+    "description": "Extract expense information and create structured expense records in Dataverse.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/expense-report-entry",
+    "tags": [
+      "microsoft",
+      "dataverse",
+      "dynamics-365",
+      "crm",
+      "finance-operations"
+    ],
+    "skill_content": "---\nname: Expense Report Entry\ndescription: Extract expense information and create structured expense records in Dataverse.\n---\n\n# Expense Report Entry\n\nPart of the **Dataverse Business Skills** pack by Microsoft (`microsoft/dataverse-business-skills`).\n\nExtract expense information and create structured expense records in Dataverse.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/dataverse-business-skills/tree/10016dd09acfa5f4dfce84de4e34ef294961faaf/skills/expense-report-entry\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

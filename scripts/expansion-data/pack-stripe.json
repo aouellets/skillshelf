@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "stripe-projects",
+    "name": "Stripe Projects",
+    "category": "coding",
+    "description": "Build Stripe-powered applications using first-party API, billing, MCP, and agent-toolkit guidance.",
+    "author": "Stripe",
+    "source_url": "https://github.com/stripe/ai/tree/d9527bfc2d0993f3d2a650501e53e4f68d179ca3/skills/stripe-projects",
+    "tags": [
+      "stripe",
+      "payments",
+      "billing",
+      "fintech",
+      "payments-engineering"
+    ],
+    "skill_content": "---\nname: Stripe Projects\ndescription: Build Stripe-powered applications using first-party API, billing, MCP, and agent-toolkit guidance.\n---\n\n# Stripe Projects\n\nPart of the **Stripe AI Skills** pack by Stripe (`stripe/ai`).\n\nBuild Stripe-powered applications using first-party API, billing, MCP, and agent-toolkit guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/stripe/ai/tree/d9527bfc2d0993f3d2a650501e53e4f68d179ca3/skills/stripe-projects\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

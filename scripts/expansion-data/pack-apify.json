@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "apify-ultimate-scraper",
+    "name": "Apify Ultimate Scraper",
+    "category": "coding",
+    "description": "Select and run curated or marketplace Actors to collect structured data from supported web platforms.",
+    "author": "Apify",
+    "source_url": "https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-ultimate-scraper",
+    "tags": [
+      "apify",
+      "web-scraping",
+      "automation",
+      "crawling",
+      "web-automation"
+    ],
+    "skill_content": "---\nname: Apify Ultimate Scraper\ndescription: Select and run curated or marketplace Actors to collect structured data from supported web platforms.\n---\n\n# Apify Ultimate Scraper\n\nPart of the **Apify Agent Skills** pack by Apify (`apify/agent-skills`).\n\nSelect and run curated or marketplace Actors to collect structured data from supported web platforms.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-ultimate-scraper\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "apify-actor-development",
+    "name": "Apify Actor Development",
+    "category": "coding",
+    "description": "Create, debug, and deploy JavaScript, TypeScript, or Python Apify Actors.",
+    "author": "Apify",
+    "source_url": "https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-actor-development",
+    "tags": [
+      "apify",
+      "web-scraping",
+      "automation",
+      "crawling",
+      "application-development"
+    ],
+    "skill_content": "---\nname: Apify Actor Development\ndescription: Create, debug, and deploy JavaScript, TypeScript, or Python Apify Actors.\n---\n\n# Apify Actor Development\n\nPart of the **Apify Agent Skills** pack by Apify (`apify/agent-skills`).\n\nCreate, debug, and deploy JavaScript, TypeScript, or Python Apify Actors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-actor-development\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "apify-actorization",
+    "name": "Apify Actorization",
+    "category": "coding",
+    "description": "Wrap existing scripts, libraries, or CLI tools as runnable Apify Actors.",
+    "author": "Apify",
+    "source_url": "https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-actorization",
+    "tags": [
+      "apify",
+      "web-scraping",
+      "automation",
+      "crawling",
+      "application-development"
+    ],
+    "skill_content": "---\nname: Apify Actorization\ndescription: Wrap existing scripts, libraries, or CLI tools as runnable Apify Actors.\n---\n\n# Apify Actorization\n\nPart of the **Apify Agent Skills** pack by Apify (`apify/agent-skills`).\n\nWrap existing scripts, libraries, or CLI tools as runnable Apify Actors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-actorization\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "apify-generate-output-schema",
+    "name": "Apify Output Schema Generation",
+    "category": "data",
+    "description": "Generate dataset, output, and key-value store schemas by analyzing Actor source.",
+    "author": "Apify",
+    "source_url": "https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-generate-output-schema",
+    "tags": [
+      "apify",
+      "web-scraping",
+      "automation",
+      "crawling",
+      "data-engineering"
+    ],
+    "skill_content": "---\nname: Apify Output Schema Generation\ndescription: Generate dataset, output, and key-value store schemas by analyzing Actor source.\n---\n\n# Apify Output Schema Generation\n\nPart of the **Apify Agent Skills** pack by Apify (`apify/agent-skills`).\n\nGenerate dataset, output, and key-value store schemas by analyzing Actor source.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-generate-output-schema\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "apify-sdk-integration",
+    "name": "Apify SDK Integration",
+    "category": "coding",
+    "description": "Integrate Actors and datasets into JavaScript, TypeScript, Python, or REST applications.",
+    "author": "Apify",
+    "source_url": "https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-sdk-integration",
+    "tags": [
+      "apify",
+      "web-scraping",
+      "automation",
+      "crawling",
+      "application-development"
+    ],
+    "skill_content": "---\nname: Apify SDK Integration\ndescription: Integrate Actors and datasets into JavaScript, TypeScript, Python, or REST applications.\n---\n\n# Apify SDK Integration\n\nPart of the **Apify Agent Skills** pack by Apify (`apify/agent-skills`).\n\nIntegrate Actors and datasets into JavaScript, TypeScript, Python, or REST applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/apify/agent-skills/tree/18297b635a8e50a6bfa080662c0a0e3cc3abbb1a/skills/apify-sdk-integration\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  }
+]

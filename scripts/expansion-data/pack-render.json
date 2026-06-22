@@ -1,0 +1,336 @@
+[
+  {
+    "slug": "render-mcp",
+    "name": "Render MCP",
+    "category": "coding",
+    "description": "Set up and troubleshoot the Render MCP server.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-mcp",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "ai-agent-development"
+    ],
+    "skill_content": "---\nname: Render MCP\ndescription: Set up and troubleshoot the Render MCP server.\n---\n\n# Render MCP\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nSet up and troubleshoot the Render MCP server.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-mcp\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-cli",
+    "name": "Render CLI",
+    "category": "coding",
+    "description": "Install and use the Render CLI for deploys, logs, SSH, and automation.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-cli",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "developer-tooling"
+    ],
+    "skill_content": "---\nname: Render CLI\ndescription: Install and use the Render CLI for deploys, logs, SSH, and automation.\n---\n\n# Render CLI\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nInstall and use the Render CLI for deploys, logs, SSH, and automation.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-cli\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-deploy",
+    "name": "Render Deployment",
+    "category": "coding",
+    "description": "Deploy applications and supporting services to Render.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-deploy",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure"
+    ],
+    "skill_content": "---\nname: Render Deployment\ndescription: Deploy applications and supporting services to Render.\n---\n\n# Render Deployment\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nDeploy applications and supporting services to Render.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-deploy\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-blueprints",
+    "name": "Render Blueprints",
+    "category": "coding",
+    "description": "Author and validate render.yaml infrastructure blueprints.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-blueprints",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "infrastructure-as-code"
+    ],
+    "skill_content": "---\nname: Render Blueprints\ndescription: Author and validate render.yaml infrastructure blueprints.\n---\n\n# Render Blueprints\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nAuthor and validate render.yaml infrastructure blueprints.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-blueprints\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-web-services",
+    "name": "Render Web Services",
+    "category": "coding",
+    "description": "Configure public web services, health checks, routing, and TLS.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-web-services",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-infrastructure"
+    ],
+    "skill_content": "---\nname: Render Web Services\ndescription: Configure public web services, health checks, routing, and TLS.\n---\n\n# Render Web Services\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nConfigure public web services, health checks, routing, and TLS.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-web-services\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-private-services",
+    "name": "Render Private Services",
+    "category": "coding",
+    "description": "Design internal-only services on Render's private network.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-private-services",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-infrastructure"
+    ],
+    "skill_content": "---\nname: Render Private Services\ndescription: Design internal-only services on Render's private network.\n---\n\n# Render Private Services\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nDesign internal-only services on Render's private network.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-private-services\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-static-sites",
+    "name": "Render Static Sites",
+    "category": "coding",
+    "description": "Deploy static sites and SPAs with redirects, rewrites, and headers.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-static-sites",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure"
+    ],
+    "skill_content": "---\nname: Render Static Sites\ndescription: Deploy static sites and SPAs with redirects, rewrites, and headers.\n---\n\n# Render Static Sites\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nDeploy static sites and SPAs with redirects, rewrites, and headers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-static-sites\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-background-workers",
+    "name": "Render Background Workers",
+    "category": "coding",
+    "description": "Configure queue workers and graceful shutdown behavior.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-background-workers",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-infrastructure"
+    ],
+    "skill_content": "---\nname: Render Background Workers\ndescription: Configure queue workers and graceful shutdown behavior.\n---\n\n# Render Background Workers\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nConfigure queue workers and graceful shutdown behavior.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-background-workers\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-cron-jobs",
+    "name": "Render Cron Jobs",
+    "category": "coding",
+    "description": "Configure scheduled jobs and correct cron expressions.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-cron-jobs",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-operations"
+    ],
+    "skill_content": "---\nname: Render Cron Jobs\ndescription: Configure scheduled jobs and correct cron expressions.\n---\n\n# Render Cron Jobs\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nConfigure scheduled jobs and correct cron expressions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-cron-jobs\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-workflows",
+    "name": "Render Workflows",
+    "category": "coding",
+    "description": "Develop and operate multi-step Render Workflows.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-workflows",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-operations"
+    ],
+    "skill_content": "---\nname: Render Workflows\ndescription: Develop and operate multi-step Render Workflows.\n---\n\n# Render Workflows\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nDevelop and operate multi-step Render Workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-workflows\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-docker",
+    "name": "Render Docker",
+    "category": "coding",
+    "description": "Build and deploy Docker-based Render services.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-docker",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "containerization"
+    ],
+    "skill_content": "---\nname: Render Docker\ndescription: Build and deploy Docker-based Render services.\n---\n\n# Render Docker\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nBuild and deploy Docker-based Render services.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-docker\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-env-vars",
+    "name": "Render Environment Variables",
+    "category": "coding",
+    "description": "Manage environment variables, secrets, and environment groups.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-env-vars",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "configuration-management"
+    ],
+    "skill_content": "---\nname: Render Environment Variables\ndescription: Manage environment variables, secrets, and environment groups.\n---\n\n# Render Environment Variables\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nManage environment variables, secrets, and environment groups.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-env-vars\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-disks",
+    "name": "Render Persistent Disks",
+    "category": "coding",
+    "description": "Attach and operate persistent disks for Render services.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-disks",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-infrastructure"
+    ],
+    "skill_content": "---\nname: Render Persistent Disks\ndescription: Attach and operate persistent disks for Render services.\n---\n\n# Render Persistent Disks\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nAttach and operate persistent disks for Render services.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-disks\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-domains",
+    "name": "Render Domains",
+    "category": "coding",
+    "description": "Configure custom domains and troubleshoot DNS and TLS.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-domains",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "networking"
+    ],
+    "skill_content": "---\nname: Render Domains\ndescription: Configure custom domains and troubleshoot DNS and TLS.\n---\n\n# Render Domains\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nConfigure custom domains and troubleshoot DNS and TLS.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-domains\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-networking",
+    "name": "Render Networking",
+    "category": "coding",
+    "description": "Connect services securely over Render's private network.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-networking",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "networking"
+    ],
+    "skill_content": "---\nname: Render Networking\ndescription: Connect services securely over Render's private network.\n---\n\n# Render Networking\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nConnect services securely over Render's private network.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-networking\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-postgres",
+    "name": "Render PostgreSQL",
+    "category": "data",
+    "description": "Operate managed PostgreSQL, backups, replicas, and application connections.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-postgres",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "database-engineering"
+    ],
+    "skill_content": "---\nname: Render PostgreSQL\ndescription: Operate managed PostgreSQL, backups, replicas, and application connections.\n---\n\n# Render PostgreSQL\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nOperate managed PostgreSQL, backups, replicas, and application connections.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-postgres\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-keyvalue",
+    "name": "Render Key Value",
+    "category": "data",
+    "description": "Provision and tune Render Key Value services.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-keyvalue",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "database-engineering"
+    ],
+    "skill_content": "---\nname: Render Key Value\ndescription: Provision and tune Render Key Value services.\n---\n\n# Render Key Value\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nProvision and tune Render Key Value services.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-keyvalue\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-monitor",
+    "name": "Render Monitoring",
+    "category": "coding",
+    "description": "Inspect service health, metrics, events, and logs.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-monitor",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "observability"
+    ],
+    "skill_content": "---\nname: Render Monitoring\ndescription: Inspect service health, metrics, events, and logs.\n---\n\n# Render Monitoring\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nInspect service health, metrics, events, and logs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-monitor\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-debug",
+    "name": "Render Debugging",
+    "category": "coding",
+    "description": "Diagnose deploy failures, startup problems, and runtime errors.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-debug",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "debugging"
+    ],
+    "skill_content": "---\nname: Render Debugging\ndescription: Diagnose deploy failures, startup problems, and runtime errors.\n---\n\n# Render Debugging\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nDiagnose deploy failures, startup problems, and runtime errors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-debug\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-scaling",
+    "name": "Render Scaling",
+    "category": "coding",
+    "description": "Configure autoscaling, instance sizing, and cost-performance tradeoffs.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-scaling",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "cloud-optimization"
+    ],
+    "skill_content": "---\nname: Render Scaling\ndescription: Configure autoscaling, instance sizing, and cost-performance tradeoffs.\n---\n\n# Render Scaling\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nConfigure autoscaling, instance sizing, and cost-performance tradeoffs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-scaling\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "render-migrate-from-heroku",
+    "name": "Migrate Heroku to Render",
+    "category": "coding",
+    "description": "Migrate Heroku applications and services to Render.",
+    "author": "Render",
+    "source_url": "https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-migrate-from-heroku",
+    "tags": [
+      "render",
+      "deployment",
+      "cloud",
+      "infrastructure",
+      "code-migration"
+    ],
+    "skill_content": "---\nname: Migrate Heroku to Render\ndescription: Migrate Heroku applications and services to Render.\n---\n\n# Migrate Heroku to Render\n\nPart of the **Render Skills** pack by Render (`render-oss/skills`).\n\nMigrate Heroku applications and services to Render.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/render-oss/skills/tree/1b8496570748203351f628b2ae738805ac2c23d5/skills/render-migrate-from-heroku\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "dart-add-unit-test",
+    "name": "Dart Unit Tests",
+    "category": "coding",
+    "description": "Write and organize package:test unit tests for Dart functions, classes, and methods.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-add-unit-test",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "software-testing"
+    ],
+    "skill_content": "---\nname: Dart Unit Tests\ndescription: Write and organize package:test unit tests for Dart functions, classes, and methods.\n---\n\n# Dart Unit Tests\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nWrite and organize package:test unit tests for Dart functions, classes, and methods.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-add-unit-test\n"
+  },
+  {
+    "slug": "dart-build-cli-app",
+    "name": "Dart CLI Application",
+    "category": "coding",
+    "description": "Structure cross-platform Dart command-line applications with arguments and exit codes.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-build-cli-app",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "developer-tooling"
+    ],
+    "skill_content": "---\nname: Dart CLI Application\ndescription: Structure cross-platform Dart command-line applications with arguments and exit codes.\n---\n\n# Dart CLI Application\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nStructure cross-platform Dart command-line applications with arguments and exit codes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-build-cli-app\n"
+  },
+  {
+    "slug": "dart-collect-coverage",
+    "name": "Dart Test Coverage",
+    "category": "coding",
+    "description": "Collect Dart test coverage and generate LCOV reports.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-collect-coverage",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "software-testing"
+    ],
+    "skill_content": "---\nname: Dart Test Coverage\ndescription: Collect Dart test coverage and generate LCOV reports.\n---\n\n# Dart Test Coverage\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nCollect Dart test coverage and generate LCOV reports.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-collect-coverage\n"
+  },
+  {
+    "slug": "dart-setup-ffi-assets",
+    "name": "Dart FFI Native Assets",
+    "category": "coding",
+    "description": "Compile and package native C or C++ assets using Dart Native Assets hooks.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-setup-ffi-assets",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "systems-programming"
+    ],
+    "skill_content": "---\nname: Dart FFI Native Assets\ndescription: Compile and package native C or C++ assets using Dart Native Assets hooks.\n---\n\n# Dart FFI Native Assets\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nCompile and package native C or C++ assets using Dart Native Assets hooks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-setup-ffi-assets\n"
+  },
+  {
+    "slug": "dart-fix-runtime-errors",
+    "name": "Fix Dart Runtime Errors",
+    "category": "coding",
+    "description": "Use runtime traces and language-server context to locate, fix, and verify errors.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-fix-runtime-errors",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "debugging"
+    ],
+    "skill_content": "---\nname: Fix Dart Runtime Errors\ndescription: Use runtime traces and language-server context to locate, fix, and verify errors.\n---\n\n# Fix Dart Runtime Errors\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nUse runtime traces and language-server context to locate, fix, and verify errors.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-fix-runtime-errors\n"
+  },
+  {
+    "slug": "dart-generate-test-mocks",
+    "name": "Generate Dart Test Mocks",
+    "category": "coding",
+    "description": "Generate Mockito mocks and build_runner outputs for test dependencies.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-generate-test-mocks",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "software-testing"
+    ],
+    "skill_content": "---\nname: Generate Dart Test Mocks\ndescription: Generate Mockito mocks and build_runner outputs for test dependencies.\n---\n\n# Generate Dart Test Mocks\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nGenerate Mockito mocks and build_runner outputs for test dependencies.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-generate-test-mocks\n"
+  },
+  {
+    "slug": "dart-migrate-to-checks-package",
+    "name": "Migrate Dart Tests to Checks",
+    "category": "coding",
+    "description": "Replace matcher-based expectations with package:checks equivalents.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-migrate-to-checks-package",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "code-migration"
+    ],
+    "skill_content": "---\nname: Migrate Dart Tests to Checks\ndescription: Replace matcher-based expectations with package:checks equivalents.\n---\n\n# Migrate Dart Tests to Checks\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nReplace matcher-based expectations with package:checks equivalents.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-migrate-to-checks-package\n"
+  },
+  {
+    "slug": "dart-resolve-package-conflicts",
+    "name": "Resolve Dart Package Conflicts",
+    "category": "coding",
+    "description": "Diagnose and fix incompatible pub package constraints.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-resolve-package-conflicts",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "dependency-management"
+    ],
+    "skill_content": "---\nname: Resolve Dart Package Conflicts\ndescription: Diagnose and fix incompatible pub package constraints.\n---\n\n# Resolve Dart Package Conflicts\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nDiagnose and fix incompatible pub package constraints.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-resolve-package-conflicts\n"
+  },
+  {
+    "slug": "dart-run-static-analysis",
+    "name": "Dart Static Analysis",
+    "category": "coding",
+    "description": "Run dart analyze and apply safe mechanical fixes.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-run-static-analysis",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "code-quality"
+    ],
+    "skill_content": "---\nname: Dart Static Analysis\ndescription: Run dart analyze and apply safe mechanical fixes.\n---\n\n# Dart Static Analysis\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nRun dart analyze and apply safe mechanical fixes.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-run-static-analysis\n"
+  },
+  {
+    "slug": "dart-use-ffigen",
+    "name": "Dart FFIGen",
+    "category": "coding",
+    "description": "Generate FFI bindings for C, Objective-C, or Swift APIs using package:ffigen.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-use-ffigen",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "systems-programming"
+    ],
+    "skill_content": "---\nname: Dart FFIGen\ndescription: Generate FFI bindings for C, Objective-C, or Swift APIs using package:ffigen.\n---\n\n# Dart FFIGen\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nGenerate FFI bindings for C, Objective-C, or Swift APIs using package:ffigen.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-use-ffigen\n"
+  },
+  {
+    "slug": "dart-use-pattern-matching",
+    "name": "Dart Pattern Matching",
+    "category": "coding",
+    "description": "Apply Dart switch expressions and pattern matching where appropriate.",
+    "author": "Dart",
+    "source_url": "https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-use-pattern-matching",
+    "tags": [
+      "dart",
+      "testing",
+      "refactoring",
+      "language",
+      "software-engineering"
+    ],
+    "skill_content": "---\nname: Dart Pattern Matching\ndescription: Apply Dart switch expressions and pattern matching where appropriate.\n---\n\n# Dart Pattern Matching\n\nPart of the **Dart Agent Skills** pack by Dart (`dart-lang/skills`).\n\nApply Dart switch expressions and pattern matching where appropriate.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/dart-lang/skills/tree/8ce8492c4a5b8bdb29472eaa1785957891730f77/skills/dart-use-pattern-matching\n"
+  }
+]

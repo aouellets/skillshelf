@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "cesium-cesiumjs-viewer-setup",
+    "name": "CesiumJS Viewer Setup",
+    "category": "coding",
+    "description": "Initialize CesiumJS applications, configure widgets and Ion tokens, and bootstrap a globe.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-viewer-setup",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Viewer Setup\ndescription: Initialize CesiumJS applications, configure widgets and Ion tokens, and bootstrap a globe.\n---\n\n# CesiumJS Viewer Setup\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nInitialize CesiumJS applications, configure widgets and Ion tokens, and bootstrap a globe.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-viewer-setup\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-camera",
+    "name": "CesiumJS Camera",
+    "category": "coding",
+    "description": "Position, animate, constrain, and track with the CesiumJS camera.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-camera",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Camera\ndescription: Position, animate, constrain, and track with the CesiumJS camera.\n---\n\n# CesiumJS Camera\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nPosition, animate, constrain, and track with the CesiumJS camera.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-camera\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-entities",
+    "name": "CesiumJS Entities",
+    "category": "coding",
+    "description": "Create entities and load GeoJSON, KML, CZML, and GPX data sources.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-entities",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Entities\ndescription: Create entities and load GeoJSON, KML, CZML, and GPX data sources.\n---\n\n# CesiumJS Entities\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nCreate entities and load GeoJSON, KML, CZML, and GPX data sources.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-entities\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-3d-tiles",
+    "name": "CesiumJS 3D Tiles",
+    "category": "coding",
+    "description": "Load, style, query, and clip 3D Tiles, vector tiles, voxels, and point clouds.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-3d-tiles",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS 3D Tiles\ndescription: Load, style, query, and clip 3D Tiles, vector tiles, voxels, and point clouds.\n---\n\n# CesiumJS 3D Tiles\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nLoad, style, query, and clip 3D Tiles, vector tiles, voxels, and point clouds.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-3d-tiles\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-imagery",
+    "name": "CesiumJS Imagery",
+    "category": "coding",
+    "description": "Configure imagery providers, base layers, and split-screen comparisons.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-imagery",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Imagery\ndescription: Configure imagery providers, base layers, and split-screen comparisons.\n---\n\n# CesiumJS Imagery\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nConfigure imagery providers, base layers, and split-screen comparisons.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-imagery\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-terrain-environment",
+    "name": "CesiumJS Terrain and Environment",
+    "category": "coding",
+    "description": "Configure terrain, heights, atmosphere, sky, fog, lighting, shadows, and panoramas.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-terrain-environment",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Terrain and Environment\ndescription: Configure terrain, heights, atmosphere, sky, fog, lighting, shadows, and panoramas.\n---\n\n# CesiumJS Terrain and Environment\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nConfigure terrain, heights, atmosphere, sky, fog, lighting, shadows, and panoramas.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-terrain-environment\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-primitives",
+    "name": "CesiumJS Primitives",
+    "category": "coding",
+    "description": "Build performance-critical geometry and primitive collections.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-primitives",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "graphics-programming",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Primitives\ndescription: Build performance-critical geometry and primitive collections.\n---\n\n# CesiumJS Primitives\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nBuild performance-critical geometry and primitive collections.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-primitives\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-materials-shaders",
+    "name": "CesiumJS Materials and Shaders",
+    "category": "coding",
+    "description": "Use Fabric materials, image-based lighting, post-processing, bloom, and tonemapping.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-materials-shaders",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "graphics-programming",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Materials and Shaders\ndescription: Use Fabric materials, image-based lighting, post-processing, bloom, and tonemapping.\n---\n\n# CesiumJS Materials and Shaders\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nUse Fabric materials, image-based lighting, post-processing, bloom, and tonemapping.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-materials-shaders\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-custom-shader",
+    "name": "CesiumJS Custom Shader",
+    "category": "coding",
+    "description": "Write GLSL custom shaders for models, tilesets, and voxel primitives.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-custom-shader",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "graphics-programming",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Custom Shader\ndescription: Write GLSL custom shaders for models, tilesets, and voxel primitives.\n---\n\n# CesiumJS Custom Shader\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nWrite GLSL custom shaders for models, tilesets, and voxel primitives.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-custom-shader\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-time-properties",
+    "name": "CesiumJS Time Properties",
+    "category": "coding",
+    "description": "Implement time-dynamic properties, clocks, interpolation, and sampled values.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-time-properties",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Time Properties\ndescription: Implement time-dynamic properties, clocks, interpolation, and sampled values.\n---\n\n# CesiumJS Time Properties\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nImplement time-dynamic properties, clocks, interpolation, and sampled values.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-time-properties\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-spatial-math",
+    "name": "CesiumJS Spatial Math",
+    "category": "coding",
+    "description": "Perform coordinate conversion, ellipsoid math, transforms, projections, and intersections.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-spatial-math",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Spatial Math\ndescription: Perform coordinate conversion, ellipsoid math, transforms, projections, and intersections.\n---\n\n# CesiumJS Spatial Math\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nPerform coordinate conversion, ellipsoid math, transforms, projections, and intersections.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-spatial-math\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-interaction",
+    "name": "CesiumJS Interaction",
+    "category": "coding",
+    "description": "Implement picking, selection, hover, drag, and modifier-based globe interactions.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-interaction",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "frontend-engineering",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Interaction\ndescription: Implement picking, selection, hover, drag, and modifier-based globe interactions.\n---\n\n# CesiumJS Interaction\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nImplement picking, selection, hover, drag, and modifier-based globe interactions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-interaction\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-models-particles",
+    "name": "CesiumJS Models and Particles",
+    "category": "coding",
+    "description": "Load glTF models, run animations, configure edge modes, and create particle effects.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-models-particles",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "graphics-programming",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Models and Particles\ndescription: Load glTF models, run animations, configure edge modes, and create particle effects.\n---\n\n# CesiumJS Models and Particles\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nLoad glTF models, run animations, configure edge modes, and create particle effects.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-models-particles\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "cesium-cesiumjs-core-utilities",
+    "name": "CesiumJS Core Utilities",
+    "category": "coding",
+    "description": "Use Resource, Color, Event, error handling, and common CesiumJS utility APIs.",
+    "author": "Cesium",
+    "source_url": "https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-core-utilities",
+    "tags": [
+      "cesium",
+      "geospatial",
+      "3d",
+      "webgl",
+      "geospatial-development",
+      "cesiumjs"
+    ],
+    "skill_content": "---\nname: CesiumJS Core Utilities\ndescription: Use Resource, Color, Event, error handling, and common CesiumJS utility APIs.\n---\n\n# CesiumJS Core Utilities\n\nPart of the **CesiumJS Agent Skills** pack by Cesium (`CesiumGS/cesiumjs-skills`).\n\nUse Resource, Color, Event, error handling, and common CesiumJS utility APIs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/CesiumGS/cesiumjs-skills/tree/df881cf46f52e2bbafdc8c5250bc6d9f6164f37f/skills/cesiumjs-core-utilities\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "slug": "hashicorp-azure-verified-modules",
+    "name": "Azure Verified Modules",
+    "category": "coding",
+    "description": "Generate and assess Terraform modules against Azure Verified Module requirements.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/azure-verified-modules",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "packer"
+    ],
+    "skill_content": "---\nname: Azure Verified Modules\ndescription: Generate and assess Terraform modules against Azure Verified Module requirements.\n---\n\n# Azure Verified Modules\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nGenerate and assess Terraform modules against Azure Verified Module requirements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/azure-verified-modules\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-terraform-style-guide",
+    "name": "Terraform Style Guide",
+    "category": "coding",
+    "description": "Generate and review HCL following HashiCorp style conventions and best practices.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/terraform-style-guide",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Style Guide\ndescription: Generate and review HCL following HashiCorp style conventions and best practices.\n---\n\n# Terraform Style Guide\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nGenerate and review HCL following HashiCorp style conventions and best practices.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/terraform-style-guide\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-terraform-test",
+    "name": "Terraform Tests",
+    "category": "coding",
+    "description": "Write and run .tftest.hcl tests for Terraform configurations and modules.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/terraform-test",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "software-testing",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Tests\ndescription: Write and run .tftest.hcl tests for Terraform configurations and modules.\n---\n\n# Terraform Tests\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nWrite and run .tftest.hcl tests for Terraform configurations and modules.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/terraform-test\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-terraform-search-import",
+    "name": "Terraform Search and Import",
+    "category": "coding",
+    "description": "Discover existing infrastructure and bulk-import resources into Terraform state.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/terraform-search-import",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Search and Import\ndescription: Discover existing infrastructure and bulk-import resources into Terraform state.\n---\n\n# Terraform Search and Import\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nDiscover existing infrastructure and bulk-import resources into Terraform state.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/code-generation/skills/terraform-search-import\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-refactor-module",
+    "name": "Refactor Terraform Module",
+    "category": "coding",
+    "description": "Transform monolithic Terraform configurations into reusable modules.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/module-generation/skills/refactor-module",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "packer"
+    ],
+    "skill_content": "---\nname: Refactor Terraform Module\ndescription: Transform monolithic Terraform configurations into reusable modules.\n---\n\n# Refactor Terraform Module\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nTransform monolithic Terraform configurations into reusable modules.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/module-generation/skills/refactor-module\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-terraform-stacks",
+    "name": "Terraform Stacks",
+    "category": "coding",
+    "description": "Design multi-region and multi-environment orchestration using Terraform Stacks.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/module-generation/skills/terraform-stacks",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Stacks\ndescription: Design multi-region and multi-environment orchestration using Terraform Stacks.\n---\n\n# Terraform Stacks\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nDesign multi-region and multi-environment orchestration using Terraform Stacks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/module-generation/skills/terraform-stacks\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-new-terraform-provider",
+    "name": "New Terraform Provider",
+    "category": "coding",
+    "description": "Scaffold a Terraform provider using supported plugin-framework patterns.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/new-terraform-provider",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "developer-tooling",
+      "packer"
+    ],
+    "skill_content": "---\nname: New Terraform Provider\ndescription: Scaffold a Terraform provider using supported plugin-framework patterns.\n---\n\n# New Terraform Provider\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nScaffold a Terraform provider using supported plugin-framework patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/new-terraform-provider\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-run-acceptance-tests",
+    "name": "Terraform Provider Acceptance Tests",
+    "category": "coding",
+    "description": "Run and debug acceptance tests for Terraform providers.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/run-acceptance-tests",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "software-testing",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Provider Acceptance Tests\ndescription: Run and debug acceptance tests for Terraform providers.\n---\n\n# Terraform Provider Acceptance Tests\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nRun and debug acceptance tests for Terraform providers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/run-acceptance-tests\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-provider-actions",
+    "name": "Terraform Provider Actions",
+    "category": "coding",
+    "description": "Implement provider actions and lifecycle operations.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/provider-actions",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "developer-tooling",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Provider Actions\ndescription: Implement provider actions and lifecycle operations.\n---\n\n# Terraform Provider Actions\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nImplement provider actions and lifecycle operations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/provider-actions\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-provider-resources",
+    "name": "Terraform Provider Resources",
+    "category": "coding",
+    "description": "Implement Terraform provider resources and data sources.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/provider-resources",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "developer-tooling",
+      "packer"
+    ],
+    "skill_content": "---\nname: Terraform Provider Resources\ndescription: Implement Terraform provider resources and data sources.\n---\n\n# Terraform Provider Resources\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nImplement Terraform provider resources and data sources.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/terraform/provider-development/skills/provider-resources\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-aws-ami-builder",
+    "name": "Packer AWS AMI Builder",
+    "category": "coding",
+    "description": "Build Amazon Machine Images using Packer's amazon-ebs builder.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/builders/skills/aws-ami-builder",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "cloud-infrastructure",
+      "packer"
+    ],
+    "skill_content": "---\nname: Packer AWS AMI Builder\ndescription: Build Amazon Machine Images using Packer's amazon-ebs builder.\n---\n\n# Packer AWS AMI Builder\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nBuild Amazon Machine Images using Packer's amazon-ebs builder.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/builders/skills/aws-ami-builder\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-azure-image-builder",
+    "name": "Packer Azure Image Builder",
+    "category": "coding",
+    "description": "Build Azure managed and Compute Gallery images with Packer.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/builders/skills/azure-image-builder",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "cloud-infrastructure",
+      "packer"
+    ],
+    "skill_content": "---\nname: Packer Azure Image Builder\ndescription: Build Azure managed and Compute Gallery images with Packer.\n---\n\n# Packer Azure Image Builder\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nBuild Azure managed and Compute Gallery images with Packer.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/builders/skills/azure-image-builder\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-windows-builder",
+    "name": "Packer Windows Builder",
+    "category": "coding",
+    "description": "Build Windows images with Packer, WinRM, and PowerShell across supported targets.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/builders/skills/windows-builder",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "cloud-infrastructure",
+      "packer"
+    ],
+    "skill_content": "---\nname: Packer Windows Builder\ndescription: Build Windows images with Packer, WinRM, and PowerShell across supported targets.\n---\n\n# Packer Windows Builder\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nBuild Windows images with Packer, WinRM, and PowerShell across supported targets.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/builders/skills/windows-builder\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "hashicorp-push-to-registry",
+    "name": "Push to HCP Packer Registry",
+    "category": "coding",
+    "description": "Publish Packer build metadata to HCP Packer and integrate image channels with Terraform.",
+    "author": "HashiCorp",
+    "source_url": "https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/hcp/skills/push-to-registry",
+    "tags": [
+      "hashicorp",
+      "terraform",
+      "infrastructure-as-code",
+      "cloud",
+      "release-engineering",
+      "packer"
+    ],
+    "skill_content": "---\nname: Push to HCP Packer Registry\ndescription: Publish Packer build metadata to HCP Packer and integrate image channels with Terraform.\n---\n\n# Push to HCP Packer Registry\n\nPart of the **HashiCorp Agent Skills** pack by HashiCorp (`hashicorp/agent-skills`).\n\nPublish Packer build metadata to HCP Packer and integrate image channels with Terraform.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/hashicorp/agent-skills/tree/339a113935812ad75c6ff90d418b739a021826d1/packer/hcp/skills/push-to-registry\n\nLicense: MPL-2.0 (see the upstream repository for full terms).\n"
+  }
+]

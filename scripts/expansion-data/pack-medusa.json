@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "medusa-building-with-medusa",
+    "name": "Building with Medusa",
+    "category": "coding",
+    "description": "Build Medusa backend modules, workflows, API routes, data models, and service logic.",
+    "author": "Medusa",
+    "source_url": "https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/building-with-medusa",
+    "tags": [
+      "medusa",
+      "ecommerce",
+      "backend",
+      "commerce",
+      "ecommerce-development"
+    ],
+    "skill_content": "---\nname: Building with Medusa\ndescription: Build Medusa backend modules, workflows, API routes, data models, and service logic.\n---\n\n# Building with Medusa\n\nPart of the **Medusa Agent Skills** pack by Medusa (`medusajs/medusa-agent-skills`).\n\nBuild Medusa backend modules, workflows, API routes, data models, and service logic.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/building-with-medusa\n"
+  },
+  {
+    "slug": "medusa-building-admin-dashboard-customizations",
+    "name": "Medusa Admin Dashboard Customizations",
+    "category": "coding",
+    "description": "Build Medusa admin widgets, pages, forms, tables, and dashboard workflows.",
+    "author": "Medusa",
+    "source_url": "https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/building-admin-dashboard-customizations",
+    "tags": [
+      "medusa",
+      "ecommerce",
+      "backend",
+      "commerce",
+      "ecommerce-development"
+    ],
+    "skill_content": "---\nname: Medusa Admin Dashboard Customizations\ndescription: Build Medusa admin widgets, pages, forms, tables, and dashboard workflows.\n---\n\n# Medusa Admin Dashboard Customizations\n\nPart of the **Medusa Agent Skills** pack by Medusa (`medusajs/medusa-agent-skills`).\n\nBuild Medusa admin widgets, pages, forms, tables, and dashboard workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/building-admin-dashboard-customizations\n"
+  },
+  {
+    "slug": "medusa-building-storefronts",
+    "name": "Building Medusa Storefronts",
+    "category": "coding",
+    "description": "Integrate Medusa storefronts using SDK, React Query, and supported commerce patterns.",
+    "author": "Medusa",
+    "source_url": "https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/building-storefronts",
+    "tags": [
+      "medusa",
+      "ecommerce",
+      "backend",
+      "commerce",
+      "ecommerce-development"
+    ],
+    "skill_content": "---\nname: Building Medusa Storefronts\ndescription: Integrate Medusa storefronts using SDK, React Query, and supported commerce patterns.\n---\n\n# Building Medusa Storefronts\n\nPart of the **Medusa Agent Skills** pack by Medusa (`medusajs/medusa-agent-skills`).\n\nIntegrate Medusa storefronts using SDK, React Query, and supported commerce patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/building-storefronts\n"
+  },
+  {
+    "slug": "medusa-creating-internal-agents",
+    "name": "Creating Medusa Internal Agents",
+    "category": "coding",
+    "description": "Create internal AI agents for Medusa-based operational and commerce workflows.",
+    "author": "Medusa",
+    "source_url": "https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/creating-internal-agents",
+    "tags": [
+      "medusa",
+      "ecommerce",
+      "backend",
+      "commerce",
+      "ai-agent-development"
+    ],
+    "skill_content": "---\nname: Creating Medusa Internal Agents\ndescription: Create internal AI agents for Medusa-based operational and commerce workflows.\n---\n\n# Creating Medusa Internal Agents\n\nPart of the **Medusa Agent Skills** pack by Medusa (`medusajs/medusa-agent-skills`).\n\nCreate internal AI agents for Medusa-based operational and commerce workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/medusa-dev/skills/creating-internal-agents\n"
+  },
+  {
+    "slug": "medusa-learning-medusa",
+    "name": "Learning Medusa",
+    "category": "writing",
+    "description": "Run an interactive, checkpoint-based tutorial that teaches Medusa architecture by building a brands feature.",
+    "author": "Medusa",
+    "source_url": "https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/learn-medusa/skills/learning-medusa",
+    "tags": [
+      "medusa",
+      "ecommerce",
+      "backend",
+      "commerce",
+      "technical-education"
+    ],
+    "skill_content": "---\nname: Learning Medusa\ndescription: Run an interactive, checkpoint-based tutorial that teaches Medusa architecture by building a brands feature.\n---\n\n# Learning Medusa\n\nPart of the **Medusa Agent Skills** pack by Medusa (`medusajs/medusa-agent-skills`).\n\nRun an interactive, checkpoint-based tutorial that teaches Medusa architecture by building a brands feature.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/learn-medusa/skills/learning-medusa\n"
+  },
+  {
+    "slug": "medusa-storefront-best-practices",
+    "name": "Ecommerce Storefront Best Practices",
+    "category": "coding",
+    "description": "Build high-converting ecommerce storefronts using Medusa-aware architecture and UX practices.",
+    "author": "Medusa",
+    "source_url": "https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/ecommerce-storefront/skills/storefront-best-practices",
+    "tags": [
+      "medusa",
+      "ecommerce",
+      "backend",
+      "commerce",
+      "ecommerce-development"
+    ],
+    "skill_content": "---\nname: Ecommerce Storefront Best Practices\ndescription: Build high-converting ecommerce storefronts using Medusa-aware architecture and UX practices.\n---\n\n# Ecommerce Storefront Best Practices\n\nPart of the **Medusa Agent Skills** pack by Medusa (`medusajs/medusa-agent-skills`).\n\nBuild high-converting ecommerce storefronts using Medusa-aware architecture and UX practices.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/medusajs/medusa-agent-skills/tree/24cc29b9bb95312128e091ab153eae714e746efa/plugins/ecommerce-storefront/skills/storefront-best-practices\n"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "aspire",
+    "name": "Aspire Router",
+    "category": "coding",
+    "description": "Route Aspire workspace tasks to the appropriate focused skill.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire",
+    "tags": [
+      "microsoft",
+      "aspire",
+      "dotnet",
+      "cloud-native",
+      "application-development",
+      "net"
+    ],
+    "skill_content": "---\nname: Aspire Router\ndescription: Route Aspire workspace tasks to the appropriate focused skill.\n---\n\n# Aspire Router\n\nPart of the **Aspire Skills** pack by Microsoft (`microsoft/aspire-skills`).\n\nRoute Aspire workspace tasks to the appropriate focused skill.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "aspire-init",
+    "name": "Aspire Initialization",
+    "category": "coding",
+    "description": "Create a new Aspire project or add an Aspire skeleton to an existing repository.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-init",
+    "tags": [
+      "microsoft",
+      "aspire",
+      "dotnet",
+      "cloud-native",
+      "application-development",
+      "net"
+    ],
+    "skill_content": "---\nname: Aspire Initialization\ndescription: Create a new Aspire project or add an Aspire skeleton to an existing repository.\n---\n\n# Aspire Initialization\n\nPart of the **Aspire Skills** pack by Microsoft (`microsoft/aspire-skills`).\n\nCreate a new Aspire project or add an Aspire skeleton to an existing repository.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-init\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "aspire-aspireify",
+    "name": "Aspireify Application",
+    "category": "coding",
+    "description": "Wire an Aspire AppHost and service references after initialization.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspireify",
+    "tags": [
+      "microsoft",
+      "aspire",
+      "dotnet",
+      "cloud-native",
+      "application-architecture",
+      "net"
+    ],
+    "skill_content": "---\nname: Aspireify Application\ndescription: Wire an Aspire AppHost and service references after initialization.\n---\n\n# Aspireify Application\n\nPart of the **Aspire Skills** pack by Microsoft (`microsoft/aspire-skills`).\n\nWire an Aspire AppHost and service references after initialization.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspireify\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "aspire-orchestration",
+    "name": "Aspire Orchestration",
+    "category": "coding",
+    "description": "Start, stop, wait for, and manage distributed application resources.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-orchestration",
+    "tags": [
+      "microsoft",
+      "aspire",
+      "dotnet",
+      "cloud-native",
+      "cloud-operations",
+      "net"
+    ],
+    "skill_content": "---\nname: Aspire Orchestration\ndescription: Start, stop, wait for, and manage distributed application resources.\n---\n\n# Aspire Orchestration\n\nPart of the **Aspire Skills** pack by Microsoft (`microsoft/aspire-skills`).\n\nStart, stop, wait for, and manage distributed application resources.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-orchestration\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "aspire-deployment",
+    "name": "Aspire Deployment",
+    "category": "coding",
+    "description": "Publish, deploy, and tear down Aspire distributed applications.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-deployment",
+    "tags": [
+      "microsoft",
+      "aspire",
+      "dotnet",
+      "cloud-native",
+      "deployment",
+      "net"
+    ],
+    "skill_content": "---\nname: Aspire Deployment\ndescription: Publish, deploy, and tear down Aspire distributed applications.\n---\n\n# Aspire Deployment\n\nPart of the **Aspire Skills** pack by Microsoft (`microsoft/aspire-skills`).\n\nPublish, deploy, and tear down Aspire distributed applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-deployment\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "aspire-monitoring",
+    "name": "Aspire Monitoring",
+    "category": "coding",
+    "description": "Work with logs, traces, dashboards, telemetry, and diagnostics in Aspire.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-monitoring",
+    "tags": [
+      "microsoft",
+      "aspire",
+      "dotnet",
+      "cloud-native",
+      "observability",
+      "net"
+    ],
+    "skill_content": "---\nname: Aspire Monitoring\ndescription: Work with logs, traces, dashboards, telemetry, and diagnostics in Aspire.\n---\n\n# Aspire Monitoring\n\nPart of the **Aspire Skills** pack by Microsoft (`microsoft/aspire-skills`).\n\nWork with logs, traces, dashboards, telemetry, and diagnostics in Aspire.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/aspire-skills/tree/035607cfa7d52caa769a4c466989da481b9d3e86/skills/aspire-monitoring\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

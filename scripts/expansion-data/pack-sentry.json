@@ -1,0 +1,442 @@
+[
+  {
+    "slug": "sentry-android-sdk",
+    "name": "Sentry Android SDK",
+    "category": "coding",
+    "description": "Set up and configure Sentry for Android applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-android-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Android SDK\ndescription: Set up and configure Sentry for Android applications.\n---\n\n# Sentry Android SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up and configure Sentry for Android applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-android-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-browser-sdk",
+    "name": "Sentry Browser SDK",
+    "category": "coding",
+    "description": "Set up Sentry for browser JavaScript and static web applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-browser-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Browser SDK\ndescription: Set up Sentry for browser JavaScript and static web applications.\n---\n\n# Sentry Browser SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for browser JavaScript and static web applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-browser-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-cloudflare-sdk",
+    "name": "Sentry Cloudflare SDK",
+    "category": "coding",
+    "description": "Instrument Cloudflare Workers and Pages with Sentry.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-cloudflare-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Cloudflare SDK\ndescription: Instrument Cloudflare Workers and Pages with Sentry.\n---\n\n# Sentry Cloudflare SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nInstrument Cloudflare Workers and Pages with Sentry.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-cloudflare-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-cocoa-sdk",
+    "name": "Sentry Cocoa SDK",
+    "category": "coding",
+    "description": "Set up Sentry across Apple platforms using Swift, UIKit, and SwiftUI.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-cocoa-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Cocoa SDK\ndescription: Set up Sentry across Apple platforms using Swift, UIKit, and SwiftUI.\n---\n\n# Sentry Cocoa SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry across Apple platforms using Swift, UIKit, and SwiftUI.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-cocoa-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-dotnet-sdk",
+    "name": "Sentry .NET SDK",
+    "category": "coding",
+    "description": "Set up Sentry for ASP.NET Core, MAUI, WPF, WinForms, Blazor, and Azure Functions.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-dotnet-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry .NET SDK\ndescription: Set up Sentry for ASP.NET Core, MAUI, WPF, WinForms, Blazor, and Azure Functions.\n---\n\n# Sentry .NET SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for ASP.NET Core, MAUI, WPF, WinForms, Blazor, and Azure Functions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-dotnet-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-elixir-sdk",
+    "name": "Sentry Elixir SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Elixir, Phoenix, Plug, LiveView, and background jobs.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-elixir-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Elixir SDK\ndescription: Set up Sentry for Elixir, Phoenix, Plug, LiveView, and background jobs.\n---\n\n# Sentry Elixir SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Elixir, Phoenix, Plug, LiveView, and background jobs.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-elixir-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-flutter-sdk",
+    "name": "Sentry Flutter SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Flutter and Dart applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-flutter-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Flutter SDK\ndescription: Set up Sentry for Flutter and Dart applications.\n---\n\n# Sentry Flutter SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Flutter and Dart applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-flutter-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-go-sdk",
+    "name": "Sentry Go SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Go web frameworks and services.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-go-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Go SDK\ndescription: Set up Sentry for Go web frameworks and services.\n---\n\n# Sentry Go SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Go web frameworks and services.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-go-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-nestjs-sdk",
+    "name": "Sentry NestJS SDK",
+    "category": "coding",
+    "description": "Set up Sentry for NestJS applications and transports.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-nestjs-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry NestJS SDK\ndescription: Set up Sentry for NestJS applications and transports.\n---\n\n# Sentry NestJS SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for NestJS applications and transports.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-nestjs-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-nextjs-sdk",
+    "name": "Sentry Next.js SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Next.js App Router and Pages Router deployments.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-nextjs-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Next.js SDK\ndescription: Set up Sentry for Next.js App Router and Pages Router deployments.\n---\n\n# Sentry Next.js SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Next.js App Router and Pages Router deployments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-nextjs-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-node-sdk",
+    "name": "Sentry Node SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Node.js, Bun, and Deno services.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-node-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Node SDK\ndescription: Set up Sentry for Node.js, Bun, and Deno services.\n---\n\n# Sentry Node SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Node.js, Bun, and Deno services.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-node-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-php-sdk",
+    "name": "Sentry PHP SDK",
+    "category": "coding",
+    "description": "Set up Sentry for PHP, Laravel, and Symfony applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-php-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry PHP SDK\ndescription: Set up Sentry for PHP, Laravel, and Symfony applications.\n---\n\n# Sentry PHP SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for PHP, Laravel, and Symfony applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-php-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-python-sdk",
+    "name": "Sentry Python SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Python web and task frameworks.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-python-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Python SDK\ndescription: Set up Sentry for Python web and task frameworks.\n---\n\n# Sentry Python SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Python web and task frameworks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-python-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-react-native-sdk",
+    "name": "Sentry React Native SDK",
+    "category": "coding",
+    "description": "Set up Sentry for React Native and Expo applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-react-native-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry React Native SDK\ndescription: Set up Sentry for React Native and Expo applications.\n---\n\n# Sentry React Native SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for React Native and Expo applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-react-native-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-react-router-framework-sdk",
+    "name": "Sentry React Router Framework SDK",
+    "category": "coding",
+    "description": "Configure Sentry for React Router framework-mode applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-react-router-framework-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry React Router Framework SDK\ndescription: Configure Sentry for React Router framework-mode applications.\n---\n\n# Sentry React Router Framework SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nConfigure Sentry for React Router framework-mode applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-react-router-framework-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-react-sdk",
+    "name": "Sentry React SDK",
+    "category": "coding",
+    "description": "Set up Sentry for React, routing, state, and build-tool integrations.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-react-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry React SDK\ndescription: Set up Sentry for React, routing, state, and build-tool integrations.\n---\n\n# Sentry React SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for React, routing, state, and build-tool integrations.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-react-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-ruby-sdk",
+    "name": "Sentry Ruby SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Ruby, Rails, Sinatra, Rack, and Sidekiq.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-ruby-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Ruby SDK\ndescription: Set up Sentry for Ruby, Rails, Sinatra, Rack, and Sidekiq.\n---\n\n# Sentry Ruby SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Ruby, Rails, Sinatra, Rack, and Sidekiq.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-ruby-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-svelte-sdk",
+    "name": "Sentry Svelte SDK",
+    "category": "coding",
+    "description": "Set up Sentry for Svelte and SvelteKit.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-svelte-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Svelte SDK\ndescription: Set up Sentry for Svelte and SvelteKit.\n---\n\n# Sentry Svelte SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nSet up Sentry for Svelte and SvelteKit.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-svelte-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-tanstack-start-sdk",
+    "name": "Sentry TanStack Start SDK",
+    "category": "coding",
+    "description": "Configure Sentry for TanStack Start React applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-tanstack-start-sdk",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry TanStack Start SDK\ndescription: Configure Sentry for TanStack Start React applications.\n---\n\n# Sentry TanStack Start SDK\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nConfigure Sentry for TanStack Start React applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-tanstack-start-sdk\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-code-review",
+    "name": "Sentry Code Review",
+    "category": "coding",
+    "description": "Resolve bugs and findings surfaced by Sentry in GitHub pull-request comments.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-code-review",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring",
+      "code-review"
+    ],
+    "skill_content": "---\nname: Sentry Code Review\ndescription: Resolve bugs and findings surfaced by Sentry in GitHub pull-request comments.\n---\n\n# Sentry Code Review\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nResolve bugs and findings surfaced by Sentry in GitHub pull-request comments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-code-review\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-fix-issues",
+    "name": "Fix Sentry Issues",
+    "category": "coding",
+    "description": "Find, triage, and fix production issues using Sentry MCP context.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-fix-issues",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Fix Sentry Issues\ndescription: Find, triage, and fix production issues using Sentry MCP context.\n---\n\n# Fix Sentry Issues\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nFind, triage, and fix production issues using Sentry MCP context.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-fix-issues\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-pr-code-review",
+    "name": "Sentry PR Code Review",
+    "category": "coding",
+    "description": "Review pull requests for issues detected by Seer Bug Prediction.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-pr-code-review",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring",
+      "code-review"
+    ],
+    "skill_content": "---\nname: Sentry PR Code Review\ndescription: Review pull requests for issues detected by Seer Bug Prediction.\n---\n\n# Sentry PR Code Review\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nReview pull requests for issues detected by Seer Bug Prediction.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-pr-code-review\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-sdk-upgrade",
+    "name": "Sentry SDK Upgrade",
+    "category": "coding",
+    "description": "Upgrade Sentry JavaScript SDK integrations across major versions.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-sdk-upgrade",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring",
+      "code-migration"
+    ],
+    "skill_content": "---\nname: Sentry SDK Upgrade\ndescription: Upgrade Sentry JavaScript SDK integrations across major versions.\n---\n\n# Sentry SDK Upgrade\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nUpgrade Sentry JavaScript SDK integrations across major versions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-sdk-upgrade\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-create-alert",
+    "name": "Create Sentry Alert",
+    "category": "coding",
+    "description": "Create Sentry alerts through the workflow engine API.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-create-alert",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring",
+      "cloud-operations"
+    ],
+    "skill_content": "---\nname: Create Sentry Alert\ndescription: Create Sentry alerts through the workflow engine API.\n---\n\n# Create Sentry Alert\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nCreate Sentry alerts through the workflow engine API.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-create-alert\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-instrumentation-guide",
+    "name": "Sentry Instrumentation Guide",
+    "category": "coding",
+    "description": "Choose and implement the right Sentry signal: errors, spans, attributes, logs, or metrics.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-instrumentation-guide",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Instrumentation Guide\ndescription: Choose and implement the right Sentry signal: errors, spans, attributes, logs, or metrics.\n---\n\n# Sentry Instrumentation Guide\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nChoose and implement the right Sentry signal: errors, spans, attributes, logs, or metrics.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-instrumentation-guide\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-otel-exporter-setup",
+    "name": "Sentry OpenTelemetry Exporter Setup",
+    "category": "coding",
+    "description": "Configure the OpenTelemetry Collector with the Sentry exporter and project routing.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-otel-exporter-setup",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry OpenTelemetry Exporter Setup\ndescription: Configure the OpenTelemetry Collector with the Sentry exporter and project routing.\n---\n\n# Sentry OpenTelemetry Exporter Setup\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nConfigure the OpenTelemetry Collector with the Sentry exporter and project routing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-otel-exporter-setup\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-setup-ai-monitoring",
+    "name": "Sentry AI Monitoring",
+    "category": "coding",
+    "description": "Instrument OpenAI, Anthropic, LangChain, Vercel AI, and Google GenAI applications.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-setup-ai-monitoring",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring",
+      "ai-observability"
+    ],
+    "skill_content": "---\nname: Sentry AI Monitoring\ndescription: Instrument OpenAI, Anthropic, LangChain, Vercel AI, and Google GenAI applications.\n---\n\n# Sentry AI Monitoring\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nInstrument OpenAI, Anthropic, LangChain, Vercel AI, and Google GenAI applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-setup-ai-monitoring\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-span-streaming-js",
+    "name": "Sentry Span Streaming for JavaScript",
+    "category": "coding",
+    "description": "Migrate JavaScript instrumentation to Sentry's span-streaming lifecycle.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-span-streaming-js",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Span Streaming for JavaScript\ndescription: Migrate JavaScript instrumentation to Sentry's span-streaming lifecycle.\n---\n\n# Sentry Span Streaming for JavaScript\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nMigrate JavaScript instrumentation to Sentry's span-streaming lifecycle.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-span-streaming-js\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "sentry-span-streaming-python",
+    "name": "Sentry Span Streaming for Python",
+    "category": "coding",
+    "description": "Migrate Python instrumentation to Sentry's span-streaming lifecycle.",
+    "author": "Sentry",
+    "source_url": "https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-span-streaming-python",
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging",
+      "monitoring"
+    ],
+    "skill_content": "---\nname: Sentry Span Streaming for Python\ndescription: Migrate Python instrumentation to Sentry's span-streaming lifecycle.\n---\n\n# Sentry Span Streaming for Python\n\nPart of the **Sentry for AI** pack by Sentry (`getsentry/sentry-for-ai`).\n\nMigrate Python instrumentation to Sentry's span-streaming lifecycle.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/getsentry/sentry-for-ai/tree/9ab3551758913a4144517d4fafb71476a48c64f8/skills/sentry-span-streaming-python\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "openai-skill-creator",
+    "name": "Skill Creator",
+    "category": "coding",
+    "description": "Create, structure, validate, and package reusable Agent Skills.",
+    "author": "OpenAI",
+    "source_url": "https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.system/skill-creator",
+    "tags": [
+      "openai",
+      "agents",
+      "authoring",
+      "evaluation",
+      "ai-agent-development",
+      "codex"
+    ],
+    "skill_content": "---\nname: Skill Creator\ndescription: Create, structure, validate, and package reusable Agent Skills.\n---\n\n# Skill Creator\n\nPart of the **OpenAI Agent Skills** pack by OpenAI (`openai/skills`).\n\nCreate, structure, validate, and package reusable Agent Skills.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.system/skill-creator\n"
+  },
+  {
+    "slug": "openai-plugin-creator",
+    "name": "Plugin Creator",
+    "category": "coding",
+    "description": "Create Codex-compatible plugins with appropriate manifests, skills, and packaging.",
+    "author": "OpenAI",
+    "source_url": "https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.system/plugin-creator",
+    "tags": [
+      "openai",
+      "agents",
+      "authoring",
+      "evaluation",
+      "ai-agent-development",
+      "codex"
+    ],
+    "skill_content": "---\nname: Plugin Creator\ndescription: Create Codex-compatible plugins with appropriate manifests, skills, and packaging.\n---\n\n# Plugin Creator\n\nPart of the **OpenAI Agent Skills** pack by OpenAI (`openai/skills`).\n\nCreate Codex-compatible plugins with appropriate manifests, skills, and packaging.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.system/plugin-creator\n"
+  },
+  {
+    "slug": "openai-pdf",
+    "name": "PDF Workflows",
+    "category": "productivity",
+    "description": "Read, create, transform, and validate PDF documents using a curated Codex workflow.",
+    "author": "OpenAI",
+    "source_url": "https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/pdf",
+    "tags": [
+      "openai",
+      "agents",
+      "authoring",
+      "evaluation",
+      "document-workflows",
+      "codex"
+    ],
+    "skill_content": "---\nname: PDF Workflows\ndescription: Read, create, transform, and validate PDF documents using a curated Codex workflow.\n---\n\n# PDF Workflows\n\nPart of the **OpenAI Agent Skills** pack by OpenAI (`openai/skills`).\n\nRead, create, transform, and validate PDF documents using a curated Codex workflow.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/pdf\n"
+  },
+  {
+    "slug": "openai-figma-implement-design",
+    "name": "Figma Implement Design",
+    "category": "design",
+    "description": "Translate Figma designs into implementation-ready product code and assets.",
+    "author": "OpenAI",
+    "source_url": "https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/figma-implement-design",
+    "tags": [
+      "openai",
+      "agents",
+      "authoring",
+      "evaluation",
+      "design-engineering",
+      "codex"
+    ],
+    "skill_content": "---\nname: Figma Implement Design\ndescription: Translate Figma designs into implementation-ready product code and assets.\n---\n\n# Figma Implement Design\n\nPart of the **OpenAI Agent Skills** pack by OpenAI (`openai/skills`).\n\nTranslate Figma designs into implementation-ready product code and assets.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/figma-implement-design\n"
+  },
+  {
+    "slug": "openai-figma-generate-design",
+    "name": "Figma Generate Design",
+    "category": "design",
+    "description": "Generate and refine designs in Figma using structured design-system-aware workflows.",
+    "author": "OpenAI",
+    "source_url": "https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/figma-generate-design",
+    "tags": [
+      "openai",
+      "agents",
+      "authoring",
+      "evaluation",
+      "design-engineering",
+      "codex"
+    ],
+    "skill_content": "---\nname: Figma Generate Design\ndescription: Generate and refine designs in Figma using structured design-system-aware workflows.\n---\n\n# Figma Generate Design\n\nPart of the **OpenAI Agent Skills** pack by OpenAI (`openai/skills`).\n\nGenerate and refine designs in Figma using structured design-system-aware workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/figma-generate-design\n"
+  },
+  {
+    "slug": "openai-cli-creator",
+    "name": "CLI Creator",
+    "category": "coding",
+    "description": "Design and implement command-line applications with appropriate UX and packaging conventions.",
+    "author": "OpenAI",
+    "source_url": "https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/cli-creator",
+    "tags": [
+      "openai",
+      "agents",
+      "authoring",
+      "evaluation",
+      "software-engineering",
+      "codex"
+    ],
+    "skill_content": "---\nname: CLI Creator\ndescription: Design and implement command-line applications with appropriate UX and packaging conventions.\n---\n\n# CLI Creator\n\nPart of the **OpenAI Agent Skills** pack by OpenAI (`openai/skills`).\n\nDesign and implement command-line applications with appropriate UX and packaging conventions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/openai/skills/tree/972cb867affac58fda9afa76bb1a19b399a278cf/skills/.curated/cli-creator\n"
+  }
+]

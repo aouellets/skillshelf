@@ -141,9 +141,13 @@ export default async function HomePage() {
       getCounts(),
     ])
 
+  // The marquee carries the full partner roster; the showcase grid stays tight
+  // with the six headline packs so the landing page doesn't turn into a wall.
   const partnerShowcase = PARTNER_STRIP.map((p) =>
     partnerPacks.find((pk) => pk.slug === p.packSlug)
-  ).filter((p): p is NonNullable<typeof p> => Boolean(p))
+  )
+    .filter((p): p is NonNullable<typeof p> => Boolean(p))
+    .slice(0, 6)
 
   const showcase = SHOWCASE_PACKS.map((s) => ({
     discipline: s.discipline,
@@ -352,8 +356,8 @@ export default async function HomePage() {
                 Skills straight from the source.
               </h2>
               <p className="mt-3 text-sm leading-relaxed text-shelf-text-secondary">
-                Official packs published by the teams who build the tools: Anthropic, Google,
-                Vercel, Microsoft, Hugging Face, and WordPress.
+                Official packs published by the teams who build the tools: Anthropic, OpenAI,
+                Google, Vercel, Microsoft, Stripe, Supabase, Sentry, and more.
               </p>
             </div>
             <Link

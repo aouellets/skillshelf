@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { PackCard } from '@/components/PackCard'
 import { getPacks, getPacksBySlugs } from '@/lib/packs'
-import { PARTNER_STRIP } from '@/lib/partners'
+import { PACK_DEFINITIONS } from '@/lib/pack-definitions'
+import { PARTNER_STRIP, isPartner } from '@/lib/partners'
 
 export const dynamic = 'force-dynamic'
 
@@ -22,9 +23,20 @@ export const metadata: Metadata = {
 }
 
 export default async function PacksPage() {
+  // Every pack authored by a known partner belongs in the official showcase —
+  // not just the curated marquee subset. Lead with the marquee order (headline
+  // brands first), then append any remaining partner packs.
+  const stripSlugs = PARTNER_STRIP.map((p) => p.packSlug)
+  const officialPackSlugs = [
+    ...stripSlugs,
+    ...PACK_DEFINITIONS.filter((p) => isPartner(p.author) && !stripSlugs.includes(p.slug)).map(
+      (p) => p.slug
+    ),
+  ]
+
   const [{ packs, total }, officialPacks] = await Promise.all([
-    getPacks({ limit: 48 }),
-    getPacksBySlugs(PARTNER_STRIP.map((p) => p.packSlug)),
+    getPacks({ limit: 96 }),
+    getPacksBySlugs(officialPackSlugs),
   ])
 
   // Official packs get their own showcase up top — drop them from the main grid
@@ -71,8 +83,8 @@ export default async function PacksPage() {
                 Straight from the source
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-shelf-text-secondary">
-                Official packs published by the teams who build the tools — Anthropic, Google,
-                Vercel, Microsoft, Hugging Face, and WordPress.
+                Official packs published by the teams who build the tools — Anthropic, OpenAI,
+                Google, Vercel, Microsoft, Stripe, Supabase, Sentry, HashiCorp, and more.
               </p>
             </div>
           </div>

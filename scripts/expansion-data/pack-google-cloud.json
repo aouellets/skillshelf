@@ -1,0 +1,342 @@
+[
+  {
+    "slug": "google-gemini-api",
+    "name": "Gemini API on Agent Platform",
+    "category": "data",
+    "description": "Build Agent Platform applications using Gemini APIs and interaction patterns.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/gemini-api",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "ai-and-machine-learning",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Gemini API on Agent Platform\ndescription: Build Agent Platform applications using Gemini APIs and interaction patterns.\n---\n\n# Gemini API on Agent Platform\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nBuild Agent Platform applications using Gemini APIs and interaction patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/gemini-api\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-gemini-agents-api",
+    "name": "Managed Agents API",
+    "category": "coding",
+    "description": "Build and operate managed agents on Google Agent Platform.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/gemini-agents-api",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "ai-agent-development",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Managed Agents API\ndescription: Build and operate managed agents on Google Agent Platform.\n---\n\n# Managed Agents API\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nBuild and operate managed agents on Google Agent Platform.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/gemini-agents-api\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-agent-platform-skill-registry",
+    "name": "Agent Platform Skill Registry",
+    "category": "coding",
+    "description": "Publish, discover, version, and consume skills through Google's Agent Platform registry.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/agent-platform-skill-registry",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "ai-agent-development",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Agent Platform Skill Registry\ndescription: Publish, discover, version, and consume skills through Google's Agent Platform registry.\n---\n\n# Agent Platform Skill Registry\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nPublish, discover, version, and consume skills through Google's Agent Platform registry.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/agent-platform-skill-registry\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-alloydb-basics",
+    "name": "AlloyDB Basics",
+    "category": "data",
+    "description": "Design and operate AlloyDB-backed applications using first-party platform guidance.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/alloydb-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "database-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: AlloyDB Basics\ndescription: Design and operate AlloyDB-backed applications using first-party platform guidance.\n---\n\n# AlloyDB Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nDesign and operate AlloyDB-backed applications using first-party platform guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/alloydb-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-bigquery-basics",
+    "name": "BigQuery Basics",
+    "category": "data",
+    "description": "Develop reliable BigQuery analytics workflows, queries, schemas, and operational patterns.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/bigquery-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "data-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: BigQuery Basics\ndescription: Develop reliable BigQuery analytics workflows, queries, schemas, and operational patterns.\n---\n\n# BigQuery Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nDevelop reliable BigQuery analytics workflows, queries, schemas, and operational patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/bigquery-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-bigquery-ai-ml",
+    "name": "BigQuery AI and ML",
+    "category": "data",
+    "description": "Use BigQuery AI and ML capabilities for model training, inference, and data analysis.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/bigquery-ai-ml",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "ai-and-machine-learning",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: BigQuery AI and ML\ndescription: Use BigQuery AI and ML capabilities for model training, inference, and data analysis.\n---\n\n# BigQuery AI and ML\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nUse BigQuery AI and ML capabilities for model training, inference, and data analysis.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/bigquery-ai-ml\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-run-basics",
+    "name": "Cloud Run Basics",
+    "category": "coding",
+    "description": "Build, deploy, configure, and troubleshoot containerized services on Cloud Run.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/cloud-run-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "cloud-infrastructure",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Cloud Run Basics\ndescription: Build, deploy, configure, and troubleshoot containerized services on Cloud Run.\n---\n\n# Cloud Run Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nBuild, deploy, configure, and troubleshoot containerized services on Cloud Run.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/cloud-run-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-sql-basics",
+    "name": "Cloud SQL Basics",
+    "category": "data",
+    "description": "Develop and operate applications using managed relational databases in Cloud SQL.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/cloud-sql-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "database-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Cloud SQL Basics\ndescription: Develop and operate applications using managed relational databases in Cloud SQL.\n---\n\n# Cloud SQL Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nDevelop and operate applications using managed relational databases in Cloud SQL.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/cloud-sql-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-firebase-basics",
+    "name": "Firebase Basics",
+    "category": "coding",
+    "description": "Apply official Firebase patterns for app backends, authentication, data, and hosting.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/firebase-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "application-development",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Firebase Basics\ndescription: Apply official Firebase patterns for app backends, authentication, data, and hosting.\n---\n\n# Firebase Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nApply official Firebase patterns for app backends, authentication, data, and hosting.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/firebase-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-gke-basics",
+    "name": "GKE Basics",
+    "category": "coding",
+    "description": "Develop and operate workloads on Google Kubernetes Engine using supported patterns.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/gke-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "cloud-infrastructure",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: GKE Basics\ndescription: Develop and operate workloads on Google Kubernetes Engine using supported patterns.\n---\n\n# GKE Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nDevelop and operate workloads on Google Kubernetes Engine using supported patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/gke-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-workload-manager-basics",
+    "name": "Workload Manager Basics",
+    "category": "coding",
+    "description": "Evaluate and manage Google Cloud workloads using Workload Manager guidance.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/workload-manager-basics",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "cloud-operations",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Workload Manager Basics\ndescription: Evaluate and manage Google Cloud workloads using Workload Manager guidance.\n---\n\n# Workload Manager Basics\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nEvaluate and manage Google Cloud workloads using Workload Manager guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/workload-manager-basics\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-recipe-onboarding",
+    "name": "Google Cloud Recipe Onboarding",
+    "category": "coding",
+    "description": "Onboard an application or team into Google Cloud with a structured implementation recipe.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-recipe-onboarding",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "cloud-infrastructure",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud Recipe Onboarding\ndescription: Onboard an application or team into Google Cloud with a structured implementation recipe.\n---\n\n# Google Cloud Recipe Onboarding\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nOnboard an application or team into Google Cloud with a structured implementation recipe.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-recipe-onboarding\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-recipe-auth",
+    "name": "Google Cloud Authentication Recipe",
+    "category": "coding",
+    "description": "Select and implement appropriate Google Cloud authentication and identity patterns.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-recipe-auth",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "security-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud Authentication Recipe\ndescription: Select and implement appropriate Google Cloud authentication and identity patterns.\n---\n\n# Google Cloud Authentication Recipe\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nSelect and implement appropriate Google Cloud authentication and identity patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-recipe-auth\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-networking-observability",
+    "name": "Google Cloud Networking Observability",
+    "category": "coding",
+    "description": "Diagnose and observe Google Cloud networking using first-party telemetry and operational practices.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-networking-observability",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "observability",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud Networking Observability\ndescription: Diagnose and observe Google Cloud networking using first-party telemetry and operational practices.\n---\n\n# Google Cloud Networking Observability\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nDiagnose and observe Google Cloud networking using first-party telemetry and operational practices.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-networking-observability\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-waf-security",
+    "name": "Google Cloud WAF Security Review",
+    "category": "coding",
+    "description": "Review a Google Cloud architecture against the security pillar of the Well-Architected Framework.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-security",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "security-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud WAF Security Review\ndescription: Review a Google Cloud architecture against the security pillar of the Well-Architected Framework.\n---\n\n# Google Cloud WAF Security Review\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nReview a Google Cloud architecture against the security pillar of the Well-Architected Framework.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-security\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-waf-reliability",
+    "name": "Google Cloud WAF Reliability Review",
+    "category": "coding",
+    "description": "Assess availability, resilience, recovery, and reliability architecture on Google Cloud.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-reliability",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "reliability-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud WAF Reliability Review\ndescription: Assess availability, resilience, recovery, and reliability architecture on Google Cloud.\n---\n\n# Google Cloud WAF Reliability Review\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nAssess availability, resilience, recovery, and reliability architecture on Google Cloud.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-reliability\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-waf-cost-optimization",
+    "name": "Google Cloud WAF Cost Optimization",
+    "category": "business",
+    "description": "Evaluate Google Cloud workloads for cost efficiency and sustainable resource decisions.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-cost-optimization",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "finops",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud WAF Cost Optimization\ndescription: Evaluate Google Cloud workloads for cost efficiency and sustainable resource decisions.\n---\n\n# Google Cloud WAF Cost Optimization\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nEvaluate Google Cloud workloads for cost efficiency and sustainable resource decisions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-cost-optimization\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-waf-operational-excellence",
+    "name": "Google Cloud WAF Operational Excellence",
+    "category": "coding",
+    "description": "Assess operations, change management, observability, and runbooks against Google Cloud guidance.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-operational-excellence",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "cloud-operations",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud WAF Operational Excellence\ndescription: Assess operations, change management, observability, and runbooks against Google Cloud guidance.\n---\n\n# Google Cloud WAF Operational Excellence\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nAssess operations, change management, observability, and runbooks against Google Cloud guidance.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-operational-excellence\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-waf-performance-optimization",
+    "name": "Google Cloud WAF Performance Optimization",
+    "category": "coding",
+    "description": "Evaluate performance, capacity, latency, and scaling decisions for Google Cloud workloads.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-performance-optimization",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "performance-engineering",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud WAF Performance Optimization\ndescription: Evaluate performance, capacity, latency, and scaling decisions for Google Cloud workloads.\n---\n\n# Google Cloud WAF Performance Optimization\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nEvaluate performance, capacity, latency, and scaling decisions for Google Cloud workloads.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-performance-optimization\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "google-cloud-waf-sustainability",
+    "name": "Google Cloud WAF Sustainability",
+    "category": "coding",
+    "description": "Review Google Cloud architecture for energy, resource, and sustainability improvements.",
+    "author": "Google",
+    "source_url": "https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-sustainability",
+    "tags": [
+      "google",
+      "gemini",
+      "cloud",
+      "bigquery",
+      "sustainability",
+      "google-cloud"
+    ],
+    "skill_content": "---\nname: Google Cloud WAF Sustainability\ndescription: Review Google Cloud architecture for energy, resource, and sustainability improvements.\n---\n\n# Google Cloud WAF Sustainability\n\nPart of the **Google Agent Skills** pack by Google (`google/skills`).\n\nReview Google Cloud architecture for energy, resource, and sustainability improvements.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/google/skills/tree/872e31b26b961d5611336f5d2c8f433f2e21d981/skills/cloud/google-cloud-waf-sustainability\n\nLicense: Apache-2.0 (see the upstream repository for full terms).\n"
+  }
+]

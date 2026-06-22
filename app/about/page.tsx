@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getPlatformDemos } from '@/lib/media'
+import { getSkills, formatSkillCount } from '@/lib/data'
 import { PlatformDemoBlock } from '@/components/PlatformDemoBlock'
 
 export const metadata: Metadata = {
@@ -54,7 +55,8 @@ const FAQ = [
 ]
 
 export default async function AboutPage() {
-  const platformDemo = await getPlatformDemos()
+  const [platformDemo, { total }] = await Promise.all([getPlatformDemos(), getSkills({ limit: 1 })])
+  const skillStat = total > 0 ? formatSkillCount(total) : '300+'
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       {/* Hero */}
@@ -78,7 +80,7 @@ export default async function AboutPage() {
       {/* Key facts */}
       <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
         {[
-          { stat: '300+', label: 'Curated skills' },
+          { stat: skillStat, label: 'Curated skills' },
           { stat: 'MIT', label: 'Open source' },
           { stat: 'Free', label: 'Always' },
           { stat: '1 MCP', label: 'Connect once' },

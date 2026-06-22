@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "winui-dev-workflow",
+    "name": "WinUI Development Workflow",
+    "category": "coding",
+    "description": "Scaffold, build, run, and diagnose WinUI 3 applications using the supported Windows App SDK toolchain.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-dev-workflow",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "windows-development",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI Development Workflow\ndescription: Scaffold, build, run, and diagnose WinUI 3 applications using the supported Windows App SDK toolchain.\n---\n\n# WinUI Development Workflow\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nScaffold, build, run, and diagnose WinUI 3 applications using the supported Windows App SDK toolchain.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-dev-workflow\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-design",
+    "name": "WinUI Design",
+    "category": "design",
+    "description": "Design correct accessible XAML using Fluent Design, theming, data binding, and grounded component lookup.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-design",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "design-engineering",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI Design\ndescription: Design correct accessible XAML using Fluent Design, theming, data binding, and grounded component lookup.\n---\n\n# WinUI Design\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nDesign correct accessible XAML using Fluent Design, theming, data binding, and grounded component lookup.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-design\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-code-review",
+    "name": "WinUI Code Review",
+    "category": "coding",
+    "description": "Review WinUI code for MVVM, binding, accessibility, security, performance, and theming issues.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-code-review",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "code-review",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI Code Review\ndescription: Review WinUI code for MVVM, binding, accessibility, security, performance, and theming issues.\n---\n\n# WinUI Code Review\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nReview WinUI code for MVVM, binding, accessibility, security, performance, and theming issues.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-code-review\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-ui-testing",
+    "name": "WinUI UI Testing",
+    "category": "coding",
+    "description": "Generate and run automated UI interaction and accessibility tests for WinUI applications.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-ui-testing",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "software-testing",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI UI Testing\ndescription: Generate and run automated UI interaction and accessibility tests for WinUI applications.\n---\n\n# WinUI UI Testing\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nGenerate and run automated UI interaction and accessibility tests for WinUI applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-ui-testing\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-packaging",
+    "name": "WinUI Packaging",
+    "category": "coding",
+    "description": "Build, sign, package, and distribute WinUI applications through MSIX and Store workflows.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-packaging",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "release-engineering",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI Packaging\ndescription: Build, sign, package, and distribute WinUI applications through MSIX and Store workflows.\n---\n\n# WinUI Packaging\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nBuild, sign, package, and distribute WinUI applications through MSIX and Store workflows.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-packaging\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-wpf-migration",
+    "name": "WPF to WinUI Migration",
+    "category": "coding",
+    "description": "Migrate WPF controls, APIs, resources, threading, and MVVM patterns to WinUI 3.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-wpf-migration",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "code-migration",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WPF to WinUI Migration\ndescription: Migrate WPF controls, APIs, resources, threading, and MVVM patterns to WinUI 3.\n---\n\n# WPF to WinUI Migration\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nMigrate WPF controls, APIs, resources, threading, and MVVM patterns to WinUI 3.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-wpf-migration\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-session-report",
+    "name": "WinUI Session Report",
+    "category": "productivity",
+    "description": "Produce a diagnostic report of a development or agent session for debugging and issue filing.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-session-report",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "developer-productivity",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI Session Report\ndescription: Produce a diagnostic report of a development or agent session for debugging and issue filing.\n---\n\n# WinUI Session Report\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nProduce a diagnostic report of a development or agent session for debugging and issue filing.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-session-report\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "winui-setup",
+    "name": "WinUI Environment Setup",
+    "category": "coding",
+    "description": "Install and verify the .NET SDK, WinApp CLI, templates, and Windows Developer Mode.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-setup",
+    "tags": [
+      "microsoft",
+      "winui",
+      "windows",
+      "desktop",
+      "developer-tooling",
+      "winui-3"
+    ],
+    "skill_content": "---\nname: WinUI Environment Setup\ndescription: Install and verify the .NET SDK, WinApp CLI, templates, and Windows Developer Mode.\n---\n\n# WinUI Environment Setup\n\nPart of the **WinUI Development Skills** pack by Microsoft (`microsoft/win-dev-skills`).\n\nInstall and verify the .NET SDK, WinApp CLI, templates, and Windows Developer Mode.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/win-dev-skills/tree/c98bc78c427910838e97c70bdcd7678a0331fad3/plugins/winui/skills/winui-setup\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

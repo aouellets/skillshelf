@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "expo-building-native-ui",
+    "name": "Building Native UI",
+    "category": "coding",
+    "description": "Build native-feeling Expo Router screens, navigation, styling, animations, tabs, and modals.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/building-native-ui",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Building Native UI\ndescription: Build native-feeling Expo Router screens, navigation, styling, animations, tabs, and modals.\n---\n\n# Building Native UI\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nBuild native-feeling Expo Router screens, navigation, styling, animations, tabs, and modals.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/building-native-ui\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-native-data-fetching",
+    "name": "Native Data Fetching",
+    "category": "coding",
+    "description": "Implement API calls, React Query or SWR caching, offline support, and router data loading.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/native-data-fetching",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Native Data Fetching\ndescription: Implement API calls, React Query or SWR caching, offline support, and router data loading.\n---\n\n# Native Data Fetching\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nImplement API calls, React Query or SWR caching, offline support, and router data loading.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/native-data-fetching\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-api-routes",
+    "name": "Expo API Routes",
+    "category": "coding",
+    "description": "Create Expo Router API routes and deploy them with EAS Hosting.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-api-routes",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "application-development"
+    ],
+    "skill_content": "---\nname: Expo API Routes\ndescription: Create Expo Router API routes and deploy them with EAS Hosting.\n---\n\n# Expo API Routes\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nCreate Expo Router API routes and deploy them with EAS Hosting.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-api-routes\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-tailwind-setup",
+    "name": "Expo Tailwind Setup",
+    "category": "coding",
+    "description": "Configure Tailwind CSS v4, react-native-css, and NativeWind v5 in an Expo application.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-tailwind-setup",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Expo Tailwind Setup\ndescription: Configure Tailwind CSS v4, react-native-css, and NativeWind v5 in an Expo application.\n---\n\n# Expo Tailwind Setup\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nConfigure Tailwind CSS v4, react-native-css, and NativeWind v5 in an Expo application.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-tailwind-setup\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-use-dom",
+    "name": "Expo DOM Components",
+    "category": "coding",
+    "description": "Use Expo DOM components to incorporate web code gradually into native applications.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/use-dom",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Expo DOM Components\ndescription: Use Expo DOM components to incorporate web code gradually into native applications.\n---\n\n# Expo DOM Components\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nUse Expo DOM components to incorporate web code gradually into native applications.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/use-dom\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-dev-client",
+    "name": "Expo Development Client",
+    "category": "coding",
+    "description": "Create local and TestFlight development client builds.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-dev-client",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "developer-tooling"
+    ],
+    "skill_content": "---\nname: Expo Development Client\ndescription: Create local and TestFlight development client builds.\n---\n\n# Expo Development Client\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nCreate local and TestFlight development client builds.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-dev-client\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-module",
+    "name": "Expo Native Module",
+    "category": "coding",
+    "description": "Build Expo native modules and views with Swift, Kotlin, TypeScript, config plugins, and autolinking.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-module",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Expo Native Module\ndescription: Build Expo native modules and views with Swift, Kotlin, TypeScript, config plugins, and autolinking.\n---\n\n# Expo Native Module\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nBuild Expo native modules and views with Swift, Kotlin, TypeScript, config plugins, and autolinking.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-module\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-ui-swift-ui",
+    "name": "Expo SwiftUI Components",
+    "category": "coding",
+    "description": "Build Apple-native UI with @expo/ui SwiftUI components and modifiers.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-ui-swift-ui",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Expo SwiftUI Components\ndescription: Build Apple-native UI with @expo/ui SwiftUI components and modifiers.\n---\n\n# Expo SwiftUI Components\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nBuild Apple-native UI with @expo/ui SwiftUI components and modifiers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-ui-swift-ui\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-ui-jetpack-compose",
+    "name": "Expo Jetpack Compose Components",
+    "category": "coding",
+    "description": "Build Android-native UI with @expo/ui Jetpack Compose components and modifiers.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-ui-jetpack-compose",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Expo Jetpack Compose Components\ndescription: Build Android-native UI with @expo/ui Jetpack Compose components and modifiers.\n---\n\n# Expo Jetpack Compose Components\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nBuild Android-native UI with @expo/ui Jetpack Compose components and modifiers.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-ui-jetpack-compose\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-add-app-clip",
+    "name": "Add App Clip",
+    "category": "coding",
+    "description": "Add an iOS App Clip target, associated domains, AASA, and Smart App Banner configuration.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/add-app-clip",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "mobile-development"
+    ],
+    "skill_content": "---\nname: Add App Clip\ndescription: Add an iOS App Clip target, associated domains, AASA, and Smart App Banner configuration.\n---\n\n# Add App Clip\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nAdd an iOS App Clip target, associated domains, AASA, and Smart App Banner configuration.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/add-app-clip\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-brownfield",
+    "name": "Expo Brownfield Integration",
+    "category": "coding",
+    "description": "Add Expo or React Native to an existing native iOS or Android application.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-brownfield",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "code-migration"
+    ],
+    "skill_content": "---\nname: Expo Brownfield Integration\ndescription: Add Expo or React Native to an existing native iOS or Android application.\n---\n\n# Expo Brownfield Integration\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nAdd Expo or React Native to an existing native iOS or Android application.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-brownfield\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-deployment",
+    "name": "Expo Deployment",
+    "category": "coding",
+    "description": "Deploy apps to stores, TestFlight, EAS Build, web hosting, and API route hosting.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-deployment",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Expo Deployment\ndescription: Deploy apps to stores, TestFlight, EAS Build, web hosting, and API route hosting.\n---\n\n# Expo Deployment\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nDeploy apps to stores, TestFlight, EAS Build, web hosting, and API route hosting.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-deployment\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-cicd-workflows",
+    "name": "Expo CI/CD Workflows",
+    "category": "coding",
+    "description": "Author EAS Workflow YAML and automate mobile build and release pipelines.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-cicd-workflows",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "ci-cd"
+    ],
+    "skill_content": "---\nname: Expo CI/CD Workflows\ndescription: Author EAS Workflow YAML and automate mobile build and release pipelines.\n---\n\n# Expo CI/CD Workflows\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nAuthor EAS Workflow YAML and automate mobile build and release pipelines.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-cicd-workflows\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-observe",
+    "name": "Expo Observe",
+    "category": "coding",
+    "description": "Set up and analyze EAS Observe launch, route, event, and version metrics.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-observe",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "observability"
+    ],
+    "skill_content": "---\nname: Expo Observe\ndescription: Set up and analyze EAS Observe launch, route, event, and version metrics.\n---\n\n# Expo Observe\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nSet up and analyze EAS Observe launch, route, event, and version metrics.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/expo-observe\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-eas-update-insights",
+    "name": "EAS Update Insights",
+    "category": "coding",
+    "description": "Evaluate update health, crash rates, launch counts, payload size, and rollout gates.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/eas-update-insights",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "release-engineering"
+    ],
+    "skill_content": "---\nname: EAS Update Insights\ndescription: Evaluate update health, crash rates, launch counts, payload size, and rollout gates.\n---\n\n# EAS Update Insights\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nEvaluate update health, crash rates, launch counts, payload size, and rollout gates.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/eas-update-insights\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "expo-upgrading-expo",
+    "name": "Upgrade Expo",
+    "category": "coding",
+    "description": "Upgrade Expo SDK versions and resolve dependencies, deprecated packages, and cache issues.",
+    "author": "Expo",
+    "source_url": "https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/upgrading-expo",
+    "tags": [
+      "expo",
+      "react-native",
+      "mobile",
+      "eas",
+      "code-migration"
+    ],
+    "skill_content": "---\nname: Upgrade Expo\ndescription: Upgrade Expo SDK versions and resolve dependencies, deprecated packages, and cache issues.\n---\n\n# Upgrade Expo\n\nPart of the **Expo Skills** pack by Expo (`expo/skills`).\n\nUpgrade Expo SDK versions and resolve dependencies, deprecated packages, and cache issues.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/expo/skills/tree/b553ae4e1755bec11eac21517fe63040c7e07f2c/plugins/expo/skills/upgrading-expo\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

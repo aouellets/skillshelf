@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "powerplatform-security-review",
+    "name": "Power Pages Security Review",
+    "category": "coding",
+    "description": "Review a Power Pages solution for security configuration, permissions, data exposure, and deployment risks.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/security-review",
+    "tags": [
+      "microsoft",
+      "power-platform",
+      "low-code",
+      "power-pages",
+      "security-engineering"
+    ],
+    "skill_content": "---\nname: Power Pages Security Review\ndescription: Review a Power Pages solution for security configuration, permissions, data exposure, and deployment risks.\n---\n\n# Power Pages Security Review\n\nPart of the **Power Platform Skills** pack by Microsoft (`microsoft/power-platform-skills`).\n\nReview a Power Pages solution for security configuration, permissions, data exposure, and deployment risks.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/security-review\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "powerplatform-add-ai-webapi",
+    "name": "Add Power Pages AI Web API",
+    "category": "coding",
+    "description": "Integrate an AI-enabled Web API into a Power Pages code site using supported patterns.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/add-ai-webapi",
+    "tags": [
+      "microsoft",
+      "power-platform",
+      "low-code",
+      "power-pages",
+      "application-development"
+    ],
+    "skill_content": "---\nname: Add Power Pages AI Web API\ndescription: Integrate an AI-enabled Web API into a Power Pages code site using supported patterns.\n---\n\n# Add Power Pages AI Web API\n\nPart of the **Power Platform Skills** pack by Microsoft (`microsoft/power-platform-skills`).\n\nIntegrate an AI-enabled Web API into a Power Pages code site using supported patterns.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/add-ai-webapi\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "powerplatform-deploy-pipeline",
+    "name": "Power Pages Deployment Pipeline",
+    "category": "coding",
+    "description": "Build and operate a deployment pipeline for Power Pages environments and solutions.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/deploy-pipeline",
+    "tags": [
+      "microsoft",
+      "power-platform",
+      "low-code",
+      "power-pages",
+      "deployment"
+    ],
+    "skill_content": "---\nname: Power Pages Deployment Pipeline\ndescription: Build and operate a deployment pipeline for Power Pages environments and solutions.\n---\n\n# Power Pages Deployment Pipeline\n\nPart of the **Power Platform Skills** pack by Microsoft (`microsoft/power-platform-skills`).\n\nBuild and operate a deployment pipeline for Power Pages environments and solutions.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/deploy-pipeline\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "powerplatform-configure-env-variables",
+    "name": "Configure Power Platform Environment Variables",
+    "category": "coding",
+    "description": "Create and manage environment variables for portable Power Platform deployments.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/configure-env-variables",
+    "tags": [
+      "microsoft",
+      "power-platform",
+      "low-code",
+      "power-pages",
+      "configuration-management"
+    ],
+    "skill_content": "---\nname: Configure Power Platform Environment Variables\ndescription: Create and manage environment variables for portable Power Platform deployments.\n---\n\n# Configure Power Platform Environment Variables\n\nPart of the **Power Platform Skills** pack by Microsoft (`microsoft/power-platform-skills`).\n\nCreate and manage environment variables for portable Power Platform deployments.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/configure-env-variables\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  },
+  {
+    "slug": "powerplatform-ensure-pipelines-host",
+    "name": "Ensure Power Platform Pipelines Host",
+    "category": "coding",
+    "description": "Validate or configure the pipelines host required for Power Platform ALM.",
+    "author": "Microsoft",
+    "source_url": "https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/ensure-pipelines-host",
+    "tags": [
+      "microsoft",
+      "power-platform",
+      "low-code",
+      "power-pages",
+      "cloud-operations"
+    ],
+    "skill_content": "---\nname: Ensure Power Platform Pipelines Host\ndescription: Validate or configure the pipelines host required for Power Platform ALM.\n---\n\n# Ensure Power Platform Pipelines Host\n\nPart of the **Power Platform Skills** pack by Microsoft (`microsoft/power-platform-skills`).\n\nValidate or configure the pipelines host required for Power Platform ALM.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/microsoft/power-platform-skills/tree/5dfbbd415efccf12a235aff578c5b042f637b0ab/plugins/power-pages/skills/ensure-pipelines-host\n\nLicense: MIT (see the upstream repository for full terms).\n"
+  }
+]

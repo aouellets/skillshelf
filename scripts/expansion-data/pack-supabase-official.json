@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "supabase",
+    "name": "Supabase Development",
+    "category": "coding",
+    "description": "Develop and troubleshoot Supabase Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues, client libraries, migrations, and security.",
+    "author": "Supabase",
+    "source_url": "https://github.com/supabase/agent-skills/tree/1356046015476711a769601079262b5635929427/skills/supabase",
+    "tags": [
+      "supabase",
+      "postgres",
+      "database",
+      "backend",
+      "backend-development",
+      "postgresql"
+    ],
+    "skill_content": "---\nname: Supabase Development\ndescription: Develop and troubleshoot Supabase Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues, client libraries, migrations, and security.\n---\n\n# Supabase Development\n\nPart of the **Supabase Agent Skills** pack by Supabase (`supabase/agent-skills`).\n\nDevelop and troubleshoot Supabase Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues, client libraries, migrations, and security.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/supabase/agent-skills/tree/1356046015476711a769601079262b5635929427/skills/supabase\n"
+  },
+  {
+    "slug": "supabase-postgres-best-practices",
+    "name": "Supabase PostgreSQL Best Practices",
+    "category": "data",
+    "description": "Apply prioritized PostgreSQL query, connection, schema, concurrency, RLS, access, and monitoring practices.",
+    "author": "Supabase",
+    "source_url": "https://github.com/supabase/agent-skills/tree/1356046015476711a769601079262b5635929427/skills/supabase-postgres-best-practices",
+    "tags": [
+      "supabase",
+      "postgres",
+      "database",
+      "backend",
+      "database-engineering",
+      "postgresql"
+    ],
+    "skill_content": "---\nname: Supabase PostgreSQL Best Practices\ndescription: Apply prioritized PostgreSQL query, connection, schema, concurrency, RLS, access, and monitoring practices.\n---\n\n# Supabase PostgreSQL Best Practices\n\nPart of the **Supabase Agent Skills** pack by Supabase (`supabase/agent-skills`).\n\nApply prioritized PostgreSQL query, connection, schema, concurrency, RLS, access, and monitoring practices.\n\nThis catalog entry summarizes the skill for discovery. Get the full skill — including any bundled scripts and resources — from the source:\n\nFull skill & source: https://github.com/supabase/agent-skills/tree/1356046015476711a769601079262b5635929427/skills/supabase-postgres-best-practices\n"
+  }
+]

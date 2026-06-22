@@ -31,6 +31,19 @@ const PARTNERS: Record<string, Partner> = {
   Microsoft: { label: 'Microsoft', logo: 'microsoft', url: 'https://github.com/microsoft/skills', color: '#00a4ef', tint: '#0c1626' },
   WordPress: { label: 'WordPress', logo: 'wordpress', url: 'https://github.com/WordPress/agent-skills', color: '#2ea8e0', tint: '#0b1f2a' },
   Meta: { label: 'Meta', logo: 'meta', url: 'https://github.com/facebookresearch', color: '#0866ff', tint: '#0a1530' },
+  OpenAI: { label: 'OpenAI', logo: 'openai', url: 'https://github.com/openai/skills', color: '#10a37f', tint: '#0a201a' },
+  Stripe: { label: 'Stripe', logo: 'stripe', url: 'https://github.com/stripe/ai', color: '#635bff', tint: '#15132e' },
+  Supabase: { label: 'Supabase', logo: 'supabase', url: 'https://github.com/supabase/agent-skills', color: '#3ecf8e', tint: '#0c2018' },
+  Sentry: { label: 'Sentry', logo: 'sentry', url: 'https://github.com/getsentry/sentry-for-ai', color: '#7b51f8', tint: '#1c1230' },
+  MongoDB: { label: 'MongoDB', logo: 'mongodb', url: 'https://github.com/mongodb/agent-skills', color: '#47a248', tint: '#0e1f0d' },
+  HashiCorp: { label: 'HashiCorp', logo: 'hashicorp', url: 'https://github.com/hashicorp/agent-skills', color: '#7b42bc', tint: '#1a1026' },
+  Render: { label: 'Render', logo: 'render', url: 'https://github.com/render-oss/skills', color: '#46e3b7', tint: '#0a201b' },
+  Expo: { label: 'Expo', logo: 'expo', url: 'https://github.com/expo/skills', color: '#6f7bff', tint: '#13132e' },
+  Flutter: { label: 'Flutter', logo: 'flutter', url: 'https://github.com/flutter/skills', color: '#54c5f8', tint: '#0a2233' },
+  Dart: { label: 'Dart', logo: 'dart', url: 'https://github.com/dart-lang/skills', color: '#3ba9e0', tint: '#08243a' },
+  Cesium: { label: 'Cesium', logo: 'cesium', url: 'https://github.com/CesiumGS/cesiumjs-skills', color: '#48b0cc', tint: '#0c2027' },
+  Medusa: { label: 'Medusa', logo: 'medusa', url: 'https://github.com/medusajs/medusa-agent-skills', color: '#9d7bff', tint: '#15122b' },
+  Apify: { label: 'Apify', logo: 'apify', url: 'https://github.com/apify/agent-skills', color: '#13b46a', tint: '#0a2014' },
 }
 
 export interface ResolvedPartner extends Partner {
@@ -58,9 +71,22 @@ export function isPartner(author?: string | null): boolean {
  */
 export const PARTNER_STRIP: { author: string; packSlug: string }[] = [
   { author: 'Anthropic', packSlug: 'anthropic-official-skills' },
+  { author: 'OpenAI', packSlug: 'openai-agent-skills' },
   { author: 'Google', packSlug: 'google-workspace-skills' },
   { author: 'Vercel', packSlug: 'vercel-agent-skills' },
   { author: 'Microsoft', packSlug: 'azure-sdk-skills-python' },
+  { author: 'Stripe', packSlug: 'stripe-ai-skills' },
+  { author: 'Supabase', packSlug: 'supabase-agent-skills' },
+  { author: 'Sentry', packSlug: 'sentry-for-ai' },
+  { author: 'MongoDB', packSlug: 'mongodb-agent-skills' },
+  { author: 'HashiCorp', packSlug: 'hashicorp-agent-skills' },
   { author: 'Hugging Face', packSlug: 'hugging-face-ml-toolkit' },
+  { author: 'Render', packSlug: 'render-skills' },
+  { author: 'Expo', packSlug: 'expo-skills' },
+  { author: 'Flutter', packSlug: 'flutter-agent-skills' },
+  { author: 'Dart', packSlug: 'dart-agent-skills' },
+  { author: 'Cesium', packSlug: 'cesiumjs-agent-skills' },
+  { author: 'Medusa', packSlug: 'medusa-agent-skills' },
+  { author: 'Apify', packSlug: 'apify-agent-skills' },
   { author: 'WordPress', packSlug: 'wordpress-agent-skills' },
 ]
