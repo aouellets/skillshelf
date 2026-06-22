@@ -1,3 +1,10 @@
+'use client'
+
+// Client component: it builds table column definitions containing render and
+// sortValue *functions* and passes them to the interactive primitives — a
+// Server Component can't pass functions across the client boundary. It only
+// imports types from admin-queries (erased at build), pure formatters, and the
+// client primitives, and receives already-loaded serializable data as props.
 import type {
   ActiveUsersDailyRow,
   ActivationRow,
