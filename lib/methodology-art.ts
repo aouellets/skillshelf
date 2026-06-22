@@ -49,7 +49,9 @@ export function methodologyThumbnailSvg(tags?: string[] | null, seed?: string): 
   let hero: string
   if (m.markPath) {
     const [, , vw, vh] = (m.markViewBox ?? '0 0 520 72').split(/\s+/).map(Number)
-    const targetW = 196
+    // Wordmarks are wide/short — fill ~84% of the 320-wide frame so the mark is
+    // the clear hero rather than a small label ringed by the orbit circles.
+    const targetW = 270
     const scale = targetW / vw
     const w = vw * scale
     const h = vh * scale
