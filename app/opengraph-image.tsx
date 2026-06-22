@@ -26,6 +26,10 @@ export default async function Image() {
           position: 'relative',
         }}
       >
+        {/* vermilion signature bar along the very top — ties the card set together */}
+        <div
+          style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 8, backgroundColor: OG.accent }}
+        />
         {/* faint vermilion wash, bottom-right — warmth without a gradient blob */}
         <div
           style={{

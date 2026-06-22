@@ -1,7 +1,19 @@
 import { ImageResponse } from 'next/og'
 import { getSkillBySlug } from '@/lib/data'
-import { CATEGORY_MAP, formatInstalls } from '@/lib/categories'
-import { OG, OG_SIZE, OG_CONTENT_TYPE, loadBrandFonts, LogoBadge, Wordmark, Star, clean } from '@/lib/og/brand'
+import { CATEGORY_MAP, installLabel } from '@/lib/categories'
+import {
+  OG,
+  OG_SIZE,
+  OG_CONTENT_TYPE,
+  CATEGORY_COLORS,
+  loadBrandFonts,
+  Lockup,
+  Pill,
+  Star,
+  Check,
+  truncateWords,
+  headlineSize,
+} from '@/lib/og/brand'
 
 export const size = OG_SIZE
 export const contentType = OG_CONTENT_TYPE
@@ -17,13 +29,10 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const description =
     skill?.description ?? 'The App Store for Claude skills. Install intelligence.'
   const category = skill ? CATEGORY_MAP[skill.category] : undefined
-  const installs = skill && skill.install_count > 0 ? formatInstalls(skill.install_count) : null
+  const catColor = skill ? CATEGORY_COLORS[skill.category] ?? OG.accent : OG.accent
+  const installs = skill ? installLabel(skill.install_count) : null
   const rating = skill && skill.rating_count > 0 ? skill.rating_avg.toFixed(1) : null
-
-  // Scale the headline so long names still fit on two lines.
-  const nameSize = name.length > 34 ? 64 : name.length > 22 ? 80 : 96
-  const cleaned = clean(description)
-  const desc = cleaned.length > 150 ? `${cleaned.slice(0, 150)}…` : cleaned
+  const author = skill?.author?.trim()
 
   return new ImageResponse(
     (
@@ -35,11 +44,16 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           flexDirection: 'column',
           justifyContent: 'space-between',
           backgroundColor: OG.void,
-          fontFamily: 'Geist',
-          padding: 80,
+          fontFamily: 'Inter',
+          padding: 76,
+          paddingTop: 70,
           position: 'relative',
         }}
       >
+        {/* category-colored signature bar along the very top */}
+        <div
+          style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 8, backgroundColor: catColor }}
+        />
         {/* faint skill thumbnail as backdrop, if available */}
         {skill?.thumbnail_url && (
           <img
@@ -47,14 +61,14 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             alt=""
             width={OG_SIZE.width}
             height={OG_SIZE.height}
-            style={{ position: 'absolute', inset: 0, objectFit: 'cover', opacity: 0.16 }}
+            style={{ position: 'absolute', inset: 0, objectFit: 'cover', opacity: 0.14 }}
           />
         )}
         <div
           style={{
             position: 'absolute',
             inset: 0,
-            background: `linear-gradient(180deg, rgba(10,10,12,0.55), ${OG.void} 72%)`,
+            background: `linear-gradient(165deg, rgba(8,10,10,0.35), ${OG.void} 70%)`,
           }}
         />
 
@@ -67,37 +81,30 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             position: 'relative',
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: 18 }}>
-            <LogoBadge size={56} />
-            <Wordmark size={30} />
-          </div>
-          {category && (
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 12,
-                border: `1px solid ${OG.border}`,
-                backgroundColor: OG.surface,
-                borderRadius: 999,
-                padding: '10px 22px',
-                fontSize: 26,
-                color: OG.secondary,
-              }}
-            >
-              <div style={{ width: 14, height: 14, borderRadius: 999, backgroundColor: OG.gold }} />
-              {category.label}
-            </div>
-          )}
+          <Lockup />
+          {category && <Pill dot={catColor}>{category.label}</Pill>}
         </div>
 
-        {/* skill name + description */}
+        {/* eyebrow + skill name + description */}
         <div style={{ display: 'flex', flexDirection: 'column', position: 'relative' }}>
           <div
             style={{
               display: 'flex',
-              fontSize: nameSize,
-              fontWeight: 900,
+              fontSize: 24,
+              fontWeight: 700,
+              letterSpacing: 4,
+              textTransform: 'uppercase',
+              color: catColor,
+              marginBottom: 22,
+            }}
+          >
+            Agent Skill
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: headlineSize(name),
+              fontWeight: 800,
               letterSpacing: -2,
               lineHeight: 1.02,
               color: OG.text,
@@ -108,18 +115,18 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           <div
             style={{
               display: 'flex',
-              marginTop: 24,
+              marginTop: 26,
               fontSize: 34,
-              lineHeight: 1.35,
+              lineHeight: 1.34,
               color: OG.secondary,
               maxWidth: 1000,
             }}
           >
-            {desc}
+            {truncateWords(description, 144)}
           </div>
         </div>
 
-        {/* footer: rating + installs, brand */}
+        {/* footer: provenance + signals (left, never empty), CTA (right) */}
         <div
           style={{
             display: 'flex',
@@ -128,16 +135,22 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             position: 'relative',
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: 28, fontSize: 28, color: OG.secondary }}>
-            {rating && (
-              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                <Star size={28} /> {rating}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 26, fontSize: 28, color: OG.secondary }}>
+            {author && <div style={{ display: 'flex' }}>{`by ${author}`}</div>}
+            {skill?.verified && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: 9, color: OG.accent }}>
+                <Check size={26} /> Verified
               </div>
             )}
-            {installs && <div style={{ display: 'flex' }}>{installs} installs</div>}
+            {rating && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
+                <Star size={26} /> {rating}
+              </div>
+            )}
+            {installs && <div style={{ display: 'flex' }}>{installs}</div>}
           </div>
-          <div style={{ display: 'flex', fontSize: 28, fontWeight: 600, color: OG.gold }}>
-            Install on Skill Me
+          <div style={{ display: 'flex', fontSize: 28, fontWeight: 700, color: OG.accent }}>
+            Install on skillme.dev
           </div>
         </div>
       </div>
