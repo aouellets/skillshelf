@@ -188,19 +188,21 @@ export default async function HomePage() {
       <section className="relative grid grid-cols-1 items-center gap-8 py-10 sm:gap-12 sm:py-24 lg:grid-cols-[1.04fr_1fr] lg:gap-14">
         <div className="aurora" aria-hidden />
         <div aria-hidden className="grid-texture absolute inset-x-0 top-0 -z-10 h-[420px]" />
-        <div className="fade-up">
-          <span className="eyebrow">The App Store for Claude</span>
-          <h1 className="mt-5 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-shelf-text-primary sm:text-7xl">
+        {/* Hero stack assembles in sequence (staging): eyebrow → headline → sub
+            → CTA, each on a fade-up offset by the stagger step. */}
+        <div>
+          <span className="eyebrow fade-up inline-block">The App Store for Claude</span>
+          <h1 className="fade-up mt-5 font-display text-5xl font-semibold leading-[0.95] tracking-tight text-shelf-text-primary sm:text-7xl" style={{ animationDelay: '80ms' }}>
             Install
             <br />
             intelligence.
           </h1>
-          <p className="mt-6 max-w-md text-lg leading-relaxed text-shelf-text-secondary">
+          <p className="fade-up mt-6 max-w-md text-lg leading-relaxed text-shelf-text-secondary" style={{ animationDelay: '160ms' }}>
             Describe what you are working on. Claude finds the right skill from {countLabel},
             installs it, and gets to work.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-3">
+          <div className="fade-up mt-8 flex flex-wrap items-center gap-3" style={{ animationDelay: '240ms' }}>
             <MagneticCTA href="/connect">Connect to Claude</MagneticCTA>
             <Link href="/browse" className="btn btn-secondary">
               Browse skills
@@ -208,7 +210,7 @@ export default async function HomePage() {
           </div>
         </div>
 
-        <div className="fade-up parallax-rise" style={{ animationDelay: '120ms' }}>
+        <div className="fade-up parallax-rise" style={{ animationDelay: '200ms' }}>
           {heroVisual}
           {heroFilm && (
             <p className="mt-3 text-center font-mono text-xs text-shelf-text-tertiary">
@@ -334,7 +336,7 @@ export default async function HomePage() {
           </Reveal>
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {showcase.map(({ pack, discipline }, i) => (
-              <Reveal key={pack.id} delay={i * 50}>
+              <Reveal key={pack.id} index={i}>
                 <div className="flex h-full flex-col gap-2">
                   <span className="font-mono text-xs uppercase tracking-wide text-shelf-text-tertiary">
                     {discipline}
@@ -369,7 +371,7 @@ export default async function HomePage() {
           </Reveal>
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {partnerShowcase.map((pack, i) => (
-              <Reveal key={pack.id} delay={i * 50}>
+              <Reveal key={pack.id} index={i}>
                 <PackCard pack={pack} />
               </Reveal>
             ))}

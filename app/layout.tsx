@@ -10,6 +10,8 @@ import { FavoritesProvider } from '@/components/FavoritesProvider'
 import { Logo } from '@/components/brand/Logo'
 import { EmailCapture } from '@/components/EmailCapture'
 import { MobileTabBar } from '@/components/MobileTabBar'
+import { NavLink } from '@/components/NavLink'
+import { RouteTransition } from '@/components/RouteTransition'
 import './globals.css'
 
 // Inter — the brand face. Drives the wordmark, headlines, and body so the
@@ -69,18 +71,18 @@ async function Header() {
             mobile header stays calm (wordmark + account). They reappear here at
             lg+, where the bottom bar is hidden — desktop nav is unchanged. */}
         <nav className="flex min-w-0 items-center gap-0.5 sm:gap-2">
-          <Link
+          <NavLink
             href="/browse"
             className="hidden rounded-sm px-2.5 py-2 text-sm text-shelf-text-secondary transition-colors hover:text-shelf-text-primary sm:px-3 lg:inline-flex"
           >
             Browse
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             href="/packs"
             className="hidden rounded-sm px-2.5 py-2 text-sm text-shelf-text-secondary transition-colors hover:text-shelf-text-primary sm:px-3 lg:inline-flex"
           >
             Packs
-          </Link>
+          </NavLink>
           <AdminNav />
           <AuthButton />
           <Link href="/connect" className="btn btn-primary ml-1 hidden lg:inline-flex">
@@ -131,6 +133,9 @@ function Footer() {
             <Link href="/skill-media-guide" className="text-shelf-text-secondary transition-colors hover:text-shelf-text-primary">
               Media guide
             </Link>
+            <Link href="/motion" className="text-shelf-text-secondary transition-colors hover:text-shelf-text-primary">
+              Motion system
+            </Link>
             <Link href="/privacy" className="text-shelf-text-secondary transition-colors hover:text-shelf-text-primary">
               Privacy
             </Link>
@@ -176,7 +181,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <FavoritesProvider>
           <div className="flex min-h-dvh flex-col">
             <Header />
-            <main className="flex-1">{children}</main>
+            <main className="flex-1">
+              <RouteTransition>{children}</RouteTransition>
+            </main>
             <Footer />
           </div>
           <MobileTabBar />

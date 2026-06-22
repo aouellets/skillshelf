@@ -83,8 +83,13 @@
     border: 1px solid transparent;
     cursor: pointer;
     white-space: nowrap;
-    transition: background-color 0.15s ease, border-color 0.15s ease,
-      color 0.15s ease, transform 0.08s ease, box-shadow 0.15s ease;
+    /* Color/shadow shift on --dur-fast; transform settles on --ease-overshoot so
+       a press releases with a sprung pop rather than a dead snap. */
+    transition: background-color var(--dur-fast) var(--ease-standard),
+      border-color var(--dur-fast) var(--ease-standard),
+      color var(--dur-fast) var(--ease-standard),
+      transform var(--dur-fast) var(--ease-overshoot),
+      box-shadow var(--dur-fast) var(--ease-standard);
   }
 
   .btn:active {
@@ -98,10 +103,17 @@
     font-weight: 600;
   }
 
+  /* Restrained lift (1px) + accent glow on hover so the primary action reads as
+     raised and reachable. The :active squash overrides it on press. */
   .btn-primary:hover {
     background-color: var(--shelf-accent-hover);
     border-color: var(--shelf-accent-hover);
+    transform: translateY(-1px);
     box-shadow: 0 0 26px -10px rgba(238, 70, 40, 0.38);
+  }
+
+  .btn-primary:active {
+    transform: translateY(1px) scale(0.99);
   }
 
   .btn-secondary {
@@ -136,14 +148,17 @@
     border: 1px solid var(--shelf-border);
     border-radius: var(--radius-lg);
     box-shadow: var(--card-edge-light), var(--shadow-card);
-    transition: border-color 0.18s ease, background-color 0.18s ease,
-      transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+    transition: border-color var(--dur-base) var(--ease-standard),
+      background-color var(--dur-base) var(--ease-standard),
+      transform var(--dur-base) var(--ease-entrance), box-shadow var(--dur-base) var(--ease-standard);
   }
 
+  /* On lift, the lit top edge warms to a vermilion hairline — a secondary action
+     that reinforces the rise without competing with it. */
   .card-interactive:hover {
     border-color: var(--shelf-border-strong);
     transform: translateY(-4px);
-    box-shadow: var(--card-edge-light), var(--shadow-raised);
+    box-shadow: inset 0 1px 0 0 rgba(238, 70, 40, 0.35), var(--shadow-raised);
   }
 
   /* === Inputs === */
@@ -158,7 +173,8 @@
     font-size: 16px;
     width: 100%;
     outline: none;
-    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: border-color var(--dur-fast) var(--ease-standard),
+      box-shadow var(--dur-fast) var(--ease-standard);
   }
 
   .input::placeholder {
@@ -181,7 +197,9 @@
     padding: 6px 14px;
     font-size: var(--text-sm);
     color: var(--shelf-text-secondary);
-    transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+    transition: border-color var(--dur-fast) var(--ease-standard),
+      color var(--dur-fast) var(--ease-standard),
+      background-color var(--dur-fast) var(--ease-standard);
   }
 
   .chip:hover {
@@ -319,7 +337,7 @@
     transparent 60%
   );
   opacity: 0;
-  transition: opacity 0.45s ease;
+  transition: opacity var(--dur-slow) var(--ease-standard);
   pointer-events: none;
 }
 .spotlight[data-active='true']::before {
@@ -342,7 +360,7 @@
   width: max-content;
   /* Duration scales with the partner roster so the per-logo glide stays calm as
      the band grows (track holds two copies and loops at -50%). ~19 partners. */
-  animation: marqueeScroll 90s linear infinite;
+  animation: marqueeScroll 90s var(--ease-linear) infinite;
 }
 .marquee:hover .marquee-track {
   animation-play-state: paused;
@@ -366,11 +384,15 @@
   position: relative;
   display: inline-grid;
   overflow: hidden;
-  height: 1.15em;
+  height: 1.08em;
   vertical-align: bottom;
   color: var(--shelf-accent);
-  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 17%, #000 83%, transparent 100%);
-  mask-image: linear-gradient(180deg, transparent 0, #000 17%, #000 83%, transparent 100%);
+  /* Fade ONLY the top edge: the roll moves up, so the outgoing word exits
+     through the top — this dissolves it instead of leaving a hard sliver above
+     the current word. The fade ends (16%) sit above the cap line, so the
+     current word stays fully opaque and on the same baseline as the headline. */
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 16%, #000 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 16%, #000 100%);
 }
 .word-rotator-sizer {
   visibility: hidden;
@@ -387,10 +409,8 @@
   transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .word-rotator-item {
-  height: 1.15em;
-  display: flex;
-  align-items: center;
-  line-height: 1;
+  height: 1.08em;
+  line-height: 1.08em;
   white-space: nowrap;
 }
 
@@ -407,7 +427,7 @@
     transparent
   );
   background-size: 200% 100%;
-  animation: glowSweep 7s linear infinite;
+  animation: glowSweep 7s var(--ease-linear) infinite;
   opacity: 0.5;
 }
 @keyframes glowSweep {
@@ -422,8 +442,10 @@
 /* Magnetic CTA easing — the rAF in components/MagneticCTA writes transform; this
    just smooths the return-to-rest so release feels sprung, not snapped. */
 .magnetic {
-  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease,
-    box-shadow 0.15s ease, transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: background-color var(--dur-fast) var(--ease-standard),
+    border-color var(--dur-fast) var(--ease-standard),
+    color var(--dur-fast) var(--ease-standard), box-shadow var(--dur-fast) var(--ease-standard),
+    transform var(--dur-slow) var(--ease-entrance);
 }
 .magnetic:active {
   transform: translateY(1px) scale(0.99);
@@ -455,8 +477,8 @@
 .reveal {
   opacity: 0;
   transform: translateY(16px);
-  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity var(--dur-deliberate) var(--ease-entrance),
+    transform var(--dur-deliberate) var(--ease-entrance);
   will-change: opacity, transform;
 }
 
@@ -468,7 +490,7 @@
 /* Hero load-in */
 @media (prefers-reduced-motion: no-preference) {
   .fade-up {
-    animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation: fadeUp var(--dur-deliberate) var(--ease-entrance) both;
   }
 }
 
@@ -536,11 +558,11 @@
 }
 
 .demo-result {
-  animation: demoFadeUp 0.34s ease-out both;
+  animation: demoFadeUp var(--dur-slow) var(--ease-entrance) both;
 }
 
 .demo-installed {
-  animation: demoConfirm 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation: demoConfirm var(--dur-slow) var(--ease-overshoot) both;
 }
 
 @keyframes demoCaretBlink {
@@ -568,7 +590,69 @@
   100% { opacity: 1; transform: scale(1); }
 }
 
+/* === Route transition — the main content rises and fades in on navigation.
+   components/RouteTransition.tsx re-keys this element on each pathname change so
+   the keyframe replays. Transform/opacity only (no layout shift); the global
+   reduced-motion net below collapses it to an instant cut. */
+.route-transition {
+  animation: routeIn var(--dur-slow) var(--ease-entrance) both;
+}
+@keyframes routeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* === Stagger — a child cascades in on a per-index delay so a grid/list arrives
+   in sequence, not a flash. Callers set --stagger-index per item (capped so big
+   grids never feel sluggish); the delay multiplies the token step. Layers onto
+   .reveal (transition) or .fade-up (animation) — both delays are set. */
+.stagger {
+  animation-delay: calc(var(--stagger-index, 0) * var(--stagger-step));
+  transition-delay: calc(var(--stagger-index, 0) * var(--stagger-step));
+}
+
+/* === Nav link — a vermilion underline wipes out from the center on hover and
+   stays for the active route. --ease-move (both ends anchored) reads as a
+   controlled wipe, not a snap. data-active is set by components/NavLink.tsx. */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 0.3rem;
+  height: 1.5px;
+  border-radius: var(--radius-full);
+  background: var(--shelf-accent);
+  transition: left var(--dur-fast) var(--ease-move), right var(--dur-fast) var(--ease-move);
+}
+.nav-link:hover::after,
+.nav-link[data-active='true']::after {
+  left: 0.625rem;
+  right: 0.625rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  /* Global safety net: any animation/transition not explicitly handled below is
+     collapsed to a near-instant cut, so NEW motion is tamed automatically rather
+     than relying on this list staying exhaustive. */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
   html {
     scroll-behavior: auto;
   }
@@ -602,4 +686,32 @@
   .magnetic {
     transform: none !important;
   }
+}
+
+/* === Motion showcase (/motion) — visualizers for the token system. Each loops
+   so the page is alive; the global reduced-motion net above stops them all.
+   Per-instance easing/duration come in as --demo-ease / --demo-dur inline. */
+.motion-dot {
+  animation: showcaseTravel 1.5s var(--demo-ease, var(--ease-entrance)) infinite;
+}
+@keyframes showcaseTravel {
+  0% { left: 0; }
+  70%, 100% { left: calc(100% - 0.875rem); }
+}
+.motion-bar {
+  transform-origin: left center;
+  animation: showcaseFill var(--demo-dur, var(--dur-base)) var(--ease-entrance) infinite alternate;
+}
+@keyframes showcaseFill {
+  from { transform: scaleX(0.04); }
+  to { transform: scaleX(1); }
+}
+.motion-stagger-item {
+  animation: showcaseStagger 2.6s var(--ease-entrance) infinite both;
+  animation-delay: calc(var(--stagger-index, 0) * var(--stagger-step));
+}
+@keyframes showcaseStagger {
+  0% { opacity: 0; transform: translateY(14px) scale(0.96); }
+  24%, 78% { opacity: 1; transform: none; }
+  100% { opacity: 0; transform: translateY(14px) scale(0.96); }
 }

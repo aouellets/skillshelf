@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { PackCard } from '@/components/PackCard'
+import { Reveal } from '@/components/Reveal'
 import { getPacks, getPacksBySlugs } from '@/lib/packs'
 import { PACK_DEFINITIONS } from '@/lib/pack-definitions'
 import { PARTNER_STRIP, isPartner } from '@/lib/partners'
@@ -89,8 +90,10 @@ export default async function PacksPage() {
             </div>
           </div>
           <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-            {officialPacks.map((pack) => (
-              <PackCard key={pack.id} pack={pack} />
+            {officialPacks.map((pack, i) => (
+              <Reveal key={pack.id} index={i} className="h-full">
+                <PackCard pack={pack} />
+              </Reveal>
             ))}
           </div>
         </section>
@@ -114,8 +117,10 @@ export default async function PacksPage() {
             </h2>
           )}
           <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-            {restPacks.map((pack) => (
-              <PackCard key={pack.id} pack={pack} />
+            {restPacks.map((pack, i) => (
+              <Reveal key={pack.id} index={i} className="h-full">
+                <PackCard pack={pack} />
+              </Reveal>
             ))}
           </div>
         </section>

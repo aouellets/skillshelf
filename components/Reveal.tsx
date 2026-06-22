@@ -9,19 +9,30 @@ import { useEffect, useRef, useState, type ReactNode } from 'react'
  * so content is never trapped hidden (the .reveal class also collapses to
  * visible under prefers-reduced-motion).
  */
+// Stagger delay is capped so a large grid never accrues a sluggish cumulative
+// wait — items past the cap all arrive together on the final step.
+const STAGGER_STEP_MS = 32
+const STAGGER_CAP = 8
+
 export function Reveal({
   children,
   delay = 0,
+  index,
   as: Tag = 'div',
   className = '',
 }: {
   children: ReactNode
   delay?: number
+  /** Position in a list/grid — cascades this item in on a capped per-index
+   *  delay (delay + index*step). Omit for a standalone reveal. */
+  index?: number
   as?: 'div' | 'section' | 'li' | 'header'
   className?: string
 }) {
   const ref = useRef<HTMLElement | null>(null)
   const [shown, setShown] = useState(false)
+  const totalDelay =
+    delay + (index != null ? Math.min(index, STAGGER_CAP) * STAGGER_STEP_MS : 0)
 
   useEffect(() => {
     const el = ref.current
@@ -55,7 +66,7 @@ export function Reveal({
       ref={ref as React.Ref<HTMLDivElement>}
       className={`reveal ${className}`}
       data-shown={shown}
-      style={delay ? { transitionDelay: `${delay}ms` } : undefined}
+      style={totalDelay ? { transitionDelay: `${totalDelay}ms` } : undefined}
     >
       {children}
     </Component>

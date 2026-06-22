@@ -115,4 +115,38 @@
     0 0 52px -28px rgba(238, 70, 40, 0.16);
   --shadow-modal: 0 24px 70px rgba(0, 0, 0, 0.65);
   --shadow-glow: 0 0 0 1px var(--shelf-accent-border), 0 0 40px -18px rgba(238, 70, 40, 0.2);
+
+  /* --- Motion (the single source of truth for timing & feel) ---
+     Promotes motion to a first-class brand layer alongside color and shape.
+     Philosophy: motion must do a job (direct attention, show cause/effect,
+     express hierarchy, soften change) — never decorate. Small/near elements
+     move fast; large/far elements move slower. Nothing interactive exceeds
+     ~560ms. Full language: docs/motion.md.
+
+     DURATION SCALE — pick by element size & travel, not by taste. */
+  --dur-instant: 0ms; /* discrete state change, no tween */
+  --dur-fast: 120ms; /* hovers, color shifts, toggles, chips, nav */
+  --dur-base: 200ms; /* default — card lift, most transitions */
+  --dur-slow: 320ms; /* modals, sheets, route transition */
+  --dur-deliberate: 560ms; /* scroll reveals, first-run hero */
+
+  /* EASING SET — match the curve to what the element is doing.
+     entrance: decelerate into place (things appearing, lifting, revealing) —
+       this is the brand's SIGNATURE curve, a confident spring-like settle.
+     exit:     accelerate away (things leaving). Run exits ~0.75x the entrance.
+     move:     ease both ends (something already on screen going A→B).
+     overshoot: a touch past target and back (pops, confirmations — alive).
+     standard: neutral micro fades where a named curve is overkill.
+     linear:   ONLY for perpetual loops (marquee, glow sweep). */
+  --ease-entrance: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --ease-move: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-overshoot: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-standard: ease;
+  --ease-linear: linear;
+
+  /* STAGGER — cascade step for lists/grids so items arrive in sequence, not a
+     flash. Kept in the 20–40ms band; callers cap the multiplier so big grids
+     never accrue a sluggish cumulative delay. */
+  --stagger-step: 32ms;
 }

@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { SkillCard } from '@/components/SkillCard'
+import { Reveal } from '@/components/Reveal'
 import { SearchBar } from '@/components/SearchBar'
 import { CategoryFilter } from '@/components/CategoryFilter'
 import type { Skill, SkillCategory } from '@/lib/types'
@@ -150,8 +151,10 @@ export function BrowseClient({
         ) : (
           <>
             <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
-              {skills.map((skill) => (
-                <SkillCard key={skill.id} skill={skill} />
+              {skills.map((skill, i) => (
+                <Reveal key={skill.id} index={i} className="h-full">
+                  <SkillCard skill={skill} />
+                </Reveal>
               ))}
             </div>
 
