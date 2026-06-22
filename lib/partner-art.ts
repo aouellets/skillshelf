@@ -31,6 +31,17 @@ function hashSeed(s: string): number {
 }
 
 /**
+ * Optical-centering nudge (in viewBox units) for marks whose visual weight isn't
+ * at their bounding-box center, so they read as centered against the circular
+ * glow/orbit rings. Positive `y` shifts the mark *up*. Vercel's upward triangle
+ * is bounding-box-centered but bottom-heavy (centroid ~3.5u below center), so it
+ * looks like it droops without this lift.
+ */
+const OPTICAL_NUDGE: Record<string, { x?: number; y?: number }> = {
+  Vercel: { y: 3.46 },
+}
+
+/**
  * The hero brand mark, centered in a 24-unit box scaled into the art. Microsoft
  * is special-cased into its four real brand colors; every other mark renders in
  * its single brand color.
@@ -68,6 +79,14 @@ export function partnerThumbnailSvg(author: string | undefined, category?: strin
   const logoSize = 58
   const half = logoSize / 2
   const logo = logoMarkup(author!, mark.viewBox, mark.path, color)
+
+  // Optical nudge, converted from viewBox units to art units via the mark scale.
+  const vb = mark.viewBox.split(/\s+/).map(Number)
+  const vbSize = vb[2] || 24
+  const scale = logoSize / vbSize
+  const nudge = OPTICAL_NUDGE[author!] ?? {}
+  const logoX = cx - half + (nudge.x ?? 0) * scale
+  const logoY = cy - half - (nudge.y ?? 0) * scale
 
   const uid = `p${hashSeed(`${author}${catKey}`).toString(36)}`
 
@@ -110,7 +129,7 @@ export function partnerThumbnailSvg(author: string | undefined, category?: strin
   </g>
 
   <!-- hero brand mark -->
-  <svg x="${cx - half}" y="${cy - half}" width="${logoSize}" height="${logoSize}" viewBox="${mark.viewBox}">${logo}</svg>
+  <svg x="${logoX}" y="${logoY}" width="${logoSize}" height="${logoSize}" viewBox="${mark.viewBox}">${logo}</svg>
 
   <rect width="320" height="180" fill="url(#pscrim-${uid})"/>
   <text x="160" y="138" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="3" fill="${color}" opacity="0.78">${catLabel}</text>
