@@ -51,6 +51,10 @@ const PARTNERS: Record<string, Partner> = {
   Cesium: { label: 'Cesium', logo: 'cesium', url: 'https://github.com/CesiumGS/cesiumjs-skills', color: '#48b0cc', tint: '#0c2027', logoColor: '#6caddf' },
   Medusa: { label: 'Medusa', logo: 'medusa', url: 'https://github.com/medusajs/medusa-agent-skills', color: '#9d7bff', tint: '#15122b', logoColor: '#ffffff' },
   Apify: { label: 'Apify', logo: 'apify', url: 'https://github.com/apify/agent-skills', color: '#13b46a', tint: '#0a2014', logoColor: '#ff9012' },
+  // HYROX wordmark shown under the operator's HYROX affiliate license. Matched on
+  // the catalog author 'HYROX Performance' used by the hyrox-claude-skills seed.
+  // Black + yellow is the HYROX house look; the white wordmark reads on the dark UI.
+  'HYROX Performance': { label: 'HYROX Performance', logo: 'hyrox', url: 'https://github.com/aouellets/hyrox-claude-skills', color: '#ffd400', tint: '#231f00', logoColor: '#ffffff' },
 }
 
 export interface ResolvedPartner extends Partner {
