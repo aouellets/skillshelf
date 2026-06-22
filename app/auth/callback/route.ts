@@ -42,6 +42,15 @@ export async function GET(request: NextRequest) {
   const tokenHash = searchParams.get('token_hash')
   const type = searchParams.get('type') as EmailOtpType | null
 
+  // The provider can bounce back with an error (e.g. linkIdentity hitting a
+  // GitHub identity already tied to another account). Surface it on the page the
+  // user came from (account linking) instead of dead-ending at /login.
+  const oauthError = searchParams.get('error_description') ?? searchParams.get('error')
+  if (oauthError) {
+    const dest = next !== '/' ? next : '/login'
+    return NextResponse.redirect(`${origin}${dest}?autherror=${encodeURIComponent(oauthError)}`)
+  }
+
   const supabase = await createSupabaseServerClient()
   if (!supabase) {
     return NextResponse.redirect(`${origin}/login?error=callback`)

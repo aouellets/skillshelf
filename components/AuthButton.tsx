@@ -122,6 +122,13 @@ export function AuthButton() {
             >
               Your library
             </Link>
+            <Link
+              href="/account"
+              role="menuitem"
+              className="block px-3 py-2 text-sm text-shelf-text-secondary transition-colors hover:bg-shelf-elevated hover:text-shelf-text-primary"
+            >
+              Account
+            </Link>
             <button
               type="button"
               onClick={signOut}

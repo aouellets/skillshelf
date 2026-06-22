@@ -70,10 +70,18 @@ To stop *creating* fragments in the first place:
   (Dashboard → Authentication → settings: link identities with the same email).
   Then GitHub-login and email-login that share an email resolve to one
   `auth.users` automatically — no merge needed for the common case.
-- **Self-serve "Connected logins"** (proposed, not yet built): a signed-in user
-  links another provider via `supabase.auth.linkIdentity()`, attaching that login
-  to their existing `auth.users.id`. Future logins via that provider hit the same
-  library. Already-separate accounts are reconciled with `merge_user_library`.
+- **Self-serve "Connected logins"** (BUILT — `/account`,
+  `components/account/ConnectedLogins.tsx`): a signed-in user links another
+  provider via `supabase.auth.linkIdentity()` (round-trips through
+  `/auth/callback`), attaching that login to their existing `auth.users.id` so
+  future logins via that provider hit the same library; unlink is supported
+  (never the last identity). **Requires "Allow manual linking" enabled in
+  Supabase Auth** — if off, `linkIdentity` errors and the page says so.
+- **Already-separate accounts** (the same person created two `auth.users` with
+  different emails before linking) can't be auto-linked — `linkIdentity` rejects
+  an identity already owned by another user. Reconcile with
+  `merge_user_library('auth:<old>', 'auth:<keep>')` (admin/server). A guided
+  self-serve cross-account merge is a possible follow-up.
 
 ## Operational checklist
 
