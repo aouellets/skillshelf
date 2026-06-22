@@ -1,29 +1,39 @@
+import { Suspense } from 'react'
 import type { Metadata } from 'next'
-import Link from 'next/link'
-import { PackCard } from '@/components/PackCard'
-import { Reveal } from '@/components/Reveal'
-import { getPacks, getPacksBySlugs } from '@/lib/packs'
+import { PacksClient } from './PacksClient'
+import { getPacksBySlugs } from '@/lib/packs'
 import { PACK_DEFINITIONS } from '@/lib/pack-definitions'
 import { PARTNER_STRIP, isPartner } from '@/lib/partners'
+import { isPackCategory } from '@/lib/categories'
+import type { PackCategory } from '@/lib/types'
 
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Skill Packs',
   description:
-    'Curated bundles of Claude skills. Install a themed set in one command. Solo Founder Stack, Engineering Workflow, Content Marketing Engine, and more.',
+    'Curated bundles of Claude skills. Search and filter themed sets, then install in one command. Solo Founder Stack, Engineering Workflow, Content Marketing Engine, and more.',
   openGraph: {
     title: 'Skill Packs · Skill Me',
-    description: 'Install a full themed skill bundle in one Claude command.',
+    description: 'Search, filter, and install a full themed skill bundle in one Claude command.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Skill Packs · Skill Me',
-    description: 'Install a full themed skill bundle in one Claude command.',
+    description: 'Search, filter, and install a full themed skill bundle in one Claude command.',
   },
 }
 
-export default async function PacksPage() {
+export default async function PacksPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ category?: string; q?: string }>
+}) {
+  const params = await searchParams
+  const initialQuery = params.q ?? ''
+  const initialCategory: PackCategory | 'all' =
+    params.category && isPackCategory(params.category) ? params.category : 'all'
+
   // Every pack authored by a known partner belongs in the official showcase —
   // not just the curated marquee subset. Lead with the marquee order (headline
   // brands first), then append any remaining partner packs.
@@ -35,96 +45,15 @@ export default async function PacksPage() {
     ),
   ]
 
-  const [{ packs, total }, officialPacks] = await Promise.all([
-    getPacks({ limit: 96 }),
-    getPacksBySlugs(officialPackSlugs),
-  ])
-
-  // Official packs get their own showcase up top — drop them from the main grid
-  // so they aren't listed twice.
-  const officialSlugs = new Set(officialPacks.map((p) => p.slug))
-  const restPacks = packs.filter((p) => !officialSlugs.has(p.slug))
+  const officialPacks = await getPacksBySlugs(officialPackSlugs)
 
   return (
-    <div className="mx-auto max-w-content px-4 py-12 sm:px-6 lg:px-8">
-      <div className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <span className="eyebrow">Curated bundles</span>
-          <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight text-shelf-text-primary">
-            Skill packs
-          </h1>
-          <p className="mt-3 max-w-xl text-shelf-text-secondary">
-            {total > 0
-              ? `${total} pack${total !== 1 ? 's' : ''}. Install a themed set of skills in one command.`
-              : 'Themed bundles of curated Claude skills, installed together.'}
-          </p>
-        </div>
-        <Link href="/browse" className="text-sm text-shelf-text-secondary transition-colors hover:text-accent-hover">
-          Browse individual skills →
-        </Link>
-      </div>
-
-      {/* Install hint */}
-      <div className="mt-4 card flex flex-col items-start gap-3 p-4 sm:flex-row sm:items-center sm:gap-4">
-        <div className="font-mono text-xs text-shelf-text-tertiary">
-          Install a full pack in Claude: say{' '}
-          <span className="text-accent">&quot;install the [Pack Name] pack&quot;</span>
-        </div>
-        <Link href="/connect" className="btn btn-primary flex-shrink-0 sm:ml-auto">
-          Connect to Claude
-        </Link>
-      </div>
-
-      {/* Official partner packs — straight from the source */}
-      {officialPacks.length > 0 && (
-        <section className="mt-12">
-          <div className="flex items-end justify-between gap-4">
-            <div className="max-w-xl">
-              <h2 className="font-display text-xl font-semibold text-shelf-text-primary">
-                Straight from the source
-              </h2>
-              <p className="mt-2 text-sm leading-relaxed text-shelf-text-secondary">
-                Official packs published by the teams who build the tools — Anthropic, OpenAI,
-                Google, Vercel, Microsoft, Stripe, Supabase, Sentry, HashiCorp, and more.
-              </p>
-            </div>
-          </div>
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-            {officialPacks.map((pack, i) => (
-              <Reveal key={pack.id} index={i} className="h-full">
-                <PackCard pack={pack} />
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* All other packs */}
-      {restPacks.length === 0 ? (
-        officialPacks.length === 0 && (
-          <div className="card mt-10 p-10 text-center">
-            <p className="text-shelf-text-secondary">No packs yet. Check back soon.</p>
-            <Link href="/browse" className="btn btn-secondary mt-4">
-              Browse individual skills →
-            </Link>
-          </div>
-        )
-      ) : (
-        <section className="mt-12">
-          {officialPacks.length > 0 && (
-            <h2 className="font-display text-xl font-semibold text-shelf-text-primary">
-              All packs
-            </h2>
-          )}
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-            {restPacks.map((pack, i) => (
-              <Reveal key={pack.id} index={i} className="h-full">
-                <PackCard pack={pack} />
-              </Reveal>
-            ))}
-          </div>
-        </section>
-      )}
-    </div>
+    <Suspense fallback={null}>
+      <PacksClient
+        officialPacks={officialPacks}
+        initialQuery={initialQuery}
+        initialCategory={initialCategory}
+      />
+    </Suspense>
   )
 }
