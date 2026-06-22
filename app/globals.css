@@ -101,7 +101,7 @@
   .btn-primary:hover {
     background-color: var(--shelf-accent-hover);
     border-color: var(--shelf-accent-hover);
-    box-shadow: 0 0 30px -8px rgba(238, 70, 40, 0.5);
+    box-shadow: 0 0 26px -10px rgba(238, 70, 40, 0.38);
   }
 
   .btn-secondary {
@@ -243,8 +243,9 @@
     }
   }
 
-  /* === Edge-light frame — the signature lime gradient halo around the hero
-     showcase in the reference UI. Pure decoration, pointer-events off. === */
+  /* === Edge-light frame — a warm gradient hairline along the hero showcase
+     edge. Pure decoration, pointer-events off. Toned for vermilion so it reads
+     as a lit edge, not a glowing red border. === */
   .edge-light {
     position: relative;
   }
@@ -257,10 +258,10 @@
     padding: 1px;
     background: linear-gradient(
       135deg,
-      rgba(238, 70, 40, 0.55),
-      rgba(238, 70, 40, 0.04) 30%,
+      rgba(238, 70, 40, 0.38),
+      rgba(238, 70, 40, 0.03) 30%,
       transparent 55%,
-      rgba(238, 70, 40, 0.18)
+      rgba(238, 70, 40, 0.12)
     );
     -webkit-mask: linear-gradient(#000 0 0) content-box,
       linear-gradient(#000 0 0);
@@ -271,7 +272,9 @@
   }
 }
 
-/* === Ambient lime field behind the hero (focal hierarchy, not neon spam) === */
+/* === Ambient warm field behind the hero — a faint ember, not a neon smear.
+   Vermilion is a hot, saturated accent; kept at low opacity over the void it
+   reads as warmth rather than a brown bruise (focal hierarchy, not glow soup). */
 .aurora {
   position: absolute;
   inset: -20% -10% auto -10%;
@@ -279,9 +282,9 @@
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(60% 60% at 72% 18%, rgba(238, 70, 40, 0.14), transparent 70%),
-    radial-gradient(50% 50% at 18% 0%, rgba(194, 58, 32, 0.05), transparent 70%);
-  filter: blur(8px);
+    radial-gradient(52% 52% at 72% 14%, rgba(238, 70, 40, 0.07), transparent 72%),
+    radial-gradient(44% 44% at 16% 0%, rgba(238, 70, 40, 0.025), transparent 72%);
+  filter: blur(12px);
 }
 
 /* Subtle dotted grid texture for section backdrops */
@@ -308,7 +311,7 @@
   border-radius: inherit;
   background: radial-gradient(
     340px circle at var(--mx, 50%) var(--my, -20%),
-    rgba(238, 70, 40, 0.1),
+    rgba(238, 70, 40, 0.07),
     transparent 60%
   );
   opacity: 0;
