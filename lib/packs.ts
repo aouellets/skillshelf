@@ -51,42 +51,48 @@ export async function getPacks(opts: PackQuery = {}): Promise<PackPage> {
 
   const { category, featured, limit = 12, offset = 0, query } = opts
 
-  // One builder per FTS expression so we can re-run with a looser query on a miss.
-  const query_ = (ts: string) => {
-    let builder = supabase
-      .from('packs')
-      .select(`
-        *,
-        pack_skills(count)
-      `, { count: 'exact' })
-    if (category) builder = builder.eq('category', category)
-    if (featured) builder = builder.eq('featured', true)
-    // Full-text match against the `fts` tsvector (name+tagline+tags+description,
-    // English-stemmed). Prefix query — see lib/search.ts toTsQuery().
-    if (ts) builder = builder.textSearch('fts', ts, { config: 'english' })
-    return builder.order('install_count', { ascending: false }).range(offset, offset + limit - 1)
+  // Query path: relevance-ranked FTS via the search_packs RPC (ranking can't go
+  // through PostgREST). OR for recall, ts_rank_cd for order. See getSkills / 0017.
+  const ts = toTsQuery(query, '|')
+  if (ts) {
+    const { data, error } = await supabase.rpc('search_packs', {
+      q: ts,
+      p_category: category ?? null,
+      p_featured: featured ?? null,
+      p_limit: limit,
+      p_offset: offset,
+    })
+    if (error) {
+      console.error('[getPacks] search_packs RPC failed:', error.message)
+      return applyFallbackPackQuery(opts)
+    }
+    const rows = (data ?? []) as { pack: Pack; skill_count: number; total_count: number }[]
+    const packs = rows.map((r) => ({ ...r.pack, skill_count: Number(r.skill_count) })) as Pack[]
+    return { packs, total: rows.length ? Number(rows[0].total_count) : 0 }
   }
 
-  let res = await query_(toTsQuery(query))
-  if (res.error) {
-    console.error('[getPacks] error:', res.error.message)
+  // No query: browse ordered by install volume.
+  let builder = supabase
+    .from('packs')
+    .select(`
+      *,
+      pack_skills(count)
+    `, { count: 'exact' })
+  if (category) builder = builder.eq('category', category)
+  if (featured) builder = builder.eq('featured', true)
+  builder = builder.order('install_count', { ascending: false }).range(offset, offset + limit - 1)
+
+  const { data, error, count } = await builder
+  if (error) {
+    console.error('[getPacks] error:', error.message)
     return applyFallbackPackQuery(opts)
   }
-
-  // Recall fallback: retry OR-combined when the strict AND query misses. See getSkills.
-  if ((!res.data || res.data.length === 0) && searchTerms(query).length > 1) {
-    const or = await query_(toTsQuery(query, '|'))
-    if (!or.error && or.data && or.data.length > 0) res = or
-  }
-
-  const { data, count } = res
   const packs = (data ?? []).map((p: Record<string, unknown>) => ({
     ...p,
     skill_count: Array.isArray(p.pack_skills)
       ? (p.pack_skills[0] as { count: number })?.count ?? 0
       : 0,
   })) as Pack[]
-
   return { packs, total: count ?? packs.length }
 }
 

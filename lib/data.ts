@@ -114,52 +114,58 @@ export async function getSkills(opts: SkillQuery = {}): Promise<SkillPage> {
   if (!supabase) return applyFallbackQuery(opts)
 
   const { query, category, sort = 'trending', limit = 12, offset = 0, featured } = opts
-  const { column, ascending } = orderColumn(sort)
 
-  // One builder per FTS expression so we can re-run with a looser query on a miss.
-  const query_ = (ts: string) => {
-    let builder = supabase.from('skills').select('*', { count: 'exact' })
-    if (featured) builder = builder.eq('featured', true)
-    if (category) builder = builder.eq('category', category)
-    // Full-text match against the `fts` tsvector (name+tags+category+description,
-    // weighted, English-stemmed). Prefix query so as-you-type searches work.
-    // See lib/search.ts toTsQuery().
-    if (ts) builder = builder.textSearch('fts', ts, { config: 'english' })
-    // Featured shelves order by the curator-set rank first (nulls last), then by
-    // the requested sort column — so you can hand-pin the top of "Featured".
-    if (featured) {
-      builder = builder.order('featured_rank', { ascending: true, nullsFirst: false })
+  // Query path: relevance-ranked full-text search via the search_skills RPC.
+  // PostgREST can't ORDER BY ts_rank_cd, so ranking lives in the DB (0017). The
+  // OR-combined prefix query gives recall (one stray word can't zero out the
+  // search); ts_rank_cd orders by match quality — more/closer terms and name
+  // matches first — with install_count only a tiebreak. See lib/search.ts.
+  const ts = toTsQuery(query, '|')
+  if (ts) {
+    const { data, error } = await supabase.rpc('search_skills', {
+      q: ts,
+      p_category: category ?? null,
+      p_featured: featured ?? null,
+      p_limit: limit,
+      p_offset: offset,
+    })
+    if (error) {
+      console.error('[getSkills] search_skills RPC failed:', error.message)
+      return applyFallbackQuery(opts)
     }
-    return builder.order(column, { ascending }).range(offset, offset + limit - 1)
+    const rows = (data ?? []) as { skill: Skill; total_count: number }[]
+    return {
+      skills: rows.map((r) => r.skill),
+      total: rows.length ? Number(rows[0].total_count) : 0,
+    }
   }
 
-  let res = await query_(toTsQuery(query))
-  if (res.error) {
-    console.error('[getSkills] Supabase query failed — code:', res.error.code, 'message:', res.error.message)
+  // No query: browse/grid ordered by the requested popularity sort. Featured
+  // shelves pin the curator-set rank first (nulls last), then the sort column.
+  const { column, ascending } = orderColumn(sort)
+  let builder = supabase.from('skills').select('*', { count: 'exact' })
+  if (featured) builder = builder.eq('featured', true)
+  if (category) builder = builder.eq('category', category)
+  if (featured) {
+    builder = builder.order('featured_rank', { ascending: true, nullsFirst: false })
+  }
+  builder = builder.order(column, { ascending }).range(offset, offset + limit - 1)
+
+  const { data, error, count } = await builder
+  if (error) {
+    console.error('[getSkills] Supabase query failed — code:', error.code, 'message:', error.message)
     return applyFallbackQuery(opts)
   }
-
-  // Recall fallback: the strict AND query above requires every word, so one
-  // stray/imprecise term ("pony tail hairstyle") zeroes out an otherwise good
-  // match. Retry the same terms OR-combined before giving up. Only meaningful
-  // with >1 term (a single term is identical under AND and OR).
-  if ((!res.data || res.data.length === 0) && searchTerms(query).length > 1) {
-    const or = await query_(toTsQuery(query, '|'))
-    if (!or.error && or.data && or.data.length > 0) res = or
-  }
-
-  const { data, count } = res
   if (!data || data.length === 0) {
     // Only treat an empty result as a failure for the unfiltered base catalog
-    // (table empty / RLS misconfigured). A genuinely empty search or category
-    // result should render an empty state, not silently show seed data.
-    if (!query?.trim() && !category && !featured) {
+    // (table empty / RLS misconfigured) — fall back to seed data there. A real
+    // empty category result should render an empty state.
+    if (!category && !featured) {
       console.warn('[getSkills] Base query returned zero rows — falling back to seed data')
       return applyFallbackQuery(opts)
     }
     return { skills: [], total: count ?? 0 }
   }
-
   return { skills: data as Skill[], total: count ?? data.length }
 }
 
