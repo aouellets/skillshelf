@@ -164,17 +164,74 @@ export async function POST(req: NextRequest) {
   }
 }
 
-// MCP Streamable HTTP: a GET opens the OPTIONAL server->client SSE stream. We
-// hold no session state and never push server-initiated messages, so per the
-// transport spec we MUST answer this GET with either `text/event-stream` or
-// `405 Method Not Allowed`. Returning a 200 non-SSE body (as we used to) makes
-// strict clients — including the claude.ai connector, which opens this stream
-// right after OAuth — fail with "returned an error when connecting". 405 tells
-// the client to stay on POST.
-export async function GET() {
-  return new Response('Skill Me MCP endpoint. Use POST with JSON-RPC 2.0. No SSE stream offered.', {
-    status: 405,
-    headers: { ...CORS_HEADERS, 'Content-Type': 'text/plain', Allow: 'POST, OPTIONS' },
+// MCP Streamable HTTP: a GET opens the server->client SSE stream. The claude.ai
+// connector opens this right after initialize and treats it as the session's
+// liveness channel. We hold no session state and never push server-initiated
+// messages, so we *could* answer 405 ("no stream offered") — but in practice the
+// connector then has no liveness channel, retries this GET every few seconds,
+// and can declare the session "terminated", failing in-flight tool calls. So we
+// DO offer the stream: open it, keep it alive with periodic SSE comments for a
+// bounded window, then close cleanly so the serverless function recycles (the
+// connector simply reconnects). No JSON-RPC is framed here.
+//
+// IMPORTANT: only ever answer with an event-stream (when the client accepts one)
+// or 405. A 200 *non-SSE* body makes strict clients reject the connection.
+const SSE_STREAM_TTL_MS = 30_000
+const SSE_PING_MS = 10_000
+
+export async function GET(req: NextRequest) {
+  const acceptsSse = (req.headers.get('accept') ?? '').includes('text/event-stream')
+  if (!acceptsSse) {
+    // Not an SSE consumer (a browser, a health check) — keep the plain 405.
+    return new Response('Skill Me MCP endpoint. Use POST with JSON-RPC 2.0.', {
+      status: 405,
+      headers: { ...CORS_HEADERS, 'Content-Type': 'text/plain', Allow: 'POST, OPTIONS' },
+    })
+  }
+
+  // Echo a stable session id so the connector ties this stream to its session.
+  const resolved = getUserToken(req)
+  const sessionId = (resolved.kind === 'ok' ? resolved.token : null) ?? crypto.randomUUID()
+
+  const encoder = new TextEncoder()
+  const stream = new ReadableStream<Uint8Array>({
+    start(controller) {
+      // An initial comment establishes the stream immediately.
+      controller.enqueue(encoder.encode(': connected\n\n'))
+
+      const ping = setInterval(() => {
+        try {
+          controller.enqueue(encoder.encode(': keepalive\n\n'))
+        } catch {
+          // Controller already closed; nothing to send.
+        }
+      }, SSE_PING_MS)
+
+      const close = () => {
+        clearInterval(ping)
+        clearTimeout(ttl)
+        req.signal.removeEventListener('abort', close)
+        try {
+          controller.close()
+        } catch {
+          // Already closed.
+        }
+      }
+
+      const ttl = setTimeout(close, SSE_STREAM_TTL_MS)
+      // Stop promptly if the client hangs up before the TTL.
+      req.signal.addEventListener('abort', close)
+    },
+  })
+
+  return new Response(stream, {
+    headers: {
+      ...CORS_HEADERS,
+      'Content-Type': 'text/event-stream; charset=utf-8',
+      'Cache-Control': 'no-cache, no-transform',
+      Connection: 'keep-alive',
+      'Mcp-Session-Id': sessionId,
+    },
   })
 }
 
