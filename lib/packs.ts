@@ -51,22 +51,35 @@ export async function getPacks(opts: PackQuery = {}): Promise<PackPage> {
 
   const { category, featured, limit = 12, offset = 0, query } = opts
 
+  // Query path: relevance-ranked FTS via the search_packs RPC (ranking can't go
+  // through PostgREST). OR for recall, ts_rank_cd for order. See getSkills / 0017.
+  const ts = toTsQuery(query, '|')
+  if (ts) {
+    const { data, error } = await supabase.rpc('search_packs', {
+      q: ts,
+      p_category: category ?? null,
+      p_featured: featured ?? null,
+      p_limit: limit,
+      p_offset: offset,
+    })
+    if (error) {
+      console.error('[getPacks] search_packs RPC failed:', error.message)
+      return applyFallbackPackQuery(opts)
+    }
+    const rows = (data ?? []) as { pack: Pack; skill_count: number; total_count: number }[]
+    const packs = rows.map((r) => ({ ...r.pack, skill_count: Number(r.skill_count) })) as Pack[]
+    return { packs, total: rows.length ? Number(rows[0].total_count) : 0 }
+  }
+
+  // No query: browse ordered by install volume.
   let builder = supabase
     .from('packs')
     .select(`
       *,
       pack_skills(count)
     `, { count: 'exact' })
-
   if (category) builder = builder.eq('category', category)
   if (featured) builder = builder.eq('featured', true)
-  const ts = toTsQuery(query)
-  if (ts) {
-    // Full-text match against the `fts` tsvector (name+tagline+tags+description,
-    // English-stemmed). Prefix + AND query — see lib/search.ts toTsQuery().
-    builder = builder.textSearch('fts', ts, { config: 'english' })
-  }
-
   builder = builder.order('install_count', { ascending: false }).range(offset, offset + limit - 1)
 
   const { data, error, count } = await builder
@@ -74,14 +87,12 @@ export async function getPacks(opts: PackQuery = {}): Promise<PackPage> {
     console.error('[getPacks] error:', error.message)
     return applyFallbackPackQuery(opts)
   }
-
   const packs = (data ?? []).map((p: Record<string, unknown>) => ({
     ...p,
     skill_count: Array.isArray(p.pack_skills)
       ? (p.pack_skills[0] as { count: number })?.count ?? 0
       : 0,
   })) as Pack[]
-
   return { packs, total: count ?? packs.length }
 }
 
