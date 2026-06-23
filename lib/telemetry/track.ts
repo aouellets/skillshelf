@@ -1,4 +1,5 @@
 import 'server-only'
+import { after } from 'next/server'
 import { getServiceSupabase } from '../supabase'
 import type { TelemetryEvent } from './events'
 
@@ -87,9 +88,29 @@ export function buildRow(event: TelemetryEvent, opts: TrackOptions): TelemetryRo
 /**
  * Bulk-insert pre-built rows, idempotently (duplicate idempotency_keys are
  * dropped via the unique constraint). Time-bounded; returns the inserted count
- * and never throws. Used by the web batch ingest route.
+ * and never throws.
+ *
+ * Registers the insert with Next's `after()` so a fire-and-forget caller's work
+ * survives serverless suspension. Without this, a `void track(...)` promise is
+ * parked when the instance suspends right after the response; on the next
+ * request the event loop resumes and the (now overdue) 1.5s abort timer fires
+ * before the insert can complete — dropping the event with
+ * "AbortError: This operation was aborted". `after()` keeps the instance alive
+ * and running until the insert settles. Callers that `await` the result still
+ * get the count; `after()` is a no-op-on-throw outside a request scope
+ * (scripts/tests), where it isn't available.
  */
 export async function insertEvents(rows: TelemetryRow[]): Promise<number> {
+  const work = runInsert(rows)
+  try {
+    after(work)
+  } catch {
+    // Not in a request scope (e.g. a CLI script); plain fire-and-forget is fine.
+  }
+  return work
+}
+
+async function runInsert(rows: TelemetryRow[]): Promise<number> {
   if (rows.length === 0) return 0
   const supabase = getServiceSupabase()
   if (!supabase) return 0
