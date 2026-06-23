@@ -2,7 +2,7 @@ import 'server-only'
 import { getSupabase } from './supabase'
 import { SEED_SKILLS, type SeedSkill } from './seed-data'
 import { resolveSourceUrl } from './skill-source'
-import { sanitizeSearchTerm } from './search'
+import { searchTerms, toTsQuery } from './search'
 import type { Skill, SkillCategory } from './types'
 
 export type SortOption = 'trending' | 'newest' | 'top_rated' | 'hot'
@@ -64,14 +64,15 @@ function applyFallbackQuery(opts: SkillQuery): SkillPage {
 
   if (featured) rows = rows.filter((s) => s.featured)
   if (category) rows = rows.filter((s) => s.category === category)
-  if (query) {
-    const q = query.toLowerCase()
-    rows = rows.filter(
-      (s) =>
-        s.name.toLowerCase().includes(q) ||
-        s.description.toLowerCase().includes(q) ||
-        s.tags.some((t) => t.toLowerCase().includes(q))
-    )
+  const terms = searchTerms(query)
+  if (terms.length) {
+    // Mirror the DB's full-text behaviour: every term must appear somewhere in
+    // name / description / tags (AND across terms, OR across fields), so
+    // multi-word queries match even when the words aren't adjacent.
+    rows = rows.filter((s) => {
+      const hay = `${s.name} ${s.description} ${s.tags.join(' ')}`.toLowerCase()
+      return terms.every((t) => hay.includes(t))
+    })
   }
 
   rows.sort((a, b) => {
@@ -109,9 +110,12 @@ export async function getSkills(opts: SkillQuery = {}): Promise<SkillPage> {
 
   if (featured) builder = builder.eq('featured', true)
   if (category) builder = builder.eq('category', category)
-  const q = sanitizeSearchTerm(query)
-  if (q) {
-    builder = builder.or(`name.ilike.%${q}%,description.ilike.%${q}%`)
+  const ts = toTsQuery(query)
+  if (ts) {
+    // Full-text match against the `fts` tsvector (name+tags+category+description,
+    // weighted, English-stemmed). Prefix + AND query so multi-word and
+    // as-you-type searches both work. See lib/search.ts toTsQuery().
+    builder = builder.textSearch('fts', ts, { config: 'english' })
   }
 
   // Featured shelves order by the curator-set rank first (nulls last), then by

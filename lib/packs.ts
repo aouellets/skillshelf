@@ -1,7 +1,7 @@
 import 'server-only'
 import { getSupabase } from './supabase'
 import { PACK_DEFINITIONS } from './pack-definitions'
-import { sanitizeSearchTerm } from './search'
+import { searchTerms, toTsQuery } from './search'
 import type { Pack, PackCategory } from './types'
 
 export interface PackQuery {
@@ -56,11 +56,11 @@ export async function getPacks(opts: PackQuery = {}): Promise<PackPage> {
 
   if (category) builder = builder.eq('category', category)
   if (featured) builder = builder.eq('featured', true)
-  const q = sanitizeSearchTerm(query)
-  if (q) {
-    builder = builder.or(
-      `name.ilike.%${q}%,tagline.ilike.%${q}%,description.ilike.%${q}%`
-    )
+  const ts = toTsQuery(query)
+  if (ts) {
+    // Full-text match against the `fts` tsvector (name+tagline+tags+description,
+    // English-stemmed). Prefix + AND query — see lib/search.ts toTsQuery().
+    builder = builder.textSearch('fts', ts, { config: 'english' })
   }
 
   builder = builder.order('install_count', { ascending: false }).range(offset, offset + limit - 1)
@@ -163,14 +163,14 @@ function applyFallbackPackQuery(opts: PackQuery): PackPage {
 
   if (category) rows = rows.filter((p) => p.category === category)
   if (featured) rows = rows.filter((p) => p.featured)
-  if (query?.trim()) {
-    const q = query.trim().toLowerCase()
-    rows = rows.filter(
-      (p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.tagline.toLowerCase().includes(q) ||
-        p.tags.some((t) => t.toLowerCase().includes(q))
-    )
+  const terms = searchTerms(query)
+  if (terms.length) {
+    // Mirror the DB's full-text behaviour: every term must appear somewhere in
+    // name / tagline / tags (AND across terms, OR across fields).
+    rows = rows.filter((p) => {
+      const hay = `${p.name} ${p.tagline} ${p.tags.join(' ')}`.toLowerCase()
+      return terms.every((t) => hay.includes(t))
+    })
   }
 
   return { packs: rows.slice(offset, offset + limit), total: rows.length }
