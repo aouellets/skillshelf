@@ -6,11 +6,13 @@ import {
   CATEGORY_COLORS,
   loadBrandFonts,
   Lockup,
-  monogram,
-  readableOn,
+  Check,
+  Star,
+  truncateWords,
 } from '@/lib/og/brand'
 import { getSkills, getSkillCount, formatSkillCount } from '@/lib/data'
 import { getPacks } from '@/lib/packs'
+import { CATEGORY_MAP } from '@/lib/categories'
 import type { Skill } from '@/lib/types'
 
 export const size = OG_SIZE
@@ -18,10 +20,10 @@ export const contentType = OG_CONTENT_TYPE
 export const dynamic = 'force-dynamic'
 export const alt = 'Skill Me, the App Store for Claude Skills'
 
-const TILES = 9
+const CARDS = 3
 
-/** Round-robin across categories so the tile grid shows the full brand spectrum
- *  instead of nine cyan coding tiles. */
+/** Round-robin across categories so the featured shelf spans the brand spectrum
+ *  instead of three same-category cards. */
 function pickDiverse(skills: Skill[], n: number): Skill[] {
   const byCat = new Map<string, Skill[]>()
   const seen = new Set<string>()
@@ -49,7 +51,9 @@ export default async function Image() {
     getSkills({ sort: 'hot', limit: 30 }),
   ])
 
-  const tiles = pickDiverse([...featured.skills, ...trending.skills], TILES)
+  // Exclude the platform's own meta-listing so the shelf showcases real skills.
+  const pool = [...featured.skills, ...trending.skills].filter((s) => s.slug !== 'skillme')
+  const cards = pickDiverse(pool, CARDS)
 
   return new ImageResponse(
     (
@@ -131,58 +135,93 @@ export default async function Image() {
           </div>
         </div>
 
-        {/* right column: the app-store shelf */}
+        {/* right column: a "Featured" shelf of real skill cards */}
         <div style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 18, width: 486 }}>
-            {tiles.map((s) => {
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 22, width: 486 }}>
+            {cards.map((s) => {
               const color = CATEGORY_COLORS[s.category] ?? OG.accent
+              const catLabel = CATEGORY_MAP[s.category]?.label ?? ''
+              const rating = s.rating_count > 0 ? s.rating_avg.toFixed(1) : null
               return (
                 <div
                   key={s.slug}
                   style={{
                     display: 'flex',
-                    position: 'relative',
-                    width: 150,
-                    height: 150,
-                    borderRadius: 34,
-                    backgroundColor: color,
-                    boxShadow: '0 10px 24px rgba(0,0,0,0.45)',
+                    alignItems: 'center',
+                    gap: 24,
+                    backgroundColor: OG.surfaceRaised,
+                    border: `1px solid ${OG.border}`,
+                    borderRadius: 30,
+                    padding: 26,
+                    boxShadow: '0 12px 26px rgba(0,0,0,0.36)',
                   }}
                 >
-                  {/* glossy sheen → base depth: color-agnostic so every tile reads
-                      as a crafted app icon rather than a flat swatch */}
+                  {/* glossy category-color app-icon tile (no letters): a small
+                      bar mark echoing the brand logo so it reads as a crafted icon */}
                   <div
                     style={{
-                      position: 'absolute',
-                      inset: 0,
-                      borderRadius: 34,
-                      background:
-                        'linear-gradient(157deg, rgba(255,255,255,0.30), rgba(255,255,255,0.05) 44%, rgba(0,0,0,0.26))',
-                    }}
-                  />
-                  {/* crisp top rim-light */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      inset: 0,
-                      borderRadius: 34,
-                      border: '1px solid rgba(255,255,255,0.20)',
-                    }}
-                  />
-                  <div
-                    style={{
+                      position: 'relative',
                       display: 'flex',
-                      width: '100%',
-                      height: '100%',
-                      alignItems: 'center',
+                      flexDirection: 'column',
                       justifyContent: 'center',
-                      fontSize: 54,
-                      fontWeight: 800,
-                      letterSpacing: -1.5,
-                      color: readableOn(color),
+                      gap: 7,
+                      paddingLeft: 22,
+                      width: 92,
+                      height: 92,
+                      borderRadius: 24,
+                      backgroundColor: color,
+                      boxShadow: '0 6px 16px rgba(0,0,0,0.42)',
                     }}
                   >
-                    {monogram(s.name)}
+                    <div style={{ width: 38, height: 11, borderRadius: 6, backgroundColor: 'rgba(0,0,0,0.32)' }} />
+                    <div style={{ width: 48, height: 11, borderRadius: 6, backgroundColor: 'rgba(255,255,255,0.92)' }} />
+                    <div style={{ width: 29, height: 11, borderRadius: 6, backgroundColor: 'rgba(0,0,0,0.32)' }} />
+                    {/* sheen + rim so the tile has the same crafted depth as the logo */}
+                    <div
+                      style={{
+                        position: 'absolute',
+                        inset: 0,
+                        borderRadius: 24,
+                        background:
+                          'linear-gradient(157deg, rgba(255,255,255,0.26), rgba(255,255,255,0.04) 46%, rgba(0,0,0,0.20))',
+                      }}
+                    />
+                    <div style={{ position: 'absolute', inset: 0, borderRadius: 24, border: '1px solid rgba(255,255,255,0.18)' }} />
+                  </div>
+
+                  {/* real skill name + category + signal */}
+                  <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minWidth: 0 }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        maxWidth: 304,
+                        fontSize: 31,
+                        fontWeight: 700,
+                        letterSpacing: -0.6,
+                        lineHeight: 1.1,
+                        color: OG.text,
+                        whiteSpace: 'nowrap',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                      }}
+                    >
+                      {truncateWords(s.name, 24)}
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginTop: 11, fontSize: 23 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 9, color: OG.secondary }}>
+                        <div style={{ width: 11, height: 11, borderRadius: 999, backgroundColor: color }} />
+                        {catLabel}
+                      </div>
+                      {s.verified ? (
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 7, color: OG.accent }}>
+                          <Check size={20} /> Verified
+                        </div>
+                      ) : rating ? (
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 7, color: OG.secondary }}>
+                          <Star size={18} /> {rating}
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
                 </div>
               )
