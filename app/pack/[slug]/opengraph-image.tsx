@@ -38,8 +38,17 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const shown = fitSkillChips(skillNames, skillCount)
   const remaining = skillCount - shown.length
   // A long name forced onto two lines would blow the height budget once chips
-  // are present, so cap the headline tighter when we're listing contents.
-  const nameSize = Math.min(headlineSize(name), shown.length > 0 ? 74 : 94)
+  // are present (2 chip rows + 2-line tagline + 2-line name ≈ the whole 630px,
+  // which crowds the footer). When listing contents, size the headline by length
+  // so it stays on ONE line; otherwise use the full scale.
+  const nameSize =
+    shown.length > 0
+      ? name.length > 26
+        ? 58
+        : name.length > 20
+          ? 66
+          : 78
+      : headlineSize(name)
 
   return new ImageResponse(
     (
@@ -101,7 +110,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
               marginBottom: 22,
             }}
           >
-            {`${skillCount} skills, one install`}
+            {skillCount > 0 ? `${skillCount} skill${skillCount === 1 ? '' : 's'}, one install` : 'Curated skill pack'}
           </div>
           <div
             style={{
