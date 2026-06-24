@@ -1,7 +1,8 @@
-import { getPacks } from '../../packs'
+import { getPacks, getRelatedPacks } from '../../packs'
 import { formatInstalls } from '../../categories'
 import { text, type Tool } from '../types'
 import { track } from '../../telemetry/track'
+import type { Pack } from '../../types'
 
 interface BrowsePacksArgs {
   query?: string
@@ -32,37 +33,58 @@ export const browsePacks: Tool<BrowsePacksArgs> = {
     const limit = Math.min(Math.max(args.limit ?? 5, 1), 10)
     const { packs } = await getPacks({ query: args.query, category: args.category as never, limit })
 
+    // Auto-retry on a sparse keyword match with the closest embedding matches so
+    // a vocabulary-gap query isn't a dead end (mirrors browse_skills). Gated to
+    // free-text, uncategorised searches so the embedding call only fires when it
+    // can help.
+    let related: Pack[] = []
+    if (args.query?.trim() && !args.category && packs.length < limit) {
+      related = await getRelatedPacks(args.query, {
+        excludeIds: packs.map((p) => p.id),
+        limit: limit - packs.length,
+      })
+    }
+
     void track(
       {
         name: 'pack_browsed',
         properties: {
           ...(args.query ? { query: args.query } : {}),
           ...(args.category ? { category: args.category } : {}),
-          result_count: packs.length,
+          result_count: packs.length + related.length,
+          keyword_count: packs.length,
+          ...(related.length ? { related_count: related.length } : {}),
         },
       },
       { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
     )
 
-    if (packs.length === 0) {
+    if (packs.length === 0 && related.length === 0) {
       return text('No packs found. Try browsing individual skills with browse_skills instead.')
     }
 
-    const lines = packs.map((p, i) => {
+    const all = [...packs, ...related]
+    const lines = all.map((p, i) => {
       // Skills count and category always; installs only when real (hide-until-real).
       const stats = [`${p.skill_count ?? '?'} skills`]
       if (p.install_count > 0) stats.push(`${formatInstalls(p.install_count)} installs`)
       stats.push(p.category)
+      const relatedTag = i >= packs.length ? ' · related' : ''
       return [
-        `${i + 1}. ${p.name}${p.verified ? ' · verified' : ''}`,
+        `${i + 1}. ${p.name}${p.verified ? ' · verified' : ''}${relatedTag}`,
         `   ${p.tagline}`,
         `   ${stats.join(' · ')}`,
         `   pack_id: ${p.id}`,
       ].join('\n')
     })
 
+    const header =
+      related.length && packs.length === 0
+        ? `No exact matches — here ${related.length === 1 ? 'is' : 'are'} ${related.length} related pack${related.length === 1 ? '' : 's'}:`
+        : `Found ${all.length} pack${all.length === 1 ? '' : 's'}${related.length ? ` (${related.length} related)` : ''}:`
+
     return text(
-      `Found ${packs.length} pack${packs.length === 1 ? '' : 's'}:\n\n${lines.join('\n\n')}\n\nTo install a pack and all its skills, call install_pack with its pack_id.`
+      `${header}\n\n${lines.join('\n\n')}\n\nTo install a pack and all its skills, call install_pack with its pack_id.`
     )
   },
 }
