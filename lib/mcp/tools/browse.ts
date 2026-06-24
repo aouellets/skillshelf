@@ -1,7 +1,8 @@
-import { getSkills } from '../../data'
+import { getSkills, getRelatedSkills } from '../../data'
 import { formatInstalls, isCategory } from '../../categories'
 import { text, type Tool } from '../types'
 import { track } from '../../telemetry/track'
+import type { Skill } from '../../types'
 
 interface BrowseArgs {
   query?: string
@@ -61,40 +62,62 @@ export const browseSkills: Tool<BrowseArgs> = {
       limit,
     })
 
+    // Auto-retry on a sparse keyword match: top up with the closest embedding
+    // matches so a vocabulary-gap or niche query isn't a dead end (mirrors the
+    // website /api/skills semantic fallback). Gated to free-text, uncategorised,
+    // non-featured searches so the extra embedding call only fires when it helps.
+    let related: Skill[] = []
+    if (args.query?.trim() && !category && !args.featured && skills.length < limit) {
+      related = await getRelatedSkills(args.query, {
+        excludeIds: skills.map((s) => s.id),
+        limit: limit - skills.length,
+      })
+    }
+
     void track(
       {
         name: 'skill_browsed',
         properties: {
           ...(args.query ? { query: args.query } : {}),
           ...(category ? { category } : {}),
-          result_count: skills.length,
+          // result_count is what we actually surfaced (keyword + semantic retry)
+          // so a true zero means we showed nothing; the breakdown stays visible.
+          result_count: skills.length + related.length,
+          keyword_count: skills.length,
+          ...(related.length ? { related_count: related.length } : {}),
         },
       },
       { source: 'mcp', userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
     )
 
-    if (skills.length === 0) {
+    if (skills.length === 0 && related.length === 0) {
       const what = args.query ? ` for "${args.query}"` : ''
       return text(
         `No skills found${what}. Try a broader search, or ask to "browse skills" with no filter to see what's popular.`
       )
     }
 
-    const lines = skills.map((s, i) => {
+    const all = [...skills, ...related]
+    const lines = all.map((s, i) => {
       const verified = s.verified ? ' · verified' : ''
+      // Tag semantic-retry results so the caller knows they're a looser match.
+      const relatedTag = i >= skills.length ? ' · related' : ''
       // Only surface metrics that reflect real engagement (hide-until-real).
       const stats: string[] = []
       if (s.install_count > 0) stats.push(`${formatInstalls(s.install_count)} installs`)
       if (s.rating_count > 0) stats.push(`rating ${s.rating_avg.toFixed(1)}`)
       return [
-        `${i + 1}. ${s.name} — ${s.category}${verified}`,
+        `${i + 1}. ${s.name} — ${s.category}${verified}${relatedTag}`,
         `   ${s.description}`,
         ...(stats.length ? [`   ${stats.join(' · ')}`] : []),
         `   skill_id: ${s.id}`,
       ].join('\n')
     })
 
-    const header = `Found ${skills.length} skill${skills.length === 1 ? '' : 's'}:`
+    const header =
+      related.length && skills.length === 0
+        ? `No exact matches — here ${related.length === 1 ? 'is' : 'are'} ${related.length} related skill${related.length === 1 ? '' : 's'}:`
+        : `Found ${all.length} skill${all.length === 1 ? '' : 's'}${related.length ? ` (${related.length} related)` : ''}:`
     const footer =
       'To install one, call install_skill with its skill_id (or say "install the [name] skill").'
 

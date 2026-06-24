@@ -50,12 +50,18 @@ export const EVENT_SCHEMAS = {
   skill_browsed: z.object({
     query: z.string().max(200).optional(),
     category: z.string().max(40).optional(),
+    // Total surfaced (keyword + semantic retry); a true 0 means we showed nothing.
     result_count: z.number().int().nonnegative(),
+    // Breakdown so the audit can tell exact-match recall from the retry top-up.
+    keyword_count: z.number().int().nonnegative().optional(),
+    related_count: z.number().int().nonnegative().optional(),
   }),
   pack_browsed: z.object({
     query: z.string().max(200).optional(),
     category: z.string().max(40).optional(),
     result_count: z.number().int().nonnegative(),
+    keyword_count: z.number().int().nonnegative().optional(),
+    related_count: z.number().int().nonnegative().optional(),
   }),
   skill_viewed: z.object({ skill_id: skillId }),
   skill_installed: z.object({
