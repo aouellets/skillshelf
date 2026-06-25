@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { PackCard } from '@/components/PackCard'
+import { CardRail } from '@/components/CardRail'
 import { Reveal } from '@/components/Reveal'
 import { SearchBar } from '@/components/SearchBar'
 import { PACK_CATEGORIES } from '@/lib/categories'
@@ -13,6 +14,11 @@ const PAGE_SIZE = 24
 
 const GRID =
   'grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'
+
+// Same desktop grid as GRID, but with the mobile tier (grid-cols-2 gap-3) stripped
+// so CardRail can render a swipeable shelf below sm and the identical grid at sm+.
+const RAIL_GRID =
+  'sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'
 
 export function PacksClient({
   officialPacks,
@@ -255,13 +261,18 @@ export function PacksClient({
                     and more.
                   </p>
                 </div>
-                <div className={`mt-6 ${GRID}`}>
-                  {officialPacks.map((pack, i) => (
-                    <Reveal key={pack.id} index={i} className="h-full">
-                      <PackCard pack={pack} />
-                    </Reveal>
-                  ))}
-                </div>
+                <CardRail
+                  ariaLabel="Official packs"
+                  gridClassName={`mt-6 ${RAIL_GRID}`}
+                  items={officialPacks.map((pack, i) => ({
+                    key: pack.id,
+                    node: (
+                      <Reveal index={i} className="h-full">
+                        <PackCard pack={pack} />
+                      </Reveal>
+                    ),
+                  }))}
+                />
               </section>
             )}
 
@@ -272,13 +283,18 @@ export function PacksClient({
                     All packs
                   </h2>
                 )}
-                <div className={`mt-6 ${GRID}`}>
-                  {gridPacks.map((pack, i) => (
-                    <Reveal key={pack.id} index={i} className="h-full">
-                      <PackCard pack={pack} />
-                    </Reveal>
-                  ))}
-                </div>
+                <CardRail
+                  ariaLabel="All packs"
+                  gridClassName={`mt-6 ${RAIL_GRID}`}
+                  items={gridPacks.map((pack, i) => ({
+                    key: pack.id,
+                    node: (
+                      <Reveal index={i} className="h-full">
+                        <PackCard pack={pack} />
+                      </Reveal>
+                    ),
+                  }))}
+                />
                 {hasMore && (
                   <div className="mt-8 flex justify-center">
                     <button

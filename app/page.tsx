@@ -4,6 +4,7 @@ import { HeroDemo } from '@/components/HeroDemo'
 import { Reveal } from '@/components/Reveal'
 import { EmailCapture } from '@/components/EmailCapture'
 import { FeaturedCarousel } from '@/components/FeaturedCarousel'
+import { CardRail } from '@/components/CardRail'
 import { SkillCard } from '@/components/SkillCard'
 import { MagneticCTA } from '@/components/MagneticCTA'
 import { Spotlight } from '@/components/Spotlight'
@@ -309,11 +310,16 @@ export default async function HomePage() {
             Claude, whatever the day asks for.
           </p>
           <Reveal>
-            <Spotlight className="mt-8 grid grid-cols-1 gap-5 rounded-lg sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {becomeAnything.map((skill) => (
-                <SkillCard key={skill.id} skill={skill} />
-              ))}
-            </Spotlight>
+            {/* Mobile: a swipeable shelf (cards peek to signal the swipe). sm+: the
+                original lit grid. */}
+            <CardRail
+              ariaLabel="Skills for every role"
+              gridClassName="mt-8 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4"
+              items={becomeAnything.map((skill) => ({
+                key: skill.id,
+                node: <SkillCard skill={skill} />,
+              }))}
+            />
           </Reveal>
         </section>
       )}
@@ -338,18 +344,23 @@ export default async function HomePage() {
               View all packs →
             </Link>
           </Reveal>
-          <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {showcase.map(({ pack, discipline }, i) => (
-              <Reveal key={pack.id} index={i}>
-                <div className="flex h-full flex-col gap-2">
-                  <span className="font-mono text-xs uppercase tracking-wide text-shelf-text-tertiary">
-                    {discipline}
-                  </span>
-                  <PackCard pack={pack} />
-                </div>
-              </Reveal>
-            ))}
-          </div>
+          <CardRail
+            ariaLabel="Packs by discipline"
+            gridClassName="mt-8 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-4"
+            items={showcase.map(({ pack, discipline }, i) => ({
+              key: pack.id,
+              node: (
+                <Reveal index={i} className="h-full">
+                  <div className="flex h-full flex-col gap-2">
+                    <span className="font-mono text-xs uppercase tracking-wide text-shelf-text-tertiary">
+                      {discipline}
+                    </span>
+                    <PackCard pack={pack} />
+                  </div>
+                </Reveal>
+              ),
+            }))}
+          />
         </section>
       )}
 
@@ -373,13 +384,18 @@ export default async function HomePage() {
               View all packs →
             </Link>
           </Reveal>
-          <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {partnerShowcase.map((pack, i) => (
-              <Reveal key={pack.id} index={i}>
-                <PackCard pack={pack} />
-              </Reveal>
-            ))}
-          </div>
+          <CardRail
+            ariaLabel="Official partner packs"
+            gridClassName="mt-8 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4"
+            items={partnerShowcase.map((pack, i) => ({
+              key: pack.id,
+              node: (
+                <Reveal index={i} className="h-full">
+                  <PackCard pack={pack} />
+                </Reveal>
+              ),
+            }))}
+          />
         </section>
       )}
 
