@@ -10,14 +10,49 @@ const STATUS_OPTIONS = [
   { key: 'needs_changes', label: 'Needs changes' },
 ]
 
+type Action = 'approve' | 'reject' | 'needs_changes'
+
+/** POST one decision to the admin endpoint. Throws on a non-ok response. Backs
+ *  both the single-card buttons and the bulk fan-out, so the publish + email
+ *  logic is shared. */
+async function postAction(id: string, action: Action, note?: string, featured?: boolean) {
+  const res = await fetch('/api/admin/pack-submissions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, action, note: note || undefined, featured: featured ?? false }),
+  })
+  const data = await res.json().catch(() => ({}))
+  if (!res.ok) throw new Error(data.error ?? 'Action failed')
+  return data
+}
+
 export function PackAdminReview({ initial }: { initial: PackSubmission[] }) {
   const [items, setItems] = useState<PackSubmission[]>(initial)
   const [query, setQuery] = useState('')
   const [status, setStatus] = useState('all')
   const [sort, setSort] = useState<'newest' | 'oldest'>('newest')
+  const [selected, setSelected] = useState<Set<string>>(new Set())
+  const [bulkNote, setBulkNote] = useState('')
+  const [bulkBusy, setBulkBusy] = useState<Action | null>(null)
+  const [bulkMsg, setBulkMsg] = useState<string | null>(null)
 
   function removeItem(id: string) {
     setItems((prev) => prev.filter((s) => s.id !== id))
+    setSelected((prev) => {
+      if (!prev.has(id)) return prev
+      const next = new Set(prev)
+      next.delete(id)
+      return next
+    })
+  }
+
+  function toggle(id: string) {
+    setSelected((prev) => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
   }
 
   const visible = useMemo(() => {
@@ -36,6 +71,45 @@ export function PackAdminReview({ initial }: { initial: PackSubmission[] }) {
       return sort === 'oldest' ? cmp : -cmp
     })
   }, [items, query, status, sort])
+
+  const visibleIds = visible.map((s) => s.id)
+  const allVisibleSelected = visibleIds.length > 0 && visibleIds.every((id) => selected.has(id))
+  const selectedCount = items.filter((s) => selected.has(s.id)).length
+
+  function toggleSelectAllVisible() {
+    setSelected((prev) => {
+      const next = new Set(prev)
+      if (allVisibleSelected) visibleIds.forEach((id) => next.delete(id))
+      else visibleIds.forEach((id) => next.add(id))
+      return next
+    })
+  }
+
+  async function runBulk(action: Action) {
+    const targets = items.filter((s) => selected.has(s.id))
+    if (targets.length === 0 || bulkBusy) return
+
+    setBulkBusy(action)
+    setBulkMsg(null)
+    const ids = targets.map((s) => s.id)
+    const results = await Promise.allSettled(ids.map((id) => postAction(id, action, bulkNote)))
+    const okIds = ids.filter((_, i) => results[i].status === 'fulfilled')
+    const failed = results.length - okIds.length
+
+    setItems((prev) => prev.filter((s) => !okIds.includes(s.id)))
+    setSelected((prev) => {
+      const next = new Set(prev)
+      okIds.forEach((id) => next.delete(id))
+      return next
+    })
+    setBulkBusy(null)
+    if (okIds.length > 0) setBulkNote('')
+    setBulkMsg(
+      failed > 0
+        ? `${okIds.length} done · ${failed} failed — try again or act on them individually.`
+        : `${okIds.length} pack${okIds.length === 1 ? '' : 's'} updated.`
+    )
+  }
 
   if (items.length === 0) {
     return (
@@ -78,10 +152,73 @@ export function PackAdminReview({ initial }: { initial: PackSubmission[] }) {
             <option value="newest">Newest first</option>
             <option value="oldest">Oldest first</option>
           </select>
+          {visible.length > 0 && (
+            <label className="flex cursor-pointer items-center gap-2 text-xs text-shelf-text-secondary">
+              <input
+                type="checkbox"
+                checked={allVisibleSelected}
+                onChange={toggleSelectAllVisible}
+                aria-label="Select all visible pack submissions"
+              />
+              Select all
+            </label>
+          )}
           <span className="ml-auto font-mono text-xs text-shelf-text-tertiary">
             {visible.length} of {items.length}
           </span>
         </div>
+
+        {/* Bulk action bar — appears only with a selection. Each action fans out
+            over the existing single-item endpoint (Promise.allSettled), so partial
+            failures are reported rather than silently swallowed. */}
+        {selectedCount > 0 && (
+          <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-shelf-border/60 pt-3">
+            <span className="font-mono text-xs text-accent">{selectedCount} selected</span>
+            <input
+              value={bulkNote}
+              onChange={(e) => setBulkNote(e.target.value)}
+              placeholder="Shared reviewer note (optional)"
+              className="input w-full max-w-xs py-1.5 text-sm"
+              aria-label="Shared reviewer note for bulk action"
+            />
+            <div className="ml-auto flex flex-wrap gap-2">
+              <button
+                onClick={() => setSelected(new Set())}
+                disabled={!!bulkBusy}
+                className="btn btn-ghost"
+              >
+                Clear
+              </button>
+              <button
+                onClick={() => runBulk('reject')}
+                disabled={!!bulkBusy}
+                className="btn btn-ghost"
+              >
+                {bulkBusy === 'reject' ? 'Working…' : 'Reject'}
+              </button>
+              <button
+                onClick={() => runBulk('needs_changes')}
+                disabled={!!bulkBusy}
+                className="btn btn-secondary"
+              >
+                {bulkBusy === 'needs_changes' ? 'Working…' : 'Request changes'}
+              </button>
+              <button
+                onClick={() => runBulk('approve')}
+                disabled={!!bulkBusy}
+                className="btn btn-primary"
+              >
+                {bulkBusy === 'approve' ? 'Working…' : 'Approve & publish'}
+              </button>
+            </div>
+          </div>
+        )}
+
+        {bulkMsg && (
+          <p role="status" className="mt-2 text-xs text-shelf-text-tertiary">
+            {bulkMsg}
+          </p>
+        )}
       </div>
 
       {visible.length === 0 ? (
@@ -91,7 +228,13 @@ export function PackAdminReview({ initial }: { initial: PackSubmission[] }) {
       ) : (
         <div className="mt-5 space-y-4">
           {visible.map((sub) => (
-            <ReviewCard key={sub.id} sub={sub} onDone={() => removeItem(sub.id)} />
+            <ReviewCard
+              key={sub.id}
+              sub={sub}
+              selected={selected.has(sub.id)}
+              onToggleSelect={() => toggle(sub.id)}
+              onDone={() => removeItem(sub.id)}
+            />
           ))}
         </div>
       )}
@@ -99,23 +242,27 @@ export function PackAdminReview({ initial }: { initial: PackSubmission[] }) {
   )
 }
 
-function ReviewCard({ sub, onDone }: { sub: PackSubmission; onDone: () => void }) {
+function ReviewCard({
+  sub,
+  selected,
+  onToggleSelect,
+  onDone,
+}: {
+  sub: PackSubmission
+  selected: boolean
+  onToggleSelect: () => void
+  onDone: () => void
+}) {
   const [note, setNote] = useState('')
   const [feature, setFeature] = useState(false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  async function act(action: 'approve' | 'reject' | 'needs_changes') {
+  async function act(action: Action) {
     setBusy(true)
     setError(null)
     try {
-      const res = await fetch('/api/admin/pack-submissions', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: sub.id, action, note: note || undefined, featured: feature }),
-      })
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.error ?? 'Action failed')
+      await postAction(sub.id, action, note, feature)
       onDone()
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Action failed')
@@ -124,27 +271,36 @@ function ReviewCard({ sub, onDone }: { sub: PackSubmission; onDone: () => void }
   }
 
   return (
-    <div className="card p-5">
+    <div className={`card p-5 ${selected ? 'border-accent/60' : ''}`}>
       <div className="flex flex-wrap items-start justify-between gap-3">
-        <div>
-          <h3 className="text-base font-medium text-shelf-text-primary">{sub.name}</h3>
-          <p className="mt-0.5 text-sm text-shelf-text-secondary">{sub.tagline}</p>
-          <p className="mt-2 text-sm text-shelf-text-secondary">{sub.description}</p>
-          <p className="mt-2 font-mono text-xs text-shelf-text-tertiary">
-            {sub.category}
-            {sub.author ? ` · ${sub.author}` : ''}
-            {sub.submitter_email ? ` · ${sub.submitter_email}` : ''}
-          </p>
-          {sub.repo_url && (
-            <a
-              href={sub.repo_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-1 block break-all font-mono text-xs text-accent hover:text-accent-hover"
-            >
-              {sub.repo_url}
-            </a>
-          )}
+        <div className="flex min-w-0 items-start gap-3">
+          <input
+            type="checkbox"
+            checked={selected}
+            onChange={onToggleSelect}
+            aria-label={`Select ${sub.name}`}
+            className="mt-1.5 shrink-0"
+          />
+          <div className="min-w-0">
+            <h3 className="text-base font-medium text-shelf-text-primary">{sub.name}</h3>
+            <p className="mt-0.5 text-sm text-shelf-text-secondary">{sub.tagline}</p>
+            <p className="mt-2 text-sm text-shelf-text-secondary">{sub.description}</p>
+            <p className="mt-2 font-mono text-xs text-shelf-text-tertiary">
+              {sub.category}
+              {sub.author ? ` · ${sub.author}` : ''}
+              {sub.submitter_email ? ` · ${sub.submitter_email}` : ''}
+            </p>
+            {sub.repo_url && (
+              <a
+                href={sub.repo_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 block break-all font-mono text-xs text-accent hover:text-accent-hover"
+              >
+                {sub.repo_url}
+              </a>
+            )}
+          </div>
         </div>
         <span className="shrink-0 rounded-full border border-shelf-border px-2.5 py-1 font-mono text-xs text-shelf-text-tertiary">
           {sub.skill_slugs.length} skills
