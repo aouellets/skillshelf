@@ -608,6 +608,30 @@
   display: none;
 }
 
+/* Mobile card shelf: dissolve cards into the full-bleed gutter on both edges so
+   the rail reads as a seamless surface rather than a hard-cut row. Static and
+   symmetric (no JS); the fade lives in the -mx-4 bleed gutter, so a card resting
+   against the content edge stays crisp. Scoped <640px so the desktop grid (which
+   shares the .card-rail class) is never masked. */
+@media (max-width: 639.98px) {
+  .card-rail {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      black 2.5rem,
+      black calc(100% - 2.5rem),
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      black 2.5rem,
+      black calc(100% - 2.5rem),
+      transparent 100%
+    );
+  }
+}
+
 /* === Hero app-store demo animation === */
 .demo-panel {
   box-shadow: var(--shadow-raised), var(--shadow-glow);

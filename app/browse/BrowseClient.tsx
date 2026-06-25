@@ -3,9 +3,11 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { SkillCard } from '@/components/SkillCard'
+import { CardRail } from '@/components/CardRail'
 import { Reveal } from '@/components/Reveal'
 import { SearchBar } from '@/components/SearchBar'
 import { CategoryFilter } from '@/components/CategoryFilter'
+import { CATEGORY_MAP } from '@/lib/categories'
 import type { Skill, SkillCategory } from '@/lib/types'
 
 type SkillSummary = Omit<Skill, 'skill_content'>
@@ -37,12 +39,19 @@ export function BrowseClient({
 
   const [skills, setSkills] = useState<SkillSummary[]>([])
   const [related, setRelated] = useState<SkillSummary[]>([])
+  const [groups, setGroups] = useState<{ category: SkillCategory; skills: SkillSummary[] }[]>([])
   const [total, setTotal] = useState(0)
   const [loading, setLoading] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   const requestId = useRef(0)
+
+  // The default, unfiltered view is a set of category shelves (each category is a
+  // "section" you scroll between; its cards are a swipeable rail on mobile). The
+  // moment a search or a specific category is active we drop to the flat ranked
+  // results grid + pagination.
+  const isGrouped = query.trim() === '' && category === 'all'
 
   const fetchPage = useCallback(
     async (offset: number, replace: boolean) => {
@@ -81,10 +90,33 @@ export function BrowseClient({
     [query, category, sort]
   )
 
-  // Reload from the top whenever the query, category, or sort changes.
+  // Category shelves for the default view. One request: the endpoint fans out
+  // over the categories server-side and returns top-N per category.
+  const fetchGroups = useCallback(async () => {
+    const current = ++requestId.current
+    setLoading(true)
+    setError(null)
+    try {
+      const res = await fetch(`/api/skills/grouped?sort=${sort}`)
+      if (!res.ok) throw new Error('Failed to load skills')
+      const data: { groups: { category: SkillCategory; skills: SkillSummary[] }[] } =
+        await res.json()
+      if (current !== requestId.current) return // stale response
+      setGroups(data.groups)
+    } catch (err) {
+      if (current !== requestId.current) return
+      setError(err instanceof Error ? err.message : 'Something went wrong')
+    } finally {
+      if (current === requestId.current) setLoading(false)
+    }
+  }, [sort])
+
+  // Reload whenever the query, category, or sort changes: grouped shelves in the
+  // default view, the flat ranked grid once anything is filtered or searched.
   useEffect(() => {
-    fetchPage(0, true)
-  }, [fetchPage])
+    if (isGrouped) fetchGroups()
+    else fetchPage(0, true)
+  }, [isGrouped, fetchGroups, fetchPage])
 
   // Keep the category reflected in the URL for shareable links.
   useEffect(() => {
@@ -141,9 +173,52 @@ export function BrowseClient({
         ) : error ? (
           <div className="card p-8 text-center">
             <p className="text-shelf-text-secondary">{error}</p>
-            <button onClick={() => fetchPage(0, true)} className="btn btn-secondary mt-4">
+            <button
+              onClick={() => (isGrouped ? fetchGroups() : fetchPage(0, true))}
+              className="btn btn-secondary mt-4"
+            >
               Try again
             </button>
+          </div>
+        ) : isGrouped ? (
+          // Default view: one shelf per category — vertical scroll between
+          // categories, a swipeable rail of skills within each on mobile.
+          <div className="space-y-12">
+            {groups.map((group) => {
+              const meta = CATEGORY_MAP[group.category]
+              return (
+                <section key={group.category}>
+                  <div className="flex items-end justify-between gap-4">
+                    <h2 className="flex items-center gap-2.5 font-display text-xl font-semibold text-shelf-text-primary">
+                      <span
+                        aria-hidden
+                        className="inline-block h-2.5 w-2.5 rounded-full"
+                        style={{ backgroundColor: meta.color }}
+                      />
+                      {meta.label}
+                    </h2>
+                    <button
+                      onClick={() => setCategory(group.category)}
+                      className="shrink-0 text-sm text-shelf-text-secondary transition-colors hover:text-accent-hover"
+                    >
+                      View all →
+                    </button>
+                  </div>
+                  <CardRail
+                    ariaLabel={`${meta.label} skills`}
+                    gridClassName="mt-5 sm:grid sm:grid-cols-3 sm:gap-5 xl:grid-cols-4 2xl:grid-cols-5"
+                    items={group.skills.map((skill, i) => ({
+                      key: skill.id,
+                      node: (
+                        <Reveal index={i} className="h-full">
+                          <SkillCard skill={skill} />
+                        </Reveal>
+                      ),
+                    }))}
+                  />
+                </section>
+              )
+            })}
           </div>
         ) : skills.length === 0 && related.length === 0 ? (
           <div className="card p-10 text-center">
