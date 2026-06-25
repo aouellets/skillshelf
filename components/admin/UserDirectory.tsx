@@ -22,6 +22,11 @@ function placeLabel(city: string | null, region: string | null, country: string 
   return head || country || '—'
 }
 
+/** A hover tooltip with the captured lat/lng, or undefined when not located. */
+function coordTitle(lat: number | null, lng: number | null): string | undefined {
+  return lat != null && lng != null ? `~${lat}, ${lng}` : undefined
+}
+
 const KIND_LABEL: Record<UserDirectoryRow['actor_kind'], string> = {
   account: 'Account',
   mcp_anon: 'MCP connector',
@@ -91,7 +96,7 @@ export function UserDirectory({
       key: 'location',
       label: 'Active from',
       render: (r) => (
-        <span className="text-shelf-text-secondary">
+        <span className="text-shelf-text-secondary" title={coordTitle(r.last_lat, r.last_lng)}>
           {flag(r.last_country) && <span className="mr-1">{flag(r.last_country)}</span>}
           {placeLabel(r.last_city, r.last_region, r.last_country)}
         </span>
@@ -103,7 +108,7 @@ export function UserDirectory({
       label: 'Signed up from',
       render: (r) =>
         r.signup_at ? (
-          <span className="text-shelf-text-secondary">
+          <span className="text-shelf-text-secondary" title={coordTitle(r.signup_lat, r.signup_lng)}>
             {flag(r.signup_country) && <span className="mr-1">{flag(r.signup_country)}</span>}
             {placeLabel(r.signup_city, r.signup_region, r.signup_country)}
             <span className="ml-1 text-[0.7rem] text-shelf-text-tertiary">
