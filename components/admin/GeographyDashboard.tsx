@@ -40,7 +40,7 @@ function StatCard({ label, value, sub }: { label: string; value: string; sub?: s
 }
 
 const METRICS: { key: GeoMetric; label: string }[] = [
-  { key: 'events', label: 'Events' },
+  { key: 'events', label: 'Activity' },
   { key: 'actors', label: 'Users' },
   { key: 'installs', label: 'Installs' },
   { key: 'activations', label: 'Activations' },
@@ -114,7 +114,7 @@ export function GeographyDashboard({
         <>
           <div className="mt-8 grid grid-cols-2 gap-3 lg:grid-cols-4">
             <StatCard label="Countries" value={fmtNum(totals.countries)} sub="with activity" />
-            <StatCard label="Events" value={fmtNum(totals.events)} />
+            <StatCard label="Activity" value={fmtNum(totals.events)} />
             <StatCard label="Users" value={fmtNum(totals.actors)} sub="distinct actors" />
             <StatCard
               label="Located buckets"
@@ -130,7 +130,7 @@ export function GeographyDashboard({
               onChange={(k) => setMetric(k as GeoMetric)}
             />
             <p className="hidden text-xs text-shelf-text-tertiary sm:block">
-              Metric shades the map
+              Activity = all located events; Installs &amp; Active uses are the adoption signals.
             </p>
           </div>
 

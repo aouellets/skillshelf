@@ -7,6 +7,13 @@ import type { GeoAdoptionRow } from '@/lib/telemetry/admin-queries'
 
 export type GeoMetric = 'events' | 'actors' | 'installs' | 'activations'
 
+const METRIC_LABEL: Record<GeoMetric, string> = {
+  events: 'activity',
+  actors: 'users',
+  installs: 'installs',
+  activations: 'active uses',
+}
+
 /**
  * Hand-rolled SVG world map — no map/topojson runtime dependency. Countries are
  * the vendored Natural Earth 110m outline (lib/geo/world.ts), shaded as a
@@ -105,7 +112,7 @@ export function WorldMap({ rows, metric }: { rows: GeoAdoptionRow[]; metric: Geo
       </div>
 
       <p className="mt-2 font-mono text-xs text-shelf-text-tertiary">
-        Country shade and bubble size scale with {metric}. Bubbles need coordinates,
+        Country shade and bubble size scale with {METRIC_LABEL[metric]}. Bubbles need coordinates,
         which accrue from new located events.
       </p>
     </div>
