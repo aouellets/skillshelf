@@ -99,6 +99,16 @@ export interface EventVolumeRow {
   actors: number
 }
 
+export interface CategoryUsageRow {
+  day: string
+  /** A SkillCategory value, or 'unknown' for events whose skill_id has no row. */
+  category: string
+  event_name: string
+  source: string
+  events: number
+  actors: number
+}
+
 export interface TrendingSkillRow {
   skill_id: string
   skill_name: string | null
@@ -183,6 +193,7 @@ export interface TelemetryDashboardData {
   growth: GrowthRow[]
   tools: ToolPerfRow[]
   eventVolume: EventVolumeRow[]
+  categoryUsage: CategoryUsageRow[]
   trendingSkills: TrendingSkillRow[]
   trendingPacks: TrendingPackRow[]
   searchTerms: SearchTermRow[]
@@ -253,6 +264,11 @@ export function getEventVolumeDaily(): Promise<EventVolumeRow[]> {
   return readMv<EventVolumeRow>('mv_event_volume_daily', [{ column: 'day', ascending: false }], 2000)
 }
 
+export function getCategoryUsageDaily(): Promise<CategoryUsageRow[]> {
+  // Newest first; the UI re-slices by category / event / range / source.
+  return readMv<CategoryUsageRow>('mv_category_usage_daily', [{ column: 'day', ascending: false }], 5000)
+}
+
 export function getTrendingSkills(): Promise<TrendingSkillRow[]> {
   return readMv<TrendingSkillRow>('mv_trending_skills', [{ column: 'installs_7d', ascending: false }], 100)
 }
@@ -291,6 +307,7 @@ export async function loadTelemetryDashboard(): Promise<TelemetryDashboardData> 
     growth,
     tools,
     eventVolume,
+    categoryUsage,
     trendingSkills,
     trendingPacks,
     searchTerms,
@@ -305,6 +322,7 @@ export async function loadTelemetryDashboard(): Promise<TelemetryDashboardData> 
     getGrowthAccounting(),
     getToolPerformance(),
     getEventVolumeDaily(),
+    getCategoryUsageDaily(),
     getTrendingSkills(),
     getTrendingPacks(),
     getSearchTerms(),
@@ -320,6 +338,7 @@ export async function loadTelemetryDashboard(): Promise<TelemetryDashboardData> 
     growth,
     tools,
     eventVolume,
+    categoryUsage,
     trendingSkills,
     trendingPacks,
     searchTerms,

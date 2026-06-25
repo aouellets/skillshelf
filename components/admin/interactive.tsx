@@ -445,6 +445,187 @@ export function EventVolumeExplorer({ rows }: { rows: EventVolumePoint[] }) {
   )
 }
 
+// --- Category usage explorer --------------------------------------------------
+
+export interface CategoryUsagePoint {
+  day: string
+  category: string
+  event_name: string
+  source: string
+  events: number
+  actors: number
+}
+
+/** Canonical SkillCategory order (lib/types.ts). Categories not in this list
+ *  (e.g. the 'unknown' bucket for orphaned skill_ids) sort to the end. */
+const CATEGORY_ORDER = [
+  'coding',
+  'writing',
+  'research',
+  'productivity',
+  'data',
+  'design',
+  'business',
+  'personal',
+] as const
+
+const USAGE_EVENTS = [
+  { key: 'skill_installed', label: 'Installs' },
+  { key: 'skill_activated', label: 'Activations' },
+  { key: 'skill_viewed', label: 'Views' },
+  { key: 'all', label: 'All' },
+] as const
+
+/**
+ * Which TYPES of skills see the most use. Ranks categories by event volume with
+ * advanced filtering — category multi-select, event type, time range and source
+ * — re-sliced entirely client-side over the loaded daily rollup (no extra server
+ * round-trips). Bars shade by share of the leading category (the retention-cell
+ * color-mix idiom). Defaults to installs, which read as genuine adoption (views
+ * are web-only and would otherwise dominate).
+ */
+export function CategoryUsageExplorer({ rows }: { rows: CategoryUsagePoint[] }) {
+  const categories = useMemo(() => {
+    const present = new Set(rows.map((r) => r.category))
+    const known = CATEGORY_ORDER.filter((c) => present.has(c)) as string[]
+    const extras = [...present]
+      .filter((c) => !(CATEGORY_ORDER as readonly string[]).includes(c))
+      .sort()
+    return [...known, ...extras]
+  }, [rows])
+
+  const sources = useMemo(() => [...new Set(rows.map((r) => r.source))].sort(), [rows])
+
+  // Track de-selected categories so "all selected" is the default and any
+  // newly-appearing category is included automatically.
+  const [deselected, setDeselected] = useState<Set<string>>(new Set())
+  const [event, setEvent] = useState<string>('skill_installed')
+  const [source, setSource] = useState<string>('all')
+  const [range, setRange] = useState<(typeof RANGES)[number]['key']>('30d')
+  const rangeDays = RANGES.find((r) => r.key === range)?.days ?? 30
+
+  const allOff = categories.length > 0 && categories.every((c) => deselected.has(c))
+
+  const { ranked, total } = useMemo(() => {
+    const cutoff =
+      rangeDays === Infinity ? null : new Date(Date.now() - rangeDays * 86400000)
+    const byCat = new Map<string, number>()
+    for (const r of rows) {
+      if (event !== 'all' && r.event_name !== event) continue
+      if (source !== 'all' && r.source !== source) continue
+      if (deselected.has(r.category)) continue
+      if (cutoff && new Date(r.day) < cutoff) continue
+      byCat.set(r.category, (byCat.get(r.category) ?? 0) + r.events)
+    }
+    const ranked = [...byCat.entries()]
+      .map(([category, events]) => ({ category, events }))
+      .sort((a, b) => b.events - a.events)
+    return { ranked, total: ranked.reduce((s, p) => s + p.events, 0) }
+  }, [rows, event, source, deselected, rangeDays])
+
+  const peak = Math.max(1, ...ranked.map((p) => p.events))
+
+  function toggle(cat: string) {
+    setDeselected((prev) => {
+      const next = new Set(prev)
+      if (next.has(cat)) next.delete(cat)
+      else next.add(cat)
+      return next
+    })
+  }
+
+  return (
+    <div>
+      <div className="mb-4 flex flex-wrap items-center gap-2">
+        <SegmentedControl
+          options={USAGE_EVENTS.map((e) => ({ key: e.key, label: e.label }))}
+          value={event}
+          onChange={setEvent}
+        />
+        <SegmentedControl
+          options={RANGES.map((r) => ({ key: r.key, label: r.label }))}
+          value={range}
+          onChange={(k) => setRange(k as (typeof RANGES)[number]['key'])}
+        />
+        <select
+          value={source}
+          onChange={(e) => setSource(e.target.value)}
+          className="input text-sm py-1.5"
+          aria-label="Source"
+        >
+          <option value="all">All sources</option>
+          {sources.map((s) => (
+            <option key={s} value={s}>
+              {s}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="mb-5 flex flex-wrap items-center gap-1.5">
+        {categories.map((c) => {
+          const on = !deselected.has(c)
+          return (
+            <button
+              key={c}
+              onClick={() => toggle(c)}
+              className={`rounded-full border px-2.5 py-1 font-mono text-xs capitalize transition-colors ${
+                on
+                  ? 'border-accent/40 bg-accent/15 text-shelf-text-primary'
+                  : 'border-shelf-border text-shelf-text-tertiary hover:text-shelf-text-primary'
+              }`}
+            >
+              {c}
+            </button>
+          )
+        })}
+        {categories.length > 0 ? (
+          <button
+            onClick={() => setDeselected(allOff ? new Set() : new Set(categories))}
+            className="ml-1 font-mono text-xs uppercase tracking-widest text-shelf-text-tertiary transition-colors hover:text-shelf-text-primary"
+          >
+            {allOff ? 'Select all' : 'Clear'}
+          </button>
+        ) : null}
+      </div>
+
+      {ranked.length === 0 ? (
+        <div className="rounded-md border border-dashed border-shelf-border bg-shelf-void/40 px-4 py-8 text-center">
+          <p className="text-sm text-shelf-text-tertiary">No usage matches these filters.</p>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-2">
+          {ranked.map((p) => (
+            <div key={p.category} className="flex items-center gap-3">
+              <span className="w-24 shrink-0 truncate text-sm capitalize text-shelf-text-secondary">
+                {p.category}
+              </span>
+              <div className="h-5 flex-1 overflow-hidden rounded-xs bg-shelf-void/60">
+                <div
+                  className="h-full rounded-xs"
+                  style={{
+                    width: `${Math.max(2, (p.events / peak) * 100)}%`,
+                    backgroundColor: `color-mix(in srgb, var(--shelf-accent) ${Math.round(
+                      (p.events / peak) * 100
+                    )}%, transparent)`,
+                  }}
+                />
+              </div>
+              <span className="w-16 shrink-0 text-right text-sm tabular-nums text-shelf-text-tertiary">
+                {fmtNum(p.events)}
+              </span>
+            </div>
+          ))}
+          <p className="mt-1 text-xs text-shelf-text-tertiary">
+            {fmtNum(total)} events across {ranked.length}{' '}
+            {ranked.length === 1 ? 'category' : 'categories'} in range.
+          </p>
+        </div>
+      )}
+    </div>
+  )
+}
+
 // --- Segmented control --------------------------------------------------------
 
 export function SegmentedControl({

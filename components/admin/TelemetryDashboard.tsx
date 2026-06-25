@@ -8,6 +8,7 @@
 import type {
   ActiveUsersDailyRow,
   ActivationRow,
+  CategoryUsageRow,
   EventVolumeRow,
   FunnelRow,
   GrowthRow,
@@ -33,6 +34,7 @@ import {
 } from './format'
 import { useState } from 'react'
 import {
+  CategoryUsageExplorer,
   Collapsible,
   DeltaBadge,
   EventVolumeExplorer,
@@ -970,14 +972,29 @@ function CatalogSummary({ data }: { data: TelemetryDashboardData }) {
   )
 }
 
-/** How the catalog performs. Summary-first: a StatCard strip, then trending and
- *  search-gap signals, with the heavy per-skill/pack tables folded away by
- *  default so the section reads as a scannable column instead of a wall of
- *  tables. */
+function CategoryUsagePanel({ rows }: { rows: CategoryUsageRow[] }) {
+  const desc =
+    'Which types of skills see the most use. Filter by category, event, range and source.'
+  return (
+    <Panel title="Skill categories" description={desc}>
+      {rows.length === 0 ? (
+        <EmptyState message="No category usage yet — populates as skills are viewed, installed and activated." />
+      ) : (
+        <CategoryUsageExplorer rows={rows} />
+      )}
+    </Panel>
+  )
+}
+
+/** How the catalog performs. Summary-first: a StatCard strip, then the category
+ *  lens, trending and search-gap signals, with the heavy per-skill/pack tables
+ *  folded away by default so the section reads as a scannable column instead of
+ *  a wall of tables. */
 function CatalogSection({ data }: { data: TelemetryDashboardData }) {
   return (
     <div className="space-y-5">
       <CatalogSummary data={data} />
+      <CategoryUsagePanel rows={data.categoryUsage} />
       <TrendingPanel skills={data.trendingSkills} packs={data.trendingPacks} />
       <SearchTermsPanel rows={data.searchTerms} />
       <Collapsible title="Skill performance" count={data.skills.length} description="Installs, activators, rating, install→activation">
