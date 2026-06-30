@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.skillme/skillme",
+  "title": "SkillMe",
+  "description": "Discover, install, and manage Claude Agent Skills and skill packs from the SkillMe catalog.",
+  "version": "0.1.0",
+  "websiteUrl": "https://skillme.dev",
+  "repository": {
+    "url": "https://github.com/aouellets/skillme",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skillme.dev/api/mcp"
+    }
+  ]
+}
