@@ -1,11 +1,9 @@
 import { getServiceSupabase } from '../../supabase'
 import { json, type Tool } from '../types'
-import type { Skill } from '../../types'
 import { buildRow, insertEvents } from '../../telemetry/track'
+import { buildActivationEvents, type LoadedInstall } from './activations'
 
-type ActiveRow = {
-  skills: Pick<Skill, 'id' | 'name' | 'category' | 'skill_content'> | null
-}
+type ActiveRow = LoadedInstall
 
 export const getActiveSkills: Tool = {
   definition: {
@@ -21,6 +19,10 @@ export const getActiveSkills: Tool = {
   async handler(_args, ctx) {
     const supabase = getServiceSupabase()
     if (!supabase || !ctx.userToken) {
+      // Anonymous (no user_token) or unconfigured sessions have no installed
+      // library to load, so there is nothing to activate — by design they emit
+      // no skill_activated. Activation is scoped to signed-in callers with at
+      // least one installed catalog skill (see docs/telemetry.md).
       return json({
         installed: [],
         message: 'Skill Me is connected. Say "browse skills" to explore the catalog.',
@@ -53,18 +55,43 @@ export const getActiveSkills: Tool = {
     }))
 
     // Telemetry: skill_activated is the TRUE active-use signal — emitted here,
-    // when an installed skill is actually loaded into a session (distinct from
-    // install). Batched, fire-and-forget; never blocks the start-of-conversation
-    // call. The id is present for catalog skills; guard the (rare) null.
-    if (loaded.length > 0) {
-      const opts = { source: 'mcp' as const, userToken: ctx.userToken, sessionId: ctx.userToken, context: ctx.context }
-      void insertEvents(
-        loaded
-          .filter((r) => r.skills!.id)
-          .map((r) =>
-            buildRow({ name: 'skill_activated', properties: { skill_id: r.skills!.id } }, opts)
-          )
+    // when installed skills are actually loaded into a session (distinct from
+    // install). One event per loaded skill. This is the primary retention
+    // signal, so the emit is resilient (never breaks the start-of-conversation
+    // response) but NOT silent: a dropped batch or a skill with no id is logged
+    // rather than swallowed, so under-counting can't regress unnoticed again.
+    const { events, skipped } = buildActivationEvents(loaded)
+    if (skipped > 0) {
+      console.warn(
+        `[telemetry] skill_activated: ${skipped} loaded skill(s) had no id; not emitted`
       )
+    }
+    if (events.length > 0) {
+      const opts = {
+        source: 'mcp' as const,
+        userToken: ctx.userToken,
+        sessionId: ctx.userToken,
+        context: ctx.context,
+      }
+      const eventRows = events.map((e) => buildRow(e, opts))
+      // Fire-and-forget for the response, but the write is registered with
+      // Next's after() inside insertEvents (the serverless waitUntil), so it
+      // survives the function suspending right after we return. Log on a full
+      // drop instead of failing the call.
+      void insertEvents(eventRows)
+        .then((written) => {
+          if (written < eventRows.length) {
+            console.warn(
+              `[telemetry] skill_activated: wrote ${written}/${eventRows.length} events`
+            )
+          }
+        })
+        .catch((err) => {
+          console.error(
+            '[telemetry] skill_activated emit failed:',
+            err instanceof Error ? err.message : 'unknown error'
+          )
+        })
     }
 
     if (installed.length === 0) {

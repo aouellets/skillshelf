@@ -106,6 +106,14 @@ skill is actually loaded into a session, distinct from install. It is
 **server-only**; the web ingest rejects it (and all `mcp_*`) so a browser can't
 forge active-use. See `WEB_EMITTABLE_EVENTS`.
 
+Coverage is scoped on purpose: `get_active_skills` emits one `skill_activated`
+per loaded skill **only for signed-in callers with installed catalog skills**.
+Anonymous sessions (no `user_token`) and signed-in callers with an empty library
+have nothing to activate, so they intentionally emit zero — `mcp_tool_invoked`
+still records the call. A skill loaded without a catalog id can't be emitted and
+is logged (`[telemetry] skill_activated: … had no id`) rather than dropped
+silently, so the metric can't under-count without a trace.
+
 ## How to add a new event
 
 1. Add one entry to `EVENT_SCHEMAS` in `lib/telemetry/events.ts` (name + zod
